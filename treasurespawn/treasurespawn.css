@@ -1,0 +1,170 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EEF;
+}
+
+.header {
+    background-color: #AAC;
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 24px;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    height: 66px;
+}
+
+.info p {
+    font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    margin: 10px 0 0 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    max-width: 600px;
+}
+
+.column {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-bottom: 10px;
+    min-width: 260px;
+}
+
+.column.left {
+    margin-right: 5px;
+    padding-right: 10px;
+    background-color: #CCD;
+}
+
+.column.right {
+    margin-left: 5px;
+    padding-left: 10px;
+    background-color: #DDE;
+}
+
+.column.left p {
+    font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 18px;
+    text-align: right;
+    height: 28px;
+    margin: 0;
+    padding: 14px 0 0 0;
+}
+
+.fullInput, .treasureData input {
+    font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    height: 20px;
+    padding: 4px;
+    margin: 10px 0 0 0;
+}
+
+.column.right span {
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 18px;
+    text-align: left;
+    height: 20px;
+    padding-left: 4px;
+}
+
+.column.right form {
+    padding: 6px 4px 4px 4px;
+}
+
+.randomArea
+{
+    height: 30px;
+	margin-top: 10px;
+}
+
+.randomSlider {
+	-webkit-appearance: none;  /* Override default CSS styles */
+	appearance: none;
+	background: #778;
+	height: 6px;
+	border-radius: 3px;
+	width: 100px;
+	float: left;
+	margin: 15px 8px 0 8px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.symbol {
+    font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    height: 20px;
+    padding: 4px;
+}
+
+.randomLabel {
+    font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+	float: left;
+}
+
+.treasuredata {
+    margin: 0;
+    padding: 0;
+}
+
+.calculate {
+    width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.calculate button {
+    width: 300px;
+    height: 30px;
+}
+
+.textResultsContainer {
+    text-align: center;
+    max-width: 500px;
+    min-height: 10px;
+    background-color: #667;
+    color: #FFF;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+}
+
+.frequencyResultsContainer {
+    text-align: left;
+    max-width: 500px;
+    min-height: 10px;
+    background-color: #667;
+    color: #FFF;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+}
+
+.textResultsContainer p {
+    font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.frequencyResultsContainer p {
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px;
+}
