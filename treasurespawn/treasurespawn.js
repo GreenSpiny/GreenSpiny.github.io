@@ -90,11 +90,27 @@ function ExecuteData() {
     spawnMedals[1] = parseInt(document.getElementById("spawnMedalsMax").value);
     unwantedChance = parseInt(document.getElementById("unwantedChance").value) * 0.01;
     randomExponent = parseInt(document.getElementById("randomCurve").value);
+	
+	if (targetMedals.isNaN())	{targetMedals = 0;}
+	if (spawnMedals[0].isNaN()) {spawnMedals[0] = 0;}
+	if (spawnMedals[1].isNaN()) {spawnMedals[1] = 0;}
+	if (unwantedChance.isNaN()) {unwantedChance = 0;}
+	if (randomExponent.isNaN()) {randomExponent = 1;}
+	
     originalBoxes = [];
     for (var x = 0; x < document.getElementById("boxCount").value; x++) {
         var minValue = parseInt(document.getElementById(`treasureMin${x}`).value);
         var maxValue = parseInt(document.getElementById(`treasureMax${x}`).value);
-        originalBoxes.push([minValue, maxValue]);
+		if (minValue.isNaN()) {minValue = 0;}
+		if (maxValue.isNaN()) {maxValue = 0;}
+		if (minValue <= maxValue)
+		{
+			originalBoxes.push([minValue, maxValue]);
+		}
+		else
+		{
+			originalBoxes.push([maxValue, minValue]);
+		}
     }
 
     // Check input validity
@@ -168,19 +184,15 @@ function ExecuteData() {
 
 // Sanity check for input parameters
 function IsValid() {
-    if (spawnMedals[0] > spawnMedals[1]) {
-        textElement.innerHTML = "Error: Per spawn medals have a greater max than min.";
+	if (targetMedals <= 0)
+	{
+		textElement.innerHTML = "Error: Target medals must be greater than zero.";
         frequencyElement.innerHTML = "";
         return false;
-    }
+	}
     var availableMedals = spawnMedals[1];
     for (i = 0; i < originalBoxes.length; i++) {
-        if (originalBoxes[i][0] > originalBoxes[i][1]) {
-            textElement.innerHTML = "Error: A box has a greater max than min medals.";
-            frequencyElement.innerHTML = "";
-            return false;
-        }
-        availableMedals += originalBoxes[i][1];
+        availableMedals += Math.max(originalBoxes[i][0], originalBoxes[i][1]);
     }
     if (availableMedals == 0) {
         textElement.innerHTML = "Error: There is no way to obtain medals.";
