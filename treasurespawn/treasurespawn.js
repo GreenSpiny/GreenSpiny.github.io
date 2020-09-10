@@ -91,18 +91,18 @@ function ExecuteData() {
     unwantedChance = parseInt(document.getElementById("unwantedChance").value) * 0.01;
     randomExponent = parseInt(document.getElementById("randomCurve").value);
 	
-	if (targetMedals.isNaN())	{targetMedals = 0;}
-	if (spawnMedals[0].isNaN()) {spawnMedals[0] = 0;}
-	if (spawnMedals[1].isNaN()) {spawnMedals[1] = 0;}
-	if (unwantedChance.isNaN()) {unwantedChance = 0;}
-	if (randomExponent.isNaN()) {randomExponent = 1;}
+	if (isNaN(targetMedals))	{targetMedals = 0;}
+	if (isNaN(spawnMedals[0]))	{spawnMedals[0] = 0;}
+	if (isNaN(spawnMedals[1]))	{spawnMedals[1] = 0;}
+	if (isNaN(unwantedChance))	{unwantedChance = 0;}
+	if (isNaN(randomExponent)) 	{randomExponent = 1;}
 	
     originalBoxes = [];
     for (var x = 0; x < document.getElementById("boxCount").value; x++) {
         var minValue = parseInt(document.getElementById(`treasureMin${x}`).value);
         var maxValue = parseInt(document.getElementById(`treasureMax${x}`).value);
-		if (minValue.isNaN()) {minValue = 0;}
-		if (maxValue.isNaN()) {maxValue = 0;}
+		if (isNaN(minValue)) {minValue = 0;}
+		if (isNaN(maxValue)) {maxValue = 0;}
 		if (minValue <= maxValue)
 		{
 			originalBoxes.push([minValue, maxValue]);
