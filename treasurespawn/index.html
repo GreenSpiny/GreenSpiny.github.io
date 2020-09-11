@@ -2,59 +2,59 @@
 <html lang="en">
 
 <head>
-    <title>UL Spawn Calculator</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="UL, Unison League, Treasure, Spawn, Calculator">
-    <meta name="description" content="Brute force calculator for Unison League treasure spawns.">
-    <meta name="author" content="GreenSpiny">
-    <link rel="stylesheet" type="text/css" href="treasurespawn.css">
-    <script src="treasurespawn.js" type="text/javascript"></script>
+	<title>UL Spawn Calculator</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="UL, Unison League, Treasure, Spawn, Calculator">
+	<meta name="description" content="Brute force calculator for Unison League treasure spawns.">
+	<meta name="author" content="GreenSpiny">
+	<link rel="stylesheet" type="text/css" href="treasurespawn.css">
+	<script src="treasurespawn.js" type="text/javascript"></script>
 </head>
 
 <body onload="Init()">
-    <div class="header">
-        <h>Treasure Spawn Calculator</h>
-    </div>
-    <div class="info">
-        <p>Simulate 100,000 recruits attempting a medal exchange.<br />
-            Random Curve affects selection from a possibility of medals.<br />
-            Results may vary each calculation.
-        </p>
-    </div>
-    <div class="flex-container">
-        <div class="column left">
-            <p>Desired Medals</p>
-            <p>Medals / Spawn</p>
-            <p>Chance of Junk Jackpot</p>
-            <p>Number of Boxes</p>
-            <p>Random Curve</p>
-        </div>
-        <div class="column right">
-            <input id="targetMedals" class="fullInput" min=100 max=100000 value=10000 step=10 type="number" /><br />
-            <input id="spawnMedalsMin" class="fullInput" min=0 max=10000 value=50 step=50 type="number" /> <span> to </span>
-            <input id="spawnMedalsMax" class="fullInput" min=0 max=10000 value=200 step=50 type="number" /><br />
-            <input id="unwantedChance" class="fullInput" min=0 max=99 value=0 step=1 type="number" /><label class="symbol">%</label><br />
-            <input id="boxCount" class="fullInput" min=1 max=9 value=6 step=1 type="number" onchange="ToggleBoxes()" /><br />
+	<div class="header">
+		<h>Treasure Spawn Calculator</h>
+	</div>
+	<div class="info">
+		<p>Simulate 100,000 recruits attempting a medal exchange.<br />
+			Random Curve affects selection from a possibility of medals.<br />
+			Results may vary each calculation.
+		</p>
+	</div>
+	<div class="flex-container">
+		<div class="column left">
+			<p>Desired Medals</p>
+			<p>Medals / Spawn</p>
+			<p>Chance of Junk Jackpot</p>
+			<p>Number of Boxes</p>
+			<p>Random Curve</p>
+		</div>
+		<div class="column right">
+			<input id="targetMedals" class="fullInput" min=100 max=100000 value=10000 step=10 type="number" /><br />
+			<input id="spawnMedalsMin" class="fullInput" min=0 max=10000 value=50 step=50 type="number" /> <span> to </span>
+			<input id="spawnMedalsMax" class="fullInput" min=0 max=10000 value=200 step=50 type="number" /><br />
+			<input id="unwantedChance" class="fullInput" min=0 max=99 value=0 step=1 type="number" /><label class="symbol">%</label><br />
+			<input id="boxCount" class="fullInput" min=1 max=9 value=6 step=1 type="number" onchange="ToggleBoxes()" /><br />
 			<div class="randomArea">
 				<label for="fair" class="randomLabel">fair (x<sup>1</sup>)</label>
 				<input id="randomCurve" type="range" class="randomSlider" id="fair" value=3 min=1 max=5 name="random" />
 				<label for="unfair" class="randomLabel">unfair (x<sup>5</sup>)</label>
 			</div>
-        </div>
-    </div>
-    <div class="flex-container">
-        <div id="variableBoxNames" class="column left"></div>
-        <div id="variableBoxContents" class="column right" style="display:block"></div>
-    </div>
-    <div class="calculate">
-        <button id="calculateButton" onclick="Execute()">Calculate</button>
-    </div>
-    <div class="textResultsContainer">
-        <p id="textResults">No results generated yet.</p>
-    </div>
-    <div class="frequencyResultsContainer">
-        <p id="frequencyResults"></p>
-    </div>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div id="variableBoxNames" class="column left"></div>
+		<div id="variableBoxContents" class="column right" style="display:block"></div>
+	</div>
+	<div class="calculate">
+		<button id="calculateButton" onclick="Execute()">Calculate</button>
+	</div>
+	<div class="textResultsContainer">
+		<p id="textResults">No results generated yet.</p>
+	</div>
+	<div class="frequencyResultsContainer">
+		<p id="frequencyResults"></p>
+	</div>
 </body>
 
 </html>

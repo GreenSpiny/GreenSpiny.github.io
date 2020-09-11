@@ -159,7 +159,8 @@ function ExecuteData() {
 			}
 			currentValue = results[x];
 			currentFrequency = 1;
-		} else {
+		}
+		else {
 			currentFrequency += 1;
 		}
 		if (currentFrequency > maxFrequency) {
@@ -167,9 +168,22 @@ function ExecuteData() {
 		}
 	}
 
+	var medians = [];
+	var median = 0;
+	for (val in frequencyMap) {
+		if (frequencyMap[val] == maxFrequency) {
+			medians.push(val);
+		}
+	}
+	medians.sort(function(a, b) {
+		return a - b
+	});
+	median = medians[Math.floor(medians.length / 2.0)];
+
 	// Output results text to HTML
 	var txt = `<p>${numPlayers.toLocaleString()} recruits attempted to spawn ${targetMedals.toLocaleString()} medals.</p>`;
 	txt += `<p><b>Average:</b> ${Math.round(average).toLocaleString()} gems<br>`;
+	txt += `<b>Median:</b> ${median.toLocaleString()} gems<br>`;
 	txt += `<b>Luckiest:</b> ${lowest.toLocaleString()} gems<br>`;
 	txt += `<b>Unluckiest:</b> ${highest.toLocaleString()} gems</p>`;
 	txt += "<p>See below for relative frequencies.</p>";
@@ -232,11 +246,11 @@ function AttemptRun() {
 		var randomIndex = Math.floor(Math.random() * availableNumbers.length);
 		var selectedBox = availableNumbers[randomIndex];
 		var unwantedGear = false;
-		var selectionType = 1;
+		var selectionType = 2;
 		if (selectedBox == 0) {
 			jackpot = true;
 			unwantedGear = Math.random() < unwantedChance;
-			selectionType = 0;
+			selectionType = 1;
 		}
 		if (!unwantedGear) {
 			medals += RandomBetweenPair(originalBoxes[selectedBox], selectionType);
@@ -247,11 +261,11 @@ function AttemptRun() {
 		if (doubleChance && availableNumbers.length > 0) {
 			randomIndex = Math.floor(Math.random() * availableNumbers.length);
 			selectedBox = availableNumbers[randomIndex];
-			selectionType = 1;
+			selectionType = 2;
 			if (selectedBox == 0) {
 				jackpot = true;
 				unwantedGear = Math.random() < unwantedChance;
-				selectionType = 0;
+				selectionType = 1;
 			}
 			if (!unwantedGear) {
 				medals += RandomBetweenPair(originalBoxes[selectedBox], selectionType);
@@ -276,7 +290,7 @@ function AttemptRun() {
 		}
 
 		// Debug
-		//console.log("jackpot: " + jackpot.toString() + ", gem / medals: " + gems.toString() + "/" + medals.toString());
+		//console.log("jackpot: " + jackpot.toString() + ", gems / medals: " + gems.toString() + "/" + medals.toString());
 	}
 
 	// Return the number of gems spent
@@ -297,12 +311,18 @@ function RandomBetweenPair(array, selectionType) {
 
 	var randomRoll = Math.pow(Math.random(), randomExponent);
 
-	// Full range
+	// Pick full range
 	if (selectionType == 0) {
 		return Math.floor(randomRoll * (array[1] - array[0])) + array[0];
 	}
+	// Pick range stepped at 100s
+	else if (selectionType == 1)
+	{
+		smoothRange = Math.floor(randomRoll * (array[1] - array[0])) + array[0];
+		return Math.round(Math.floor(smoothRange / 100.0 + 0.5) * 100.0)
+	}
 	// Pick one of two
-	else {
+	else if (selectionType == 2) {
 		return array[Math.round(randomRoll)];
 	}
 }
