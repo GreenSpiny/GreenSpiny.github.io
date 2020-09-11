@@ -312,7 +312,7 @@ function RandomBetweenPair(array, selectionType) {
 	var randomRoll = Math.pow(Math.random(), randomExponent);
 
 	// Pick full range
-	if (selectionType == 0) {
+	if (selectionType == 0 || selectionType == 1) {
 		return Math.floor(randomRoll * (array[1] - array[0])) + array[0];
 	}
 	// Pick range stepped at 100s
