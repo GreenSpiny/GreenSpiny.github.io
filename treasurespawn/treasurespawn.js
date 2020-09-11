@@ -312,14 +312,15 @@ function RandomBetweenPair(array, selectionType) {
 	var randomRoll = Math.pow(Math.random(), randomExponent);
 
 	// Pick full range
-	if (selectionType == 0 || selectionType == 1) {
-		return Math.floor(randomRoll * (array[1] - array[0])) + array[0];
+	if (selectionType == 0) {
+		return Math.floor(randomRoll * (array[1] - array[0] + 1)) + array[0];
 	}
 	// Pick range stepped at 100s
 	else if (selectionType == 1)
 	{
-		smoothRange = Math.floor(randomRoll * (array[1] - array[0])) + array[0];
-		return Math.round(Math.floor(smoothRange / 100.0 + 0.5) * 100.0)
+		var differenceInHundreds = (array[1] - array[0]) / 100;
+		var bonus = Math.floor(randomRoll * (differenceInHundreds + 1)) * 100;
+		return Math.min(bonus, array[1]) + array[0];
 	}
 	// Pick one of two
 	else if (selectionType == 2) {
