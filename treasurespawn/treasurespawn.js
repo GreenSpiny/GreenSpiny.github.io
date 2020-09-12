@@ -84,6 +84,7 @@ function Execute() {
 }
 
 function ExecuteData() {
+	
 	// Get input values from HTML
 	targetMedals = parseInt(document.getElementById("targetMedals").value);
 	spawnMin = parseInt(document.getElementById("spawnMedalsMin").value);
@@ -217,7 +218,10 @@ function IsValid() {
 	}
 	var availableMedals = spawnMedals[1];
 	for (i = 0; i < originalBoxes.length; i++) {
-		availableMedals += Math.max(originalBoxes[i][0], originalBoxes[i][1]);
+		if (i != 0 || unwantedChance < 1)
+		{
+			availableMedals += Math.max(originalBoxes[i][0], originalBoxes[i][1]);
+		}
 	}
 	if (availableMedals == 0) {
 		textElement.innerHTML = "Error: There is no way to obtain medals.";
@@ -286,12 +290,10 @@ function AttemptRun() {
 			gems += spawnCost / 2;
 			firstPull = false;
 			doubleChance = true;
-		} else {
+		}
+		else {
 			gems += spawnCost;
 		}
-
-		// Debug
-		//console.log("jackpot: " + jackpot.toString() + ", gems / medals: " + gems.toString() + "/" + medals.toString());
 	}
 
 	// Return the number of gems spent
