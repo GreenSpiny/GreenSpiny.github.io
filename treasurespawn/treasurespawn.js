@@ -261,6 +261,7 @@ function AttemptRun() {
 		if (doubleChance && availableNumbers.length > 0) {
 			randomIndex = Math.floor(Math.random() * availableNumbers.length);
 			selectedBox = availableNumbers[randomIndex];
+			unwantedGear = false;
 			selectionType = 2;
 			if (selectedBox == 0) {
 				jackpot = true;
