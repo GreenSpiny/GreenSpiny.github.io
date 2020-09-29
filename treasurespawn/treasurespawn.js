@@ -5,9 +5,8 @@ var targetMedals = 10000;
 var spawnMedals = [50, 200];
 var unwantedChance = 0.0;
 var randomExponent = 1;
-var originalBoxes = [
-	[800, 1200]
-];
+var originalBoxes = [ [800, 1200] ];
+var originalRangeTypes = [ 1 ];
 
 // Display parameters
 const frequencyDisplayWidth = 30;
@@ -43,14 +42,14 @@ function Init() {
 	var dynamicContentsHTML = '';
 	for (var i = 0; i < maxBoxes; i++) {
 		var placeholderContents;
-		var connector = " or ";
+		var connector = `<select class="rangeDropdown" name="rangeDropdown${i}" id="rangeDropdown${i}"><option value=1>to</option><option value=2 selected>or</option></select>`;
 		if (i == 0) {
 			placeholderContents = originalBoxes[0];
-			connector = " to ";
+			connector = `<select class="rangeDropdown" name="rangeDropdown${i}" id="rangeDropdown${i}"><option value=1 selected>to</option><option value=2>or</option></select>`;
 		} else {
 			placeholderContents = [0, 0];
 		}
-		dynamicContentsHTML += `<div class="treasureData" num=${i} style="display:block"><input id="treasureMin${i}" min=0 max=10000 value=${placeholderContents[0]} step=50 type="number" /> <span>${connector}</span><input id="treasureMax${i}" min=0 max=10000 value=${placeholderContents[1]} step=50 type="number" /><br /></div>`;
+		dynamicContentsHTML += `<div class="treasureData" num=${i} style="display:block"><input id="treasureMin${i}" min=0 max=10000 value=${placeholderContents[0]} step=50 type="number" />${connector}<input id="treasureMax${i}" min=0 max=10000 value=${placeholderContents[1]} step=50 type="number" /><br /></div>`;
 	}
 	variableBoxContents.innerHTML = dynamicContentsHTML;
 
@@ -76,11 +75,11 @@ function ToggleBoxes() {
 
 // Main function
 function Execute() {
-	console.log("Beginning calculation...");
+	//console.log("Beginning calculation...");
 	buttonElement.innerHTML = "Calculating..."
 	setTimeout(function(){
 		ExecuteData();
-		console.log("Finished calculation.");
+		//console.log("Finished calculation.");
 		buttonElement.innerHTML = "Calculate"
 	}, 100);
 }
@@ -112,6 +111,7 @@ function ExecuteData() {
 	}
 
 	originalBoxes = [];
+	originalRangeTypes = [];
 	for (var x = 0; x < document.getElementById("boxCount").value; x++) {
 		var minValue = parseInt(document.getElementById(`treasureMin${x}`).value);
 		var maxValue = parseInt(document.getElementById(`treasureMax${x}`).value);
@@ -125,6 +125,7 @@ function ExecuteData() {
 		{
 			originalBoxes.push([maxValue, minValue]);
 		}
+		originalRangeTypes.push(parseInt(document.getElementById(`rangeDropdown${x}`).value));
 	}
 
 	// Check input validity
@@ -256,10 +257,9 @@ function AttemptRun() {
 		if (selectedBox == 0) {
 			jackpot = true;
 			unwantedGear = Math.random() < unwantedChance;
-			selectionType = 1;
 		}
 		if (!unwantedGear) {
-			medals += RandomBetweenPair(originalBoxes[selectedBox], selectionType);
+			medals += RandomBetweenPair(originalBoxes[selectedBox], originalRangeTypes[selectedBox]);
 		}
 		availableNumbers.splice(randomIndex, 1);
 
@@ -272,10 +272,9 @@ function AttemptRun() {
 			if (selectedBox == 0) {
 				jackpot = true;
 				unwantedGear = Math.random() < unwantedChance;
-				selectionType = 1;
 			}
 			if (!unwantedGear) {
-				medals += RandomBetweenPair(originalBoxes[selectedBox], selectionType);
+				medals += RandomBetweenPair(originalBoxes[selectedBox], originalRangeTypes[selectedBox]);
 			}
 			availableNumbers.splice(randomIndex, 1);
 		}

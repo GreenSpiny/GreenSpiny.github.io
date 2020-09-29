@@ -72,6 +72,17 @@ body {
 	text-align: left;
 }
 
+.rangeDropdown {
+	font-family: Calibri, Candara, Arial, sans-serif;
+	font-size: 20px;
+	height: 30px;
+	width: 51px;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: left;
+}
+
 .column.right span {
 	font-family: Monaco, Consolas, "Lucida Console", monospace;
 	font-size: 18px;
