@@ -76,11 +76,11 @@ body {
 	font-family: Calibri, Candara, Arial, sans-serif;
 	font-size: 20px;
 	height: 30px;
-	width: 51px;
-	padding-left: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
+	padding-left: 5px;
 	text-align: left;
+	width: 51px;
 }
 
 .column.right span {
@@ -101,7 +101,7 @@ body {
 }
 
 .randomSlider {
-	-webkit-appearance: none;  /* Override default CSS styles */
+	-webkit-appearance: none;	/* Override default CSS styles */
 	appearance: none;
 	background: #778;
 	border-radius: 3px;
