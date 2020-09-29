@@ -102,6 +102,10 @@ body {
 	width: 100px;
 }
 
+.randomSlider:hover {
+	cursor:pointer;
+}
+
 .symbol {
 	font-family: Calibri, Candara, Arial, sans-serif;
 	font-size: 20px;
@@ -131,6 +135,10 @@ body {
 .calculate button {
 	height: 30px;
 	width: 300px;
+}
+
+.calculate button:hover {
+	cursor: pointer;
 }
 
 .textResultsContainer {
@@ -183,7 +191,7 @@ body {
 }
 
 .helpTitle {
-	color: #667;
+	color: #555;
 	font-family: Calibri, Candara, Arial, sans-serif;
 	font-size: 32px;
 	font-weight: bold;
@@ -226,6 +234,7 @@ body {
 
 .helpClose:hover, .helpOpen:hover {
 	background-color: #F6F6F6;
+	cursor: pointer;
 }
 
 .helpText {
