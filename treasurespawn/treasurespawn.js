@@ -17,6 +17,7 @@ const paddingDisplayChar = "."
 var buttonElement = null;
 var textElement = null;
 var frequencyElement = null;
+var helpElement = null;
 
 // Page initialization
 function Init() {
@@ -25,6 +26,7 @@ function Init() {
 	buttonElement = document.getElementById("calculateButton");
 	textElement = document.getElementById("textResults");
 	frequencyElement = document.getElementById("frequencyResults");
+	helpElement = document.getElementById("helpArea");
 
 	// Populate the set of variable treasure boxes
 	var variableBoxNames = document.getElementById("variableBoxNames");
@@ -84,7 +86,7 @@ function Execute() {
 }
 
 function ExecuteData() {
-	
+
 	// Get input values from HTML
 	targetMedals = parseInt(document.getElementById("targetMedals").value);
 	spawnMin = parseInt(document.getElementById("spawnMedalsMin").value);
@@ -328,5 +330,18 @@ function RandomBetweenPair(array, selectionType) {
 	// Pick one of two
 	else if (selectionType == 2) {
 		return array[Math.round(randomRoll)];
+	}
+}
+
+// Document function to show or hide the help menu
+function ToggleHelp(toggle)
+{
+	if (toggle)
+	{
+		helpArea.style.display = "block";
+	}
+	else
+	{
+		helpArea.style.display = "none";
 	}
 }

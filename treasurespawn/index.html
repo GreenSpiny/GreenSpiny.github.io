@@ -14,6 +14,7 @@
 <body onload="Init()">
 	<div class="header">
 		<h>Treasure Spawn Calculator</h>
+		<div class="helpOpen" onclick="ToggleHelp(true)"><span>?<span></div>
 	</div>
 	<div class="info">
 		<p>Simulate 100,000 recruits attempting a medal exchange.<br />
@@ -54,6 +55,24 @@
 	</div>
 	<div class="frequencyResultsContainer">
 		<p id="frequencyResults"></p>
+	</div>
+	<div class="helpArea" id="helpArea">
+		<p class="helpTitle">Help</p>
+		<div class="helpClose" onclick="ToggleHelp(false)"><span>x<span></div>
+		<div class="helpText">
+			<ul>
+				<li><b>Desired Medals:</b> # of medals to complete the exchange.</li>
+				<li><b>Medals/Spawn:</b> # of medals guaranteed with each spawn.</li>
+				<li><b>Chance of Junk Jackpot:</b> The chance of getting something other than medals or the gear to exchange as a jackpot.</li>
+				<li><b>Number of Boxes:</b> # of boxes in the spawn.</li>
+				<li><b>Random Curve:</b> A bias impacting medal selection. x^1 is completely fair (linear); others are weighted increasingly towards the worse option.</li>
+				<p><b>"TO"</b> implies a range of medals. It is a smooth range for per-spawn medals and stepped at hundreds for box medals.</p>
+				<p><b>"OR"</b> implies a hard choice between medal options.</p>
+				<p>If a box only has one possibility, make both sides the same.</p>
+				<p>Double Chance and First Time Half Off are accounted for.</p>
+				<p>The relative frequency chart is not scaled for mobile devices.</p>
+			</ul>
+		</div>
 	</div>
 </body>
 
