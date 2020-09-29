@@ -215,7 +215,7 @@ function ExecuteData() {
 function IsValid() {
 	if (targetMedals <= 0)
 	{
-		textElement.innerHTML = "Error: Target medals must be greater than zero.";
+		textElement.innerHTML = "Error: Desired medals must be greater than zero.";
 		frequencyElement.innerHTML = "";
 		return false;
 	}
