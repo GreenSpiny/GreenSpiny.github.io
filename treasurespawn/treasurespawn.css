@@ -114,7 +114,7 @@ body {
 }
 
 .randomSlider:hover {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .symbol {
@@ -224,6 +224,7 @@ body {
 	position: absolute;
 	right: 10px;
 	top: 10px;
+	user-select: none;
 	width: 42px;
 }
 
@@ -240,6 +241,7 @@ body {
 	margin-left: 256px;
 	position: absolute;
 	top: 2px;
+	user-select: none;
 	width: 38px;
 }
 
