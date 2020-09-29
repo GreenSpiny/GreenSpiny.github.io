@@ -17,6 +17,7 @@ var buttonElement = null;
 var textElement = null;
 var frequencyElement = null;
 var helpElement = null;
+var petraImage = null;
 
 // Page initialization
 function Init() {
@@ -26,6 +27,7 @@ function Init() {
 	textElement = document.getElementById("textResults");
 	frequencyElement = document.getElementById("frequencyResults");
 	helpElement = document.getElementById("helpArea");
+	petraImage = document.getElementById("petra");
 
 	// Populate the set of variable treasure boxes
 	var variableBoxNames = document.getElementById("variableBoxNames");
@@ -208,6 +210,7 @@ function ExecuteData() {
 	}
 	frequencyTable += "</p>";
 	frequencyElement.innerHTML = frequencyTable;
+	petraImage.style.display = "none";
 	return true;
 }
 
@@ -217,6 +220,7 @@ function IsValid() {
 	{
 		textElement.innerHTML = "Error: Desired medals must be greater than zero.";
 		frequencyElement.innerHTML = "";
+		petraImage.style.display = "block";
 		return false;
 	}
 	var availableMedals = spawnMedals[1];
@@ -229,6 +233,7 @@ function IsValid() {
 	if (availableMedals == 0) {
 		textElement.innerHTML = "Error: There is no way to obtain medals.";
 		frequencyElement.innerHTML = "";
+		petraImage.style.display = "block";
 		return false;
 	}
 	return true;

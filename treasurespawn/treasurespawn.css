@@ -172,6 +172,12 @@ body {
 	text-align: left;
 }
 
+.frequencyResultsContainer img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .textResultsContainer p {
 	font-family: Calibri, Candara, Arial, sans-serif;
 	font-size: 18px;
