@@ -13,6 +13,14 @@ body {
 	text-align: center;
 }
 
+.header img {
+	position: absolute;
+	top: -5px;
+	right: 50%;
+	margin: 0 192px 0 0;
+	clip: rect(0px, 500px, 55px, 0px);
+}
+
 .info {
 	height: 66px;
 	margin: 0;
@@ -170,13 +178,6 @@ body {
 	max-width: 500px;
 	min-height: 10px;
 	text-align: left;
-}
-
-.frequencyResultsContainer img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 5px;
 }
 
 .textResultsContainer p {
