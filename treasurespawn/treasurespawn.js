@@ -23,8 +23,8 @@ function Init() {
 
 	// Store elements for quick access
 	buttonElement = document.getElementById("calculateButton");
-	textElement = document.getElementById("textResults");
-	frequencyElement = document.getElementById("frequencyResults");
+	textElement = document.getElementById("textResultsContainer");
+	frequencyElement = document.getElementById("frequencyResultsContainer");
 	helpElement = document.getElementById("helpArea");
 
 	// Populate the set of variable treasure boxes
@@ -215,8 +215,8 @@ function ExecuteData() {
 function IsValid() {
 	if (targetMedals <= 0)
 	{
-		textElement.innerHTML = "Error: Desired medals must be greater than zero.";
-		frequencyElement.innerHTML = "";
+		textElement.innerHTML = "<p>Error: Desired medals must be greater than zero.</p>";
+		frequencyElement.innerHTML = "<p></p>";
 		return false;
 	}
 	var availableMedals = spawnMedals[1];
@@ -227,8 +227,8 @@ function IsValid() {
 		}
 	}
 	if (availableMedals == 0) {
-		textElement.innerHTML = "Error: There is no way to obtain medals.";
-		frequencyElement.innerHTML = "";
+		textElement.innerHTML = "<p>Error: There is no way to obtain medals.</p>";
+		frequencyElement.innerHTML = "<p></p>";
 		return false;
 	}
 	return true;
