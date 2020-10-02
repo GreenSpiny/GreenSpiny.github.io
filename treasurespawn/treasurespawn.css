@@ -77,6 +77,8 @@ body {
 	background-color: #DDE;
 	margin-left: 5px;
 	padding-left: 10px;
+    display: inline-block;
+    white-space:nowrap;
 }
 
 .column.left p {
@@ -95,6 +97,7 @@ body {
 	margin: 10px 0 0 0;
 	padding: 4px;
 	text-align: left;
+	width: 99px;
 }
 
 .rangeDropdown {
@@ -158,9 +161,10 @@ body {
 	vertical-align: middle;
 }
 
-.treasuredata {
+.treasureData {
 	margin: 0;
 	padding: 0;
+	height: 42px;
 }
 
 .calculate {
