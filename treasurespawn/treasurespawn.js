@@ -185,16 +185,16 @@ function ExecuteData() {
 	median = medians[Math.floor(medians.length / 2.0)];
 
 	// Output results text to HTML
-	var txt = `${numPlayers.toLocaleString()} recruits attempted to spawn ${targetMedals.toLocaleString()} medals.<br>`;
-	txt += `<b>Average:</b> ${Math.round(average).toLocaleString()} gems<br>`;
+	var txt = `<p>${numPlayers.toLocaleString()} recruits attempted to spawn ${targetMedals.toLocaleString()} medals.</p>`;
+	txt += `<p><b>Average:</b> ${Math.round(average).toLocaleString()} gems<br>`;
 	txt += `<b>Median:</b> ${median.toLocaleString()} gems<br>`;
 	txt += `<b>Luckiest:</b> ${lowest.toLocaleString()} gems<br>`;
-	txt += `<b>Unluckiest:</b> ${highest.toLocaleString()} gems<br>`;
-	txt += "See below for relative frequencies.";
+	txt += `<b>Unluckiest:</b> ${highest.toLocaleString()} gems</p>`;
+	txt += "<p>See below for relative frequencies.</p>";
 	textElement.innerHTML = txt;
 
 	// Output results frequency diagram to HTML
-	var frequencyTable = "";
+	var frequencyTable = "<p>";
 	for (var val = lowest; val <= highest; val += spawnCost) {
 		var relativeFrequency = 0;
 		if (val in frequencyMap) {
@@ -206,6 +206,7 @@ function ExecuteData() {
 			frequencyTable += "<br>";
 		}
 	}
+	frequencyTable += "</p>";
 	frequencyElement.innerHTML = frequencyTable;
 	return true;
 }
