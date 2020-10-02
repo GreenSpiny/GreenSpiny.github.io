@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Noto_Sans;
+  src: url(fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Noto_Sans;
+  font-weight: bold;
+  src: url(fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto_Mono;
+  src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
 body {
 	background-color: #EEF;
 	margin: 0px;
@@ -6,7 +22,7 @@ body {
 
 .header {
 	background-color: #AAC;
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-family: Roboto_Mono;
 	font-size: 24px;
 	height: 40px;
 	padding-top: 10px;
@@ -22,13 +38,13 @@ body {
 }
 
 .info {
-	height: 66px;
+	height: 72px;
 	margin: 0;
 	padding: 0;
 }
 
 .info p {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 18px;
 	height: 26px;
 	margin: 10px 0 0 0;
@@ -63,7 +79,7 @@ body {
 }
 
 .column.left p {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 18px;
 	height: 28px;
 	margin: 0;
@@ -72,7 +88,7 @@ body {
 }
 
 .fullInput, .treasureData input {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 20px;
 	height: 20px;
 	margin: 10px 0 0 0;
@@ -81,7 +97,7 @@ body {
 }
 
 .rangeDropdown {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 20px;
 	height: 30px;
 	margin-left: 5px;
@@ -92,7 +108,7 @@ body {
 }
 
 .column.right span {
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-family: Roboto_Mono;
 	font-size: 18px;
 	height: 20px;
 	padding-left: 4px;
@@ -105,11 +121,11 @@ body {
 
 .randomArea {
 	height: 30px;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 
 .randomSlider {
-	-webkit-appearance: none;	/* Override default CSS styles */
+	-webkit-appearance: none;
 	appearance: none;
 	background: #778;
 	border-radius: 3px;
@@ -126,7 +142,7 @@ body {
 }
 
 .symbol {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 20px;
 	height: 20px;
 	padding: 4px;
@@ -135,7 +151,7 @@ body {
 
 .randomLabel {
 	float: left;
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 20px;
 	text-align: left;
 	vertical-align: middle;
@@ -181,14 +197,14 @@ body {
 }
 
 .textResultsContainer p {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 18px;
 	margin: 0px;
 	padding: 5px;
 }
 
 .frequencyResultsContainer p {
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-family: Roboto_Mono;
 	font-size: 18px;
 	margin: 0px;
 	padding: 5px;
@@ -199,20 +215,20 @@ body {
 	border-radius: 16px;
 	border: 5px solid #99A;
 	display: none;
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 16px;
 	left: 50%;
-	margin-left: -250px;
+	margin-left: -275px;
 	position: absolute;
 	text-align: center;
 	top: 55px;
-	width: 500px;
+	width: 550px;
 }
 
 .helpTitle {
 	color: #555;
-	font-family: Calibri, Candara, Arial, sans-serif;
-	font-size: 32px;
+	font-family: Noto_Sans;
+	font-size: 28px;
 	font-weight: bold;
 	height: 32px;
 	margin: 0px;
@@ -225,8 +241,8 @@ body {
 	border-radius: 8px;
 	border: 4px #BBB solid;
 	color: #AAA;
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
-	font-size: 32px;
+	font-family: Roboto_Mono;
+	font-size: 28px;
 	font-weight: bold;
 	height: 42px;
 	position: absolute;
@@ -241,8 +257,8 @@ body {
 	border-radius: 40px;
 	border: 4px #BBB solid;
 	color: #AAA;
-	font-family: Monaco, Consolas, "Lucida Console", monospace;
-	font-size: 32px;
+	font-family: Roboto_Mono;
+	font-size: 28px;
 	font-weight: bold;
 	height: 38px;
 	left: 50%;
@@ -259,7 +275,7 @@ body {
 }
 
 .helpText {
-	font-family: Calibri, Candara, Arial, sans-serif;
+	font-family: Noto_Sans;
 	font-size: 16px;
 	padding: 10px 20px 6px 20px;
 	text-align: left;
