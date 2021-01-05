@@ -5,7 +5,7 @@ var targetMedals = 10000;
 var spawnMedals = [50, 200];
 var unwantedChance = 0.0;
 var randomExponent = 1;
-var originalBoxes = [ [800, 1200] ];
+var originalBoxes = [ [700, 1000], [500, 0], [300, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ];
 var originalRangeTypes = [ 1 ];
 
 // Display parameters
@@ -42,19 +42,20 @@ function Init() {
 	var dynamicContentsHTML = '';
 	for (var i = 0; i < maxBoxes; i++) {
 		var placeholderContents;
-		var connector = `<select class="rangeDropdown" name="rangeDropdown${i}" id="rangeDropdown${i}"><option value=1>to</option><option value=2 selected>or</option></select>`;
+		var connector = `<select class="rangeDropdown" onChange="DropdownEdit(${i})" name="rangeDropdown${i}" id="rangeDropdown${i}"><option value=1>to</option><option value=2>or</option><option value=3 selected>—</option></select>`;
 		if (i == 0) {
-			placeholderContents = originalBoxes[0];
-			connector = `<select class="rangeDropdown" name="rangeDropdown${i}" id="rangeDropdown${i}"><option value=1 selected>to</option><option value=2>or</option></select>`;
-		} else {
-			placeholderContents = [0, 0];
+			connector = `<select class="rangeDropdown" onChange="DropdownEdit(${i})" name="rangeDropdown${i}" id="rangeDropdown${i}"><option value=1 selected>to</option><option value=2>or</option><option value=3>—</option></select>`;
 		}
+		placeholderContents = originalBoxes[i];
 		dynamicContentsHTML += `<div class="treasureData" num=${i} style="display:block"><input id="treasureMin${i}" min=0 max=10000 value=${placeholderContents[0]} step=50 type="number" />${connector}<input id="treasureMax${i}" min=0 max=10000 value=${placeholderContents[1]} step=50 type="number" /><br /></div>`;
 	}
 	variableBoxContents.innerHTML = dynamicContentsHTML;
 
 	// Immediately display the appropriate boxes
 	ToggleBoxes();
+	for (var i = 0; i < maxBoxes; i++) {
+		DropdownEdit(i);
+	}
 }
 
 // Function to display the number of treasure boxes in the spawn
@@ -70,6 +71,21 @@ function ToggleBoxes() {
 			allNames[i].style.display = "none";
 			allData[i].style.display = "none";
 		}
+	}
+}
+
+// Function to lock and unlock range boxes
+function DropdownEdit(i) {
+	var rangeValue = parseInt(document.getElementById(`rangeDropdown${i}`).value);
+	var maxBox = document.getElementById(`treasureMax${i}`);
+	if (rangeValue == 3)
+	{
+		maxBox.value = 0;
+		maxBox.setAttribute("disabled", true);
+	}
+	else
+	{
+		maxBox.removeAttribute("disabled");
 	}
 }
 
@@ -329,6 +345,10 @@ function RandomBetweenPair(array, selectionType) {
 	// Pick one of two
 	else if (selectionType == 2) {
 		return array[Math.round(randomRoll)];
+	}
+	// Pick only valid selection
+	else if (selectionType == 3) {
+		return Math.max(array[0], array[1]);
 	}
 }
 

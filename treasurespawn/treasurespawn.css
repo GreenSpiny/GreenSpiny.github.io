@@ -259,19 +259,20 @@ body {
 
 .helpOpen {
 	background-color: #EEE;
-	border-radius: 40px;
+	border-radius: 16px;
 	border: 4px #BBB solid;
 	color: #AAA;
-	font-family: Roboto_Mono;
-	font-size: 28px;
+	font-family: Noto_Sans;
+	font-size: 20px;
 	font-weight: bold;
-	height: 38px;
+	line-height: 34px;
+	height: 34px;
 	left: 50%;
-	margin-left: 256px;
+	margin-left: 226px;
 	position: absolute;
-	top: 2px;
+	top: 4px;
 	user-select: none;
-	width: 38px;
+	width: 68px;
 }
 
 .helpClose:hover, .helpOpen:hover {
