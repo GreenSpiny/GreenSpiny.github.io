@@ -1,0 +1,163 @@
+#body {
+	background-color: #1c1e21;
+	margin: 8px;
+	padding: 0px;
+}
+
+#button-area {
+	padding-bottom: 12px;
+	border-bottom: 4px dotted #5c636c;
+}
+
+#button-area button {
+	min-width: 120px;
+	padding: 0px;
+	margin-right: 4px;
+	background-color: #48a9bd;
+	border: 2px solid #9fcdd6;
+	border-radius: 4px;
+	color: #FFF;
+	font-size: 24px;
+	font-family: "calibri";
+	cursor: pointer;
+}
+
+#button-area button:hover {
+	background-color: #7acdde;
+}
+
+#button-area button:disabled {
+	background-color: #4c525c;
+	color: #CCC;
+	border-color: #AAA;
+}
+
+.combo-area {
+	float: none;
+	clear: left;
+	min-height: 313px;
+	padding-bottom: 12px;
+	border-bottom: 4px dotted #5c636c;
+}
+
+.combo-container {
+	float: left;
+	height: 313px;
+}
+
+.image-shell {
+	position: relative;
+	height: 100%;
+}
+
+.combo-image {
+	position: relative;
+	height: 100%;
+}
+
+.combo-image-half {
+	position: absolute;
+	height: 67%;
+	top: 0px;
+	left: 0px;
+}
+
+.combo-text-hundred {
+	position: absolute;
+	top: 52px;
+	left: 42px;
+	text-align: center;
+	color: #94ff71;
+	font-size: 64px;
+	font-family: "calibri";
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+	user-select: none;
+}
+
+.combo-text-x {
+	position: absolute;
+	left: 8px;
+	bottom: 18px;
+	text-align: left;
+	color: #e32245;
+	font-size: 64px;
+	font-family: "calibri";
+	font-weight: bold;
+	text-shadow: 2px 2px #4e3f41;
+	user-select: none;
+}
+
+.combo-area-sub {
+	position: absolute;
+	height: 78px;
+	bottom: 8px;
+	right: 8px;
+}
+
+.combo-image-sub {
+	position: right;
+	height: 100%;
+	margin-left: -2px;
+	border: 2px solid #82ace8;
+}
+
+.combo-arrow {
+	float: left;
+	height: 32px;
+	padding: 140px 16px;
+	text-align: center;
+	color: #82ace8;
+	font-size: 32px;
+	font-family: "calibri";
+	user-select: none;
+}
+
+.combo-description {
+	clear: left;
+	padding-top: 4px;
+}
+
+.combo-description button {
+	height: 32px;
+	background-color: #4c525c;
+	margin-top: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	cursor: pointer;
+	color: #CCC;
+	text-align: center;
+	font-size: 16px;
+	font-family: "calibri";
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.combo-description button:hover {
+	background-color: #666;
+}
+
+.combo-description-content {
+	display: none;
+	overflow: hidden;
+}
+
+.combo-description-content p {
+	margin: 4px 0px 0px 8px;
+	padding: 0px;
+	color: #CCC;
+	text-align: left;
+	font-size: 18px;
+	font-family: "calibri";
+}
+
+.combo-text-title {
+	clear: right;
+	margin: 6px 0px 8px 4px;
+	padding: 0px;
+	color: #CCC;
+	text-align: left;
+	font-size: 24px;
+	font-family: "calibri";
+	font-weight: bold;
+}

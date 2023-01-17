@@ -1,0 +1,25 @@
+{
+	"monsters":"thrasher, vanisher, jumper, orbital, wizard, summoner, gepd, emperor, afterglow, brave, knight",
+	"spells": "eternal, hundred",
+	"extra":"sol, gpd, blast, titanic, lord, cipherx",
+	"1-card-combos":
+	[
+		
+	],
+	"1.5-card-combos":
+	[
+		
+	],
+	"2-card-combos":
+	[
+		{
+			"name": "Thrasher + Vanisher",
+			"start": "thrasher,vanisher",
+			"end": "sol,lord|emperor,cipherx",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		}
+	]
+}
