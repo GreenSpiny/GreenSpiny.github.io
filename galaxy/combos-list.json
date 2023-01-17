@@ -8,7 +8,7 @@
 			"reqs": "",
 			"banishes": 1,
 			"cipher": false,
-			"path": "Foolish Burial mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard to add Summoner. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Hundred. Hundred mill Emperor; Emperor SS self. Summoner + GPD = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition summon Soldier; Soldier add Afterglow. Afterglow SS self. Emperor + Afterglow = Lord."
+			"path": "Foolish Burial mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard to add Summoner. NS Summoner; Summoner SS Wizard. Tribute Wizard adding Hundred. Hundred mill Emperor; Emperor SS self. Summoner + GPD = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition SS Soldier; Soldier add Afterglow. Afterglow SS self. Emperor + Afterglow = Lord."
 		},
 		{
 			"name": "Galaxy Hundred",
@@ -17,7 +17,7 @@
 			"reqs": "Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
-			"path": "Hundred mill Jumper; Jumper add Trance. Trance to SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Eternal. Set Eternal. On opponent's turn: Eternal target GPD, summon Lord."
+			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Eternal. Set Eternal. On opponent's turn: Eternal target GPD, summon Lord."
 		},
 		{
 			"name": "Wizard",
@@ -38,7 +38,7 @@
 			"reqs": "",
 			"banishes": 2,
 			"cipher": true,
-			"path": "This is an example path. With two lines."
+			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Soldier. SS Soldier discarding any Light; Soldier add Summoner; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard. Tribute Wizard adding Expedition. Expedition SS Afterglow. Soldier + Afterglow = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD. Summoner + Cipher X = Solflare; Solflare add Afterglow. SS Afterglow. GEPD + Afterglow = Lord."
 		},
 		{
 			"name": "Soldier + any Light",
@@ -47,11 +47,20 @@
 			"reqs": "",
 			"banishes": 1,
 			"cipher": false,
-			"path": "This is an example path. With two lines."
+			"path": "SS Soldier discarding any Light; Soldier add Wizard. NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Expedition. Expedition SS Emperor. Soldier + Emperor = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Trance. Trance SS Emperor from GY and Afterglow from deck. Emperor + Afterglow = Lord."
 		}
 	],
 	"2-card-combos":
 	[
+		{
+			"name": "Soldier + Emperor",
+			"start": "soldier,emperor",
+			"end": "sol,lord|afterglow,titanic|emperor",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
 		{
 			"name": "Soldier + Jumper",
 			"start": "soldier,jumper",
@@ -98,9 +107,36 @@
 			"path": "This is an example path. With two lines."
 		},
 		{
+			"name": "Hundred + Trance",
+			"start": "hundred,trance",
+			"end": "sol|jumper,lord|afterglow,blast",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Wizard + Summoner",
+			"start": "wizard,summoner",
+			"end": "sol|gepd,lord|afterglow,cipherx",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
 			"name": "Thrasher + Jumper",
 			"start": "thrasher,jumper",
 			"end": "sol,lord|afterglow,cipherx",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Wizard + Wizard",
+			"start": "wizard,wizard",
+			"end": "sol,lord|afterglow",
 			"reqs": "",
 			"banishes": 2,
 			"cipher": true,
@@ -114,6 +150,24 @@
 			"banishes": 1,
 			"cipher": true,
 			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Wizard + Thrasher",
+			"start": "wizard,thrasher",
+			"end": "sol,lord|emperor",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Vanisher + Hundred",
+			"start": "vanisher,hundred",
+			"end": "sol,sol, sol",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "THIS IS SO HARD."
 		}
 	]
 }
