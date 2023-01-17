@@ -71,7 +71,7 @@
 	font-size: 64px;
 	font-family: "calibri";
 	font-weight: bold;
-	text-shadow: 2px 2px black;
+	text-shadow: 2px 3px black;
 	user-select: none;
 }
 
@@ -84,7 +84,7 @@
 	font-size: 64px;
 	font-family: "calibri";
 	font-weight: bold;
-	text-shadow: 2px 2px #4e3f41;
+	text-shadow: 2px 3px #4e3f41;
 	user-select: none;
 }
 
@@ -138,6 +138,7 @@
 }
 
 .combo-description-content {
+	margin-top: 4px;
 	display: none;
 	overflow: hidden;
 }
@@ -148,7 +149,8 @@
 	color: #CCC;
 	text-align: left;
 	font-size: 18px;
-	font-family: "calibri";
+	font-family: courier, monospace;
+	white-space: pre;
 }
 
 .combo-text-title {

@@ -141,7 +141,13 @@ function PopulateCombos(targetDiv, targetComboType)
       const path = combo["path"].split('.');
       for (let i = 0; i < path.length - 1; i++)
       {
-        finalPath += String(i + 1) + ". " + path[i] + ".";
+        var spacer = "";
+        if (i < 9 && path.length >= 10)
+        {
+          console.log("aaa");
+          spacer = " ";
+        }
+        finalPath += String(i + 1) + ". " + spacer + path[i].trim() + ".";
         if (i != path.length - 1)
         {
           finalPath += "<br>"

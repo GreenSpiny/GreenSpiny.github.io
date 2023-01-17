@@ -1,7 +1,4 @@
 {
-	"monsters":"thrasher, vanisher, jumper, orbital, wizard, summoner, soldier, gepd, emperor, afterglow, brave, knight",
-	"spells": "eternal, hundred",
-	"extra":"sol, gpd, blast, titanic, lord, cipherx",
 	"1-card-combos":
 	[
 		{
@@ -11,7 +8,7 @@
 			"reqs": "",
 			"banishes": 1,
 			"cipher": false,
-			"path": "This is an example path. With two lines."
+			"path": "Foolish Burial mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard to add Summoner. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Hundred. Hundred mill Emperor; Emperor SS self. Summoner + GPD = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition summon Soldier; Soldier add Afterglow. Afterglow SS self. Emperor + Afterglow = Lord."
 		},
 		{
 			"name": "Galaxy Hundred",
@@ -20,7 +17,7 @@
 			"reqs": "Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
-			"path": "This is an example path. With two lines."
+			"path": "Hundred mill Jumper; Jumper add Trance. Trance to SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Eternal. Set Eternal. On opponent's turn: Eternal target GPD, summon Lord."
 		},
 		{
 			"name": "Wizard",
@@ -29,7 +26,7 @@
 			"reqs": "Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
-			"path": "This is an example path. With two lines."
+			"path": "NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Wizard adding Eternal. Set Eternal. On opponent's turn: Eternal target GPD, summon Lord."
 		}
 	],
 	"1.5-card-combos":
