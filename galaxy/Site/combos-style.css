@@ -77,7 +77,7 @@
 
 .combo-text-x {
 	position: absolute;
-	left: 8px;
+	left: 16px;
 	bottom: 18px;
 	text-align: left;
 	color: #e32245;
@@ -153,11 +153,38 @@
 
 .combo-text-title {
 	clear: right;
-	margin: 6px 0px 8px 4px;
+	margin: 6px 0px 0px 4px;
 	padding: 0px;
 	color: #CCC;
 	text-align: left;
 	font-size: 24px;
 	font-family: "calibri";
+	font-weight: bold;
+}
+
+.combo-text-reqs {
+	margin: 0px 0px 8px 4px;
+	padding: 0px;
+}
+
+.requirements-text {
+	float: left;
+	margin: 0px;
+	margin-right: 4px;
+	padding: 0px;
+	color: #CCC;
+	font-size: 16px;
+	font-family: "calibri";
+	font-style: italic;
+	font-weight: normal;
+}
+
+.requirements-text-red {
+	margin: 0px;
+	padding: 0px;
+	color: #E55;
+	font-size: 16px;
+	font-family: "calibri";
+	font-style: italic;
 	font-weight: bold;
 }

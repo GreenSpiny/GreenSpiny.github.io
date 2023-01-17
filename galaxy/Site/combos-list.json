@@ -1,17 +1,123 @@
 {
-	"monsters":"thrasher, vanisher, jumper, orbital, wizard, summoner, gepd, emperor, afterglow, brave, knight",
+	"monsters":"thrasher, vanisher, jumper, orbital, wizard, summoner, soldier, gepd, emperor, afterglow, brave, knight",
 	"spells": "eternal, hundred",
 	"extra":"sol, gpd, blast, titanic, lord, cipherx",
 	"1-card-combos":
 	[
-		
+		{
+			"name": "Foolish Burial",
+			"start": "foolish",
+			"end": "sol,lord|afterglow|emperor,soldier",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Galaxy Hundred",
+			"start": "hundred",
+			"end": "sol,lord|jumper",
+			"reqs": "Eternal Galaxy",
+			"banishes": 0,
+			"cipher": false,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Wizard",
+			"start": "wizard",
+			"end": "lord|jumper",
+			"reqs": "Eternal Galaxy",
+			"banishes": 0,
+			"cipher": false,
+			"path": "This is an example path. With two lines."
+		}
 	],
 	"1.5-card-combos":
 	[
-		
+		{
+			"name": "Hundred + any Light",
+			"start": "hundred,light",
+			"end": "sol,lord|afterglow,gpd|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Soldier + any Light",
+			"start": "soldier,light",
+			"end": "sol,lord|emperor|afterglow,summoner",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "This is an example path. With two lines."
+		}
 	],
 	"2-card-combos":
 	[
+		{
+			"name": "Soldier + Jumper",
+			"start": "soldier,jumper",
+			"end": "sol,lord|afterglow,titanic|emperor",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Wizard + Jumper",
+			"start": "wizard,jumper",
+			"end": "sol,lord|afterglow,titanic|emperor",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Vanisher + Jumper",
+			"start": "vanisher,jumper",
+			"end": "sol,lord|afterglow,titanic|emperor",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Soldier + Wizard",
+			"start": "soldier,wizard",
+			"end": "sol,lord|emperor,blast|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Wizard + Vanisher",
+			"start": "wizard,vanisher",
+			"end": "sol,lord|emperor,blast|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Thrasher + Jumper",
+			"start": "thrasher,jumper",
+			"end": "sol,lord|afterglow,cipherx",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
+		{
+			"name": "Jumper + Hundred",
+			"start": "jumper,hundred",
+			"end": "sol,lord|afterglow",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "This is an example path. With two lines."
+		},
 		{
 			"name": "Thrasher + Vanisher",
 			"start": "thrasher,vanisher",

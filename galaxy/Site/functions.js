@@ -3,6 +3,7 @@
 const comboAreaTemplate = `
 <div class="combo-area">
   <p class="combo-text-title"></p>
+  <p class="combo-text-reqs"></p>
   <div class="combo-insertion-area">
 
   </div>
@@ -20,9 +21,9 @@ const comboImageTemplate = `<img class="combo-image Z"><div class="combo-area-su
 
 // ------------------------------------------------------ //
 const url = "combos-list.json";
-const request = new Request(url, { cache: "no-cache" });
 function PopulateCombos(targetDiv, targetComboType)
 {
+  const request = new Request(url, { cache: "no-cache" });
   const comboArea = targetDiv;
   fetch(request).then((response)=>response.json()).then((data)=> {
     for (let combo of data[targetComboType])
@@ -33,7 +34,24 @@ function PopulateCombos(targetDiv, targetComboType)
       comboArea.appendChild(newDiv);
 
       // title
-      newDiv.getElementsByClassName("combo-text-title")[0].innerHTML = combo["name"];
+      const title = newDiv.getElementsByClassName("combo-text-title")[0];
+      title.innerHTML = combo["name"];
+
+      // reqs
+      const reqsArea = newDiv.getElementsByClassName("combo-text-reqs")[0];
+      const reqs = combo["reqs"];
+      if (reqs.length > 0)
+      {
+        const reqsElement = document.createElement("p");
+        reqsElement.setAttribute("class", "requirements-text");
+        reqsElement.innerHTML = "requirements:";
+        reqsArea.appendChild(reqsElement);
+
+        const reqsList = document.createElement("p");
+        reqsList.setAttribute("class", "requirements-text-red");
+        reqsList.innerHTML = combo["reqs"];
+        reqsArea.appendChild(reqsList);
+      }
 
       // start
       const insertionArea = newDiv.getElementsByClassName("combo-insertion-area")[0];
@@ -98,12 +116,12 @@ function PopulateCombos(targetDiv, targetComboType)
 
       const shell = newVisual.getElementsByClassName("image-shell")[0];
 
-      const halfImage = document.createElement("img");
-      halfImage.setAttribute("class", "combo-image-half hundred");
-      shell.appendChild(halfImage);
-
       if (combo["banishes"] > 0)
       {
+        const halfImage = document.createElement("img");
+        halfImage.setAttribute("class", "combo-image-half hundred");
+        shell.appendChild(halfImage);
+
         const halfSpan = document.createElement("span");
         halfSpan.setAttribute("class", "combo-text-hundred");
         halfSpan.innerHTML = "x" + String(combo["banishes"]);
@@ -154,6 +172,9 @@ function PopulateCombos(targetDiv, targetComboType)
 function ButtonFunc(number)
 {
   const num = String(number);
+  const urlParams = new URLSearchParams(window.location.search);
+  urlParams.set("tab", num);
+  window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
 
   for (const child of document.getElementById("button-area").children) {
     if (child.getAttribute("id").endsWith(num))
@@ -182,7 +203,16 @@ function ButtonFunc(number)
 // ------------------------------------------------------ //
 function Initialize()
 {
-  ButtonFunc(3);
+  const urlParams = new URLSearchParams(window.location.search);
+  const params = Object.fromEntries(urlParams.entries());
+  
+  var tab = 1;
+  if (params["tab"] != null)
+  {
+    tab = params["tab"];
+  }
+
+  ButtonFunc(tab);
   PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos");
   PopulateCombos(document.getElementById("card-combos-2"), "1.5-card-combos");
   PopulateCombos(document.getElementById("card-combos-3"), "2-card-combos");
