@@ -110,15 +110,6 @@
 			"path": "This is an example path. With two lines."
 		},
 		{
-			"name": "Jumper + Hundred",
-			"start": "jumper,hundred",
-			"end": "sol,lord|afterglow",
-			"reqs": "",
-			"banishes": 2,
-			"cipher": true,
-			"path": "This is an example path. With two lines."
-		},
-		{
 			"name": "Thrasher + Vanisher",
 			"start": "thrasher,vanisher",
 			"end": "sol,lord|emperor,cipherx",
