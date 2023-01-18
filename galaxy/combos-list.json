@@ -8,7 +8,7 @@
 			"reqs": "",
 			"banishes": 1,
 			"cipher": false,
-			"path": "Foolish Burial mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard to add Summoner. NS Summoner; Summoner SS Wizard. Tribute Wizard adding Hundred. Hundred mill Emperor; Emperor SS self. Summoner + GPD = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition SS Soldier; Soldier add Afterglow. Afterglow SS self. Emperor + Afterglow = Lord."
+			"path": "Foolish Burial mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Summoner. NS Summoner; Summoner SS Wizard. Tribute Wizard adding Hundred. Hundred mill Emperor; Emperor SS self. Summoner + GPD = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition SS Soldier; Soldier add Afterglow. Afterglow SS self. Emperor + Afterglow = Lord."
 		},
 		{
 			"name": "Galaxy Hundred",
@@ -17,7 +17,7 @@
 			"reqs": "Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
-			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Eternal. Set Eternal. On opponent's turn: Eternal target GPD, summon Lord."
+			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Eternal. Set Eternal. Opponent's Draw Phase: Eternal target GPD, summon Lord."
 		},
 		{
 			"name": "Wizard",
@@ -26,7 +26,7 @@
 			"reqs": "Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
-			"path": "NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Wizard adding Eternal. Set Eternal. On opponent's turn: Eternal target GPD, summon Lord."
+			"path": "NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Wizard adding Eternal. Set Eternal. On the opponent's turn: Eternal target GPD, summon Lord."
 		}
 	],
 	"1.5-card-combos":
@@ -168,6 +168,63 @@
 			"banishes": 2,
 			"cipher": false,
 			"path": "THIS IS SO HARD."
+		}
+	],
+	"3-card-combos":
+	[
+		
+	],
+	"jank-combos":
+	[
+		{
+			"name": "Optimized Turn Skip (example)",
+			"notes": "Skip your opponent's turn unless they set and pass. Extremely deadly, but space hungry and vulnerable.",
+			"start": "soldier,jumper",
+			"end": "durendal,gpd,gepd,decel",
+			"reqs": "Tellarknight Ptolemaeus, Satellarknight Constellar Diamond, Artifact Durendal, Photon Deceleration",
+			"banishes": 0,
+			"cipher": false,
+			"path": "SS Soldier discarding Jumper; Jumper add Expedition; Soldier add Summoner. NS Summoner; Summoner SS Jumper. Expedition SS Afterglow. Summoner make afterglow level 4. Summoner + Afterglow = GPD. GPD detach Afterglow adding Deceleration; Afterglow SS GEPD. Soldier + GEPD = Solflare; Solflare add Afterglow. SS Afterglow; GPD make Afterglow level 4. Jumper + Afterglow = Ptolemaeus. Your End Phase: Ptolemaeus attach Constellar Diamond as material. Opponent's Draw Phase: Ptolemaeus detach all (including Afterglow) to SS Durendal; Afterglow SS GEPD."
+		},
+		{
+			"name": "Pure Turn Skip (example)",
+			"notes": "Omitting the Tellarknight package is a less committal option, but it lacks reliability. Be sure to establish more follow up than in this example.",
+			"start": "soldier,vanisher,jumper",
+			"end": "durendal,gepd,decel",
+			"reqs": "Artifact Durendal, Photon Deceleration",
+			"banishes": 0,
+			"cipher": false,
+			"path": "SS Soldier discarding Jumper; Jumper add Expedition; Soldier add Summoner. NS Summoner; Summoner SS Jumper. Jumper + Summoner = GPD. SS Vanisher; Vanisher add GEPD; GPD make Vanisher level 8. GPD detach Summoner adding Deceleration. Expedition SS Soldier. Soldier + Soldier = Durendal. SS GEPD tributing Vanisher and GPD. Set Deceleration."
+		},
+		{
+			"name": "Triple Veiler (example)",
+			"notes": "Turn extra combo pieces into Effect Veilers to insulate yourself against board breakers.",
+			"start": "thrasher,vanisher,orbital,light,light",
+			"end": "sol|veiler|veiler|veiler,lord|afterglow|emperor",
+			"reqs": "Photon Veil, Effect Veiler",
+			"banishes": 1,
+			"cipher": false,
+			"path": ""
+		},
+		{
+			"name": "Pair-a-Dice Lock (example)",
+			"notes": "A three material Pair-a-Dice Smasher has a 92% of locking your opponent VFD style, though it is difficult to make with follow up.",
+			"start": "",
+			"end": "",
+			"reqs": "Number 67: Pair-a-Dice Smasher, Photon Slasher",
+			"banishes": 0,
+			"cipher": false,
+			"path": ""
+		},
+		{
+			"name": "KuriGoliath (example)",
+			"notes": "A watered down 'Titanic Spheres' strategy - summoning Amorphage Goliath off Spheres and protecting it from battle with Galakuriboh.",
+			"start": "",
+			"end": "",
+			"reqs": "Hieratic Seal of the Heavenly Spheres, Amorphage Goliath, Galakuriboh",
+			"banishes": 0,
+			"cipher": false,
+			"path": ""
 		}
 	]
 }

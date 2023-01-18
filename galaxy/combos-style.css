@@ -1,4 +1,5 @@
 #body {
+	min-width: 1600px;
 	background-color: #1c1e21;
 	margin: 8px;
 	padding: 0px;
@@ -164,9 +165,23 @@
 	font-weight: bold;
 }
 
-.combo-text-reqs {
+.combo-text-reqs, .combo-text-notes {
+	clear: left;
 	margin: 0px 0px 8px 4px;
 	padding: 0px;
+}
+
+.notes-text {
+	float: left;
+	margin: 0px;
+	margin-right: 4px;
+	margin-bottom: 1px;
+	padding: 0px;
+	color: #9fcdd6;
+	font-size: 20px;
+	font-family: "calibri";
+	font-style: normal;
+	font-weight: normal;
 }
 
 .requirements-text {

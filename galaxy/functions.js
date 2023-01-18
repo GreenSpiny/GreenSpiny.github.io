@@ -3,6 +3,7 @@
 const comboAreaTemplate = `
 <div class="combo-area">
   <p class="combo-text-title"></p>
+  <p class="combo-text-notes"></p>
   <p class="combo-text-reqs"></p>
   <div class="combo-insertion-area">
 
@@ -36,6 +37,21 @@ function PopulateCombos(targetDiv, targetComboType)
       // title
       const title = newDiv.getElementsByClassName("combo-text-title")[0];
       title.innerHTML = combo["name"];
+
+      // notes
+      const notesArea = newDiv.getElementsByClassName("combo-text-notes")[0];
+      const notes = combo["notes"];
+      if (notes != null)
+      {
+        const notesElement = document.createElement("p");
+        notesElement.setAttribute("class", "notes-text");
+        notesElement.innerHTML = notes;
+        notesArea.appendChild(notesElement);
+      }
+      else
+      {
+        notesArea.setAttribute("hidden", true);
+      }
 
       // reqs
       const reqsArea = newDiv.getElementsByClassName("combo-text-reqs")[0];
@@ -142,9 +158,8 @@ function PopulateCombos(targetDiv, targetComboType)
       for (let i = 0; i < path.length - 1; i++)
       {
         var spacer = "";
-        if (i < 9 && path.length >= 10)
+        if (i < 9 && path.length >= 11)
         {
-          console.log("aaa");
           spacer = " ";
         }
         finalPath += String(i + 1) + ". " + spacer + path[i].trim() + ".";
@@ -156,15 +171,15 @@ function PopulateCombos(targetDiv, targetComboType)
       newDiv.getElementsByClassName("combo-description-content")[0].innerHTML = "<p>" + finalPath + "</p>";
       const button = newDiv.getElementsByClassName("collapsible")[0];
       button.addEventListener("click", function() {
-
-        console.log("hi");
         var content = this.nextElementSibling;
         if (content.style.display === "block")
         {
+          button.innerHTML = "Combo Path ▼";
           content.style.display = "none";
         }
         else
         {
+          button.innerHTML = "Combo Path ▲";
           content.style.display = "block";
         }
 
@@ -222,4 +237,6 @@ function Initialize()
   PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos");
   PopulateCombos(document.getElementById("card-combos-2"), "1.5-card-combos");
   PopulateCombos(document.getElementById("card-combos-3"), "2-card-combos");
+  PopulateCombos(document.getElementById("card-combos-4"), "3-card-combos");
+  PopulateCombos(document.getElementById("card-combos-5"), "jank-combos");
 }
