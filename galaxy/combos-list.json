@@ -199,7 +199,7 @@
 		},
 		{
 			"name": "Triple Veiler (example)",
-			"notes": "Turn extra combo pieces into Effect Veilers to insulate yourself against board breakers.",
+			"notes": "Turning extra combo pieces into Effect Veilers can insulate yourself against board breakers.",
 			"start": "thrasher,vanisher,jumper,light,light",
 			"end": "sol|veiler|veiler|veiler,lord|afterglow|emperor",
 			"reqs": "Photon Veil, Effect Veiler",
