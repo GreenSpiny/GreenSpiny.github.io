@@ -162,12 +162,13 @@
 		},
 		{
 			"name": "Vanisher + Hundred",
+			"notes": "this is so dang hard to figure out",
 			"start": "vanisher,hundred",
-			"end": "sol,sol, sol",
+			"end": "",
 			"reqs": "",
 			"banishes": 2,
-			"cipher": false,
-			"path": "THIS IS SO HARD."
+			"cipher": true,
+			"path": "This is an example path. With two lines."
 		}
 	],
 	"3-card-combos":
@@ -178,7 +179,7 @@
 	[
 		{
 			"name": "Optimized Turn Skip (example)",
-			"notes": "Skip your opponent's turn unless they set and pass. Extremely deadly, but space hungry and vulnerable.",
+			"notes": "Skip your opponent's turn if they activate a card on the field. Deadly, but space hungry and vulnerable.",
 			"start": "soldier,jumper",
 			"end": "durendal,gpd,gepd,decel",
 			"reqs": "Tellarknight Ptolemaeus, Satellarknight Constellar Diamond, Artifact Durendal, Photon Deceleration",
@@ -188,7 +189,7 @@
 		},
 		{
 			"name": "Pure Turn Skip (example)",
-			"notes": "Omitting the Tellarknight package is a less committal option, but it lacks reliability. Be sure to establish more follow up than in this example.",
+			"notes": "Omitting the Tellarknight package is a less committal option, though it lacks reliability. Be sure to establish extra follow up.",
 			"start": "soldier,vanisher,jumper",
 			"end": "durendal,gepd,decel",
 			"reqs": "Artifact Durendal, Photon Deceleration",
@@ -199,7 +200,7 @@
 		{
 			"name": "Triple Veiler (example)",
 			"notes": "Turn extra combo pieces into Effect Veilers to insulate yourself against board breakers.",
-			"start": "thrasher,vanisher,orbital,light,light",
+			"start": "thrasher,vanisher,jumper,light,light",
 			"end": "sol|veiler|veiler|veiler,lord|afterglow|emperor",
 			"reqs": "Photon Veil, Effect Veiler",
 			"banishes": 1,
@@ -207,8 +208,18 @@
 			"path": ""
 		},
 		{
+			"name": "Terribly Tired Galaxy (example)",
+			"notes": "Bagooska is a generic floodgate that can be ranked up into Photon Lord if your opponent tries to out it.",
+			"start": "soldier,thrasher,vanisher",
+			"end": "sol|gepd,bagooska|jumper,eternal",
+			"reqs": "Number 41: Bagooska the Terribly Tired Tapir, Eternal Galaxy",
+			"banishes": 0,
+			"cipher": false,
+			"path": "SS Thrasher. SS Vanisher; add GEPD. Thrasher + Vanisher = GPD. SS Soldier discarding GEPD; Soldier add Summoner; GPD make Soldier level 8. GPD detach Thrasher milling Jumper; Jumper add Eternal. NS Summoner; Summoner SS Jumper. Soldier + GPD = Solflare; Solflare add GEPD. Summoner + Jumper = Bagooska. Set Eternal."
+		},
+		{
 			"name": "Pair-a-Dice Lock (example)",
-			"notes": "A three material Pair-a-Dice Smasher has a 92% of locking your opponent VFD style, though it is difficult to make with follow up.",
+			"notes": "A three material Pair-a-Dice Smasher has a 92% of locking your opponent VFD style, though it is difficult to establish with follow up.",
 			"start": "",
 			"end": "",
 			"reqs": "Number 67: Pair-a-Dice Smasher, Photon Slasher",

@@ -1,18 +1,16 @@
 //python -m http.server
 // ------------------------------------------------------ //
 const comboAreaTemplate = `
-<div class="combo-area">
-  <p class="combo-text-title"></p>
-  <p class="combo-text-notes"></p>
-  <p class="combo-text-reqs"></p>
-  <div class="combo-insertion-area">
+<p class="combo-text-title"></p>
+<p class="combo-text-notes"></p>
+<p class="combo-text-reqs"></p>
+<div class="combo-insertion-area">
 
-  </div>
-  <div class="combo-description">
-    <button type="button" class="collapsible">Combo Path ▼</button>
-    <div class="combo-description-content">
+</div>
+<div class="combo-description">
+  <button type="button" class="collapsible">Combo Path ▼</button>
+  <div class="combo-description-content">
 
-    </div>
   </div>
 </div>
 `;
@@ -31,6 +29,7 @@ function PopulateCombos(targetDiv, targetComboType)
     {
       const newDiv = document.createElement("div");
       newDiv.setAttribute("id", combo["name"]);
+      newDiv.setAttribute("class", "combo-entry");
       newDiv.innerHTML = comboAreaTemplate;
       comboArea.appendChild(newDiv);
 
@@ -95,10 +94,13 @@ function PopulateCombos(targetDiv, targetComboType)
       }
 
       // arrow
-      const newArrow = document.createElement("span");
-      newArrow.setAttribute("class", "combo-arrow");
-      insertionArea.appendChild(newArrow);
-      newArrow.innerHTML = "►";
+      if (combo["end"].length > 0)
+      {
+        const newArrow = document.createElement("img");
+        newArrow.setAttribute("class", "combo-arrow");
+        newArrow.setAttribute("src", "combo-arrow.png");
+        insertionArea.appendChild(newArrow);
+      }
 
       // end
       const end = combo["end"].split(',');
@@ -125,31 +127,34 @@ function PopulateCombos(targetDiv, targetComboType)
       }
 
       // bonuses
-      const newVisual = document.createElement("div");
-      newVisual.setAttribute("class", "combo-container");
-      newVisual.innerHTML = comboVisualAreaTemplate;
-      insertionArea.appendChild(newVisual);
-
-      const shell = newVisual.getElementsByClassName("image-shell")[0];
-
-      if (combo["banishes"] > 0)
+      if (combo["banishes"] > 0 || combo["cipher"])
       {
-        const halfImage = document.createElement("img");
-        halfImage.setAttribute("class", "combo-image-half hundred");
-        shell.appendChild(halfImage);
+        const newVisual = document.createElement("div");
+        newVisual.setAttribute("class", "combo-container");
+        newVisual.innerHTML = comboVisualAreaTemplate;
+        insertionArea.appendChild(newVisual);
 
-        const halfSpan = document.createElement("span");
-        halfSpan.setAttribute("class", "combo-text-hundred");
-        halfSpan.innerHTML = "x" + String(combo["banishes"]);
-        shell.appendChild(halfSpan);
-      }
+        const shell = newVisual.getElementsByClassName("image-shell")[0];
 
-      if (combo["cipher"])
-      {
-        const xSpan = document.createElement("span");
-        xSpan.setAttribute("class", "combo-text-x");
-        xSpan.innerHTML = "+EX";
-        shell.appendChild(xSpan);
+        if (combo["banishes"] > 0)
+        {
+          const halfImage = document.createElement("img");
+          halfImage.setAttribute("class", "combo-image-half hundred");
+          shell.appendChild(halfImage);
+
+          const halfSpan = document.createElement("span");
+          halfSpan.setAttribute("class", "combo-text-hundred");
+          halfSpan.innerHTML = "x" + String(combo["banishes"]);
+          shell.appendChild(halfSpan);
+        }
+
+        if (combo["cipher"])
+        {
+          const xSpan = document.createElement("span");
+          xSpan.setAttribute("class", "combo-text-x");
+          xSpan.innerHTML = "+EX";
+          shell.appendChild(xSpan);
+        }
       }
 
       // path
@@ -168,7 +173,7 @@ function PopulateCombos(targetDiv, targetComboType)
           finalPath += "<br>"
         }
       }
-      newDiv.getElementsByClassName("combo-description-content")[0].innerHTML = "<p>" + finalPath + "</p>";
+      newDiv.getElementsByClassName("combo-description-content")[0].innerHTML = "<p class='mono-text'>" + finalPath + "</p>";
       const button = newDiv.getElementsByClassName("collapsible")[0];
       button.addEventListener("click", function() {
         var content = this.nextElementSibling;

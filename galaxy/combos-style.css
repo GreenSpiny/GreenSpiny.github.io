@@ -1,10 +1,3 @@
-#body {
-	min-width: 1600px;
-	background-color: #1c1e21;
-	margin: 8px;
-	padding: 0px;
-}
-
 #button-area {
 	padding-bottom: 12px;
 	border-bottom: 4px dotted #5c636c;
@@ -14,46 +7,32 @@
 	min-width: 120px;
 	padding: 0px;
 	margin-right: 4px;
-	background-color: #48a9bd;
-	border: 2px solid #9fcdd6;
-	border-radius: 4px;
-	color: #FFF;
-	font-size: 24px;
-	font-family: "calibri";
-	cursor: pointer;
 }
 
-#button-area button:hover {
-	background-color: #7acdde;
-}
-
-#button-area button:disabled {
-	background-color: #4c525c;
-	color: #CCC;
-	border-color: #AAA;
-}
-
-.combo-area {
+.combo-entry {
+	width: auto;
 	float: none;
 	clear: left;
-	min-height: 313px;
 	padding-bottom: 12px;
 	border-bottom: 4px dotted #5c636c;
 }
 
 .combo-container {
-	float: left;
 	height: 313px;
+	min-width: 140px;
+	float: left;
+
 }
 
 .image-shell {
+	height: inherit;
 	position: relative;
 	height: 100%;
 }
 
 .combo-image {
-	position: relative;
 	height: 100%;
+	position: relative;
 }
 
 .combo-image-half {
@@ -105,13 +84,7 @@
 
 .combo-arrow {
 	float: left;
-	height: 32px;
-	padding: 140px 16px;
-	text-align: center;
-	color: #82ace8;
-	font-size: 32px;
-	font-family: "calibri";
-	user-select: none;
+	height: 313px;
 }
 
 .combo-description {
@@ -120,7 +93,7 @@
 }
 
 .combo-description button {
-	height: 32px;
+	height: 36px;
 	background-color: #4c525c;
 	margin-top: 8px;
 	padding-left: 16px;
@@ -128,10 +101,12 @@
 	cursor: pointer;
 	color: #CCC;
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: "calibri";
-	font-weight: bold;
-	border-radius: 4px;
+	text-shadow: 1px 1px #111;
+	border-radius: 0.25em;
+	border: none;
+
 }
 
 .combo-description button:hover {
@@ -146,12 +121,6 @@
 
 .combo-description-content p {
 	margin: 4px 0px 0px 8px;
-	padding: 0px;
-	color: #CCC;
-	text-align: left;
-	font-size: 18px;
-	font-family: courier, monospace;
-	white-space: pre;
 }
 
 .combo-text-title {
@@ -197,6 +166,7 @@
 }
 
 .requirements-text-red {
+	clear: right;
 	margin: 0px;
 	padding: 0px;
 	color: #E55;
