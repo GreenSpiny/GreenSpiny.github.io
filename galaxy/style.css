@@ -39,7 +39,7 @@
 	}
 }
 
-@media handheld {
+@media screen and (hover: none) {
 	#nav-button-area {
 		justify-content: center;
 	}
@@ -67,7 +67,8 @@
 		border-radius: 0;
 	}
 }
-@media handheld {
+
+@media screen and (hover: none) {
 	.standard-button {
 		border-radius: 0;
 	}
@@ -119,7 +120,7 @@
 	}
 }
 
-@media handheld {
+@media screen and (hover: none) {
 	.card-sizer {
 		width: 1in;
 	}
