@@ -16,7 +16,7 @@ const comboAreaTemplate = `
 `;
 
 const comboVisualAreaTemplate = `<div class="image-shell"></div>`;
-const comboImageTemplate = `<img class="combo-image Z"><div class="combo-area-sub"></div>`;
+const comboImageTemplate = `<img class="combo-image Z"><div class="combo-area-sub card-sizer-mini"></div>`;
 
 // ------------------------------------------------------ //
 const url = "combos-list.json";

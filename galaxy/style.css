@@ -76,7 +76,7 @@
 	border-color: #AAA;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 12in) {
 	.card-sizer {
 		width: 200px;
 	}
@@ -84,7 +84,7 @@
 		width: 150px;
 	}
 	.card-sizer-mini {
-		width: 75px;
+		height: 25%;
 	}
 	.card-spacer {
 		width: 48px;
@@ -94,7 +94,7 @@
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 12in) {
 	.card-sizer {
 		width: 150px;
 	}
@@ -102,7 +102,7 @@
 		width: 100px;
 	}
 	.card-sizer-mini {
-		width: 50px;
+		height: 25%;
 	}
 	.card-spacer {
 		width: 32px;
@@ -120,7 +120,7 @@
 		width: .5in;
 	}
 	.card-sizer-mini {
-		width: .25in;
+		height: 32%;
 	}
 	.card-spacer {
 		width: .213in;
@@ -132,7 +132,7 @@
 
 .mono-text {
 	padding: 0px;
-	color: #CCC;
+	color: #DDD;
 	text-align: left;
 	font-size: 20px;
 	font-family: courier, monospace;

@@ -57,15 +57,13 @@
 
 .combo-area-sub {
 	position: absolute;
-	height: 25%;
-	bottom: 8px;
-	right: 8px;
+	right: 0;
+	bottom: 4px;
 }
 
 .combo-image-sub {
-	position: right;
-	height: 100%;
-	margin-left: -2px;
+	float: right;
+	height: calc(100% - 4px);
 	border: 2px solid #82ace8;
 }
 
@@ -83,7 +81,7 @@
 	cursor: pointer;
 	color: #CCC;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16pt;
 	font-family: "calibri";
 	text-shadow: 1px 1px #111;
 	border-radius: 0.25em;
@@ -111,7 +109,7 @@
 	padding: 0px;
 	color: #CCC;
 	text-align: left;
-	font-size: 24px;
+	font-size: 24pt;
 	font-family: "calibri";
 	font-weight: bold;
 }
@@ -129,7 +127,7 @@
 	margin-bottom: 1px;
 	padding: 0px;
 	color: #9fcdd6;
-	font-size: 20px;
+	font-size: 20pt;
 	font-family: "calibri";
 	font-style: normal;
 	font-weight: normal;
