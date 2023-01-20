@@ -76,7 +76,7 @@ function PopulateCombos(targetDiv, targetComboType)
         const startParts = start[i].split('|');
 
         const newVisual = document.createElement("div");
-        newVisual.setAttribute("class", "combo-container");
+        newVisual.setAttribute("class", "combo-container card-sizer");
         newVisual.innerHTML = comboVisualAreaTemplate;
         insertionArea.appendChild(newVisual);
 
@@ -97,7 +97,7 @@ function PopulateCombos(targetDiv, targetComboType)
       if (combo["end"].length > 0)
       {
         const newArrow = document.createElement("img");
-        newArrow.setAttribute("class", "combo-arrow");
+        newArrow.setAttribute("class", "combo-container card-spacer");
         newArrow.setAttribute("src", "combo-arrow.png");
         insertionArea.appendChild(newArrow);
       }
@@ -109,7 +109,7 @@ function PopulateCombos(targetDiv, targetComboType)
         const endParts = end[i].split('|');
 
         const newVisual = document.createElement("div");
-        newVisual.setAttribute("class", "combo-container");
+        newVisual.setAttribute("class", "combo-container card-sizer");
         newVisual.innerHTML = comboVisualAreaTemplate;
         insertionArea.appendChild(newVisual);
 
@@ -130,7 +130,7 @@ function PopulateCombos(targetDiv, targetComboType)
       if (combo["banishes"] > 0 || combo["cipher"])
       {
         const newVisual = document.createElement("div");
-        newVisual.setAttribute("class", "combo-container");
+        newVisual.setAttribute("class", "combo-container card-sizer-half");
         newVisual.innerHTML = comboVisualAreaTemplate;
         insertionArea.appendChild(newVisual);
 
@@ -139,11 +139,11 @@ function PopulateCombos(targetDiv, targetComboType)
         if (combo["banishes"] > 0)
         {
           const halfImage = document.createElement("img");
-          halfImage.setAttribute("class", "combo-image-half hundred");
+          halfImage.setAttribute("class", "combo-image hundred");
           shell.appendChild(halfImage);
 
           const halfSpan = document.createElement("span");
-          halfSpan.setAttribute("class", "combo-text-hundred");
+          halfSpan.setAttribute("class", "combo-text-hundred overlay-text");
           halfSpan.innerHTML = "x" + String(combo["banishes"]);
           shell.appendChild(halfSpan);
         }
@@ -151,7 +151,7 @@ function PopulateCombos(targetDiv, targetComboType)
         if (combo["cipher"])
         {
           const xSpan = document.createElement("span");
-          xSpan.setAttribute("class", "combo-text-x");
+          xSpan.setAttribute("class", "combo-text-x overlay-text");
           xSpan.innerHTML = "+EX";
           shell.appendChild(xSpan);
         }
@@ -202,7 +202,7 @@ function ButtonFunc(number)
   urlParams.set("tab", num);
   window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
 
-  for (const child of document.getElementById("button-area").children) {
+  for (const child of document.getElementById("nav-button-area").children) {
     if (child.getAttribute("id").endsWith(num))
     {
       child.setAttribute("disabled", true);

@@ -1,21 +1,4 @@
-#button-area {
-	display: flex;
-	width: 100%;
-	padding-bottom: 12px;
-	border-bottom: 4px dotted #5c636c;
-}
 
-@media screen and (min-width: 8in) {
-	#button-area {
-		justify-content: flex-start;
-	}
-}
-
-@media screen and (max-width: 8in) {
-	#button-area {
-		justify-content: space-evenly;
-	}
-}
 
 .combo-entry {
 	width: auto;
@@ -25,38 +8,35 @@
 	border-bottom: 4px dotted #5c636c;
 }
 
-.combo-container {
-	height: 313px;
-	min-width: 140px;
-	float: left;
+.combo-insertion-area {
+	overflow: hidden;
 
 }
 
-.image-shell {
-	height: inherit;
-	position: relative;
-	height: 100%;
+.combo-container {
+	float: left;
 }
 
 .combo-image {
-	height: 100%;
+	width: 100%;
 	position: relative;
 }
 
-.combo-image-half {
-	position: absolute;
-	height: 67%;
+.image-shell {
+	position: relative;
 	top: 0px;
 	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
 }
 
 .combo-text-hundred {
 	position: absolute;
-	top: 52px;
-	left: 42px;
-	text-align: center;
+	top: 20%;
+	left: 0;
+	right: 0;
 	color: #94ff71;
-	font-size: 64px;
 	font-family: "calibri";
 	font-weight: bold;
 	text-shadow: 2px 3px black;
@@ -65,20 +45,19 @@
 
 .combo-text-x {
 	position: absolute;
-	left: 16px;
-	bottom: 18px;
-	text-align: left;
+	bottom: -35%;
+	left: 0;
+	right: 0;
 	color: #e32245;
-	font-size: 64px;
 	font-family: "calibri";
 	font-weight: bold;
-	text-shadow: 2px 3px #4e3f41;
+	text-shadow: 2px 3px black;
 	user-select: none;
 }
 
 .combo-area-sub {
 	position: absolute;
-	height: 78px;
+	height: 25%;
 	bottom: 8px;
 	right: 8px;
 }
@@ -88,11 +67,6 @@
 	height: 100%;
 	margin-left: -2px;
 	border: 2px solid #82ace8;
-}
-
-.combo-arrow {
-	float: left;
-	height: 313px;
 }
 
 .combo-description {
