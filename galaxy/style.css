@@ -14,14 +14,27 @@
 }
 
 .standard-button {
-	padding: 0px;
+	padding: 4pt;
 	background-color: #48a9bd;
 	border: 2px solid #9fcdd6;
-	border-radius: 0.25em;
+	font-size: 18pt;
 	color: #FFF;
-	font-size: 24px;
 	font-family: "calibri";
 	cursor: pointer;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 8in) {
+	.standard-button {
+		border-radius: 0.25em;
+	}
+}
+
+
+@media screen and (max-width: 8in) {
+	.standard-button {
+		border-radius: 0;
+	}
 }
 
 .standard-button:hover {
