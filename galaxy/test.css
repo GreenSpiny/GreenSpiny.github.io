@@ -1,0 +1,14 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #111;
+}
+
+.combo-area {
+	position: absolute;
+	top: 8px;
+	bottom: 8px;
+	left: 8px;
+	right: 8px;
+	background-color: #555;
+}
