@@ -16,29 +16,37 @@
 #nav-button-area {
 	width: 100%;
 	display: flex;
+	justify-content: flex-start;
 	flex-direction: row;
 	padding-bottom: 12px;
 	border-bottom: 4px dotted #5c636c;
 }
 
-@media screen and (min-width: 8in) {
-	#nav-button-area {
-		justify-content: flex-start;
-	}
-	#nav-button-area button {
-		min-width: 120px;
-		padding: 4px;
-		margin-right: 8px;
-	}
+#nav-button-area button {
+	min-width: 120px;
+	padding: 4px;
+	margin-right: 8px;
 }
 
-@media screen and (max-width: 8in) {
+@media screen and (max-width: 600px) {
 	#nav-button-area {
 		justify-content: center;
 	}
 	#nav-button-area button {
 		width: 20%;
 		padding: 0px;
+		margin-right: 0px;
+	}
+}
+
+@media handheld {
+	#nav-button-area {
+		justify-content: center;
+	}
+	#nav-button-area button {
+		width: 20%;
+		padding: 0px;
+		margin-right: 0px;
 	}
 }
 
@@ -46,6 +54,7 @@
 	padding: 4pt;
 	background-color: #48a9bd;
 	border: 2px solid #9fcdd6;
+	border-radius: 0.25em;
 	font-size: 18pt;
 	color: #FFF;
 	font-family: "calibri";
@@ -53,14 +62,12 @@
 	overflow: hidden;
 }
 
-@media screen and (min-width: 8in) {
+@media screen and (max-width: 600px) {
 	.standard-button {
-		border-radius: 0.25em;
+		border-radius: 0;
 	}
 }
-
-
-@media screen and (max-width: 8in) {
+@media handheld {
 	.standard-button {
 		border-radius: 0;
 	}
@@ -76,7 +83,7 @@
 	border-color: #AAA;
 }
 
-@media screen and (min-width: 12in) {
+@media screen and (min-width: 1200px) {
 	.card-sizer {
 		width: 200px;
 	}
@@ -94,7 +101,7 @@
 	}
 }
 
-@media screen and (max-width: 12in) {
+@media screen and (max-width: 1200px) {
 	.card-sizer {
 		width: 150px;
 	}
@@ -112,7 +119,7 @@
 	}
 }
 
-@media screen and (max-width: 8in) {
+@media handheld {
 	.card-sizer {
 		width: 1in;
 	}
