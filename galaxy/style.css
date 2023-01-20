@@ -39,7 +39,7 @@
 	}
 }
 
-@media screen and (hover: none) {
+@media screen and (max-width: 8in) {
 	#nav-button-area {
 		justify-content: center;
 	}
@@ -68,7 +68,7 @@
 	}
 }
 
-@media screen and (hover: none) {
+@media screen and (max-width: 8in) {
 	.standard-button {
 		border-radius: 0;
 	}
@@ -120,7 +120,7 @@
 	}
 }
 
-@media screen and (hover: none) {
+@media screen and (max-width: 8in) {
 	.card-sizer {
 		width: 1in;
 	}
