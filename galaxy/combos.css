@@ -18,6 +18,10 @@ body {
 	background-color: #222;
 }
 
+[hidden] {
+	display: none;
+}
+
 .combo {
 	padding: 4px;
 	border-top: 4px dotted #888;
@@ -60,36 +64,19 @@ body {
 	border: 1px solid #222;
 }
 
-.entry-text {
-	font-size: 16pt;
-	margin: 4px;
-	padding: 0;
-	color: #DDD;
-	font-family: calibri;
-	font-weight: bold;
-	text-align: center;
-}
-
 .path-button {
 	display: block;
-	font-size: 14pt;
 	margin: 4px auto 4px auto;
 	padding: 4px 12px 4px 12px;
 	border-radius: 8px;
 	border: 1px solid black;
-	color: #CCC;
-	background-color: #4c525c;
-	font-family: calibri;
-	font-weight: normal;
-	text-align: center;
-	cursor: pointer;
 }
 
-.path-button:hover {
+.button-text:hover {
 	background-color: #606580;
 }
 
-.path-button:active {
+.button-text:active {
 	background-color: #707590;
 }
 
@@ -103,7 +90,29 @@ body {
 	border: 1px solid #333;
 }
 
-.path-desc-text {
+/* -------------------- */
+
+.header-text {
+	font-size: 16pt;
+	margin: 4px;
+	padding: 0;
+	color: #DDD;
+	font-family: calibri;
+	font-weight: bold;
+	text-align: center;
+}
+
+.button-text {
+	font-size: 12pt;
+	color: #CCC;
+	background-color: #4c525c;
+	font-family: calibri;
+	font-weight: normal;
+	text-align: center;
+	cursor: pointer;
+}
+
+.desc-text {
 	font-size: 14pt;
 	margin: 0;
 	padding: 0;
@@ -121,13 +130,13 @@ body {
 	.card {
 		margin: 4px;
 	}
-	.entry-text {
+	.header-text {
 		font-size: 20pt;
 	}
-	.path-button {
-		font-size: 16pt;
+	.button-text {
+		font-size: 14pt;
 	}
-	.path-desc-text {
+	.desc-text {
 		font-size: 16pt;
 	}
 	.sub-card-area {

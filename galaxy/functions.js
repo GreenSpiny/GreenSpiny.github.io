@@ -1,6 +1,6 @@
 //python -m http.server
 // ------------------------------------------------------ //
-const comboAreaTemplate = `
+const comboTemplate = `
 <p class="combo-text-title"></p>
 <p class="combo-text-notes"></p>
 <p class="combo-text-reqs"></p>
@@ -20,19 +20,22 @@ const comboImageTemplate = `<img class="combo-image Z"><div class="combo-area-su
 
 // ------------------------------------------------------ //
 const url = "combos-list.json";
+const minUnits = 5.5;
+
 function PopulateCombos(targetDiv, targetComboType)
 {
   const request = new Request(url, { cache: "no-cache" });
   const comboArea = targetDiv;
   fetch(request).then((response)=>response.json()).then((data)=> {
+
     for (let combo of data[targetComboType])
     {
       const newDiv = document.createElement("div");
       newDiv.setAttribute("id", combo["name"]);
-      newDiv.setAttribute("class", "combo-entry");
-      newDiv.innerHTML = comboAreaTemplate;
+      newDiv.setAttribute("class", "combo");
       comboArea.appendChild(newDiv);
 
+      /*
       // title
       const title = newDiv.getElementsByClassName("combo-text-title")[0];
       title.innerHTML = combo["name"];
@@ -187,9 +190,9 @@ function PopulateCombos(targetDiv, targetComboType)
           button.innerHTML = "Combo Path ▲";
           content.style.display = "block";
         }
-
+      
       });
-
+    */
     }
   }).catch(console.error);
 }
@@ -202,6 +205,7 @@ function ButtonFunc(number)
   urlParams.set("tab", num);
   window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
 
+  /*
   for (const child of document.getElementById("nav-button-area").children) {
     if (child.getAttribute("id").endsWith(num))
     {
@@ -212,18 +216,19 @@ function ButtonFunc(number)
       child.removeAttribute("disabled");
     }
   }
+  */
 
-  for (const child of document.getElementById("combo-area").children) {
+  for (const child of document.getElementById("center-column").children) {
     if (child.getAttribute("id").endsWith(num))
     {
       child.removeAttribute("hidden");
     }
     else
     {
+      console.log("HIDE ME!");
       child.setAttribute("hidden", true);
     }
   }
-
 }
 
 // ------------------------------------------------------ //
@@ -253,6 +258,7 @@ function ToggleButton(self)
   if (content.style.display === "block")
   {
     self.innerHTML = "Combo Path ▼";
+    self.removeClass("active");
     content.style.display = "none";
   }
   else
