@@ -1,26 +1,26 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #000;
+	background-color: #2c3d46;
+}
+
+#center-column {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #222;
+	max-width: 1200px;
 }
 
 .combo-area {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
 	background-color: #222;
 }
 
 .combo {
-	margin-left: auto;
-	margin-right: auto;
-	padding: 4px; /* increase with screen size */
-	border-bottom: 4px dotted #888;
-	max-width: 1200px;
+	padding: 4px;
+	border-top: 4px dotted #888;
 }
 
 .card-area {
@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-	margin: 2px; /* increase with screen size */
+	margin: 2px;
 }
 
 .card-img {
@@ -61,7 +61,7 @@ body {
 }
 
 .entry-text {
-	font-size: 16pt; /* increase with screen size */
+	font-size: 16pt;
 	margin: 4px;
 	padding: 0;
 	color: #DDD;
@@ -72,10 +72,11 @@ body {
 
 .path-button {
 	display: block;
-	font-size: 14pt; /* increase with screen size */
+	font-size: 14pt;
 	margin: 4px auto 4px auto;
 	padding: 4px 12px 4px 12px;
 	border-radius: 8px;
+	border: 1px solid black;
 	color: #CCC;
 	background-color: #4c525c;
 	font-family: calibri;
@@ -98,16 +99,39 @@ body {
 	max-width: 800px;
 	padding: 0px;
 	margin: auto;
-	background-color: #111;
+	background-color: #151515;
 	border: 1px solid #333;
 }
 
 .path-desc-text {
-	font-size: 14pt; /* increase with screen size */
+	font-size: 14pt;
 	margin: 0;
 	padding: 0;
 	color: #EEE;
 	font-family: calibri;
 	font-weight: normal;
 	text-align: left;
+}
+
+@media screen and (min-width: 800px) {
+	.combo-area {
+		border: 4px solid #17191a;
+		border-top: none;
+	}
+	.card {
+		margin: 4px;
+	}
+	.entry-text {
+		font-size: 20pt;
+	}
+	.path-button {
+		font-size: 16pt;
+	}
+	.path-desc-text {
+		font-size: 16pt;
+	}
+	.sub-card-area {
+		height: 38%;
+		bottom: calc(38% + 1px);
+	}
 }
