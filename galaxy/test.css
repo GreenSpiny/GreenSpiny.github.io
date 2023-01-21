@@ -1,14 +1,82 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #111;
+	background-color: #555;
 }
 
 .combo-area {
+	display: flex;
+	flex-direction: column;
 	position: absolute;
-	top: 8px;
-	bottom: 8px;
-	left: 8px;
-	right: 8px;
-	background-color: #555;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #111;
+}
+
+.combo {
+	font-size: 24pt;
+	padding: 8px;
+	border-bottom: 4px dotted #888;
+	background-color: #111;
+}
+
+.card-area {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.card {
+	margin: 4px;
+}
+
+.card-img {
+	width: 100%;
+	border: 1px solid #96C8FF;
+}
+
+.sub-card-area {
+	width: 100%;
+	height: 100%;
+}
+
+.sub-card {
+	height: 100%;
+	float: right;
+}
+
+.borderless {
+	border: 1px solid #111;
+}
+
+.entry-text {
+	margin: 4px;
+	padding: 0;
+	color: #DDD;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+@media screen and (orientation: portrait) {
+	.entry-text {
+		text-align: center;
+	}
+}
+
+.info-text {
+	font-size: 18pt;
+	margin: 0;
+	padding: 0;
+	color: #DDD;
+	font-family: calibri;
+	font-weight: bold;
+}
+.green-text {
+	color: #79e56d;
+}
+
+.red-text {
+	color: #f16262;
 }
