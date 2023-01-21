@@ -245,3 +245,19 @@ function Initialize()
   PopulateCombos(document.getElementById("card-combos-4"), "3-card-combos");
   PopulateCombos(document.getElementById("card-combos-5"), "jank-combos");
 }
+
+// ------------------------------------------------------ //
+function ToggleButton(self)
+{
+  var content = self.nextElementSibling;
+  if (content.style.display === "block")
+  {
+    self.innerHTML = "Combo Path ▼";
+    content.style.display = "none";
+  }
+  else
+  {
+    self.innerHTML = "Combo Path ▲";
+    content.style.display = "block";
+  }
+}

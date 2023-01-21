@@ -76,7 +76,7 @@ body {
 .path-button {
 	display: block;
 	font-size: 14pt; /* increase with screen size */
-	margin: 4px auto 8px auto;
+	margin: 2px auto 4px auto; /* increase with screen size */
 	padding: 4px 12px 4px 12px;
 	border-radius: 8px;
 	color: #CCC;
@@ -84,13 +84,19 @@ body {
 	font-family: calibri;
 	font-weight: normal;
 	text-align: center;
+	cursor: pointer;
 }
 
 .path-button:hover {
-	background-color: #666577;
+	background-color: #606580;
+}
+
+.path-button:active {
+	background-color: #707590;
 }
 
 .path-desc-area {
+	display: none;
 	width: 100%;
 	max-width: 800px;
 	padding: 0px;
@@ -107,8 +113,4 @@ body {
 	font-family: calibri;
 	font-weight: normal;
 	text-align: left;
-}
-
-.test {
-	background-color: red;
 }
