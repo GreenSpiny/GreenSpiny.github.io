@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #555;
+	background-color: #000;
 }
 
 .combo-area {
@@ -12,14 +12,13 @@ body {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background-color: #111;
+	background-color: #222;
 }
 
 .combo {
-	font-size: 24pt;
 	padding: 8px;
 	border-bottom: 4px dotted #888;
-	background-color: #111;
+	max-width: 1200px;
 }
 
 .card-area {
@@ -38,45 +37,72 @@ body {
 }
 
 .sub-card-area {
-	width: 100%;
-	height: 100%;
+	position: relative;
+	height: 33%;
+	top: -33%;
+	left: 1px;
+	right: -1px;
 }
 
 .sub-card {
 	height: 100%;
+	width: 33%;
 	float: right;
+	background-color: green;
+	background-image: url("images/cropped/82085619.jpg");
+	background-size: contain;
 }
 
 .borderless {
-	border: 1px solid #111;
+	border: 1px solid #222;
 }
 
 .entry-text {
+	font-size: 24pt;
 	margin: 4px;
 	padding: 0;
 	color: #DDD;
 	font-family: calibri;
 	font-weight: bold;
+	text-align: center;
 }
 
-@media screen and (orientation: portrait) {
-	.entry-text {
-		text-align: center;
-	}
+.path-button {
+	display: block;
+	font-size: 16pt;
+	margin: 4px auto 8px auto;
+	padding: 4px 12px 4px 12px;
+	border-radius: 8px;
+	color: #CCC;
+	background-color: #4c525c;
+	font-family: calibri;
+	font-weight: normal;
+	text-align: center;
 }
 
-.info-text {
-	font-size: 18pt;
+.path-button:hover {
+	background-color: #666577;
+}
+
+.path-desc-area {
+	width: 100%;
+	max-width: 800px;
+	padding: 0px;
+	margin: auto;
+	background-color: #111;
+	border: 1px solid #333;
+}
+
+.path-desc-text {
+	font-size: 16pt;
 	margin: 0;
 	padding: 0;
-	color: #DDD;
+	color: #EEE;
 	font-family: calibri;
-	font-weight: bold;
-}
-.green-text {
-	color: #79e56d;
+	font-weight: normal;
+	text-align: left;
 }
 
-.red-text {
-	color: #f16262;
+.test {
+	background-color: red;
 }
