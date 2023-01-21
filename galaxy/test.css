@@ -18,7 +18,7 @@ body {
 .combo {
 	margin-left: auto;
 	margin-right: auto;
-	padding: 8px;
+	padding: 4px; /* increase with screen size */
 	border-bottom: 4px dotted #888;
 	max-width: 1200px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-	margin: 4px;
+	margin: 2px; /* increase with screen size */
 }
 
 .card-img {
@@ -56,7 +56,7 @@ body {
 	background-position-x: center;
 	background-position-y: center;
 	box-sizing: border-box;
-	border: 2px solid black;
+	border: 1px solid black;
 }
 
 .borderless {
@@ -64,7 +64,7 @@ body {
 }
 
 .entry-text {
-	font-size: 24pt;
+	font-size: 16pt; /* increase with screen size */
 	margin: 4px;
 	padding: 0;
 	color: #DDD;
@@ -75,7 +75,7 @@ body {
 
 .path-button {
 	display: block;
-	font-size: 16pt;
+	font-size: 14pt; /* increase with screen size */
 	margin: 4px auto 8px auto;
 	padding: 4px 12px 4px 12px;
 	border-radius: 8px;
@@ -100,7 +100,7 @@ body {
 }
 
 .path-desc-text {
-	font-size: 16pt;
+	font-size: 14pt; /* increase with screen size */
 	margin: 0;
 	padding: 0;
 	color: #EEE;
