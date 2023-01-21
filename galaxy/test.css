@@ -16,6 +16,8 @@ body {
 }
 
 .combo {
+	margin-left: auto;
+	margin-right: auto;
 	padding: 8px;
 	border-bottom: 4px dotted #888;
 	max-width: 1200px;
@@ -38,19 +40,23 @@ body {
 
 .sub-card-area {
 	position: relative;
-	height: 33%;
-	top: -33%;
-	left: 1px;
-	right: -1px;
+	height: 50%;
+	width: 100%;
+	bottom: calc(50% + 1px);
+	right: 0px;
+	left: 0px;
 }
 
 .sub-card {
 	height: 100%;
-	width: 33%;
+	width: calc(33%);
 	float: right;
 	background-color: green;
-	background-image: url("images/cropped/82085619.jpg");
-	background-size: contain;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	box-sizing: border-box;
+	border: 2px solid black;
 }
 
 .borderless {
