@@ -51,10 +51,7 @@ body {
 	height: 100%;
 	width: calc(33%);
 	float: right;
-	background-color: green;
 	background-size: cover;
-	background-position-x: center;
-	background-position-y: center;
 	box-sizing: border-box;
 	border: 1px solid black;
 }
@@ -76,7 +73,7 @@ body {
 .path-button {
 	display: block;
 	font-size: 14pt; /* increase with screen size */
-	margin: 2px auto 4px auto; /* increase with screen size */
+	margin: 4px auto 4px auto;
 	padding: 4px 12px 4px 12px;
 	border-radius: 8px;
 	color: #CCC;

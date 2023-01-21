@@ -74,9 +74,9 @@
 
 /* --- sub cards --- */
 
-.gepd-sub 			{ background:url("images/cropped/93717133.jpg"); }
-.emperor-sub 		{ background:url("images/cropped/73478096.jpg"); }
-.afterglow-sub 		{ background:url("images/cropped/62968263.jpg"); }
+.gepd-sub 			{ background:url("images/cropped/93717133.jpg"); background-position-x: 30% }
+.emperor-sub 		{ background:url("images/cropped/73478096.jpg"); background-position-x: 50%}
+.afterglow-sub 		{ background:url("images/cropped/62968263.jpg"); background-position-x: 80%}
 .veiler-sub			{ background:url("images/cropped/97268402.jpg"); }
 
 /* --- utility --- */
