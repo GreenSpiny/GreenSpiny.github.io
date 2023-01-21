@@ -1,28 +1,24 @@
 //python -m http.server
 // ------------------------------------------------------ //
-const comboTemplate = `
-<p class="combo-text-title"></p>
-<p class="combo-text-notes"></p>
-<p class="combo-text-reqs"></p>
-<div class="combo-insertion-area">
-
-</div>
-<div class="combo-description">
-  <button type="button" class="collapsible">Combo Path ▼</button>
-  <div class="combo-description-content">
-
-  </div>
+const cardTemplate = `
+<div id="YYY" class="card">
+  <img class="card-img XXX">
+  <div class="sub-card-area"></div>
 </div>
 `;
 
-const comboVisualAreaTemplate = `<div class="image-shell"></div>`;
-const comboImageTemplate = `<img class="combo-image Z"><div class="combo-area-sub card-sizer-mini"></div>`;
+const pathTemplate = `
+<button class="path-button button-text" onclick="ToggleButton(this)">Combo Path ▼</button>
+<div class="path-desc-area">
+  <ol></ol>
+</div>
+`;
 
 // ------------------------------------------------------ //
 const url = "combos-list.json";
-const minUnits = 5.5;
+var cardCount = 0;
 
-function PopulateCombos(targetDiv, targetComboType)
+function PopulateCombos(targetDiv, targetComboType, minUnits)
 {
   const request = new Request(url, { cache: "no-cache" });
   const comboArea = targetDiv;
@@ -30,16 +26,25 @@ function PopulateCombos(targetDiv, targetComboType)
 
     for (let combo of data[targetComboType])
     {
-      const newDiv = document.createElement("div");
-      newDiv.setAttribute("id", combo["name"]);
-      newDiv.setAttribute("class", "combo");
-      comboArea.appendChild(newDiv);
+      cardsInCombo = 0;
+
+      const comboDiv = document.createElement("div");
+      comboDiv.setAttribute("id", combo["name"]);
+      comboDiv.setAttribute("class", "combo");
+      comboArea.appendChild(comboDiv);
+
+      // title
+      const titleElement = document.createElement("p");
+      titleElement.setAttribute("class", "header-text");
+      titleElement.innerHTML = combo["name"];
+      comboDiv.appendChild(titleElement);
+
+      // card area
+      const cardArea = document.createElement("div");
+      cardArea.setAttribute("class", "card-area");
+      comboDiv.appendChild(cardArea);
 
       /*
-      // title
-      const title = newDiv.getElementsByClassName("combo-text-title")[0];
-      title.innerHTML = combo["name"];
-
       // notes
       const notesArea = newDiv.getElementsByClassName("combo-text-notes")[0];
       const notes = combo["notes"];
@@ -70,129 +75,86 @@ function PopulateCombos(targetDiv, targetComboType)
         reqsList.innerHTML = combo["reqs"];
         reqsArea.appendChild(reqsList);
       }
+      */
 
       // start
-      const insertionArea = newDiv.getElementsByClassName("combo-insertion-area")[0];
       const start = combo["start"].split(',');
       for (let i = 0; i < start.length; i++)
       {
+        cardCount++;
+        cardsInCombo++;
         const startParts = start[i].split('|');
-
-        const newVisual = document.createElement("div");
-        newVisual.setAttribute("class", "combo-container card-sizer");
-        newVisual.innerHTML = comboVisualAreaTemplate;
-        insertionArea.appendChild(newVisual);
-
-        const shell = newVisual.getElementsByClassName("image-shell")[0];
-        const bigImage = comboImageTemplate.replace("Z", startParts[0]);
-        shell.innerHTML = bigImage;
-
-        const miniImageShell = shell.getElementsByClassName("combo-area-sub")[0];
+        const currentId = "_card" + String(cardCount);
+        cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("YYY", currentId).replace("XXX", startParts[0] + "-cropped"));
+        const subArea = document.getElementById(currentId).getElementsByClassName("sub-card-area")[0];
         for (let j = 1; j < startParts.length; j++)
         {
           const miniImage = document.createElement("img");
-          miniImage.setAttribute("class", "combo-image-sub " + startParts[j]);
-          miniImageShell.appendChild(miniImage);
+          miniImage.setAttribute("class", "sub-card " + startParts[j] + "-sub");
+          subArea.appendChild(miniImage);
         }
       }
 
+      
       // arrow
       if (combo["end"].length > 0)
       {
-        const newArrow = document.createElement("img");
-        newArrow.setAttribute("class", "combo-container card-spacer");
-        newArrow.setAttribute("src", "combo-arrow.png");
-        insertionArea.appendChild(newArrow);
+        cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("XXX", "arrow borderless"));
       }
 
       // end
       const end = combo["end"].split(',');
       for (let i = 0; i < end.length; i++)
       {
+        cardCount++;
+        cardsInCombo++;
         const endParts = end[i].split('|');
-
-        const newVisual = document.createElement("div");
-        newVisual.setAttribute("class", "combo-container card-sizer");
-        newVisual.innerHTML = comboVisualAreaTemplate;
-        insertionArea.appendChild(newVisual);
-
-        const shell = newVisual.getElementsByClassName("image-shell")[0];
-        const bigImage = comboImageTemplate.replace("Z", endParts[0]);
-        shell.innerHTML = bigImage;
-
-        const miniImageShell = shell.getElementsByClassName("combo-area-sub")[0];
+        const currentId = "_card" + String(cardCount);
+        cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("YYY", currentId).replace("XXX", endParts[0] + "-cropped"));
+        const subArea = document.getElementById(currentId).getElementsByClassName("sub-card-area")[0];
         for (let j = 1; j < endParts.length; j++)
         {
           const miniImage = document.createElement("img");
-          miniImage.setAttribute("class", "combo-image-sub " + endParts[j]);
-          miniImageShell.appendChild(miniImage);
+          miniImage.setAttribute("class", "sub-card " + endParts[j] + "-sub");
+          subArea.appendChild(miniImage);
         }
       }
 
+      
       // bonuses
       if (combo["banishes"] > 0 || combo["cipher"])
       {
-        const newVisual = document.createElement("div");
-        newVisual.setAttribute("class", "combo-container card-sizer-half");
-        newVisual.innerHTML = comboVisualAreaTemplate;
-        insertionArea.appendChild(newVisual);
-
-        const shell = newVisual.getElementsByClassName("image-shell")[0];
-
-        if (combo["banishes"] > 0)
-        {
-          const halfImage = document.createElement("img");
-          halfImage.setAttribute("class", "combo-image hundred");
-          shell.appendChild(halfImage);
-
-          const halfSpan = document.createElement("span");
-          halfSpan.setAttribute("class", "combo-text-hundred overlay-text");
-          halfSpan.innerHTML = "x" + String(combo["banishes"]);
-          shell.appendChild(halfSpan);
-        }
-
+        var className = "hundred-";
+        className += String(combo["banishes"]);
         if (combo["cipher"])
         {
-          const xSpan = document.createElement("span");
-          xSpan.setAttribute("class", "combo-text-x overlay-text");
-          xSpan.innerHTML = "+EX";
-          shell.appendChild(xSpan);
+          className += "-ex";
         }
+        cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("XXX", "card-img borderless " + className));
+      }
+      else
+      {
+        cardArea.insertAdjacentHTML("afterbegin", cardTemplate.replace("XXX", "card-img borderless blank-quarter"));
+        cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("XXX", "card-img borderless blank-quarter"));
       }
 
       // path
-      var finalPath = "";
-      const path = combo["path"].split('.');
-      for (let i = 0; i < path.length - 1; i++)
+      comboDiv.insertAdjacentHTML("beforeend", pathTemplate);
+      const ol = comboDiv.getElementsByTagName("ol")[0];
+      const splitPath = combo["path"].split(".");
+      for (let i = 0; i < splitPath.length - 1; i++)
       {
-        var spacer = "";
-        if (i < 9 && path.length >= 11)
-        {
-          spacer = " ";
-        }
-        finalPath += String(i + 1) + ". " + spacer + path[i].trim() + ".";
-        if (i != path.length - 1)
-        {
-          finalPath += "<br>"
-        }
+        ol.insertAdjacentHTML("beforeend", "<li class='desc-text'>" + splitPath[i] + "</li>");
       }
-      newDiv.getElementsByClassName("combo-description-content")[0].innerHTML = "<p class='mono-text'>" + finalPath + "</p>";
-      const button = newDiv.getElementsByClassName("collapsible")[0];
-      button.addEventListener("click", function() {
-        var content = this.nextElementSibling;
-        if (content.style.display === "block")
-        {
-          button.innerHTML = "Combo Path ▼";
-          content.style.display = "none";
-        }
-        else
-        {
-          button.innerHTML = "Combo Path ▲";
-          content.style.display = "block";
-        }
-      
-      });
-    */
+
+      // extra padding
+      const diff = minUnits - cardsInCombo;
+      for (let i = 0; i < diff; i++)
+      {
+        cardArea.insertAdjacentHTML("afterbegin", cardTemplate.replace("XXX", "card-img borderless blank-half"));
+        cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("XXX", "card-img borderless blank-half"));
+      }
+
     }
   }).catch(console.error);
 }
@@ -225,7 +187,6 @@ function ButtonFunc(number)
     }
     else
     {
-      console.log("HIDE ME!");
       child.setAttribute("hidden", true);
     }
   }
@@ -244,11 +205,13 @@ function Initialize()
   }
 
   ButtonFunc(tab);
-  PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos");
-  PopulateCombos(document.getElementById("card-combos-2"), "1.5-card-combos");
-  PopulateCombos(document.getElementById("card-combos-3"), "2-card-combos");
-  PopulateCombos(document.getElementById("card-combos-4"), "3-card-combos");
-  PopulateCombos(document.getElementById("card-combos-5"), "jank-combos");
+
+  cardCount = 0;
+  PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos", 5);
+  PopulateCombos(document.getElementById("card-combos-2"), "1.5-card-combos", 5);
+  PopulateCombos(document.getElementById("card-combos-3"), "2-card-combos", 5);
+  PopulateCombos(document.getElementById("card-combos-4"), "3-card-combos", 5);
+  PopulateCombos(document.getElementById("card-combos-5"), "jank-combos", 5);
 }
 
 // ------------------------------------------------------ //
@@ -258,7 +221,6 @@ function ToggleButton(self)
   if (content.style.display === "block")
   {
     self.innerHTML = "Combo Path ▼";
-    self.removeClass("active");
     content.style.display = "none";
   }
   else

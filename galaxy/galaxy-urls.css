@@ -74,6 +74,7 @@
 
 /* --- sub cards --- */
 
+.jumper-sub 		{ background:url("images/cropped/97639441.jpg"); background-position-x: 50% }
 .gepd-sub 			{ background:url("images/cropped/93717133.jpg"); background-position-x: 30% }
 .emperor-sub 		{ background:url("images/cropped/73478096.jpg"); background-position-x: 50%}
 .afterglow-sub 		{ background:url("images/cropped/62968263.jpg"); background-position-x: 80%}
@@ -83,6 +84,7 @@
 
 .arrow			{ content:url("images/arrow.png"); }
 .blank			{ content:url("images/blank.png"); }
+.blank-quarter	{ content:url("images/blank-quarter.png"); }
 .blank-half		{ content:url("images/blank-half.png"); }
 .hundred-0		{ content:url("images/blank-half.png"); }
 .hundred-1		{ content:url("images/hundred-1.png"); }

@@ -40,6 +40,7 @@ body {
 .card-img {
 	width: 100%;
 	border: 1px solid #96C8FF;
+	box-sizing: border-box;
 }
 
 .sub-card-area {
@@ -48,12 +49,12 @@ body {
 	width: 100%;
 	bottom: calc(50% + 1px);
 	right: 0px;
-	left: 0px;
+	left: 1px;
 }
 
 .sub-card {
 	height: 100%;
-	width: calc(33%);
+	width: calc(33.3333%);
 	float: right;
 	background-size: cover;
 	box-sizing: border-box;
@@ -61,7 +62,7 @@ body {
 }
 
 .borderless {
-	border: 1px solid #222;
+	border: 0px;
 }
 
 .path-button {
@@ -84,17 +85,21 @@ body {
 	display: none;
 	width: 100%;
 	max-width: 800px;
-	padding: 0px;
+	padding-left: 12px;
 	margin: auto;
 	background-color: #151515;
 	border: 1px solid #333;
+}
+
+.path-desc-area ol {
+	padding-right: 12px;
 }
 
 /* -------------------- */
 
 .header-text {
 	font-size: 16pt;
-	margin: 4px;
+	margin: 2px;
 	padding: 0;
 	color: #DDD;
 	font-family: calibri;
@@ -113,11 +118,11 @@ body {
 }
 
 .desc-text {
-	font-size: 14pt;
+	font-size: 12pt;
 	margin: 0;
 	padding: 0;
-	color: #EEE;
-	font-family: calibri;
+	color: #DDD;
+	font-family: arial;
 	font-weight: normal;
 	text-align: left;
 }
@@ -132,12 +137,13 @@ body {
 	}
 	.header-text {
 		font-size: 20pt;
+		margin: 4px;
 	}
 	.button-text {
 		font-size: 14pt;
 	}
 	.desc-text {
-		font-size: 16pt;
+		font-size: 14pt;
 	}
 	.sub-card-area {
 		height: 38%;
