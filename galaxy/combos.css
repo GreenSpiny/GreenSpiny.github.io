@@ -28,26 +28,25 @@
 
 .card {
 	margin: 2px;
+	box-sizing: border-box;
 }
 
 .card-img {
 	width: 100%;
 	border: 1px solid #96C8FF;
-	box-sizing: border-box;
 }
 
 .sub-card-area {
 	position: relative;
 	height: 50%;
 	width: 100%;
-	bottom: calc(50% + 1px);
-	right: 0px;
+	bottom: calc(50% + 4px);
 	left: 1px;
 }
 
 .sub-card {
 	height: 100%;
-	width: calc(33.3333%);
+	width: calc(33.33333%);
 	float: right;
 	background-size: cover;
 	box-sizing: border-box;
@@ -172,6 +171,6 @@
 	}
 	.sub-card-area {
 		height: 38%;
-		bottom: calc(38% + 1px);
+		bottom: calc(38% + 4px);
 	}
 }
