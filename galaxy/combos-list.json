@@ -209,33 +209,13 @@
 		},
 		{
 			"name": "Terribly Tired Galaxy (example)",
-			"notes": "Bagooska is a generic floodgate that can be ranked up into Photon Lord if your opponent tries to out it.",
+			"notes": "Floodgate your opponent with Bagooska and rank it up into Photon Lord if they have an out.",
 			"start": "soldier,thrasher,vanisher",
 			"end": "sol|gepd,bagooska|jumper,eternal",
 			"reqs": "Number 41: Bagooska the Terribly Tired Tapir, Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
 			"path": "SS Thrasher. SS Vanisher; add GEPD. Thrasher + Vanisher = GPD. SS Soldier discarding GEPD; Soldier add Summoner; GPD make Soldier level 8. GPD detach Thrasher milling Jumper; Jumper add Eternal. NS Summoner; Summoner SS Jumper. Soldier + GPD = Solflare; Solflare add GEPD. Summoner + Jumper = Bagooska. Set Eternal."
-		},
-		{
-			"name": "Pair-a-Dice Lock (example)",
-			"notes": "Pair-a-Dice Smasher has a 92% of locking your opponent VFD style, though it is difficult to establish with follow up.",
-			"start": "",
-			"end": "",
-			"reqs": "Number 67: Pair-a-Dice Smasher, Photon Slasher",
-			"banishes": 0,
-			"cipher": false,
-			"path": ""
-		},
-		{
-			"name": "KuriGoliath (example)",
-			"notes": "A watered down 'Titanic Spheres' strategy - summoning Amorphage Goliath off Spheres and protecting it from battle with Galakuriboh.",
-			"start": "",
-			"end": "",
-			"reqs": "Hieratic Seal of the Heavenly Spheres, Amorphage Goliath, Galakuriboh",
-			"banishes": 0,
-			"cipher": false,
-			"path": ""
 		}
 	]
 }
