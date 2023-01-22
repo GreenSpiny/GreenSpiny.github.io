@@ -24,8 +24,9 @@ body {
 .inner-nav-dropdown {
 	position: relative;
 	top: 0;
-	left: 5%;
-	width: 90%;
+	left: 10%;
+	width: 80%;
+	border: none;
 	z-index: 1;
 	display: none;
 }
@@ -33,7 +34,7 @@ body {
 .nav-dropdown-button {
 	height: 100%;
 	width: 100%;
-	border: 2px solid #555;
+	border: 2px solid #4c525c;;
 	border-radius: 4px;
 	font-size: 12pt;
 	font-family: verdana;
@@ -49,6 +50,31 @@ body {
 	background-color: #707590;
 }
 
+.nav-spacer {
+	height: 0px;
+	width: 100%;
+}
+
+.inner-nav-dropdown-button {
+	width: 100%;
+	height: 32px;
+	border: none;
+	border: 2px solid #4c525c;
+	border-top: none;
+	background-color: #222;
+	color: #CCC;
+	font-size: 10pt;
+	font-family: verdana;
+}
+
+.inner-nav-dropdown-button:hover {
+	background-color: #333;
+}
+
+.inner-nav-dropdown-button:active {
+	background-color: #333;
+}
+
 #center-column {
 	margin-left: auto;
 	margin-right: auto;
@@ -57,5 +83,25 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-	
+	#nav-bar {
+		height: 60px;
+	}
+	.nav-dropdown {
+		width: 164px;
+		margin: 12px 6px 12px 6px;
+		height: 36px;
+	}
+	.nav-dropdown-button {
+		font-size: 14pt;
+	}
+	.inner-nav-dropdown-button {
+		font-size: 12pt;
+		height: 36px;
+	}
+}
+
+@media (orientation: landscape) {
+	body {
+		overflow-y: scroll;
+	}
 }

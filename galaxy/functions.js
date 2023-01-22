@@ -203,3 +203,42 @@ function ToggleButton(self)
     content.style.display = "block";
   }
 }
+
+function DropdownButton(self)
+{
+  CloseAllDropdowns();
+  var content = self.nextElementSibling;
+  if (content != null)
+  {
+    if (content.style.display === "block")
+    {
+      content.style.display = "none";
+    }
+    else
+    {
+      content.style.display = "block";
+    }
+  }
+}
+
+function CloseAllDropdowns()
+{
+  var dropdowns = document.getElementsByClassName("inner-nav-dropdown");
+  for (let i = 0; i < dropdowns.length; i++)
+  {
+    dropdowns[i].style.display = "none";
+  }
+}
+
+function LoadUrl(url)
+{
+  window.location.href = url;
+}
+
+// ------------------------------------------------------ //
+
+window.onclick = function(event) {
+  if (!event.target.matches('.nav-dropdown-button')) {
+    CloseAllDropdowns();
+  }
+}
