@@ -11,6 +11,11 @@ body {
 	max-width: 1200px;
 }
 
+.reqs-area {
+	width: 100%;
+	margin:auto;
+}
+
 .combo-area {
 	display: flex;
 	width: 100%;
@@ -31,6 +36,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
+	margin-top: 2px;
 }
 
 .card {
@@ -84,7 +90,7 @@ body {
 .path-desc-area {
 	display: none;
 	width: 100%;
-	max-width: 800px;
+	max-width: 825px;
 	padding-left: 12px;
 	margin: auto;
 	background-color: #151515;
@@ -99,12 +105,26 @@ body {
 
 .header-text {
 	font-size: 16pt;
-	margin: 2px;
+	margin: 0px;
+	margin-top: 2px;
 	padding: 0;
 	color: #DDD;
 	font-family: calibri;
 	font-weight: bold;
 	text-align: center;
+}
+
+.reqs-text {
+	width: 100%;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+	color: #DDD;
+	font-family: calibri;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 4px;
 }
 
 .button-text {
@@ -113,7 +133,6 @@ body {
 	background-color: #4c525c;
 	font-family: calibri;
 	font-weight: normal;
-	text-align: center;
 	cursor: pointer;
 }
 
@@ -122,9 +141,14 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #DDD;
-	font-family: arial;
+	font-family: consolas, monospace;
 	font-weight: normal;
 	text-align: left;
+}
+
+.alert {
+	font-weight: bold;
+	color: #ff5050;
 }
 
 @media screen and (min-width: 800px) {
@@ -137,7 +161,10 @@ body {
 	}
 	.header-text {
 		font-size: 20pt;
-		margin: 4px;
+		margin-top: 4px;
+	}
+	.reqs-text {
+		font-size: 14pt;
 	}
 	.button-text {
 		font-size: 14pt;

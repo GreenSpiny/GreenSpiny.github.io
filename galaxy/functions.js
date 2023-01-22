@@ -39,6 +39,17 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       titleElement.innerHTML = combo["name"];
       comboDiv.appendChild(titleElement);
 
+      // reqs
+      const reqs = combo["reqs"];
+      if (reqs.length > 0)
+      {
+
+        const reqsElement = document.createElement("div");
+        reqsElement.setAttribute("class", "reqs-area");
+        reqsElement.innerHTML = "<p class='reqs-text'>requirements: <span class='alert'>" + combo["reqs"] + "</span></p>";
+        comboDiv.appendChild(reqsElement);
+      }
+
       // card area
       const cardArea = document.createElement("div");
       cardArea.setAttribute("class", "card-area");
@@ -58,22 +69,6 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       else
       {
         notesArea.setAttribute("hidden", true);
-      }
-
-      // reqs
-      const reqsArea = newDiv.getElementsByClassName("combo-text-reqs")[0];
-      const reqs = combo["reqs"];
-      if (reqs.length > 0)
-      {
-        const reqsElement = document.createElement("p");
-        reqsElement.setAttribute("class", "requirements-text");
-        reqsElement.innerHTML = "requirements:";
-        reqsArea.appendChild(reqsElement);
-
-        const reqsList = document.createElement("p");
-        reqsList.setAttribute("class", "requirements-text-red");
-        reqsList.innerHTML = combo["reqs"];
-        reqsArea.appendChild(reqsList);
       }
       */
 
@@ -144,7 +139,7 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       const splitPath = combo["path"].split(".");
       for (let i = 0; i < splitPath.length - 1; i++)
       {
-        ol.insertAdjacentHTML("beforeend", "<li class='desc-text'>" + splitPath[i] + "</li>");
+        ol.insertAdjacentHTML("beforeend", "<li class='desc-text'>" + splitPath[i] + ".</li>");
       }
 
       // extra padding
