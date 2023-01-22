@@ -179,7 +179,7 @@
 	[
 		{
 			"name": "Optimized Turn Skip (example)",
-			"notes": "Skip your opponent's turn if they activate a card on the field. Deadly, but space hungry and vulnerable.",
+			"notes": "Skip your opponent's turn if they activate a card on the field. Deadly but vulnerable.",
 			"start": "soldier,jumper",
 			"end": "durendal,gpd,gepd,decel",
 			"reqs": "Tellarknight Ptolemaeus, Satellarknight Constellar Diamond, Artifact Durendal, Photon Deceleration",
@@ -189,7 +189,7 @@
 		},
 		{
 			"name": "Pure Turn Skip (example)",
-			"notes": "Omitting the Tellarknight package is a less committal option, though it lacks reliability. Be sure to establish extra follow up.",
+			"notes": "Turn skip without Tellarknights saves space but is less reliabile. Photon Slasher is an option.",
 			"start": "soldier,vanisher,jumper",
 			"end": "durendal,gepd,decel",
 			"reqs": "Artifact Durendal, Photon Deceleration",
@@ -199,7 +199,7 @@
 		},
 		{
 			"name": "Triple Veiler (example)",
-			"notes": "Turning extra combo pieces into Effect Veilers can insulate yourself against board breakers.",
+			"notes": "Turn extra cards into Effect Veilers to insulate yourself against board breakers.",
 			"start": "thrasher,vanisher,jumper,light,light",
 			"end": "sol|veiler|veiler|veiler,lord|afterglow|emperor",
 			"reqs": "Photon Veil, Effect Veiler",
@@ -219,7 +219,7 @@
 		},
 		{
 			"name": "Pair-a-Dice Lock (example)",
-			"notes": "A three material Pair-a-Dice Smasher has a 92% of locking your opponent VFD style, though it is difficult to establish with follow up.",
+			"notes": "Pair-a-Dice Smasher has a 92% of locking your opponent VFD style, though it is difficult to establish with follow up.",
 			"start": "",
 			"end": "",
 			"reqs": "Number 67: Pair-a-Dice Smasher, Photon Slasher",

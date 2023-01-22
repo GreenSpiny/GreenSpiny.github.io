@@ -56,6 +56,7 @@
 .hundred-cropped 		{ content:url("images/cropped/897409.jpg"); }
 .trance-cropped 		{ content:url("images/cropped/63956833.jpg"); }
 .veil-cropped 			{ content:url("images/cropped/9354555.jpg"); }
+.sanc-cropped 			{ content:url("images/cropped/17418744.jpg"); }
 .foolish-cropped		{ content:url("images/cropped/81439174.jpg"); }
 
 .sol-cropped 			{ content:url("images/cropped/3356494.jpg"); }
@@ -78,7 +79,7 @@
 .gepd-sub 			{ background:url("images/cropped/93717133.jpg"); background-position-x: 30% }
 .emperor-sub 		{ background:url("images/cropped/73478096.jpg"); background-position-x: 50%}
 .afterglow-sub 		{ background:url("images/cropped/62968263.jpg"); background-position-x: 80%}
-.veiler-sub			{ background:url("images/cropped/97268402.jpg"); }
+.veiler-sub			{ background:url("images/cropped/97268402.jpg"); background-position-x: 40%}
 
 /* --- utility --- */
 

@@ -39,6 +39,16 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       titleElement.innerHTML = combo["name"];
       comboDiv.appendChild(titleElement);
 
+      // subtitle
+      const notes = combo["notes"];
+      if (notes != null)
+      {
+        const notesElement = document.createElement("p");
+        notesElement.setAttribute("class", "major-text");
+        notesElement.innerHTML = combo["notes"];
+        comboDiv.appendChild(notesElement);
+      }
+
       // reqs
       const reqs = combo["reqs"];
       if (reqs.length > 0)
@@ -46,7 +56,7 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
 
         const reqsElement = document.createElement("div");
         reqsElement.setAttribute("class", "reqs-area");
-        reqsElement.innerHTML = "<p class='reqs-text'>requirements: <span class='alert'>" + combo["reqs"] + "</span></p>";
+        reqsElement.innerHTML = "<p class='minor-text'>requirements: <span class='alert'>" + combo["reqs"] + "</span></p>";
         comboDiv.appendChild(reqsElement);
       }
 
@@ -54,23 +64,6 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       const cardArea = document.createElement("div");
       cardArea.setAttribute("class", "card-area");
       comboDiv.appendChild(cardArea);
-
-      /*
-      // notes
-      const notesArea = newDiv.getElementsByClassName("combo-text-notes")[0];
-      const notes = combo["notes"];
-      if (notes != null)
-      {
-        const notesElement = document.createElement("p");
-        notesElement.setAttribute("class", "notes-text");
-        notesElement.innerHTML = notes;
-        notesArea.appendChild(notesElement);
-      }
-      else
-      {
-        notesArea.setAttribute("hidden", true);
-      }
-      */
 
       // start
       const start = combo["start"].split(',');
@@ -161,21 +154,7 @@ function ButtonFunc(number)
   const urlParams = new URLSearchParams(window.location.search);
   urlParams.set("tab", num);
   window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
-
-  /*
-  for (const child of document.getElementById("nav-button-area").children) {
-    if (child.getAttribute("id").endsWith(num))
-    {
-      child.setAttribute("disabled", true);
-    }
-    else
-    {
-      child.removeAttribute("disabled");
-    }
-  }
-  */
-
-  for (const child of document.getElementById("center-column").children) {
+  for (const child of document.getElementById("center-column").getElementsByClassName("combo-area")) {
     if (child.getAttribute("id").endsWith(num))
     {
       child.removeAttribute("hidden");

@@ -1,11 +1,14 @@
+<!DOCTYPE html>
+<html>
 <head>
-	<title>Testing</title>
+	<title>Combos</title>
 	<meta charset="utf-8">
-	<meta name="keywords" content="Yugioh, Yu-Gi-Oh, Galaxy, Photon, Combo, Sheet">
-	<meta name="description" content="Galaxy/Photon combo reference sheet">
+	<meta name="keywords" content="Yugioh, Yu-Gi-Oh, Galaxy, Photon, Galaxy-Eyes, Combo, Sheet, Reference">
+	<meta name="description" content="The comprehensive Galaxy/Photon combo reference.">
 	<meta name="author" content="greenspiny">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="galaxy-urls.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
 	<link rel="stylesheet" type="text/css" href="combos.css">
 	<script type="text/javascript" src="functions.js"></script>
 </head>
@@ -13,6 +16,25 @@
 <body onload="Initialize()">
 	
 	<div id="center-column">
+
+		<div id="nav-bar">
+			<div class="nav-dropdown">
+				<button class="nav-dropdown-button">Home</button>
+			</div>
+			<div class="nav-dropdown">
+				<button class="nav-dropdown-button">Combos</button>
+				<div class="inner-nav-dropdown">
+					<button class="inner-nav-dropdown-button" onclick="ButtonFunc(1)">1 card</button>
+					<button class="inner-nav-dropdown-button" onclick="ButtonFunc(2)">1.5 card</button>
+				</div>
+			</div>
+			<div class="nav-dropdown">
+				<button class="nav-dropdown-button">Decks</button>
+			</div>
+			<div class="nav-dropdown">
+				<button class="nav-dropdown-button">Discord</button>
+			</div>
+		</div>
 
 		<div id="card-combos-1" class="combo-area"></div>
 		<div id="card-combos-2" class="combo-area"></div>
@@ -23,3 +45,4 @@
 	</div>
 
 </body>
+</html>
