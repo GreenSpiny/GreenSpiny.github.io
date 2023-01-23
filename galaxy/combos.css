@@ -7,7 +7,6 @@
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	background-color: #222;
 }
 
 [hidden] {
@@ -16,7 +15,7 @@
 
 .combo {
 	padding: 4px;
-	border-top: 4px dotted #888;
+	border-top: 4px dotted #adf6f2;
 }
 
 .card-area {
@@ -147,10 +146,6 @@
 }
 
 @media screen and (min-width: 800px) {
-	#center-column {
-		border: 4px solid #17191a;
-		border-top: none;
-	}
 	.card {
 		margin: 4px;
 	}

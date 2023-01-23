@@ -1,39 +1,6 @@
 /* --- full --- */
 
 .galak-full			{ content:url("images/full/46261704.jpg"); }
-.thrasher-full 		{ content:url("images/full/65367484.jpg"); }
-.vanisher-full 		{ content:url("images/full/43147039.jpg"); }
-.jumper-full 		{ content:url("images/full/97639441.jpg"); }
-.orbital-full 		{ content:url("images/full/89132148.jpg"); }
-.wizard-full 		{ content:url("images/full/98555327.jpg"); }
-.summoner-full 		{ content:url("images/full/863795.jpg"); }
-.soldier-full 		{ content:url("images/full/46659709.jpg"); }
-.gepd-full 			{ content:url("images/full/93717133.jpg"); }
-.emperor-full 		{ content:url("images/full/73478096.jpg"); }
-.afterglow-full 	{ content:url("images/full/62968263.jpg"); }
-.brave-full 		{ content:url("images/full/55168550.jpg"); }
-.knight-full		{ content:url("images/full/35950025.jpg"); }
-
-.eternal-full 		{ content:url("images/full/82162616.jpg"); }
-.decel-full			{ content:url("images/full/8653757.jpg"); }
-.hundred-full 		{ content:url("images/full/897409.jpg"); }
-.trance-full 		{ content:url("images/full/63956833.jpg"); }
-.veil-full 			{ content:url("images/full/9354555.jpg"); }
-.foolish-full		{ content:url("images/full/81439174.jpg"); }
-
-.sol-full 			{ content:url("images/full/3356494.jpg"); }
-.gpd-full 			{ content:url("images/full/85747929.jpg"); }
-.blast-full 		{ content:url("images/full/16643334.jpg"); }
-.titanic-full 		{ content:url("images/full/63767246.jpg"); }
-.lord-full 			{ content:url("images/full/8165596.jpg"); }
-.cipherx-full 		{ content:url("images/full/28346136.jpg"); }
-
-.bagooska-full		{ content:url("images/full/90590304.jpg"); }
-.durendal-full		{ content:url("images/full/69840739.jpg"); }
-.veiler-full		{ content:url("images/full/97268402.jpg"); }
-.spheres-full		{ content:url("images/full/24361622.jpg"); }
-.smasher-full		{ content:url("images/full/35772782.jpg"); }
-.light-full			{ content:url("images/full/82085619.jpg"); }
 
 /* --- cropped --- */
 
@@ -43,6 +10,7 @@
 .jumper-cropped 		{ content:url("images/cropped/97639441.jpg"); }
 .orbital-cropped 		{ content:url("images/cropped/89132148.jpg"); }
 .wizard-cropped 		{ content:url("images/cropped/98555327.jpg"); }
+.cleric-cropped 		{ content:url("images/cropped/28770951.jpg"); }
 .summoner-cropped 		{ content:url("images/cropped/863795.jpg"); }
 .soldier-cropped 		{ content:url("images/cropped/46659709.jpg"); }
 .gepd-cropped 			{ content:url("images/cropped/93717133.jpg"); }
