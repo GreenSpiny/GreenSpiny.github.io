@@ -18,6 +18,10 @@
 	border-top: 4px dotted #adf6f2;
 }
 
+.combo-top {
+	border-top: none;
+}
+
 .card-area {
 	display: flex;
 	flex-direction: row;

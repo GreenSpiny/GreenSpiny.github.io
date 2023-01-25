@@ -24,13 +24,21 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
   const comboArea = targetDiv;
   fetch(request).then((response)=>response.json()).then((data)=> {
 
+    var comboCount = 0;
     for (let combo of data[targetComboType])
     {
       cardsInCombo = 0;
-
       const comboDiv = document.createElement("div");
       comboDiv.setAttribute("id", combo["name"]);
-      comboDiv.setAttribute("class", "combo");
+      if (comboCount == 0)
+      {
+        comboDiv.setAttribute("class", "combo combo-top");
+      }
+      else
+      {
+        comboDiv.setAttribute("class", "combo");
+      }
+      comboCount++;
       comboArea.appendChild(comboDiv);
 
       // title

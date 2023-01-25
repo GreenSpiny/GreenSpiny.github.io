@@ -24,6 +24,23 @@ body {
 	width: 2px;
 }
 
+#title-area {
+	margin: auto;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #222;
+}
+
+#title-area p {
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+}
+
+#title-area .major-text {
+	padding-top: 4px;
+}
+
 .nav-dropdown {
 	width: 25%;
 	height: 48px;
@@ -128,8 +145,9 @@ body {
 /* === TEXT === */
 
 .title-text {
+	margin: 0;
+	padding: 0;
 	margin: auto;
-	padding: 8px;
 	color: #DDD;
 	font-size: 16pt;
 	font-family: verdana;
@@ -140,6 +158,8 @@ body {
 }
 
 .nav-text {
+	margin: 0;
+	padding: 0;
 	color: #EEE;
 	font-size: 16pt;
 	font-family: verdana;
@@ -220,6 +240,13 @@ body {
 	#mini-spacer {
 		width: 4px;
 	}
+	#title-area {
+		padding-top: 12px;
+		padding-bottom: 16px;
+	}
+	#title-area .major-text {
+		padding-top: 8px;
+	}
 	.nav-dropdown {
 		padding: 4px 4px 4px 0px;
 	}
@@ -227,7 +254,6 @@ body {
 		font-size: 14pt;
 	}
 	.title-text {
-		padding: 16px;
 		font-size: 24pt;
 	}
 	.header-text {
