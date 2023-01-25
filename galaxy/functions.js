@@ -132,7 +132,7 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       const splitPath = combo["path"].split(".");
       for (let i = 0; i < splitPath.length - 1; i++)
       {
-        ol.insertAdjacentHTML("beforeend", "<li class='desc-text'>" + splitPath[i] + ".</li>");
+        ol.insertAdjacentHTML("beforeend", "<li class='mono-text'>" + splitPath[i] + ".</li>");
       }
 
       // extra padding
@@ -153,21 +153,31 @@ function ButtonFunc(number)
   const num = String(number);
   const urlParams = new URLSearchParams(window.location.search);
   urlParams.set("tab", num);
-  window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
-  for (const child of document.getElementById("center-column").getElementsByClassName("combo-area")) {
-    if (child.getAttribute("id").endsWith(num))
-    {
-      child.removeAttribute("hidden");
+
+  const localUrl = window.location.href.split("?")[0];
+  if (localUrl.includes("combos"))
+  {
+    window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
+    for (const child of document.getElementById("center-column").getElementsByClassName("combo-area")) {
+      if (child.getAttribute("id").endsWith(num))
+      {
+        child.removeAttribute("hidden");
+        document.getElementById("title").innerHTML = child.getAttribute("title");
+      }
+      else
+      {
+        child.setAttribute("hidden", true);
+      }
     }
-    else
-    {
-      child.setAttribute("hidden", true);
-    }
+  }
+  else
+  {
+    LoadUrl("combos.html?tab=" + num);
   }
 }
 
 // ------------------------------------------------------ //
-function Initialize()
+function InitializeCombos()
 {
   const urlParams = new URLSearchParams(window.location.search);
   const params = Object.fromEntries(urlParams.entries());
@@ -232,7 +242,7 @@ function CloseAllDropdowns()
 
 function LoadUrl(url)
 {
-  window.location.href = url;
+  window.location.assign(url);
 }
 
 // ------------------------------------------------------ //

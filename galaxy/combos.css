@@ -37,9 +37,9 @@
 
 .sub-card-area {
 	position: relative;
-	height: 50%;
+	height: 38%;
 	width: 100%;
-	bottom: calc(50% + 4px);
+	bottom: calc(38% + 4px);
 	left: 1px;
 }
 
@@ -60,16 +60,25 @@
 	display: block;
 	margin: 4px auto 4px auto;
 	padding: 4px 12px 4px 12px;
-	border-radius: 8px;
 	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #4c525c;
+}
+
+.path-button:hover {
+	background-color: #606580;
+}
+
+.path-button:active {
+	background-color: #707590;
 }
 
 .path-desc-area {
-	display: none;
 	width: 100%;
 	max-width: 825px;
-	padding-left: 12px;
 	margin: auto;
+	padding: 1px 1px 1px 12px;
+	display: none;
 	background-color: #151515;
 	border: 1px solid #333;
 }
@@ -78,94 +87,8 @@
 	padding-right: 12px;
 }
 
-/* -------------------- */
-
-.header-text {
-	font-size: 16pt;
-	margin: 0;
-	padding: 0;
-	color: #DDD;
-	font-family: calibri;
-	font-weight: bold;
-	text-align: center;
-}
-
-.major-text {
-	font-size: 12pt;
-	margin: 0;
-	padding: 0;
-	color: #96C8FF;
-	font-family: calibri;
-	font-weight: normal;
-	text-align: center;
-}
-
-.minor-text {
-	width: 100%;
-	font-size: 12pt;
-	margin: 0;
-	padding: 0;
-	color: #DDD;
-	font-family: calibri;
-	font-weight: normal;
-	font-style: italic;
-	text-align: center;
-	margin-bottom: 4px;
-}
-
-.button-text {
-	font-size: 12pt;
-	color: #CCC;
-	background-color: #4c525c;
-	font-family: calibri;
-	font-weight: normal;
-	cursor: pointer;
-}
-
-.button-text:hover {
-	background-color: #606580;
-}
-
-.button-text:active {
-	background-color: #707590;
-}
-
-.desc-text {
-	font-size: 12pt;
-	margin: 0;
-	padding: 0;
-	color: #DDD;
-	font-family: consolas, monospace;
-	font-weight: normal;
-	text-align: left;
-}
-
-.alert {
-	font-weight: bold;
-	color: #ff5050;
-}
-
 @media screen and (min-width: 800px) {
 	.card {
 		margin: 4px;
-	}
-	.header-text {
-		font-size: 20pt;
-	}
-	.major-text {
-		font-size: 14pt;
-	}
-	.minor-text {
-		font-size: 14pt;
-	}
-	.button-text {
-		font-size: 14pt;
-	}
-	.desc-text {
-		font-size: 14pt;
-	}
-	.sub-card-area {
-		height: 38%;
-		bottom: calc(38% + 4px);
 	}
 }
