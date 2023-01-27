@@ -98,6 +98,23 @@ body {
 	background-color: #707590;
 }
 
+.path-button {
+	display: block;
+	margin: 0px auto 4px auto;
+	padding: 4px 12px 4px 12px !important;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #4c525c;
+}
+
+.path-button:hover {
+	background-color: #606580;
+}
+
+.path-button:active {
+	background-color: #707590;
+}
+
 /* === COLORED NAV HOVER STATES === */
 
 .kite-bg {
@@ -248,6 +265,14 @@ body {
 	padding: 0 !important;
 }
 
+.borderless {
+	border: 0px !important;
+}
+
+[hidden] {
+	display: none;
+}
+
 /* === RESPONSIVENESS === */
 
 @media screen and (min-width: 800px) {
@@ -309,6 +334,9 @@ body {
 		width: 256px;
 		height: 64px;
 		padding: 8px 8px 8px 0px;
+	}
+	.path-button {
+		margin: 0px auto 6px auto;
 	}
 }
 

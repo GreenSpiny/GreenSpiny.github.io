@@ -9,10 +9,6 @@
 	flex-direction: column;
 }
 
-[hidden] {
-	display: none;
-}
-
 .combo {
 	padding: 4px;
 	border-top: 4px dotted #adf6f2;
@@ -57,27 +53,6 @@
 	border: 1px solid black;
 }
 
-.borderless {
-	border: 0px;
-}
-
-.path-button {
-	display: block;
-	margin: 0px auto 4px auto;
-	padding: 4px 12px 4px 12px;
-	border: 1px solid black;
-	border-radius: 8px;
-	background-color: #4c525c;
-}
-
-.path-button:hover {
-	background-color: #606580;
-}
-
-.path-button:active {
-	background-color: #707590;
-}
-
 .path-desc-area {
 	width: 100%;
 	max-width: 825px;
@@ -95,8 +70,5 @@
 @media screen and (min-width: 800px) {
 	.card {
 		margin: 4px;
-	}
-	.path-button {
-		margin: 0px auto 6px auto;
 	}
 }
