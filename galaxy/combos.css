@@ -45,6 +45,7 @@
 	width: 100%;
 	bottom: calc(38% + 4px);
 	left: 1px;
+	z-index: 1;
 }
 
 .sub-card {
@@ -62,7 +63,7 @@
 
 .path-button {
 	display: block;
-	margin: 4px auto 4px auto;
+	margin: 0px auto 4px auto;
 	padding: 4px 12px 4px 12px;
 	border: 1px solid black;
 	border-radius: 8px;

@@ -212,12 +212,12 @@ function ToggleButton(self)
   var content = self.nextElementSibling;
   if (content.style.display === "block")
   {
-    self.innerHTML = "Combo Path ▼";
+   self.innerHTML =self.innerHTML.replace("▲", "▼");
     content.style.display = "none";
   }
   else
   {
-    self.innerHTML = "Combo Path ▲";
+    self.innerHTML =self.innerHTML.replace("▼", "▲");
     content.style.display = "block";
   }
 }

@@ -52,15 +52,24 @@
 
 		<div id="title-area">
 			<p id="title" class="title-text"></p>
-			<p id="subTitle" class="major-text">
-				<b>Galaxy Hundred</b> rips a card from the opponent's extra deck when <b>Galaxy-Eyes Photon Dragon</b> is summoned. This can be triggered on your turn and your opponent's turn for up to two banishes. A combo's banish count is shown on the right side.
-			</p>
-			<p id="subTitle" class="major-text">
-				In the TCG, <b>Galaxy-Eyes Cipher X Dragon</b> applies targeting protection that lingers through the next turn, even if it leaves the field. Combos with cipher protection are marked with <b>+EX</b> on the right side.
-			</p>
-			<p id="subTitle" class="major-text">
-				Notable cards remaining in your hand, if any, are shown beneath <b>Solflare Dragon</b>. Xyz materials with floating effects are shown beneath their respective monsters.
-			</p>
+			<button class="path-button button-text" onclick="ToggleButton(this)">About combos ▼</button>
+			<div id="title-area-collapse">
+				<p class="major-text">
+					<b>Galaxy Hundred</b> rips a card from the opponent's extra deck when <b>Galaxy-Eyes Photon Dragon</b> is summoned. This can be triggered on your turn and your opponent's turn for up to two banishes. A combo's banish count is shown on the right side.
+				</p>
+				<p class="major-text alt">
+					Common ways to trigger Galaxy Hundred on your opponent's turn include the effect of <b>Starliege Photon Blast Dragon</b>, and the effect of <b>Galaxy-Eyes Afterglow Dragon</b> when detached as material.
+				</p>
+				<p class="major-text">
+					In the TCG, <b>Galaxy-Eyes Cipher X Dragon</b> applies targeting protection that lingers through the next turn, even if it leaves the field. Combos with cipher protection are marked with <b>+EX</b> on the right side.
+				</p>
+				<p class="major-text">
+					Notable cards remaining in your hand, if any, are shown beneath <b>Solflare Dragon</b>. Xyz materials with floating effects are shown beneath their respective monsters.
+				</p>
+				<p class="major-text alt">
+					<i>NS = Normal Summon, SS = Special Summon, GEPD = Galaxy-Eyes Photon Dragon, GPD = Galaxy Photon Dragon</i>
+				</p>
+			</div>
 		</div>
 
 		<div id="card-combos-1" class="combo-area" title="1 card combos"></div>

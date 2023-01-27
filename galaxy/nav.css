@@ -19,6 +19,7 @@ body {
 	justify-content: center;
 	background-color: #292e33;
 	border-bottom: 4px dotted #adf6f2;
+	z-index: 2;
 }
 
 #mini-spacer {
@@ -27,19 +28,24 @@ body {
 	width: 2px;
 }
 
+#title {
+	padding-bottom: 6px;
+}
+
 #title-area {
 	margin: auto;
 	padding-top: 6px;
-	padding-bottom: 10px;
+	padding-bottom: 6px;
 	border-bottom: 4px solid #222;
 }
 
-#title-area p {
+#title-area-collapse {
 	margin: auto;
 	padding-left: 8px;
 	padding-right: 8px;
 	text-align: center;
 	max-width: 1000px;
+	display: none;
 }
 
 #title-area .major-text {
@@ -234,6 +240,10 @@ body {
 	color: #ff5050;
 }
 
+.alt {
+	color: #8cde97;
+}
+
 /* === RESPONSIVENESS === */
 
 @media screen and (min-width: 800px) {
@@ -244,9 +254,12 @@ body {
 	#mini-spacer {
 		width: 4px;
 	}
+	#title {
+		padding-bottom: 8px;
+	}
 	#title-area {
-		padding-top: 12px;
-		padding-bottom: 16px;
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 	#title-area .major-text {
 		padding-top: 8px;
