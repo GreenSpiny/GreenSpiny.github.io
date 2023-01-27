@@ -145,11 +145,11 @@
 		{
 			"name": "Thrasher + Vanisher",
 			"start": "thrasher,vanisher",
-			"end": "sol,lord|emperor",
+			"end": "sol,lord,cipherx|emperor",
 			"reqs": "",
 			"banishes": 1,
 			"cipher": true,
-			"path": "Summon Thrasher; Summon Vanisher and search gepd. Overlay both into gpd; gpd searches Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck; gpd makes jumper level 8. gpd + Wizard = Sol. Sol add back wizard. Normal wizard; Use it to search expedition. Expedition summons soldier; soldier searches afterglow. Summon afterglow; Overlay it and jumper for Cipher into Ex. Ex detach afterglow; Afterglow summons gepd from deck. Summon gepd from hand by tributing soldier and ex. Both gepd = Lord."
+			"path": "summon thrasher + vanisher. vansiher eff search GEPD. xyz to GPD. Effect GPD to add Galaxy soldier. Special summon solider Add wizard. Normal summmon wizard add hundred. activate hundred sent emperor. special summon emperor. summon sol with xyz and soldier. effect sol add wizard. extra normal summon wizard add trance. activate trance summon GEPD and after glow. chain hundred for ED banish. xyz summon cipher using emperor and afterglow. summon cipher x dragon. efffect cipher x dragon detach afterglow and cipher dragon. effect afterglow sepcial summon GEPD from deck. xyz summon photon lord with both GEPD."
 		},
 		{
 			"name": "Wizard + Thrasher",

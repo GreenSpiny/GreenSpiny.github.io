@@ -269,10 +269,6 @@ body {
 	border: 0px !important;
 }
 
-[hidden] {
-	display: none;
-}
-
 /* === RESPONSIVENESS === */
 
 @media screen and (min-width: 800px) {

@@ -3,6 +3,10 @@
 	margin:auto;
 }
 
+[hidden] {
+	display: none !important;
+}
+
 .combo-area {
 	display: flex;
 	width: 100%;
