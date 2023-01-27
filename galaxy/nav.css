@@ -231,13 +231,13 @@ body {
 }
 
 .button-text {
-	margin: 0;
 	padding: 0;
 	color: #CCC;
 	font-size: 12pt;
 	font-family: calibri;
 	font-weight: normal;
 	font-style: normal;
+	text-align: center;
 	cursor: pointer;
 }
 
