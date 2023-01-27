@@ -236,12 +236,16 @@ body {
 }
 
 .alert {
-	font-weight: bold;
-	color: #ff5050;
+	font-weight: bold !important;
+	color: #ff5050 !important;
 }
 
 .alt {
-	color: #8cde97;
+	color: #8cde97 !important;
+}
+
+.no-padding {
+	padding: 0 !important;
 }
 
 /* === RESPONSIVENESS === */
