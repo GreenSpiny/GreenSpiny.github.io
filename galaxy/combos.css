@@ -96,4 +96,7 @@
 	.card {
 		margin: 4px;
 	}
+	.path-button {
+		margin: 0px auto 6px auto;
+	}
 }
