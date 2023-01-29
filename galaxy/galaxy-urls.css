@@ -1,53 +1,49 @@
 /* --- full --- */
 
-.galak-full			{ content:url("images/full/46261704.jpg"); }
 
 /* --- cropped --- */
 
-.galak-cropped			{ content:url("images/cropped/46261704.jpg"); }
-.thrasher-cropped 		{ content:url("images/cropped/65367484.jpg"); }
-.vanisher-cropped 		{ content:url("images/cropped/43147039.jpg"); }
-.jumper-cropped 		{ content:url("images/cropped/97639441.jpg"); }
-.orbital-cropped 		{ content:url("images/cropped/89132148.jpg"); }
-.wizard-cropped 		{ content:url("images/cropped/98555327.jpg"); }
-.cleric-cropped 		{ content:url("images/cropped/28770951.jpg"); }
-.summoner-cropped 		{ content:url("images/cropped/863795.jpg"); }
-.soldier-cropped 		{ content:url("images/cropped/46659709.jpg"); }
-.gepd-cropped 			{ content:url("images/cropped/93717133.jpg"); }
-.emperor-cropped 		{ content:url("images/cropped/73478096.jpg"); }
 .afterglow-cropped 		{ content:url("images/cropped/62968263.jpg"); }
-.brave-cropped 			{ content:url("images/cropped/55168550.jpg"); }
-.knight-cropped			{ content:url("images/cropped/35950025.jpg"); }
-
-.eternal-cropped 		{ content:url("images/cropped/82162616.jpg"); }
-.decel-cropped			{ content:url("images/cropped/8653757.jpg"); }
-.hundred-cropped 		{ content:url("images/cropped/897409.jpg"); }
-.trance-cropped 		{ content:url("images/cropped/63956833.jpg"); }
-.veil-cropped 			{ content:url("images/cropped/9354555.jpg"); }
-.sanc-cropped 			{ content:url("images/cropped/17418744.jpg"); }
-.foolish-cropped		{ content:url("images/cropped/81439174.jpg"); }
-
-.sol-cropped 			{ content:url("images/cropped/3356494.jpg"); }
-.gpd-cropped 			{ content:url("images/cropped/85747929.jpg"); }
-.blast-cropped 			{ content:url("images/cropped/16643334.jpg"); }
-.titanic-cropped 		{ content:url("images/cropped/63767246.jpg"); }
-.lord-cropped 			{ content:url("images/cropped/8165596.jpg"); }
-.cipherx-cropped 		{ content:url("images/cropped/28346136.jpg"); }
-
 .bagooska-cropped		{ content:url("images/cropped/90590304.jpg"); }
+.blast-cropped 			{ content:url("images/cropped/16643334.jpg"); }
+.brave-cropped 			{ content:url("images/cropped/55168550.jpg"); }
+.cipherx-cropped 		{ content:url("images/cropped/28346136.jpg"); }
+.cleric-cropped 		{ content:url("images/cropped/28770951.jpg"); }
+.decel-cropped			{ content:url("images/cropped/8653757.jpg"); }
 .durendal-cropped		{ content:url("images/cropped/69840739.jpg"); }
-.veiler-cropped			{ content:url("images/cropped/97268402.jpg"); }
-.spheres-cropped		{ content:url("images/cropped/24361622.jpg"); }
-.smasher-cropped		{ content:url("images/cropped/35772782.jpg"); }
+.emperor-cropped 		{ content:url("images/cropped/73478096.jpg"); }
+.eternal-cropped 		{ content:url("images/cropped/82162616.jpg"); }
+.foolish-cropped		{ content:url("images/cropped/81439174.jpg"); }
+.galak-cropped			{ content:url("images/cropped/46261704.jpg"); }
+.gepd-cropped 			{ content:url("images/cropped/93717133.jpg"); }
+.gpd-cropped 			{ content:url("images/cropped/85747929.jpg"); }
+.hundred-cropped 		{ content:url("images/cropped/897409.jpg"); }
+.jumper-cropped 		{ content:url("images/cropped/97639441.jpg"); }
+.knight-cropped			{ content:url("images/cropped/35950025.jpg"); }
 .light-cropped			{ content:url("images/cropped/82085619.jpg"); }
+.lord-cropped 			{ content:url("images/cropped/8165596.jpg"); }
+.orbital-cropped 		{ content:url("images/cropped/89132148.jpg"); }
+.sanc-cropped 			{ content:url("images/cropped/17418744.jpg"); }
+.smasher-cropped		{ content:url("images/cropped/35772782.jpg"); }
+.sol-cropped 			{ content:url("images/cropped/3356494.jpg"); }
+.soldier-cropped 		{ content:url("images/cropped/46659709.jpg"); }
+.spheres-cropped		{ content:url("images/cropped/24361622.jpg"); }
+.summoner-cropped 		{ content:url("images/cropped/863795.jpg"); }
+.thrasher-cropped 		{ content:url("images/cropped/65367484.jpg"); }
+.titanic-cropped 		{ content:url("images/cropped/63767246.jpg"); }
+.trance-cropped 		{ content:url("images/cropped/63956833.jpg"); }
+.vanisher-cropped 		{ content:url("images/cropped/43147039.jpg"); }
+.veil-cropped 			{ content:url("images/cropped/9354555.jpg"); }
+.veiler-cropped			{ content:url("images/cropped/97268402.jpg"); }
+.wizard-cropped 		{ content:url("images/cropped/98555327.jpg"); }
 
 /* --- sub cards --- */
 
-.jumper-sub 		{ background:url("images/cropped/97639441.jpg"); background-position-x: 50% }
-.gepd-sub 			{ background:url("images/cropped/93717133.jpg"); background-position-x: 30% }
-.emperor-sub 		{ background:url("images/cropped/73478096.jpg"); background-position-x: 50%}
-.afterglow-sub 		{ background:url("images/cropped/62968263.jpg"); background-position-x: 80%}
-.veiler-sub			{ background:url("images/cropped/97268402.jpg"); background-position-x: 40%}
+.afterglow-sub 		{ background:url("images/cropped/62968263.jpg"); background-position-x: 80%; }
+.emperor-sub 		{ background:url("images/cropped/73478096.jpg"); background-position-x: 50%; }
+.gepd-sub 			{ background:url("images/cropped/93717133.jpg"); background-position-x: 30%; }
+.jumper-sub 		{ background:url("images/cropped/97639441.jpg"); background-position-x: 50%; }
+.veiler-sub			{ background:url("images/cropped/97268402.jpg"); background-position-x: 40%; }
 
 /* --- utility --- */
 
