@@ -182,7 +182,6 @@ function ButtonFunc(number)
   {
     LoadUrl("combos.html?tab=" + num);
   }
-
 }
 
 // ------------------------------------------------------ //
