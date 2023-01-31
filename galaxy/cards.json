@@ -1,0 +1,528 @@
+{
+	"accellight":
+	{
+		"id": "accellight",
+		"name": "Accellight",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "34838437"
+	},
+	"advancer":
+	{
+		"id": "advancer",
+		"name": "Photon Advancer",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "98881931"
+	},
+	"afterglow":
+	{
+		"id": "afterglow",
+		"name": "Galaxy-Eyes Afterglow Dragon",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "62968263"
+	},
+	"ahashima":
+	{
+		"id": "ahashima",
+		"name": "Bujinki Ahashima",
+		"type": "link",
+		"rating": 0,
+		"analysis": "",
+		"image": "71095768"
+	},
+	"armor":
+	{
+		"id": "armor",
+		"name": "Galaxy-Eyes Full Armor Photon Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "39030163"
+	},
+	"astral":
+	{
+		"id": "astral",
+		"name": "Astral Kuriboh",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "64591429"
+	},
+	"bagooska":
+	{
+		"id": "bagooska",
+		"name": "Number 41: Bagooska the Terribly Tired Tapir",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "90590304"
+	},
+	"blade":
+	{
+		"id": "blade",
+		"name": "Galaxy-Eyes Cipher Blade Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "2530830"
+	},
+	"blast":
+	{
+		"id": "blast",
+		"name": "Starliege Photon Blast Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "16643334"
+	},
+	"bounzer":
+	{
+		"id": "bounzer",
+		"name": "Photon Strike Bounzer",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "92661479"
+	},
+	"brave":
+	{
+		"id": "brave",
+		"name": "Galaxy Brave",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "55168550"
+	},
+	"c62":
+	{
+		"id": "c62",
+		"name": "Number C62: Neo Galaxy-Eyes Prime Photon Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "48348921"
+	},
+	"cerberus":
+	{
+		"id": "cerberus",
+		"name": "Photon Cerberus",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "28990150"
+	},
+	"cipher":
+	{
+		"id": "cipher",
+		"name": "Galaxy-Eyes Cipher Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "18963306"
+	},
+	"cipherx":
+	{
+		"id": "cipherx",
+		"name": "Galaxy-Eyes Cipher X Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "28346136"
+	},
+	"cleric":
+	{
+		"id": "cleric",
+		"name": "Galaxy Cleric",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "28770951"
+	},
+	"cyclone":
+	{
+		"id": "cyclone",
+		"name": "Galaxy Cyclone",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "5133471"
+	},
+	"decel":
+	{
+		"id": "decel",
+		"name": "Photon Timeskip",
+		"type": "trap",
+		"rating": 0,
+		"analysis": "",
+		"image": "8653757"
+	},
+	"durendal":
+	{
+		"id": "durendal",
+		"name": "Artifact Durendal",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "69840739"
+	},
+	"emperor":
+	{
+		"id": "emperor",
+		"name": "Photon Emperor",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "73478096"
+	},
+	"eternal":
+	{
+		"id": "eternal",
+		"name": "Eternal Galaxy",
+		"type": "trap",
+		"rating": 0,
+		"analysis": "",
+		"image": "82162616"
+	},
+	"exp":
+	{
+		"id": "exp",
+		"name": "Galaxy Expedition",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "60222582"
+	},
+	"foolish":
+	{
+		"id": "foolish",
+		"name": "Foolish Burial",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "81439174"
+	},
+	"galak":
+	{
+		"id": "galak",
+		"name": "Galactikuriboh",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "46261704"
+	},
+	"galaxion":
+	{
+		"id": "galaxion",
+		"name": "Starliege Lord Galaxion",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "40390147"
+	},
+	"gepd":
+	{
+		"id": "gepd",
+		"name": "Galaxy-Eyes Photon Dragon",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "93717133"
+	},
+	"gpd":
+	{
+		"id": "gpd",
+		"name": "Galaxy Photon Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "85747929"
+	},
+	"hundred":
+	{
+		"id": "hundred",
+		"name": "Galaxy Hundred",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "897409"
+	},
+	"hyper":
+	{
+		"id": "hyper",
+		"name": "Hyper Galaxy",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "83512285"
+	},
+	"infinity":
+	{
+		"id": "infinity",
+		"name": "Cyber Dragon Infinity",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "10443957"
+	},
+	"jumper":
+	{
+		"id": "jumper",
+		"name": "Photon Jumper",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "97639441"
+	},
+	"knight":
+	{
+		"id": "knight",
+		"name": "Galaxy Knight",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "35950025"
+	},
+	"kuri":
+	{
+		"id": "kuri",
+		"name": "Kuirphoton",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "35112613"
+	},
+	"light":
+	{
+		"id": "light",
+		"name": "any Light",
+		"type": "normal",
+		"rating": 0,
+		"analysis": "",
+		"image": "82085619"
+	},
+	"lord":
+	{
+		"id": "lord",
+		"name": "Galaxy-Eyes Photon Lord",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "8165596"
+	},
+	"orbital":
+	{
+		"id": "orbital",
+		"name": "Photon Orbital",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "89132148"
+	},
+	"papill":
+	{
+		"id": "papill",
+		"name": "Photon Papilloperative",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "28150174"
+	},
+	"prime":
+	{
+		"id": "prime",
+		"name": "Number 62: Galaxy-Eyes Prime Photon Dragon",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "31801517"
+	},
+	"sanc":
+	{
+		"id": "sanc",
+		"name": "Photon Sanctuary",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "17418744"
+	},
+	"slasher":
+	{
+		"id": "slasher",
+		"name": "Photon Slasher",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "9718968"
+	},
+	"smasher":
+	{
+		"id": "smasher",
+		"name": "Number 67: Pair-a-Dice Smasher",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "35772782"
+	},
+	"sol":
+	{
+		"id": "sol",
+		"name": "Galaxy-Eyes Solflare Dragon",
+		"type": "link",
+		"rating": 0,
+		"analysis": "",
+		"image": "3356494"
+	},
+	"soldier":
+	{
+		"id": "soldier",
+		"name": "Galaxy Soldier",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "46659709"
+	},
+	"spheres":
+	{
+		"id": "spheres",
+		"name": "Hieratic Seal of the Heavenly Spheres",
+		"type": "link",
+		"rating": 0,
+		"analysis": "",
+		"image": "24361622"
+	},
+	"spiral":
+	{
+		"id": "spiral",
+		"name": "Tachyon Spiral Galaxy",
+		"type": "trap",
+		"rating": 0,
+		"analysis": "",
+		"image": "89789152"
+	},
+	"stream":
+	{
+		"id": "stream",
+		"name": "Photon Stream of Destruction",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "72044448"
+	},
+	"summoner":
+	{
+		"id": "summoner",
+		"name": "Galaxy Summoner",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "863795"
+	},
+	"thrasher":
+	{
+		"id": "thrasher",
+		"name": "Photon Thrasher",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "65367484"
+	},
+	"titanic":
+	{
+		"id": "titanic",
+		"name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "63767246"
+	},
+	"trance":
+	{
+		"id": "trance",
+		"name": "Galaxy Trance",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "63956833"
+	},
+	"trans":
+	{
+		"id": "trans",
+		"name": "Tachyon Transmigration",
+		"type": "trap",
+		"rating": 0,
+		"analysis": "",
+		"image": "8038143"
+	},
+	"trident":
+	{
+		"id": "trident",
+		"name": "Photon Trident",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "51589188"
+	},
+	"vanisher":
+	{
+		"id": "vanisher",
+		"name": "Photon Vanisher",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "43147039"
+	},
+	"veil":
+	{
+		"id": "veil",
+		"name": "Photon Veil",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "9354555"
+	},
+	"veiler":
+	{
+		"id": "veiler",
+		"name": "Effect Veiler",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "97268402"
+	},
+	"wave":
+	{
+		"id": "wave",
+		"name": "Galaxy Wave",
+		"type": "spell",
+		"rating": 0,
+		"analysis": "",
+		"image": "77098449"
+	},
+	"wizard":
+	{
+		"id": "wizard",
+		"name": "Galaxy Wizard",
+		"type": "effect",
+		"rating": 0,
+		"analysis": "",
+		"image": "98555327"
+	},
+	"zeus":
+	{
+		"id": "zeus",
+		"name": "Divine Arsenal AA-ZEUS - Sky Thunder",
+		"type": "xyz",
+		"rating": 0,
+		"analysis": "",
+		"image": "90448279"
+	}
+
+
+
+
+}
