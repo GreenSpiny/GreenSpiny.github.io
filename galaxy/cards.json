@@ -4,7 +4,7 @@
 		"id": "accellight",
 		"name": "Accellight",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "34838437"
 	},
@@ -13,7 +13,7 @@
 		"id": "advancer",
 		"name": "Photon Advancer",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "98881931"
 	},
@@ -22,7 +22,7 @@
 		"id": "afterglow",
 		"name": "Galaxy-Eyes Afterglow Dragon",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "62968263"
 	},
@@ -31,7 +31,7 @@
 		"id": "ahashima",
 		"name": "Bujinki Ahashima",
 		"type": "link",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "71095768"
 	},
@@ -40,7 +40,7 @@
 		"id": "armor",
 		"name": "Galaxy-Eyes Full Armor Photon Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "39030163"
 	},
@@ -49,7 +49,7 @@
 		"id": "astral",
 		"name": "Astral Kuriboh",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "64591429"
 	},
@@ -58,7 +58,7 @@
 		"id": "bagooska",
 		"name": "Number 41: Bagooska the Terribly Tired Tapir",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "90590304"
 	},
@@ -67,7 +67,7 @@
 		"id": "blade",
 		"name": "Galaxy-Eyes Cipher Blade Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "2530830"
 	},
@@ -76,7 +76,7 @@
 		"id": "blast",
 		"name": "Starliege Photon Blast Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "16643334"
 	},
@@ -85,7 +85,7 @@
 		"id": "bounzer",
 		"name": "Photon Strike Bounzer",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "92661479"
 	},
@@ -94,7 +94,7 @@
 		"id": "brave",
 		"name": "Galaxy Brave",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "55168550"
 	},
@@ -103,7 +103,7 @@
 		"id": "c62",
 		"name": "Number C62: Neo Galaxy-Eyes Prime Photon Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "48348921"
 	},
@@ -112,7 +112,7 @@
 		"id": "cerberus",
 		"name": "Photon Cerberus",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "28990150"
 	},
@@ -121,7 +121,7 @@
 		"id": "cipher",
 		"name": "Galaxy-Eyes Cipher Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "18963306"
 	},
@@ -130,7 +130,7 @@
 		"id": "cipherx",
 		"name": "Galaxy-Eyes Cipher X Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "28346136"
 	},
@@ -139,7 +139,7 @@
 		"id": "cleric",
 		"name": "Galaxy Cleric",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "28770951"
 	},
@@ -148,7 +148,7 @@
 		"id": "cyclone",
 		"name": "Galaxy Cyclone",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "5133471"
 	},
@@ -157,7 +157,7 @@
 		"id": "decel",
 		"name": "Photon Timeskip",
 		"type": "trap",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "8653757"
 	},
@@ -166,7 +166,7 @@
 		"id": "durendal",
 		"name": "Artifact Durendal",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "69840739"
 	},
@@ -175,7 +175,7 @@
 		"id": "emperor",
 		"name": "Photon Emperor",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "73478096"
 	},
@@ -184,7 +184,7 @@
 		"id": "eternal",
 		"name": "Eternal Galaxy",
 		"type": "trap",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "82162616"
 	},
@@ -193,7 +193,7 @@
 		"id": "exp",
 		"name": "Galaxy Expedition",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "60222582"
 	},
@@ -202,7 +202,7 @@
 		"id": "foolish",
 		"name": "Foolish Burial",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "81439174"
 	},
@@ -211,7 +211,7 @@
 		"id": "galak",
 		"name": "Galactikuriboh",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "46261704"
 	},
@@ -220,7 +220,7 @@
 		"id": "galaxion",
 		"name": "Starliege Lord Galaxion",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "40390147"
 	},
@@ -229,7 +229,7 @@
 		"id": "gepd",
 		"name": "Galaxy-Eyes Photon Dragon",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "93717133"
 	},
@@ -238,16 +238,25 @@
 		"id": "gpd",
 		"name": "Galaxy Photon Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "85747929"
+	},
+	"hand":
+	{
+		"id": "hand",
+		"name": "Photon Hand",
+		"type": "spell",
+		"count": "",
+		"analysis": "",
+		"image": "15520842"
 	},
 	"hundred":
 	{
 		"id": "hundred",
 		"name": "Galaxy Hundred",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "897409"
 	},
@@ -256,7 +265,7 @@
 		"id": "hyper",
 		"name": "Hyper Galaxy",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "83512285"
 	},
@@ -265,7 +274,7 @@
 		"id": "infinity",
 		"name": "Cyber Dragon Infinity",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "10443957"
 	},
@@ -274,7 +283,7 @@
 		"id": "jumper",
 		"name": "Photon Jumper",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "97639441"
 	},
@@ -283,7 +292,7 @@
 		"id": "knight",
 		"name": "Galaxy Knight",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "35950025"
 	},
@@ -292,7 +301,7 @@
 		"id": "kuri",
 		"name": "Kuirphoton",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "35112613"
 	},
@@ -301,7 +310,7 @@
 		"id": "light",
 		"name": "any Light",
 		"type": "normal",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "82085619"
 	},
@@ -310,7 +319,7 @@
 		"id": "lord",
 		"name": "Galaxy-Eyes Photon Lord",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "8165596"
 	},
@@ -319,7 +328,7 @@
 		"id": "orbital",
 		"name": "Photon Orbital",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "89132148"
 	},
@@ -328,7 +337,7 @@
 		"id": "papill",
 		"name": "Photon Papilloperative",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "28150174"
 	},
@@ -337,7 +346,7 @@
 		"id": "prime",
 		"name": "Number 62: Galaxy-Eyes Prime Photon Dragon",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "31801517"
 	},
@@ -346,7 +355,7 @@
 		"id": "sanc",
 		"name": "Photon Sanctuary",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "17418744"
 	},
@@ -355,7 +364,7 @@
 		"id": "slasher",
 		"name": "Photon Slasher",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "9718968"
 	},
@@ -364,7 +373,7 @@
 		"id": "smasher",
 		"name": "Number 67: Pair-a-Dice Smasher",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "35772782"
 	},
@@ -373,7 +382,7 @@
 		"id": "sol",
 		"name": "Galaxy-Eyes Solflare Dragon",
 		"type": "link",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "3356494"
 	},
@@ -382,7 +391,7 @@
 		"id": "soldier",
 		"name": "Galaxy Soldier",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "46659709"
 	},
@@ -391,7 +400,7 @@
 		"id": "spheres",
 		"name": "Hieratic Seal of the Heavenly Spheres",
 		"type": "link",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "24361622"
 	},
@@ -400,7 +409,7 @@
 		"id": "spiral",
 		"name": "Tachyon Spiral Galaxy",
 		"type": "trap",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "89789152"
 	},
@@ -409,7 +418,7 @@
 		"id": "stream",
 		"name": "Photon Stream of Destruction",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "72044448"
 	},
@@ -418,7 +427,7 @@
 		"id": "summoner",
 		"name": "Galaxy Summoner",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "863795"
 	},
@@ -427,7 +436,7 @@
 		"id": "thrasher",
 		"name": "Photon Thrasher",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "65367484"
 	},
@@ -436,7 +445,7 @@
 		"id": "titanic",
 		"name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "63767246"
 	},
@@ -445,7 +454,7 @@
 		"id": "trance",
 		"name": "Galaxy Trance",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "63956833"
 	},
@@ -454,7 +463,7 @@
 		"id": "trans",
 		"name": "Tachyon Transmigration",
 		"type": "trap",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "8038143"
 	},
@@ -463,7 +472,7 @@
 		"id": "trident",
 		"name": "Photon Trident",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "51589188"
 	},
@@ -472,7 +481,7 @@
 		"id": "vanisher",
 		"name": "Photon Vanisher",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "43147039"
 	},
@@ -481,7 +490,7 @@
 		"id": "veil",
 		"name": "Photon Veil",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "9354555"
 	},
@@ -490,7 +499,7 @@
 		"id": "veiler",
 		"name": "Effect Veiler",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "97268402"
 	},
@@ -499,7 +508,7 @@
 		"id": "wave",
 		"name": "Galaxy Wave",
 		"type": "spell",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "77098449"
 	},
@@ -508,7 +517,7 @@
 		"id": "wizard",
 		"name": "Galaxy Wizard",
 		"type": "effect",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "98555327"
 	},
@@ -517,12 +526,8 @@
 		"id": "zeus",
 		"name": "Divine Arsenal AA-ZEUS - Sky Thunder",
 		"type": "xyz",
-		"rating": 0,
+		"count": "",
 		"analysis": "",
 		"image": "90448279"
 	}
-
-
-
-
 }
