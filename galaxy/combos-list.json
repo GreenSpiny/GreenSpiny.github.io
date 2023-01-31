@@ -89,6 +89,15 @@
 			"path": "Normal summon Jumper. Special Vanisher and add GEPD, then overlay in GPD. GPD effect detach Jumper and add Soldier, Jumper effect add Hundred. Activate Hundred and dump Emperor, Emperor effect revive + extra normal. Soldier effect discard GEPD and special. Soldier effect add Wizard and GPD effect make Soldier lvl 8. Normal Wizard, use effect and add Trance. Activate Trance targeting GEPD in grave, special with Afterglow from deck, Hundred banish. Overlay GEPD + Afterglow in Cipher, then Cipher X. Cipher X effect detach afterglow, Afterglow effect special GEPD from deck. Link off GPD and Cipher X in Solflare, Sol effect add Afterglow in grave to hand. Afterglow effect special, overlay GEPD + Afterglow in Lord and Soldier + Emperor in 38."
 		},
 		{
+			"name": "Wizard + Emperor",
+			"start": "wizard,emperor",
+			"end": "sol,lord|afterglow,titanic|emperor",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "Ns wizard, search soldier. Soldier discard emperor, ss itself, search summoner. Emperor ss itself. Extra ns summoner, summoner revive wizard, summoner make soldier lvl 4. Summoner + soldier = gpd, gpd detach anything, search expedition. Wizard search hundred, hundred dump jumper, jumper search trance. Expedition ss afterglow from deck, afterglow + emperor = cipher x, cipher x detach afterglow and emperor for protection. Afterglow ss gepd, trigger hundred ed banish. Gpd + cipher x = sol, sol add back afterglow. Ss afterglow from hand, make lord. Trance target emperror, summon it and any level 8 galaxy from deck, make 38. You have lord with afterglow under it so it can summon an additional gepd on opp's turn to trigger hundred again."
+		},
+		{
 			"name": "Soldier + Wizard",
 			"start": "soldier,wizard",
 			"end": "sol,lord|emperor,blast|jumper",

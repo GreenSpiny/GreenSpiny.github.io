@@ -19,7 +19,7 @@
 }
 
 .combo-top {
-	border-top: none;
+	border-top: none !important;
 }
 
 .card-area {
