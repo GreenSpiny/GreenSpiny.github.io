@@ -20,7 +20,6 @@ var cardsData = null;
 const comboUrl = "combos-list.json";
 var comboData = null;
 
-
 var cardCount = 0;
 
 function PopulateCombos(targetDiv, targetComboType, minUnits)
@@ -67,7 +66,7 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
 
       const reqsElement = document.createElement("div");
       reqsElement.setAttribute("class", "reqs-area");
-      reqsElement.innerHTML = "<p class='minor-text'>requirements: <span class='alert'>" + combo["reqs"] + "</span></p>";
+      reqsElement.innerHTML = "<p class='minor-text'><i>requirements: <span class='alert'>" + combo["reqs"] + "</span></i></p>";
       comboDiv.appendChild(reqsElement);
     }
 
@@ -203,6 +202,58 @@ function ComboButtonFunc(number)
   }
 }
 
+const CardPriorityDict = 
+{
+  "effect": 0,
+  "spell": 1,
+  "trap": 2,
+  "link": 3,
+  "xyz": 4
+}
+
+function CompareCards(a, b)
+{
+  const aType = CardPriorityDict[a["type"]];
+  const bType = CardPriorityDict[b["type"]];
+
+  if (aType != bType)
+  {
+    return aType - bType;
+  }
+
+  if (a["priority"] != b["priority"])
+  {
+    return b["priority"] - a["priority"];
+  }
+
+  return a["name"].localeCompare(b["name"]);
+}
+
+function PopulateRatings()
+{
+  const ratingDivs = document.getElementsByClassName("ratings-container");
+  const cardObjects = [];
+
+  for (let key of Object.keys(cardsData))
+  {
+    const card = cardsData[key];
+    cardObjects.push(card);
+  }
+  cardObjects.sort(CompareCards);
+
+  for (let card of cardObjects)
+  {
+    if (card["rating"] != 0)
+    {
+      var targetContainer = 1;
+      const image = document.createElement("img");
+      image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
+      image.setAttribute("class", "ratings-image " + card["type"]);
+      ratingDivs[card["rating"] - 1].appendChild(image);
+    }
+  }
+}
+
 // ------------------------------------------------------ //
 async function InitializeCombos()
 {
@@ -222,8 +273,6 @@ async function InitializeCombos()
       cardsData = results2[0];
       comboData = results2[1];
 
-      console.log(comboData)
-
       const urlParams = new URLSearchParams(window.location.search);
       const params = Object.fromEntries(urlParams.entries());
       
@@ -241,6 +290,25 @@ async function InitializeCombos()
       PopulateCombos(document.getElementById("card-combos-3"), "2-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-4"), "3-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-5"), "jank-combos", 5);
+
+    });
+  });
+}
+
+async function InitializeRatings()
+{
+  const cardsRequest = new Request(cardsUrl, { cache: "no-cache" });
+  const cardsPromise = fetch(cardsRequest);
+
+  Promise.all([cardsPromise]).then((results1) => {
+
+    const caJsonPromise = results1[0].json();
+
+      Promise.all([caJsonPromise]).then((results2) => {
+
+      cardsData = results2[0];
+
+      PopulateRatings();
 
     });
   });

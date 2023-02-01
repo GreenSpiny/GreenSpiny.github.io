@@ -1,0 +1,85 @@
+.effect {
+	border-top-color: #f2bb5c !important;
+	border-left-color: #ad8339 !important;
+	border-bottom-color: #ad8339 !important;
+	border-right-color: #f2bb5c !important;
+}
+
+.spell {
+	border-top-color: #51c7d6 !important;
+	border-left-color: #36929e !important;
+	border-bottom-color: #36929e !important;
+	border-right-color: #51c7d6 !important;
+}
+
+.trap {
+	border-top-color: #c24870 !important;
+	border-left-color: #913453 !important;
+	border-bottom-color: #913453 !important;
+	border-right-color: #c24870 !important;
+}
+
+.link {
+	border-top-color: #1e5fb3 !important;
+	border-left-color: #12478c !important;
+	border-bottom-color: #12478c !important;
+	border-right-color: #1e5fb3 !important;
+}
+
+.xyz {
+	border-top-color: #4f4f4f !important;
+	border-left-color: #252525 !important;
+	border-bottom-color: #252525 !important;
+	border-right-color: #4f4f4f !important;
+}
+
+#ratings-area {
+	margin: 4px;
+	padding-bottom: 4px;
+	border-bottom: 4px dotted #adf6f2;
+}
+
+.ratings-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin: 8px auto 4px auto;
+}
+
+.ratings-image {
+	height: 32px;
+	width: 32px;
+	background-color: #FFF;
+	border: 2px solid #FFF;
+	cursor: pointer;
+}
+
+.ratings-image:hover {
+	filter: brightness(110%);
+}
+
+@media screen and (min-width: 500px) {
+	.ratings-image {
+		height: 48px;
+		width: 48px;
+		border: 3px solid #FFF;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#ratings-area {
+		margin: 8px;
+	}
+	.ratings-image {
+		height: 64px;
+		width: 64px;
+		border: 4px solid #FFF;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.ratings-container {
+		justify-content: flex-start;
+	}
+}
