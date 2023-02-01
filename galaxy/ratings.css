@@ -82,7 +82,7 @@
 }
 
 #analysis-text {
-	margin: 8px 8px 8px 8px;
+	margin: 4px 8px 8px 8px;
 	text-align: center;
 }
 
@@ -110,7 +110,7 @@
 		margin: 0px 8px 8px 8px;
 	}
 	#analysis-text {
-		margin: 4px 4px 4px 12px;
+		margin: 0px 4px 4px 12px;
 		text-align: left;
 	}
 	#analysis-image {
