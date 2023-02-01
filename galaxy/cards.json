@@ -560,6 +560,17 @@
 		"analysis": "",
 		"image": "63767246"
 	},
+	"trade":
+	{
+		"id": "trade",
+		"name": "Trade-In",
+		"type": "spell",
+		"priority": -99,
+		"rating": 3,
+		"count": "",
+		"analysis": "",
+		"image": "38120068"
+	},
 	"trance":
 	{
 		"id": "trance",

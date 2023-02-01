@@ -73,16 +73,17 @@
 	margin: 4px 4px 4px 4px;
 }
 
-#analysis-container img {
+#analysis-image {
 	flex-shrink: 0;
 	flex-grow: 0;
 	max-width: 100%;
 	max-height: 416px;
+	display: none;
 }
 
 #analysis-text {
 	margin: 8px 8px 8px 8px;
-	text-align: left;
+	text-align: center;
 }
 
 @media screen and (min-width: 500px) {
@@ -109,10 +110,10 @@
 		margin: 0px 8px 8px 8px;
 	}
 	#analysis-text {
-		margin: 4px 4px 4px 8px;
+		margin: 4px 4px 4px 12px;
 		text-align: left;
 	}
-	#analysis-container img {
+	#analysis-image {
 		max-height: fit-content;
 	}
 }
