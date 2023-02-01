@@ -249,6 +249,7 @@ function PopulateRatings()
       const image = document.createElement("img");
       image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
       image.setAttribute("class", "ratings-image " + card["type"]);
+      image.setAttribute("card-id", card["id"]);
       ratingDivs[card["rating"] - 1].appendChild(image);
     }
   }
