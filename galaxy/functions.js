@@ -262,12 +262,17 @@ function GetRating(self)
   const card = cardsData[cardId];
 
   const ratingImage = document.getElementById("analysis-image");
-  ratingImage.setAttribute("src", "images/full/" + card["image"] + ".jpg");
   ratingImage.style.display = "block";
-  
+  ratingImage.setAttribute("onload", "ScrollIntoView(this)");
+  ratingImage.setAttribute("src", "images/full/" + card["image"] + ".jpg");
+
   const ratingText = document.getElementById("analysis-text");
   ratingText.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies blandit scelerisque. Nam at iaculis nulla. Praesent vulputate sem orci, eu imperdiet ipsum ultrices non. Nam dignissim vitae metus sit amet mollis. Sed non rhoncus arcu. Nunc lorem ipsum, accumsan et felis hendrerit, egestas mattis lacus. Nullam pretium euismod est sed lobortis. Nullam auctor eu augue ac fringilla. Curabitur hendrerit ante eu varius elementum. Proin mi sapien, imperdiet vel faucibus eu, fringilla id lorem. Donec pellentesque cursus massa, quis aliquet est feugiat eget. Fusce fringilla urna eu felis congue scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin commodo vehicula nunc sed pretium. Vestibulum justo turpis, mollis id iaculis fringilla, egestas non nisl.";
-  ratingText.scrollIntoView({behavior: "smooth"});
+}
+
+function ScrollIntoView(obj)
+{
+  obj.scrollIntoView({behavior: "smooth", block:"center"});
 }
 
 // ------------------------------------------------------ //
