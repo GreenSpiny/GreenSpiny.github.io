@@ -250,9 +250,19 @@ function PopulateRatings()
       image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
       image.setAttribute("class", "ratings-image " + card["type"]);
       image.setAttribute("card-id", card["id"]);
+      image.setAttribute("onclick", "GetRating(this)");
       ratingDivs[card["rating"] - 1].appendChild(image);
     }
   }
+}
+
+function GetRating(self)
+{
+  const cardId = self.getAttribute("card-id");
+  const card = cardsData[cardId];
+  
+  const ratingText = document.getElementById("analysis-text");
+  ratingText.scrollIntoView({behavior: "smooth"});
 }
 
 // ------------------------------------------------------ //
