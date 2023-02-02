@@ -7,7 +7,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "<p>Accellight is a consistency card, summoning your choice of <b>Galaxy Wizard</b>, <b>Photon Jumper</b>, <b>Photon Orbital</b>, or even <b>Photon Lizard</b> from the deck in place of your normal summon.</p><p>However, there's a flaw: it locks you out of both the regular normal summon and <b>Photon Emperor's</b> bonus normal summon. This reduces the ceiling of the deck. Between that and a weakness to Ash Blossom, Accellight has fallen out of favor.</p>",
 		"image": "34838437"
 	},
 	"advancer":
@@ -18,7 +18,7 @@
 		"priority": -4,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Photon Advancer is one of the simplest extenders in the deck. It lacks any summon restrictions, making it quite reliable. However, compared to other Photon warriors, it is more likely to consume the normal summon.</p><p>Now that Photon Jumper offers an improved third target for <b>Reinforcement of the Army</b>, running Advancer to prevent doubling up on names is less common.",
 		"image": "98881931"
 	},
 	"afterglow":
@@ -29,7 +29,7 @@
 		"priority": -8,
 		"rating": 1,
 		"count": "1-2 (main)",
-		"analysis": "",
+		"analysis": "<p>An essential Galaxy playmaker. Afterglow dragon is notorious for enabling Prime OTK, where it is detached from <b>Galaxy-Eyes Prime Photon Dragon</b> to make Prime achieve over 11k attack points - ending the game if the opponent has nearly any attack position monster. Besides that, its ability to summon <b>Galaxy-Eyes Photon Dragon</b> when detached is important for all of breaking boards, building boards, and triggering the effect of <b>Galaxy Hundred</b> on either player's turn.</p><p>Despite its brickiness, Afterglow's summoning condition is reasonable and doesn't rely on GY setup. It is also easily searchable. Afterglow remains one of the most feared cards in any Galaxy deck, and for good reason.</p>",
 		"image": "62968263"
 	},
 	"ahashima":
@@ -40,7 +40,7 @@
 		"priority": -2,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Ahashima is sometimes considered an honorary member of the Galaxy archetype. Its ability to summon a rank 8 xyz using the hand and GY is unique, and boasts a special interaction with <b>Galaxy Brave</b>, which can be level 4 on the field but level 8 in the GY immediately after being used as link material. <b>Photon Sanctuary</b> can also make this monster by itself.</p><p>The addition of Rank 4 playmakers like <b>Galaxy Photon Dragon</b> put a damper on Ahashima's viability, as did a reduced reliance on Brave and Sanctuary. However, it remains a reasonable choice for follow-up plays and making a negate before <b>Nibiru, the Primal Being</b> activates, despite the incompatibility with <b>Galaxy Trance</b>.</p>",
 		"image": "71095768"
 	},
 	"armor":
@@ -48,10 +48,10 @@
 		"id": "armor",
 		"name": "Galaxy-Eyes Full Armor Photon Dragon",
 		"type": "xyz",
-		"priority": 9,
+		"priority": 8.9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Full Armor is a key component of Galaxy's xyz stacking toolbox. Overlay it on <b>Galaxy-Eyes Photon Lord</b> to transition from defense to offense on a whim, or on <b>Galaxy-Eyes Cipher Dragon</b> for additional board breaking capacity. Full Armor stacking plays trivialize the effect of spot negation on your rank 8s, and are further bolstered by <b>Galaxy-Eyes Cipher Blade Dragon</b> which can be overlaid on it for another targeted pop.</p><p>Simple, big, and effective, Full Armor gets the job done right.</p>",
 		"image": "39030163"
 	},
 	"astral":
@@ -62,7 +62,7 @@
 		"priority": -1,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>On the surface, Astral Kuriboh looks like a free extender. And while it is costless with no requirements, the lack of a Galaxy / Photon name makes it interact with few cards and locks you out of <b>Galaxy Trance</b>. It also has an awkward interaction with interrupts, where if it is negated on the field, it reverts to level 1 but still locks you into Number monsters only.</p><p>In all, Astral Kuriboh has a niche in builds summoning offbeat Number monsters, and is an option for a perfect <b>Small World</b> bridge. But for most builds, the extension effect doesn't offer enough reward.",
 		"image": "64591429"
 	},
 	"bagooska":
@@ -73,7 +73,7 @@
 		"priority": -4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Last Hope Galaxy</b> is an addition that assists in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative uses for Bagooska out there. It can even gain protection from <b>Starliege Photon Blast Dragon</b> due to its attack points.</p>",
 		"image": "90590304"
 	},
 	"blade":
@@ -84,7 +84,7 @@
 		"priority": 9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Like the similar <b>Galaxy-Eyes Full Armor Photon Dragon</b>, Cipher Blade is part of Galaxy's xyz stacking strategy to tear apart boards or play through spot negation. Unlike its bretheren, Blade can destroy face down cards and cards on either field, as well as float into the original <b>Galaxy-Eyes Cipher Dragon</b>.<p><p>The caveat of Cipher Blade is that it cannot be used as xyz material itself, so choose when and where to play it wisely. Gaining a second pop by overlaying it on Full Armor might not seem like much, but often it is the difference between victory and defeat.</p>",
 		"image": "2530830"
 	},
 	"blast":

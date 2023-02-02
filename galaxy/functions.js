@@ -280,7 +280,7 @@ function GetRating(self)
   const ratingText = document.getElementById("analysis-text");
   var ratingCount = "<span class='header-text'>" + card["name"] + " ☆".repeat(4 - card["rating"]) + "<br></span>";
   ratingCount += "<span class='major-text'>Recommended: " + card["count"] + "<br></span>";
-  ratingText.innerHTML = ratingCount + "Temporary description text.";
+  ratingText.innerHTML = ratingCount + card["analysis"];
 }
 
 function ScrollIntoView(obj)
