@@ -28,10 +28,6 @@ body {
 	width: 2px;
 }
 
-#title {
-	padding-bottom: 6px;
-}
-
 #title-area {
 	margin: auto;
 	padding-top: 6px;
@@ -278,16 +274,6 @@ body {
 	}
 	#mini-spacer {
 		width: 4px;
-	}
-	#title {
-		padding-bottom: 8px;
-	}
-	#title-area {
-		padding-top: 8px;
-		padding-bottom: 8px;
-	}
-	#title-area .major-text {
-		padding-top: 8px;
 	}
 	.nav-dropdown {
 		padding: 4px 4px 4px 0px;

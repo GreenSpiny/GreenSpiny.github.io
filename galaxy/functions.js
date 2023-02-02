@@ -223,7 +223,7 @@ function CompareCards(a, b)
 
   if (a["priority"] != b["priority"])
   {
-    return b["priority"] - a["priority"];
+    return a["priority"] - b["priority"];
   }
 
   return a["name"].localeCompare(b["name"]);
@@ -234,24 +234,35 @@ function PopulateRatings()
   const ratingDivs = document.getElementsByClassName("ratings-container");
   const cardObjects = [];
 
+  for (let i = 0; i < ratingDivs.length; i++)
+  {
+    cardObjects[i] = [];
+  }
+
   for (let key of Object.keys(cardsData))
   {
     const card = cardsData[key];
-    cardObjects.push(card);
-  }
-  cardObjects.sort(CompareCards);
-
-  for (let card of cardObjects)
-  {
-    if (card["rating"] != 0)
+    const rating = card["rating"];
+    if (rating > 0)
     {
-      var targetContainer = 1;
-      const image = document.createElement("img");
-      image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
-      image.setAttribute("class", "ratings-image " + card["type"]);
-      image.setAttribute("card-id", card["id"]);
-      image.setAttribute("onclick", "GetRating(this)");
-      ratingDivs[card["rating"] - 1].appendChild(image);
+      cardObjects[card["rating"] - 1].push(card);
+    }
+  }
+
+  for (let i = 0; i < cardObjects.length; i++)
+  {
+    cardObjects[i].sort(CompareCards);
+    for (let card of cardObjects[i])
+    {
+      if (card["rating"] != 0)
+      {
+        const image = document.createElement("img");
+        image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
+        image.setAttribute("class", "ratings-image " + card["type"]);
+        image.setAttribute("card-id", card["id"]);
+        image.setAttribute("onclick", "GetRating(this)");
+        ratingDivs[i].appendChild(image);
+      }
     }
   }
 }
@@ -269,7 +280,7 @@ function GetRating(self)
   const ratingText = document.getElementById("analysis-text");
   var ratingCount = "<span class='header-text'>" + card["name"] + " ☆".repeat(4 - card["rating"]) + "<br></span>";
   ratingCount += "<span class='major-text'>Recommended: " + card["count"] + "<br></span>";
-  ratingText.innerHTML = ratingCount + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies blandit scelerisque. Nam at iaculis nulla. Praesent vulputate sem orci, eu imperdiet ipsum ultrices non. Nam dignissim vitae metus sit amet mollis. Sed non rhoncus arcu. Nunc lorem ipsum, accumsan et felis hendrerit, egestas mattis lacus. Nullam pretium euismod est sed lobortis. Nullam auctor eu augue ac fringilla. Curabitur hendrerit ante eu varius elementum. Proin mi sapien, imperdiet vel faucibus eu, fringilla id lorem. Donec pellentesque cursus massa, quis aliquet est feugiat eget. Fusce fringilla urna eu felis congue scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin commodo vehicula nunc sed pretium. Vestibulum justo turpis, mollis id iaculis fringilla, egestas non nisl.";
+  ratingText.innerHTML = ratingCount + "Temporary description text.";
 }
 
 function ScrollIntoView(obj)
@@ -311,8 +322,7 @@ async function InitializeCombos()
       PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-2"), "1.5-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-3"), "2-card-combos", 5);
-      PopulateCombos(document.getElementById("card-combos-4"), "3-card-combos", 5);
-      PopulateCombos(document.getElementById("card-combos-5"), "jank-combos", 5);
+      PopulateCombos(document.getElementById("card-combos-4"), "jank-combos", 5);
 
     });
   });
