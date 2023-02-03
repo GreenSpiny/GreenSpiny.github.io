@@ -106,7 +106,7 @@
 		"priority": 6,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Strike Bounzer serves one role: To be an archetypal xyz made out of Bystial handtrap monsters. Should you summon both Bystials on the opponent's turn, you can overlay into Strike Bounzer without turning off <b>Galaxy Trance</b>. Whether this makes it worth running in builds with Bystials, especially compared to generic rank 6 monsters, remains questionable.</p>",
+		"analysis": "<p>Strike Bounzer serves one role: To be an archetypal xyz made out of Bystial handtrap monsters. Should you summon both Bystials on the opponent's turn, you can overlay into Strike Bounzer without turning off <b>Galaxy Trance</b>. Whether this makes it worth running in builds with Bystials, especially compared to other rank 6 monsters, remains questionable.</p>",
 		"image": "92661479"
 	},
 	"brave":
@@ -205,7 +205,7 @@
 		"priority": 5,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Durendal is a mandatory component of the <b>Photon Timeskip</b> strategy, in which it forces the destruction of Timeskip to end the opponent's turn. While it works serviceably in this role, the card can also serve other uses. Due to <b>Galaxy Hundred</b> remaining on the field, Durendal can be an omni negate agaist cards Galaxy can't stop like, <b>Evenly Matched</b>. It also enables a rare, but deadly hand-ripping strategy in tandem with <b>Droll & Lock Bird</b>.</p><p>Increased options for level manipulation have made Galaxy less reliant on rank 5 xyzs, to the point that none are truly needed in the deck. But Durendal remains an option for those who want one, especially if Timeskip is involved.</p>",
+		"analysis": "<p>Durendal is a mandatory component of the <b>Photon Timeskip</b> strategy, in which it forces the destruction of Timeskip to end the opponent's turn. While it works serviceably in this role, the card can also serve other uses. Due to <b>Galaxy Hundred</b> remaining on the field, Durendal can negate cards Galaxy usually cannot stop such as <b>Evenly Matched</b>. It also enables a rare, but deadly hand-ripping combo with <b>Droll & Lock Bird</b>.</p><p>New options for level manipulation have made Galaxy less reliant on rank 5 xyzs, to the point that none are truly needed in the deck. But Durendal remains an option for those who want one, especially if Timeskip is involved.</p>",
 		"image": "69840739"
 	},
 	"emperor":
@@ -216,7 +216,7 @@
 		"priority": -8,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Emperor is one of the recent additions to the Galaxy toolbox. Not only is it a level 8 extender, it grants an additional normal summon; fantastic for using the effect of <b>Galaxy Wizard</b> a second time, or making a high value <b>Galaxy Summoner</b> play. <b>Galaxy Hundred</b> is a simple way to trigger the summon of Emperor, but it can also be activated by detaching it as material, or if the monster it is attached to leaves the field. Having Emperor underneath your xyzs grants boards added resilience this way. Finally, as a level 8 photon, it makes a great target for <b>Galaxy Trance</b>.</p><p>For all its uses, Photon Emperor is unfortunately a serious brick. For this reason, only 1 is usually played. Still, the ceiling increase it offers Galaxy is not to be underestimated.</p>",
 		"image": "73478096"
 	},
 	"eternal":
@@ -227,7 +227,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "",
+		"analysis": "<p>Eternal Galaxy essentially converts rank 4 xyz monsters into rank 8s. This enables certain 1 card combos, namely those where you can reach <b>Galaxy Photon Dragon</b> but nothing else. By searching Eternal, you can rank up into <b>Galaxy-Eyes Photon Lord</b> or <b>Number 38: Hope Harbinger Dragon Titanic Galaxy</b> during your opponent's turn.</p><p>Eternal's uses do not stop there. It can be used as backup if your board is hit with breakers such as <b>Dark Ruler No More</b>, turning rank 4s into fresh rank 8 negates. Monsters stolen from the opponent's extra deck with <b>Galaxy Hundred</b> are valid rank up material too. While it doesn't see play in all builds due to being dead in hand going second, it remains a solid option for the main or side.</p>",
 		"image": "82162616"
 	},
 	"exp":
@@ -238,7 +238,7 @@
 		"priority": 0,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>One of the simplest cards in the deck. Summoning <b>Galaxy Soldier</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, or <b>Photon Emperor</b> off Expedition can result in long combos with massive plusses. While more copies can be run in hopes of making an early <b>Galaxy-Eyes Photon Lord</b>, typically only 1 is run because it is a bricky card that can be searched.</p>",
 		"image": "60222582"
 	},
 	"foolish":
@@ -249,7 +249,7 @@
 		"priority": 99,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Sending <b>Photon Jumper</b> to the GY with Foolish Burial results in a Spell or Trap search, while sending <b>Photon Emperor</b> results in a free body and bonus normal summon with minimal setup. Foolish actually enables the only 1 card combo not reliant on <b>Eternal Galaxy</b>.</p><p>This card is limited to 1 and highly recommended.</p>",
 		"image": "81439174"
 	},
 	"galak":
@@ -260,7 +260,7 @@
 		"priority": -1,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Galactikuriboh offers several effects - all of which are useful, but also very situational. As a hand trap, it can be searched by <b>Galaxy-Eyes Photon Lord</b> during your opponent's turn and be immediately live. Additionally, it can be sent to the GY off <b>Galaxy Hundred</b> to grant protection playing into a board.</p><p>The trouble is that Galactikuriboh doesn't interact with Galaxy combos in other ways, making it compete with generic hand traps for a spot. Still, the card maintains niche uses, and can also serve as a perfect <b>Small World</b> bridge.</p>",
 		"image": "46261704"
 	},
 	"galaxion":
@@ -271,7 +271,7 @@
 		"priority": 4,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "<p>A relic of the past, Galaxion was the go-to card for fetching level 8s if you couldn't access enough otherwise. Besides being largely replaced by <b>Galaxy Photon Dragon</b>, it has the embarassing reputation of locking out <b>Galaxy Trance</b> due to not being a Galaxy monster by name.</p><p>While not completely useless, there is little reason to run Galaxion in the modern era.</p>",
 		"image": "40390147"
 	},
 	"gepd":
@@ -282,7 +282,7 @@
 		"priority": -99,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "",
+		"analysis": "<p>The heart and soul of the Galaxy deck. Galaxy-Eyes Photon Dragon is specifically referenced by countless cards in the archetype. You will use it as xyz material, discard fodder, a beatstick, and everything in between.</p><p>While not as commonly seen, you will occasionally utilize the battle trick and summon condition. As bricky as it can be, its status as the only main deck monster that is both Galaxy and Photon opens up more card interactions than usual.</p><p>When performing the longest combo lines, you may wish there were more copies of Galaxy-Eyes Photon Dragon left in your deck. An integral card to have.</p>",
 		"image": "93717133"
 	},
 	"gpd":
@@ -293,7 +293,7 @@
 		"priority": 4,
 		"rating": 1,
 		"count": "1-2 (main)",
-		"analysis": "",
+		"analysis": "<p>The latest and greatest addition to Galaxy's rank 4 toolbox. Between the search, level manipulation, and attack boost, Galaxy Photon Dragon is the consistency piece the deck always wished for. The double search from detaching <b>Photon Jumper</b> as material enables incredibly complicated and open ended plays.</p><p>Many times you will link this card away before your turn ends, but leaving it on the field with Photon Jumper as material, or using the attack boost to put <b>Starliege Photon Blast Dragon</b> under its own protection, is sometimes done as well. A mandatory card, and often the first xyz you make.</p>",
 		"image": "85747929"
 	},
 	"hand":
@@ -304,7 +304,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-1 (side)",
-		"analysis": "",
+		"analysis": "<p>Once not considered remotely viable, Photon Hand is now searchable by sending <b>Photon Jumper</b> to the GY off <b>Galaxy Hundred</b>, making it a decent 1-of tech going second.</p><p>The card is very meta dependent, but it can be sided during xyz heavy formats.</p>",
 		"image": "15520842"
 	},
 	"hope":
@@ -314,7 +314,7 @@
 		"type": "spell",
 		"priority": 0,
 		"rating": 2,
-		"count": "1 (main)",
+		"count": "0-1 (main)",
 		"analysis": "",
 		"image": "4606229"
 	},
