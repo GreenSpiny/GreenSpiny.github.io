@@ -18,7 +18,7 @@
 		"priority": -4,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Photon Advancer is one of the simplest extenders in the deck. It lacks any summon restrictions, making it quite reliable. However, compared to other Photon warriors, it is more likely to consume the normal summon.</p><p>Now that Photon Jumper offers an improved third target for <b>Reinforcement of the Army</b>, running Advancer to prevent doubling up on names is less common.",
+		"analysis": "<p>Photon Advancer is one of the simplest extenders in the deck. It lacks any summon restrictions, making it reliable. However, compared to the other Photon warriors, it is more likely to needlessly consume the normal summon.</p><p>Now that Photon Jumper offers an improved third target for <b>Reinforcement of the Army</b>, running Advancer to avoid doubling up on names is less common.",
 		"image": "98881931"
 	},
 	"afterglow":
@@ -51,7 +51,7 @@
 		"priority": 8.9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Full Armor is a key component of Galaxy's xyz stacking toolbox. Overlay it on <b>Galaxy-Eyes Photon Lord</b> to transition from defense to offense on a whim, or on <b>Galaxy-Eyes Cipher Dragon</b> for additional board breaking capacity. Full Armor stacking plays trivialize the effect of spot negation on your rank 8s, and are further bolstered by <b>Galaxy-Eyes Cipher Blade Dragon</b> which can be overlaid on it for another targeted pop.</p><p>Simple, big, and effective, Full Armor gets the job done right.</p>",
+		"analysis": "<p>Full Armor is a key component of Galaxy's xyz stacking toolbox. Overlay it on <b>Galaxy-Eyes Photon Lord</b> to transition from defense to offense, or on <b>Galaxy-Eyes Cipher Dragon</b> for additional board breaking capacity. Full Armor stacking plays trivialize the effect of spot negation on your rank 8s, and are further bolstered by <b>Galaxy-Eyes Cipher Blade Dragon</b> which can be overlaid on it for another targeted pop.</p><p>Simple, big, and effective, Full Armor is sometimes all you need for a final push.</p>",
 		"image": "39030163"
 	},
 	"astral":
@@ -73,7 +73,7 @@
 		"priority": -4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Last Hope Galaxy</b> is an addition that assists in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative uses for Bagooska out there. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack points.</p>",
+		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Last Hope Galaxy</b> can assist in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to make using Bagooska out there. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack points.</p>",
 		"image": "90590304"
 	},
 	"blade":
@@ -95,7 +95,7 @@
 		"priority": 4,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Whether going first or second, Photon Blast Dragon brings the heat. It is a fantastic end board piece, protecting your other monsters from effect destruction and targeting. It can summon <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy-Hundred</b> - once on your turn with its first effect, and once on your opponent's turn with the second. If Blast's attack is boosted by <b>Galaxy Photon Dragon</b> or <b>Photon Orbital</b>, it will even fall under its own protection!</p><p>Blast is even more important on offense. The protection and extension effect typically force an interrupt from your opponent, leaving fewer options to disrupt your Rank 8 plays. This is not a card to sleep on.</p>",
 		"image": "16643334"
 	},
 	"bounzer":
@@ -106,7 +106,7 @@
 		"priority": 6,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "<p>Strike Bounzer serves one role: To be an archetypal xyz made out of Bystial handtrap monsters. Should you summon both Bystials on the opponent's turn, you can overlay into Strike Bounzer without turning off <b>Galaxy Trance</b>. Whether this makes it worth running in builds with Bystials, especially compared to generic rank 6 monsters, remains questionable.</p>",
 		"image": "92661479"
 	},
 	"brave":
@@ -116,8 +116,8 @@
 		"type": "effect",
 		"priority": -8,
 		"rating": 2,
-		"count": "1-3 (main)",
-		"analysis": "",
+		"count": "0-3 (main)",
+		"analysis": "<p>Brave is unique amongst the archetypal level 8s. It has the most generous summoning condition, making it less of a brick, and it boasts the ability to be level 4, 8, or (with niche cards) level 5 on the field. Even before <b>Galaxy Photon Dragon</b> was available, its level manipulation allowed for unique <b>Bujinki Ahashima</b> combos, particularly with <b>Photon Vanisher</b> as a partner.</p><p>Once a 3-of staple, Brave is no longer quite as necessary. Still, it remains the best option for increasing level 8 count without adding bricks, which is more than enough reason to consider a few.</p>",
 		"image": "55168550"
 	},
 	"c62":
@@ -128,7 +128,7 @@
 		"priority": 9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't actually hit harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - can force opponents to burn interrupts early. It can also be used as a towers against decks reliant on monsters for removal, or to swing into several monsters at once. Finally, C62 can be summoned on a Prime that had its effects negated, further bolstering the deck's resistance to spot negation.</p>",
 		"image": "48348921"
 	},
 	"cerberus":
@@ -139,7 +139,7 @@
 		"priority": -3,
 		"rating": 3,
 		"count": "0-3 (side)",
-		"analysis": "",
+		"analysis": "<p>Photon Cerebus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, disabling all traps; and the opponent cannot chain traps in response unless they specifically negate the summon. In this way, despite the suboptimal level, you can line enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Unfortunately, Cerberus cannot be searched without summoning other monsters first, at which point traps may already get fired. It also faces still competition from generic board breaking cards, which don't require the normal summon. It is an interesting monster, but side deck space is typically too tight.</p>",
 		"image": "28990150"
 	},
 	"cipher":
@@ -147,10 +147,10 @@
 		"id": "cipher",
 		"name": "Galaxy-Eyes Cipher Dragon",
 		"type": "xyz",
-		"priority": 8,
+		"priority": 8.1,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Unlike the main deck Cipher monsters, Cipher xyzs are core to the Galaxy game plan. Cipher allows you to steal opposing monsters, after which they can be ranked up into <b>Galaxy-Eyes Cipher X Dragon</b> or (if it was an xyz monster) <b>Galaxy-Eyes Full Armor Photon Dragon</b>. This offers great card advantage, plus denies opposing monsters their floating effects if any.</p><p>Even going first, making Cipher to overlay Cipher X is a convenient way to trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b>. Regardless of whether you intend to use the theft effect, Cipher's niche as a base for xyz stacking is invaluable.</p>",
 		"image": "18963306"
 	},
 	"cipherx":
@@ -161,7 +161,7 @@
 		"priority": 10,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Cipher X is a member of Galaxy xyz stacking pile, but is overlaid almost exclusively on <b>Galaxy-Eyes Cipher Dragon</b>. Its effects differ slightly in the TCG and OCG regions. In the TCG (non-Japan areas), its lingering targeting immunity applies even to monsters summoned after it, and even if it leaves the field. This forces interrupts and makes your boards of high ATK monsters even more challenging to break. Paired with Extra Deck banishes from <b>Galaxy-Hundred</b>, the protection can seem nearly impossible to deal with.</p><p>Speaking of Galaxy Hundred, because the effect of Cipher X can be triggered on an empty field, it is a great way to detach <b>Galaxy-Eyes Afterglow Dragon</b> to summon <b>Galaxy-Eyes Photon Dragon</b>, triggering Hundred's effect to banish. This card has more uses than meets the eye.</p>",
 		"image": "28346136"
 	},
 	"cleric":
@@ -172,7 +172,7 @@
 		"priority": -4,
 		"rating": 3,
 		"count": "0-1 (main / side)",
-		"analysis": "",
+		"analysis": "<p>Galaxy Cleric is an interesting choice for turn 3 follow-up plays, as well as playing the grind game. Galaxy often burns through all of its level 8 resources, and putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to special summon.</p><p>Relying on the draw 2 to finish your plays also makes it less reliable than other one card follow-ups. So while it definitely has value, it tends to see little play overall.</p>",
 		"image": "28770951"
 	},
 	"cyclone":
@@ -183,7 +183,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "1 (side)",
-		"analysis": "",
+		"analysis": "<p>This generic Spell and Trap removal option is actually a Galaxy card. Despite the slowness of the second effect and limitations on what kind of cards can be destroyed, Galaxy Cyclone remains a simple and effective option. There are no shortage of ways to search it, including immediately by milling <b>Photon Jumper</b> off of <b>Galaxy-Hundred</b>.</p><p>Cyclone can be main decked during certain formats, but typically it lives as a searchable side deck 1-of.</p>",
 		"image": "5133471"
 	},
 	"decel":
@@ -194,7 +194,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "",
+		"analysis": "<p>If Photon Timeskip is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effecively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy-Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like Dark Ruler No More and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered at times. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
 		"image": "8653757"
 	},
 	"durendal":
@@ -205,7 +205,7 @@
 		"priority": 5,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Durendal is a mandatory component of the <b>Photon Timeskip</b> strategy, in which it forces the destruction of Timeskip to end the opponent's turn. While it works serviceably in this role, the card can also serve other uses. Due to <b>Galaxy Hundred</b> remaining on the field, Durendal can be an omni negate agaist cards Galaxy can't stop like, <b>Evenly Matched</b>. It also enables a rare, but deadly hand-ripping strategy in tandem with <b>Droll & Lock Bird</b>.</p><p>Increased options for level manipulation have made Galaxy less reliant on rank 5 xyzs, to the point that none are truly needed in the deck. But Durendal remains an option for those who want one, especially if Timeskip is involved.</p>",
 		"image": "69840739"
 	},
 	"emperor":
