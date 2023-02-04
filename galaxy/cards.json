@@ -161,7 +161,7 @@
 		"priority": 10,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Cipher X is a member of Galaxy xyz stacking pile, but is overlaid almost exclusively on <b>Galaxy-Eyes Cipher Dragon</b>. Its effects differ slightly in the TCG and OCG regions. In the TCG (non-Japan areas), its lingering targeting immunity applies even to monsters summoned after it, and even if it leaves the field. This forces interrupts and makes your boards of high ATK monsters more challenging to break. Paired with Extra Deck banishes from <b>Galaxy Hundred</b>, the total protection can be daunting.</p><p>Speaking of Galaxy Hundred, because the effect of Cipher X can be triggered on an empty field, it is a great way to detach <b>Galaxy-Eyes Afterglow Dragon</b> to summon <b>Galaxy-Eyes Photon Dragon</b>, triggering Hundred's effect to banish.</p><p>Cipher X's standby phase effect also lets you recycle combo starters like <b>Galaxy Photon Dragon</b> should it survive the turn. This card has more uses than meets the eye.</p>",
+		"analysis": "<p>Cipher X is a member of Galaxy xyz stacking pile, but is overlaid almost exclusively on <b>Galaxy-Eyes Cipher Dragon</b>. Its effects differ slightly in the TCG and OCG regions. In the TCG (non-Japan areas), its lingering targeting immunity applies even to monsters summoned after it, and even if it leaves the field. This forces interrupts and makes your boards of high ATK monsters more challenging to break. Paired with Extra Deck banishes from <b>Galaxy Hundred</b>, the total protection can be daunting.</p><p>Speaking of Galaxy Hundred, because the effect of Cipher X can be triggered on an empty field, it is a great way to detach <b>Galaxy-Eyes Afterglow Dragon</b> to summon <b>Galaxy-Eyes Photon Dragon</b>, triggering Hundred's effect to banish. Cipher X can also be overlaid on any monster stolen by the base Cipher Dragon to keep them indefinitely.</p><p>If that wasn't enough, Cipher X's standby phase effect also lets you recycle combo starters like <b>Galaxy Photon Dragon</b> should it survive the turn. This card has more uses than meets the eye.</p>",
 		"image": "28346136"
 	},
 	"cleric":
@@ -282,7 +282,7 @@
 		"priority": 4,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>A relic of the past, Galaxion was the go-to card for fetching level 8s if you couldn't access enough otherwise. Besides being largely replaced by <b>Galaxy Photon Dragon</b>, it has the embarassing reputation of locking out <b>Galaxy Trance</b> due to not being a Galaxy monster by name.</p><p>While not completely useless, there is little reason to run Galaxion in the modern era.</p>",
+		"analysis": "<p>A relic of the past, Galaxion was a backup plan for searching <b>Galaxy-Eyes Photon Dragon</b> if you opened poorly. Besides being largely replaced by <b>Galaxy Photon Dragon</b>, it has the embarassing reputation of locking out <b>Galaxy Trance</b> due to not being a Galaxy monster by name.</p><p>While not completely useless, there is little reason to run Galaxion in the modern era.</p>",
 		"image": "40390147"
 	},
 	"gepd":

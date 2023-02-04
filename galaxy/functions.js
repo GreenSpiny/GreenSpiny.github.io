@@ -274,7 +274,7 @@ function GetRating(self)
 
   const ratingImage = document.getElementById("analysis-image");
   ratingImage.style.display = "block";
-  ratingImage.setAttribute("onload", "ScrollIntoView(this)");
+  ratingImage.setAttribute("onload", "ScrollToRatingText()");
   ratingImage.setAttribute("src", "images/full/" + card["image"] + ".jpg");
 
   const ratingText = document.getElementById("analysis-text");
@@ -283,9 +283,16 @@ function GetRating(self)
   ratingText.innerHTML = ratingCount + card["analysis"];
 }
 
+async function ScrollToRatingText()
+{
+  setTimeout(() => {
+    ScrollIntoView(document.getElementById("analysis-text"));
+  }, 100);
+}
+
 function ScrollIntoView(obj)
 {
-  obj.scrollIntoView({behavior: "smooth", block:"center"});
+  obj.scrollIntoView({behavior: "smooth", block:"start"});
 }
 
 // ------------------------------------------------------ //
