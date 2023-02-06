@@ -161,6 +161,15 @@
 			"path": "normal wizard and search for hundred. activate hundred and mill emperor which will special itself and give you an extra normal summon. normal summoner and revive Wizard. wizard eff to search trance. emperor and summoner via summoners eff into galaxy photon dragon. galaxy photon dragon eff to search vanisher by detaching emperor. trance for emperor and afterglow. overlay both for cipher into ex . ex eff and afterglow summons gepd. trigger hundred and banish 1 from the opponents ed. special vanisher and search GEPD. vanisher and galaxy photon dragon into sol which recovers afterglow. special afterglow and overlay it with gepd for lord."
 		},
 		{
+			"name": "Wizard + Thrasher",
+			"start": "wizard,thrasher",
+			"end": "sol,lord|emperor,blast",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "special Thrasher. normal Wizard which will search Hundred. Hundred sends Jumper searching Trance. Trance for Jumper in GY and Summoner in deck. xyz GPD with Summoner and Jumper. GPD detach Summoner, send Emperor to GY. Emperor revive itself. Link Thrasher and GPD into solflare. Solflare add back Summoner. Bonus normal Summoner, summoner revive wizard. Tribute wizard adding Expedition. Expedition summon Soldier, soldier add GEPD. Summoner make Soldier level 4. xyz Summoner and Soldier into Blast. Blast summon GEPD from hand. GEPD + Emperor = Lord."
+		},
+		{
 			"name": "Thrasher + Jumper",
 			"start": "thrasher,jumper",
 			"end": "sol,lord|afterglow,cipherx",
@@ -186,15 +195,6 @@
 			"banishes": 1,
 			"cipher": true,
 			"path": "summon thrasher + vanisher. vansiher eff search GEPD. xyz to GPD. Effect GPD to add Galaxy soldier. Special summon solider Add wizard. Normal summmon wizard add hundred. activate hundred sent emperor. special summon emperor. summon sol with xyz and soldier. effect sol add wizard. extra normal summon wizard add trance. activate trance summon GEPD and after glow. chain hundred for ED banish. xyz summon cipher using emperor and afterglow. summon cipher x dragon. efffect cipher x dragon detach afterglow and cipher dragon. effect afterglow sepcial summon GEPD from deck. xyz summon photon lord with both GEPD."
-		},
-		{
-			"name": "Wizard + Thrasher",
-			"start": "wizard,thrasher",
-			"end": "sol,lord|emperor",
-			"reqs": "",
-			"banishes": 1,
-			"cipher": false,
-			"path": "special Thrasher. normal Wizard which will search Hundred. Hundred sends Emperor which will ss itself and give you an extra normal summon. thrasher and Emperor into sol which recovers Wizard. normal Wizard and search Trance. Trance eff to revive Emperor and special Afterglow or GEPD from Deck. Trigger Hundred and Banish 1 from their ED. Overlay both for Lord."
 		}
 	],
 	"3-card-combos":

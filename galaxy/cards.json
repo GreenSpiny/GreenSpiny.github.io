@@ -18,7 +18,7 @@
 		"priority": -4,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Photon Advancer is one of the simplest extenders in the deck. Its lacks of summon restrictions makes it reliable. However, compared to the other Photon warriors, it is more likely to needlessly consume the normal summon.</p><p>Now that Photon Jumper offers an improved third target for <b>Reinforcement of the Army</b>, running Advancer to avoid doubling up on names is less enticing.",
+		"analysis": "<p>Photon Advancer is one of the simplest extenders in the deck. Its lack of summon restrictions makes it reliable, but compared to the other Photon warriors, it is more likely to needlessly consume the normal summon.</p><p>Now that Photon Jumper offers an improved third target for <b>Reinforcement of the Army</b>, running Advancer to avoid doubling up on names is less enticing. The card works, but is not always ideal.",
 		"image": "98881931"
 	},
 	"afterglow":
@@ -114,10 +114,10 @@
 		"id": "brave",
 		"name": "Galaxy Brave",
 		"type": "effect",
-		"priority": -8,
-		"rating": 2,
-		"count": "0-3 (main)",
-		"analysis": "<p>Brave is unique amongst the archetypal level 8s. It has the most generous summoning condition, making it less of a brick, and it boasts the ability to be level 4, 8, or (with niche cards) level 5 on the field. Even before <b>Galaxy Photon Dragon</b> was available, its level manipulation allowed for unique <b>Bujinki Ahashima</b> combos, particularly with <b>Photon Vanisher</b> as a partner.</p><p>Once a 3-of staple, Brave is no longer quite as necessary. Still, it remains the best option for increasing level 8 count without adding bricks, which is more than enough reason to consider a few.</p>",
+		"priority": -7.9,
+		"rating": 1,
+		"count": "1-3 (main)",
+		"analysis": "<p>Brave is unique amongst the archetypal level 8s. It has the most generous summoning condition, making it less of a brick, and it boasts the ability to be level 4, 8, or (with niche cards) level 5 on the field. Even before <b>Galaxy Photon Dragon</b> was available, its level manipulation allowed for unique <b>Bujinki Ahashima</b> combos, particularly with <b>Photon Vanisher</b> as a partner.</p><p>Once a 3-of staple, Brave is no longer as necessary. Still, it remains the best option for increasing level 8 count without adding bricks, which is more than enough reason to consider a few.</p>",
 		"image": "55168550"
 	},
 	"c62":
@@ -370,7 +370,7 @@
 		"priority": -4,
 		"rating": 1,
 		"count": "2-3 (main)",
-		"analysis": "<p>Photon Jumper is a game changer. As a level 4 Photon monster with no summoning restrictions, it meshes well with archetypal extenders to make <b>Galaxy Photon Dragon</b>. The Spell / Trap search when hitting the GY vastly improves Galaxy's ability to play through interruption, plus increases the ceiling and diversity of its end boards. Placing Jumper back underneath an xyz monster with the help of <b>Galaxy Trance</b> or <b>Galaxy Summoner</b> allows you to get another search on the opponent's turn if the monster is outed, making comeback plays more reliable. If all that was not enough, it can be used as a handtrap to end the battle phase in an emergency.</p></p>Thanks to <b>Galaxy Hundred's</b> ability to send Photon Jumper to the GY - leading to chains where Jumper searches Galaxy Trance and Trance summons Jumper and either <b>Galaxy Wizard</b> or Galaxy Summoner - Jumper turns Hundred into a 1.5 card starter, a consistency boost the deck sorely needed. The importance of this card cannot be overstated.</p>",
+		"analysis": "<p>Photon Jumper is a game changer. As a level 4 Photon monster with no summoning restrictions, it meshes well with archetypal extenders to make <b>Galaxy Photon Dragon</b>. The Spell / Trap search when hitting the GY vastly improves Galaxy's ability to play through interruption, plus increases the ceiling and diversity of its end boards. Placing Jumper back underneath an xyz monster with the help of <b>Galaxy Trance</b> or <b>Galaxy Summoner</b> allows you to get another search on the opponent's turn if the monster is outed for comeback plays. If all that was not enough, it can be used as a handtrap to end the battle phase in an emergency.</p></p>Thanks to <b>Galaxy Hundred's</b> ability to send Photon Jumper to the GY - leading to chains where Jumper searches Galaxy Trance and Trance summons Jumper and either <b>Galaxy Wizard</b> or Galaxy Summoner - Jumper turns Hundred into a 1.5 card starter, a consistency boost the deck sorely needed. The importance of this card cannot be understated.</p>",
 		"image": "97639441"
 	},
 	"knight":
@@ -381,7 +381,7 @@
 		"priority": -8,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off in recent times. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it can continue be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to drop when <b>Photon Emperor</b> - a more important level 8 brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> status as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, it is difficult to justify a spot for a card so bricky.</p>",
+		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off in recent times. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it can continue be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to drop when <b>Photon Emperor</b> - a more important brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> strength as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, it is difficult to justify a spot for.</p>",
 		"image": "35950025"
 	},
 	"kuri":
@@ -414,7 +414,7 @@
 		"priority": -3,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Photon Lizard was once a prime <b>Accellight</b> target, which in tandem with <b>Galaxy Wizard</b>, allowed an option select of most required cards. After Accellight's fall from grace, Lizard retains a niche as a <b>Small World</b> bridge that fills most missing links, while being a semi-decent starter.</p><p>Still, Lizard is a subpar summon compared to Wizard, <b>Photon Jumper</b>, and others, so it is not recommended outside of Small World builds.</p>",
+		"analysis": "<p>Photon Lizard was once a prime <b>Accellight</b> target, which in tandem with <b>Galaxy Wizard</b>, allowed a search of most desired cards. After Accellight's fall from grace, Lizard retains a niche as a <b>Small World</b> bridge that fills most missing links, while being a semi-decent starter.</p><p>Still, Lizard is a subpar summon compared to Wizard, <b>Photon Jumper</b>, and others, so it is not recommended outside of Small World builds.</p>",
 		"image": "38973775"
 	},
 	"lord":
@@ -513,7 +513,7 @@
 		"priority": -5,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Slasher is an option for a second costless extender beyond <b>Photon Vanisher</b>, or a Rank 5 playmaker for builds using <b>Artifact Durendal</b> and similar monsters. The effect to summon is not once per turn, so it can be summoned after being linked into <b>Galaxy-Eyes Solflare Dragon</b> and added back. Slasher also allows <b>Galaxy Brave</b> to summon itself as a level 5 monster. For ordinary plays, <b>Galaxy Photon Dragon</b> can change it to level 4 or 8.</p><p>Unfortunately, Slasher is bricky as Galaxy is a Rank 4 and 8 deck at heart. The card has potential but does not see play in most builds.</p>",
+		"analysis": "<p>Slasher is an option for a second costless extender beyond <b>Photon Vanisher</b>, or a Rank 5 playmaker for builds using <b>Artifact Durendal</b> and similar monsters. The effect to summon is not once per turn, so it can be summoned after being linked into <b>Galaxy-Eyes Solflare Dragon</b> and added back. Slasher also allows <b>Galaxy Brave</b> to summon itself as a level 5 monster. For ordinary plays, <b>Galaxy Photon Dragon</b> or <b>Galaxy Summoner</b> can change it to level 4 or 8.</p><p>Unfortunately, Slasher is bricky as Galaxy is a Rank 4 and 8 deck at heart. The card has potential but does not see play in most builds.</p>",
 		"image": "9718968"
 	},
 	"smasher":
@@ -555,9 +555,9 @@
 		"name": "Hieratic Seal of the Heavenly Spheres",
 		"type": "link",
 		"priority": 2,
-		"rating": 3,
+		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Optimal Galaxy boards may find little use a card like Spheres, but when attempting to build a board through handtraps, it can fulfill multiple missed needs at once. Spheres lacks the discard cost of <b>Galaxy-Eyes Solflare Dragon</b>, and it can summon <b>Galaxy-Eyes Photon Dragon</b> from the deck - even when negated on field or tributed over - providing an alternative method of triggering <b>Galaxy Hundred</b>.</p><p>Although the requirement of 2 dragons and no <b>Galaxy Trance</b> lock makes it more difficult to summon than Solflare, Spheres may be worth considering as both a backup plan and stronger interrupt.</p>",
 		"image": "24361622"
 	},
 	"spiral":
@@ -568,7 +568,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "<p>While the protection offered by Tachyon Spiral Galaxy is near absolute, it is difficult to utilize. Using it offensively in tandem with <b>Number 107: Galaxy-Eyes Tachyon Dragon</b> is unreliable. As a searchable endboard piece, it can only protect dragons, and still leaves them vulnerable to being tributed or used as link material for <b>Underworld Goddess of the Closed World</b>.</p><p>Tachyon Spiral may have a niche in allowing <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> to serve as a towers against decks reliant on normal Spells to out it. In general, the card is very underwhelming.</p>",
 		"image": "89789152"
 	},
 	"stream":
@@ -579,7 +579,7 @@
 		"priority": 1,
 		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "",
+		"analysis": "<p>Photon Stream is a searchable 1-of tech competing with <b>Hyper Galaxy</b> for a spot. Though  more difficult to set up than its counterpart, it banishes targets and can hit Spell / Trap cards. Going first, searching it with <b>Number 90: Galaxy-Eyes Photon Lord</b> during the opponent's turn is an effective way to deal with set floodgates. Making it live on the opponent's turn is also possible because summoning <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> is ideal regardless.</p><p>Though bricky, Photon Stream has strong uses as removal and is an option for either the main or side.</p>",
 		"image": "72044448"
 	},
 	"summoner":
