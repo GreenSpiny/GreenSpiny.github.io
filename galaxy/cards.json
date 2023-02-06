@@ -95,7 +95,7 @@
 		"priority": 4,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Whether going first or second, Photon Blast Dragon brings the heat. It is a fantastic end board piece, protecting your other monsters from effect destruction and targeting. It can summon <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> - once on your turn with its first effect, and once on your opponent's turn with the second. If Blast's attack is boosted by <b>Galaxy Photon Dragon</b> or <b>Photon Orbital</b>, it will even fall under its own protection!</p><p>Blast is even more important on offense. The protection and extension effect typically force an interrupt from your opponent, leaving fewer options to disrupt your Rank 8 plays. This is not a card to sleep on.</p>",
+		"analysis": "<p>Whether going first or second, Photon Blast Dragon brings strong value. It is a fantastic end board piece, protecting your other monsters from effect destruction and targeting. It can summon <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> - once on your turn with its first effect, and once on your opponent's turn with the second. If Blast's attack is boosted by <b>Galaxy Photon Dragon</b> or <b>Photon Orbital</b>, it will even fall under its own protection.</p><p>Blast is even more important on offense. The protection and extension effect typically force an interrupt from your opponent, leaving fewer options to disrupt your Rank 8 plays. This is not a card to be ignored.</p>",
 		"image": "16643334"
 	},
 	"bounzer":
@@ -304,7 +304,7 @@
 		"priority": 4,
 		"rating": 1,
 		"count": "1-2 (main)",
-		"analysis": "<p>The latest and greatest addition to Galaxy's rank 4 toolbox. Between the search, level manipulation, and attack boost, Galaxy Photon Dragon is the consistency piece the deck always wished for. The double search from detaching <b>Photon Jumper</b> as material enables incredibly complicated and open ended plays.</p><p>Many times you will link this card away before your turn ends, but leaving it on the field with Photon Jumper as material, or using the attack boost to put <b>Starliege Photon Blast Dragon</b> under its own protection, is sometimes done as well. A mandatory card, and often the first xyz you make.</p>",
+		"analysis": "<p>The latest and greatest addition to Galaxy's rank 4 toolbox. Between the search, level manipulation, and attack boost, Galaxy Photon Dragon is the consistency piece the deck always wished for. The double search from detaching <b>Photon Jumper</b> as material enables complicated and open ended plays. Additionally, the re-leveling effect can chain block on-summon triggers like <b>Galaxy Soldier</b>.</p><p>Many times you will link this card away before your turn ends, but leaving it on the field with Photon Jumper as material, or using the attack boost to put <b>Starliege Photon Blast Dragon</b> under its own protection, is sometimes done as well. A mandatory card, and often the first xyz you make.</p>",
 		"image": "85747929"
 	},
 	"hand":
@@ -337,7 +337,7 @@
 		"priority": 1,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "<p>As both a searcher and playmaker, Galaxy Hundred is integral to the modern Galaxy playstyle.</p><p>The ability to mill <b>Photon Jumper</b> or <b>Photon Emperor</b> to the GY makes Hundred a strong combo tool in its own right. But its effect when <b>Galaxy-Eyes Photon Dragon</b> is summoned is incredible too. Going first, it gives information on what the opponent is playing, and removes key combo pieces or board breakers from their extra deck. Against Galaxy's strong defenders, opponents can struggle to push through if breakers like <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> are removed from the picture.</p><p>If that wasn't enough, Hundred can be triggered during the opponent's turn using <b>Galaxy-Eyes Afterglow Dragon</b>, <b>Starliege Photon Blast Dragon</b>, and more; sometimes even under on-field negation. This can even summon an opponent's <b>Number 41: Bagooska the Terribly Tired Tapir</b> to your field for a floodgate effect. The potential of Hundred is vast.</p>",
+		"analysis": "<p>As both a searcher and playmaker, Galaxy Hundred is integral to the modern Galaxy playstyle.</p><p>The ability to mill <b>Photon Jumper</b> or <b>Photon Emperor</b> to the GY makes Hundred a strong combo tool in its own right. But its effect when <b>Galaxy-Eyes Photon Dragon</b> is summoned is incredible too. Going first, it gives information on what the opponent is playing, and removes key combo pieces or board breakers from their extra deck. Against Galaxy's strong defenders, opponents can struggle to push through if cards like <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> are banished.</p><p>If that wasn't enough, Hundred can be triggered during the opponent's turn using <b>Galaxy-Eyes Afterglow Dragon</b>, <b>Starliege Photon Blast Dragon</b>, and more; sometimes even under on-field negation. This can even summon an opponent's <b>Number 41: Bagooska the Terribly Tired Tapir</b> to your field for a floodgate effect. The potential of Hundred is vast.</p>",
 		"image": "897409"
 	},
 	"hyper":
@@ -369,8 +369,8 @@
 		"type": "effect",
 		"priority": -4,
 		"rating": 1,
-		"count": "3 (main)",
-		"analysis": "",
+		"count": "2-3 (main)",
+		"analysis": "<p>Photon Jumper is a game changer. As a level 4 Photon monster with no summoning restrictions, it meshes well with archetypal extenders to make <b>Galaxy Photon Dragon</b>. The Spell / Trap search when hitting the GY vastly improves Galaxy's ability to play through interruption, plus increases the ceiling and diversity of its end boards. Placing Jumper back underneath an xyz monster with the help of <b>Galaxy Trance</b> or <b>Galaxy Summoner</b> allows you to get another search on the opponent's turn if the monster is outed, making comeback plays more reliable. If all that was not enough, it can be used as a handtrap to end the battle phase in an emergency.</p></p>Thanks to <b>Galaxy Hundred's</b> ability to send Photon Jumper to the GY - leading to chains where Jumper searches Galaxy Trance and Trance summons Jumper and either <b>Galaxy Wizard</b> or Galaxy Summoner - Jumper turns Hundred into a 1.5 card starter, a consistency boost the deck sorely needed. The importance of this card cannot be overstated.</p>",
 		"image": "97639441"
 	},
 	"knight":
@@ -381,7 +381,7 @@
 		"priority": -8,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off in recent times. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it can continue be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to drop when <b>Photon Emperor</b> - a more important level 8 brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> status as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, it is difficult to justify a spot for a card so bricky.</p>",
 		"image": "35950025"
 	},
 	"kuri":
@@ -392,7 +392,7 @@
 		"priority": -1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way, Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>Nevertheless, Kuirphoton may have a niche in time-stalling strategies. Burning the opponent for 2500 damage with <b>Galaxy Wave</b>, searching Kuriphoton (potentially off <b>Galaxy-Eyes Photon Lord</b> in the draw phase), and then preventing all damage dealt during the opponent's turn, is toxic in theory. Either way, it is not recommended.</p>",
 		"image": "35112613"
 	},
 	"light":
@@ -414,18 +414,18 @@
 		"priority": -3,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Photon Lizard was once a prime <b>Accellight</b> target, which in tandem with <b>Galaxy Wizard</b>, allowed an option select of most required cards. After Accellight's fall from grace, Lizard retains a niche as a <b>Small World</b> bridge that fills most missing links, while being a semi-decent starter.</p><p>Still, Lizard is a subpar summon compared to Wizard, <b>Photon Jumper</b>, and others, so it is not recommended outside of Small World builds.</p>",
 		"image": "38973775"
 	},
 	"lord":
 	{
 		"id": "lord",
-		"name": "Galaxy-Eyes Photon Lord",
+		"name": "Number 90: Galaxy-Eyes Photon Lord",
 		"type": "xyz",
-		"priority": 8,
+		"priority": 7.9,
 		"rating": 1,
 		"count": "1-2 (main)",
-		"analysis": "",
+		"analysis": "<p>The defensive bastion of Galaxy. Lord has it all - a solid 3k defense, destruction protection, monster negation, and the ability to either search follow-up or replensish its xyz material. Most going first boards are considered incomplete without Photon Lord or the ability to rank up into it.</p><p>Deciding when and how to use Lord's search effect is key. You have the option of searching follow-up for the next turn, discard fodder for <b>Galaxy-Eyes Solflare Dragon</b>, or niche archetypal hand traps. Searching later in the turn allows you to adapt to the situation and avoid an immediate <b>Triple Tactics Thrust</b>; meanwhile searching before the Main Phase lets you plus before getting hit by <b>Dark Ruler No More</b>, <b>Lava Golem</b>, and the like. Attaching <b>Galaxy Cyclone</b> or <b>Galaxy-Eyes Afterglow Dragon</b> to Lord as material during the Draw Phase are rare but applicable plays too.</p><p>Finally, knowing if and when to transition Lord into <b>Galaxy-Eyes Full Armor Photon Dragon</b> requires close awareness. Photon Lord is a deep card which necessitates making choices and paying attention to its materials. Running 1 is often enough, but 2 can help in a grind game.</p>",
 		"image": "8165596"
 	},
 	"neo":
@@ -490,7 +490,7 @@
 		"type": "spell",
 		"priority": 0,
 		"rating": 2,
-		"count": "0-2 (main)",
+		"count": "0-3 (main)",
 		"analysis": "",
 		"image": "17418744"
 	},
@@ -708,7 +708,7 @@
 		"id": "wizard",
 		"name": "Galaxy Wizard",
 		"type": "effect",
-		"priority": 4,
+		"priority": -4.1,
 		"rating": 1,
 		"count": "2-3 (main)",
 		"analysis": "",
