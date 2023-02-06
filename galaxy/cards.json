@@ -392,7 +392,7 @@
 		"priority": -1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way, Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>Nevertheless, Kuirphoton may have a niche in time-stalling strategies. Burning the opponent for 2500 damage with <b>Galaxy Wave</b>, searching Kuriphoton (potentially off <b>Galaxy-Eyes Photon Lord</b> in the draw phase), and then preventing all damage dealt during the opponent's turn, is toxic in theory. Either way, it is not recommended.</p>",
+		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way, Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>Nevertheless, Kuirphoton may have a niche in time-stalling strategies. Burning the opponent for 2500 damage with <b>Galaxy Wave</b>, searching Kuriphoton (potentially off <b>Galaxy-Eyes Photon Lord</b> in the draw phase), and then preventing all damage dealt during the opponent's turn, is toxic in theory. Either way, this card is not recommended.</p>",
 		"image": "35112613"
 	},
 	"light":
@@ -436,7 +436,7 @@
 		"priority": 9,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "<p>Neo Galaxy-Eyes has an interesting negation effect if summoned with the appropriate materials. It can also OTK if there are other xyz monsters present. Unfortunately, it is clunky to make, and most rulings state that if summoned using <b>Eternal Galaxy</b> on a monster with <b>Galaxy-Eyes Photon Dragon</b> as material, it will not apply the negation.</p><p>This largely kills the viability of the card, though you may wish to check with your head judge first. <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> is a superior option for a 3 material xyz.</p>",
 		"image": "39272762"
 	},
 	"orbital":
@@ -447,7 +447,7 @@
 		"priority": -4,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "",
+		"analysis": "<p>The primary searcher of the deck. As long as you have another archetypal monster on field, it can attach itself and fetch a monster of your choice.</p><p>Orbital's equip effects are also relevant. The attack boost can place <b>Starliege Photon Blast Dragon</b> under its own protection, allow <b>Galaxy-Eyes Solflare Dragon</b> to attack over <b>Number 41: Bagooska the Terribly Tired Tapir</b>, and help <b>Photon Thrasher</b> attack over similar threats. The battle protection is niche but can, for example, allow Rank 4 xyzs to make <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> by crashing into larger monsters.</p><p>Note that Orbital's search effect cannot be stopped by <b>Called by the Grave</b>. A clear 3-of in most builds.</p>",
 		"image": "89132148"
 	},
 	"papill":
@@ -457,9 +457,20 @@
 		"type": "xyz",
 		"priority": 4,
 		"rating": 3,
-		"count": "0-1 (main)",
-		"analysis": "",
+		"count": "0",
+		"analysis": "Fearing <b>Number 62: Galaxy-Eyes Prime Photon Dragon's</b> ability to OTK over attack position monsters, opponents may place all their monsters in defense position. Whether for this reason or the effects of cards like <b>Book of Eclipse</b>, Photon Papilloperative provides a way to change targets into attack position - even under <b>Galaxy Trance</b> lock.</p><p>This is typically not enough reason to warrant an extra deck slot, but if needed, the card can work.</p>",
 		"image": "28150174"
+	},
+	"pente":
+	{
+		"id": "pente",
+		"name": "Pentestag",
+		"type": "link",
+		"priority": 1,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters - denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and keeps face down monsters in place.</p><p>Generally, there is not enough need for Pentestag to warrant the space. If the need arises, it is available.</p>",
+		"image": "72336818"
 	},
 	"prime":
 	{
@@ -469,7 +480,7 @@
 		"priority": 8,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p><i>Prime.</i></p><p>With the help of <b>Galaxy-Eyes Afterglow Dragon</b>, this monster can achieve massive attack values in the damage step: 11,200 if it is the only xyz monster on the field, or a convenient 8,000 if Prime's effects are negated. It can beat over tough monsters such as <b>Mekk-Knight Crusadia Avramax</b> this way due to damage step mechanics. Even without Afterglow, Prime can reach respectable attack by itself or with a few other xyzs on the field.</p><p>With the ability to OTK over nearly any attack position monster, Prime strikes fear in the hearts of opponents - especially those using Link monsters. It is both an iconic part of Galaxy's identity, and a fantastic way to close games before the opponent has a chance to come back.</p>",
 		"image": "31801517"
 	},
 	"reborn":
@@ -480,7 +491,7 @@
 		"priority": 99,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Monster Reborn is a generic extender. The effects of <b>Galaxy Wizard</b> are not once per turn, so should Wizard be in the GY, Reborn can function as a searcher too.</p><p>There are consistency issues setting up, however, and the Galaxy deck is GY reliant enough as is. For these reasons Reborn is considered a win-more card and is not particularly enticing.</p>",
 		"image": "83764719"
 	},
 	"sanc":
@@ -491,7 +502,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-3 (main)",
-		"analysis": "",
+		"analysis": "<p>Photon Sanctuary is a fairly polarizing card in the archetype. Formerly a 3-of staple, it is now run as low as 0 or high as 3.</p><p>Sanctuary summons two tokens and is not once per turn. This can provide Photon names on field to kickstart your plays. The tokens can be tributed for the special summon of <b>Galaxy-Eyes Photon Dragon</b> or cost of <b>Hyper Galaxy</b>, or linked into <b>Galaxy-Eyes Solflare Dragon</b> or <b>Bujinki Ahashima</b>. This makes it a turn 3 follow-up that does not require a life point cost like <b>Galaxy Trance</b>.</p><p>On the flip side, with the advent of <b>Galaxy Photon Dragon</b>, Rank 4 xyz plays are more important than ever, and Sanctuary's tokens do not directly contribute to them. You might prefer an actual leveled monster instead in this case. You also need to consider off-attribute techs like <b>Number 41: Bagooska the Terribly Tired Tapir</b> that become locked out.</p><p>In summary, depending on your build, Sanctuary may be considered a playmaker or a brick. You are encouraged to explore the role of this card.<p>",
 		"image": "17418744"
 	},
 	"slasher":
@@ -502,7 +513,7 @@
 		"priority": -5,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Slasher is an option for a second costless extender beyond <b>Photon Vanisher</b>, or a Rank 5 playmaker for builds using <b>Artifact Durendal</b> and similar monsters. The effect to summon is not once per turn, so it can be summoned after being linked into <b>Galaxy-Eyes Solflare Dragon</b> and added back. Slasher also allows <b>Galaxy Brave</b> to summon itself as a level 5 monster. For ordinary plays, <b>Galaxy Photon Dragon</b> can change it to level 4 or 8.</p><p>Unfortunately, Slasher is bricky as Galaxy is a Rank 4 and 8 deck at heart. The card has potential but does not see play in most builds.</p>",
 		"image": "9718968"
 	},
 	"smasher":
@@ -513,7 +524,7 @@
 		"priority": 5,
 		"rating": 3,
 		"count": "0",
-		"analysis": "",
+		"analysis": "Incredibly difficult to summon but applying a lingering lock stronger than that of <b>True King of all Calamities</b>, Pair-a-Dice is the definition of a cheese card. When made with 3 materials, the success rate of its affect is above 90%. Between <b>Galaxy Soldier</b>, <b>Galaxy Brave</b>, <b>Photon Slasher</b>, and <b>Astral Kuriboh</b>, bringing out Pair-a-Dice alongside follow-up is a real possibility.</p><p>However, doing this while also having Turn 3 plays or not losing to one hand trap is difficult. It also relies heavily on including Photon Slasher in the deck. This strategy is not recommended, but may warrant exploration.</p>",
 		"image": "35772782"
 	},
 	"sol":
@@ -521,10 +532,10 @@
 		"id": "sol",
 		"name": "Galaxy-Eyes Solflare Dragon",
 		"type": "link",
-		"priority": -2,
+		"priority": 2,
 		"rating": 1,
 		"count": "2-3 (main)",
-		"analysis": "",
+		"analysis": "<p>Galaxy is blessed with a great Link-2 in Solflare Dragon. It is easy to summon, recycles your resources, and can destroy monsters on your opponent's turn.</p><p>While steep, the discard is acceptable when using <b>Galaxy-Eyes Photon Dragon</b> as the entire cost or including <b>Photon Jumper</b> as half. <b>Number 90: Galaxy-Eyes Photon Lord</b> can assist in fetching discard fodder during the opponent's turn. Galaxy and Photon monsters summoned in defense position can also be linked into Solflare to help attack for game.</p><p>Simply put, Solflare is a great tool for combos and grind games alike. 2-3 are recommended, or just 2 in blind second builds.</p>",
 		"image": "3356494"
 	},
 	"soldier":
@@ -535,7 +546,7 @@
 		"priority": -5,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "",
+		"analysis": "<p>The ultimate searcher. While it cannot add pure Photon monsters, Soldier's ability to put a monster on the field without the normal summon and search a combo piece at the same time is unparalleled. The addition of <b>Galaxy Photon Dragon</b> and <b>Galaxy Summoner</b> further improve this card by letting it re-level to 4 or 8. Summoning it with the effect of <b>Galaxy Expedition</b> is also a great way to go plus.</p><p>Whether you want to make Rank 4s, 5s, or 8s, Soldier provides value. A fantastic 3-of staple.</p>",
 		"image": "46659709"
 	},
 	"spheres":
@@ -543,7 +554,7 @@
 		"id": "spheres",
 		"name": "Hieratic Seal of the Heavenly Spheres",
 		"type": "link",
-		"priority": -2,
+		"priority": 2,
 		"rating": 3,
 		"count": "0-1 (main)",
 		"analysis": "",
