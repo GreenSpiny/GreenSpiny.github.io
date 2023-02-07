@@ -494,6 +494,17 @@
 		"analysis": "<p>Monster Reborn is a generic extender. The effects of <b>Galaxy Wizard</b> are not once per turn, so should Wizard be in the GY, Reborn can function as a searcher too.</p><p>There are consistency issues setting up, however, and the Galaxy deck is GY reliant enough as is. For these reasons Reborn is considered a win-more card and not very enticing to run.</p>",
 		"image": "83764719"
 	},
+	"rota":
+	{
+		"id": "rota",
+		"name": "Reinforcement of the Army",
+		"type": "spell",
+		"priority": 98,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Reinforcement of the Army searches any one of your level 4 Photon warriors at no cost.</p><p>This card is limited to 1 and highly recommended.</p>",
+		"image": "32807846"
+	},
 	"sanc":
 	{
 		"id": "sanc",
