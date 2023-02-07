@@ -7,7 +7,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Accellight is a consistency card, summoning your choice of <b>Galaxy Wizard</b>, <b>Photon Jumper</b>, <b>Photon Orbital</b>, or even <b>Photon Lizard</b> from the deck in place of your normal summon.</p><p>However, there's a flaw: it locks you out of both the regular normal summon and <b>Photon Emperor's</b> bonus normal summon. This reduces the ceiling of the deck. Between that and a weakness to Ash Blossom, Accellight has fallen out of favor.</p>",
+		"analysis": "<p>Accellight is a consistency card, summoning your choice of <b>Galaxy Wizard</b>, <b>Photon Jumper</b>, <b>Photon Orbital</b>, or even <b>Photon Lizard</b> from the deck in place of your normal summon.</p><p>However, there is a flaw: it locks you out of both the regular normal summon and <b>Photon Emperor's</b> bonus normal summon. This reduces the ceiling of the deck. Between that and a weakness to <b>Ash Blossom & Joyous Spring</b>, Accellight has fallen out of favor.</p>",
 		"image": "34838437"
 	},
 	"advancer":
@@ -172,7 +172,7 @@
 		"priority": -4,
 		"rating": 3,
 		"count": "0-1 (main / side)",
-		"analysis": "<p>Galaxy Cleric is an interesting choice for turn 3 follow-up plays, as well as playing the grind game. Galaxy can quickly burn through its level 8 resources, and putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to special summon.</p><p>Relying on the draw 2 to finish your plays also makes it less reliable than other one card follow-ups. So while it definitely has value, it tends to see little play overall.</p>",
+		"analysis": "<p>Galaxy Cleric is an interesting choice for turn 3 follow-up plays, as well as the grind game. Galaxy can quickly burn through its level 8 resources, and putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to special summon.</p><p>Relying on the draw 2 to finish your plays also makes it less reliable than other one card follow-ups. So while it has some value, it tends to see little play overall.</p>",
 		"image": "28770951"
 	},
 	"cyclone":
@@ -392,7 +392,7 @@
 		"priority": -1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way, Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>Nevertheless, Kuirphoton may have a niche in time-stalling strategies. Burning the opponent for 2500 damage with <b>Galaxy Wave</b>, searching Kuriphoton (potentially off <b>Galaxy-Eyes Photon Lord</b> in the draw phase), and then preventing all damage dealt during the opponent's turn, is toxic in theory. Either way, this card is not recommended.</p>",
+		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>Nevertheless, Kuirphoton may have a place in time-stalling strategies. Burning the opponent for 2500 damage with <b>Galaxy Wave</b>, searching Kuriphoton (potentially off <b>Galaxy-Eyes Photon Lord</b> in the draw phase), and then preventing all damage dealt during the opponent's turn, is toxic in theory. Either way, this card is not recommended.</p>",
 		"image": "35112613"
 	},
 	"light":
@@ -469,7 +469,7 @@
 		"priority": 1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters - denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and keeps face down monsters in place.</p><p>Generally there is not enough need for Pentestag to warrant the space, but should it arise, the card is available.</p>",
+		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters, denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and keeps face down monsters in place.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
 		"image": "72336818"
 	},
 	"prime":
@@ -491,7 +491,7 @@
 		"priority": 99,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Monster Reborn is a generic extender. The effects of <b>Galaxy Wizard</b> are not once per turn, so should Wizard be in the GY, Reborn can function as a searcher too.</p><p>There are consistency issues setting up, however, and the Galaxy deck is GY reliant enough as is. For these reasons Reborn is considered a win-more card and is not particularly enticing.</p>",
+		"analysis": "<p>Monster Reborn is a generic extender. The effects of <b>Galaxy Wizard</b> are not once per turn, so should Wizard be in the GY, Reborn can function as a searcher too.</p><p>There are consistency issues setting up, however, and the Galaxy deck is GY reliant enough as is. For these reasons Reborn is considered a win-more card and not very enticing to run.</p>",
 		"image": "83764719"
 	},
 	"sanc":
@@ -524,7 +524,7 @@
 		"priority": 5,
 		"rating": 3,
 		"count": "0",
-		"analysis": "Incredibly difficult to summon but applying a lingering lock stronger than that of <b>True King of all Calamities</b>, Pair-a-Dice is the definition of a cheese card. When made with 3 materials, the success rate of its effect exceeds 90%. Between <b>Galaxy Soldier</b>, <b>Galaxy Brave</b>, <b>Photon Slasher</b>, and <b>Astral Kuriboh</b>, bringing out Pair-a-Dice alongside follow-up is a possibility.</p><p>However, doing this while also having turn 3 plays or not losing to one hand trap is difficult. It also relies heavily on including Photon Slasher in the deck. This strategy is not recommended, but may warrant exploration.</p>",
+		"analysis": "<p>Incredibly difficult to summon but applying a lingering lock stronger than that of <b>True King of all Calamities</b>, Pair-a-Dice is the definition of a cheese card. When made with 3 materials, the success rate of its effect is above 90%. Between <b>Galaxy Soldier</b>, <b>Galaxy Brave</b>, <b>Photon Slasher</b>, and <b>Astral Kuriboh</b>, bringing out Pair-a-Dice alongside follow-up is a possibility.</p><p>However, doing this while also having turn 3 plays or not losing to one hand trap is difficult. It also relies heavily on including Photon Slasher in the deck. This strategy is not recommended, but may warrant exploration.</p>",
 		"image": "35772782"
 	},
 	"sol":
@@ -634,7 +634,7 @@
 		"priority": 99,
 		"rating": 3,
 		"count": "0-3 (main)",
-		"analysis": "<p>Trade-In is a difficult card to analyze. To some players, it is a way to unbrick hands, dig for side cards, and load the GY. To others, it is a brick which burns through resources and is costly when negated by cards such as <b>Ash Blossom & Joyous Spring</b>.</p><p>The math behind the answer is difficult. Run this card at your own discretion.</p>",
+		"analysis": "<p>Trade-In is a difficult card to analyze. To some players, it is a way to unbrick hands, dig for side cards, and load the GY. To others, it is a brick itself which burns through resources and is costly when negated.</p><p>The math behind the answer is complicated. Run this card at your own discretion.</p>",
 		"image": "38120068"
 	},
 	"trance":
@@ -744,7 +744,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Galaxy Zero is an archetypal GY revival option. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Last Hope Galaxy</b>, which in tandem, remove almost any need for the card. Not recommended.</p>",
+		"analysis": "<p>Galaxy Zero is an archetypal GY revival card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Last Hope Galaxy</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
 		"image": "97617181"
 	}
 }
