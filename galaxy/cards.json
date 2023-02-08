@@ -677,8 +677,8 @@
 		"type": "spell",
 		"priority": 1,
 		"rating": 3,
-		"count": "0-1 (side)",
-		"analysis": "",
+		"count": "0",
+		"analysis": "<p>Photon Trident has two niche uses. The first is to allow <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters; a role it fulfills as a searchable spell rather than an extra deck monster like <b>Pentestag</b>. The second is to immediately place <b>Starliege Photon Blast Dragon</b> under its own protection playing into a board.</p><p>Running a card as situational as Trident is not recommended. If included, it would be a 1-of side option going second.</p>",
 		"image": "51589188"
 	},
 	"vanisher":
@@ -689,7 +689,7 @@
 		"priority": -4,
 		"rating": 1,
 		"count": "2-3 (main)",
-		"analysis": "",
+		"analysis": "<p>A key extender and one of the simplest plusses in the deck. Vanisher's summoning condition is reasonable to fulfill, and it serves important roles in searching <b>Galaxy-Eyes Photon Dragon</b> and being xyz material on the field.</p><p>Vanisher is a tad heavy on restrictions, which can be awkward especially if Photon Dragon is already in your hand. Still, the card is invaluable in its role, and thus commonly run at 3 in builds.</p>",
 		"image": "43147039"
 	},
 	"veil":
@@ -700,7 +700,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0-1 (main / side)",
-		"analysis": "",
+		"analysis": "<p>Photon Veil enables a play where you place fewer monsters on the field than usual, but also add three copies of <b>Effect Veiler</b> to your hand. Splitting your board between the hand and field this way can insulate against board breakers going first. Veil can also unbrick hands in a pinch by searching three <b>Galaxy Wizards</b>.</p><p>The strategy is imperfect, however. Effect Veiler is a weak handtrap, failing under banish effects and not being as safe as <b>Infinite Impermanence</b>. Veil itself is not a card you want to see going second, but siding it still requires Veilers in the main or side. For now, Photon Veil is an interesting card that is not yet proven.</p>",
 		"image": "9354555"
 	},
 	"veiler":
@@ -755,7 +755,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Galaxy Zero is an archetypal GY revival card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Last Hope Galaxy</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
+		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Last Hope Galaxy</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
 		"image": "97617181"
 	}
 }
