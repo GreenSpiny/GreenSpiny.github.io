@@ -381,7 +381,7 @@
 		"priority": -8,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off in recent times. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it can continue be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to fall when <b>Photon Emperor</b> - a more important brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> strength as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, it is difficult to justify a spot for.</p>",
+		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it can continue be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to fall when <b>Photon Emperor</b> - a more important brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> strength as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, it is difficult to justify a spot for.</p>",
 		"image": "35950025"
 	},
 	"kuri":
@@ -425,7 +425,7 @@
 		"priority": 7.9,
 		"rating": 1,
 		"count": "1-2 (main)",
-		"analysis": "<p>The defensive bastion of Galaxy. Lord has it all - a solid 3k defense, protection, negation, and the ability to either search follow-up or replensish its xyz material.</p><p>Deciding when and how to use Lord's search effect is key. You have the option of searching follow-up for the next turn, discard fodder for <b>Galaxy-Eyes Solflare Dragon</b>, or niche archetypal hand traps. Searching later in the turn allows you to adapt to the situation and avoid an immediate <b>Triple Tactics Thrust</b>; meanwhile searching before the Main Phase lets you plus before getting hit by <b>Dark Ruler No More</b>, <b>Lava Golem</b>, and the like. Attaching <b>Galaxy Cyclone</b> or <b>Galaxy-Eyes Afterglow Dragon</b> to Lord as material during the Draw Phase are rare but applicable plays too.</p><p>Finally, knowing if and when to transition Lord into <b>Galaxy-Eyes Full Armor Photon Dragon</b> requires awareness. Photon Lord is a deep card that necessitates decision making and paying attention to its materials. Running 1 is often enough, but 2 can help in a grind game.</p>",
+		"analysis": "<p>The defensive bastion of Galaxy. Lord has it all - a solid 3k defense, protection, negation, and the ability to either search follow-up or replensish its xyz material.</p><p>Deciding when and how to use Lord's search effect is key. You have the option of searching follow-up for the next turn, discard fodder for <b>Galaxy-Eyes Solflare Dragon</b>, or niche archetypal hand traps. Searching later in the turn allows you to adapt to the situation and avoid an immediate <b>Triple Tactics Thrust</b>; meanwhile searching before the Main Phase lets you plus before getting hit by <b>Dark Ruler No More</b> and the like. Attaching <b>Galaxy Cyclone</b> or <b>Galaxy-Eyes Afterglow Dragon</b> to Lord as material during the Draw Phase are rare but applicable plays too.</p><p>Finally, knowing if and when to transition Lord into <b>Galaxy-Eyes Full Armor Photon Dragon</b> requires awareness. Photon Lord is a deep card that necessitates decision making and paying attention to its materials. Running 1 is often enough, but 2 can help in a grind game.</p>",
 		"image": "8165596"
 	},
 	"neo":
@@ -612,7 +612,7 @@
 		"priority": 8,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "",
+		"analysis": "<p>Tachyon Dragon is a borderline inclusion in Galaxy builds. It hits fairly hard, especially with <b>Galaxy-Eyes Afterglow Dragon</b> as material, and offers a full field negate for one less material than <b>Neo Galaxy-Eyes Photon Dragon</b>. It also makes some Tachyon Trap cards live in hand - including the deadly <b>Tachyon Transmigration</b> - which can be difficult to stop afterwards.</p><p>The problem with Tachyon Dragon is that without its special traps, other Galaxy xyz monsters usually get the job done better. Using traps from the hand implies going second, a situation where they are dead until you get a rank 8 on board to begin with. Until its support cards are searchable, Tachyon Dragon remains a niche choice and is not commonly run.",
 		"image": "88177324"
 	},
 	"thrasher":
@@ -634,7 +634,7 @@
 		"priority": 8,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "",
+		"analysis": "<p>Hope Harbinger is a common partner for <b>Number 90: Galaxy-Eyes Photon Lord</b> in Galaxy endboards. Its attack redirection is not once per turn, protecting smaller monsters such as <b>Starliege Photon Blast Dragon</b>, and can prevent opponents' effects which activate at the start of the damage step from triggering. The Spell negate is impactful and Harbinger denies the negated card any floating effects by attaching it as material.</p><p>With the new Galaxy support, making <b>Galaxy-Eyes Solflare Dragon</b>, Photon Lord, and Hope Harbinger all at once is consistent. This card is a core inclusion in the archetype.</p>",
 		"image": "63767246"
 	},
 	"trade":
@@ -689,7 +689,7 @@
 		"priority": -4,
 		"rating": 1,
 		"count": "2-3 (main)",
-		"analysis": "<p>A key extender and one of the simplest plusses in the deck. Vanisher's summoning condition is reasonable to fulfill, and it serves important roles in searching <b>Galaxy-Eyes Photon Dragon</b> and being xyz material on the field.</p><p>Vanisher is a tad heavy on restrictions, which can be awkward especially if Photon Dragon is already in your hand. Still, the card is invaluable in its role, and thus commonly run at 3 in builds.</p>",
+		"analysis": "<p>A key extender and one of the simplest plusses in the deck. Vanisher's summoning condition is reasonable to fulfill, and it serves important roles in searching <b>Galaxy-Eyes Photon Dragon</b> and being xyz material on the field.</p><p>Vanisher is a tad heavy on restrictions, which can be awkward especially if Photon Dragon is already in your hand. Still, the card is invaluable in its role, and thus commonly run at 2-3 in builds.</p>",
 		"image": "43147039"
 	},
 	"veil":
