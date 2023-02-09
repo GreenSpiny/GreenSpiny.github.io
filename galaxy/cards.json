@@ -73,7 +73,7 @@
 		"priority": -4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Last Hope Galaxy</b> can assist in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to make using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value.</p>",
+		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Last Hope Galaxy</b> can assist in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to be made using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value.</p>",
 		"image": "90590304"
 	},
 	"blade":
@@ -128,7 +128,7 @@
 		"priority": 9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't hit much harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - can force opponents to burn interrupts early. It can also be used as a towers against decks reliant on monsters for removal, or to swing into several monsters at once. Finally, C62 can be summoned on a Prime that had its effects negated, further bolstering the deck's resistance to spot negation.</p>",
+		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't hit much harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - can force opponents to burn interrupts early. It can also be used as a towers against decks reliant on monsters for removal, or to swing into several monsters at once. Finally, C62 can attack into monsters which would normally change it into defense position like <b>Scareclaw Tri-Heart</b> or interrupt it during battle.</p>",
 		"image": "48348921"
 	},
 	"cerberus":
@@ -150,7 +150,7 @@
 		"priority": 8.1,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Unlike the main deck Cipher monsters, Cipher xyzs are core to the Galaxy game plan. Cipher allows you to steal opposing monsters, after which they can be ranked up into <b>Galaxy-Eyes Cipher X Dragon</b> or (if it was an xyz monster) <b>Galaxy-Eyes Full Armor Photon Dragon</b>. This offers great card advantage, plus denies opposing monsters their floating effects if any.</p><p>Even going first, making Cipher to overlay Cipher X is a convenient way to trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b>. Regardless of whether you intend to use the theft effect, Cipher's niche as a base for xyz stacking is invaluable.</p>",
+		"analysis": "<p>Unlike the main deck Cipher monsters, Cipher xyzs are core to the Galaxy game plan. Cipher Dragon allows you to steal opposing monsters, after which they can be ranked up into <b>Galaxy-Eyes Cipher X Dragon</b> or (if it was an xyz monster) <b>Galaxy-Eyes Full Armor Photon Dragon</b>. This offers great card advantage, plus denies opposing monsters their floating effects if any.</p><p>Even going first, making Cipher Dragon to overlay Cipher X is a convenient way to trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b>. Regardless of whether you intend to use the theft effect, Cipher's niche as a base for xyz stacking is invaluable.</p>",
 		"image": "18963306"
 	},
 	"cipherx":
@@ -183,7 +183,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "1 (side)",
-		"analysis": "<p>This generic Spell and Trap removal option is actually a Galaxy card. Despite the slowness of the second effect and limitations on what kind of cards can be destroyed, Galaxy Cyclone remains an effective choice. There is no shortage of ways to search it, including immediately by milling <b>Photon Jumper</b> off <b>Galaxy-Hundred</b>.</p><p>Cyclone can be main decked during certain formats, but typically it lives as a searchable side deck 1-of.</p>",
+		"analysis": "<p>This generic Spell and Trap removal option is actually a Galaxy card. Despite the slowness of the second effect and limitations on what kind of cards can be destroyed, Galaxy Cyclone remains an effective choice. There is no shortage of ways to search it, including immediately by sending <b>Photon Jumper</b> to the GY off <b>Galaxy Hundred</b>.</p><p>Cyclone can be mained during certain formats, but typically it lives as a searchable side deck 1-of.</p>",
 		"image": "5133471"
 	},
 	"decel":
@@ -194,7 +194,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "<p>If Photon Timeskip is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effecively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy-Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like <b>Dark Ruler No More</b> and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
+		"analysis": "<p>If Photon Timeskip is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effectively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like <b>Dark Ruler No More</b> and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
 		"image": "8653757"
 	},
 	"durendal":
@@ -249,7 +249,7 @@
 		"priority": 8,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Though it may be incompatible with <b>Galaxy Trance</b>, Felgrand is a Light Rank 8 that is simultaneously a negate and a monster capable of triggering <b>Galaxy-Eyes Afterglow Dragon's</b> detach effect going first. This makes it a decent fit for the deck. Usually players opt for <b>Galaxy-Eyes Cipher X Dragon</b> lines instead, but Felgrand has applicable niches: for example, a monster negated by Felgrand cannot be used as material by fusion effects, putting a jam in some strategies.</p><p>Ultimately, Felgrand is not always run due to the popularity of Trance based plays, but remains an option to keep in mind.</p>",
+		"analysis": "<p>Though it may be incompatible with <b>Galaxy Trance</b>, Felgrand is a Light Rank 8 that is simultaneously a negate and a monster capable of triggering <b>Galaxy-Eyes Afterglow Dragon's</b> detach effect going first. This makes it a decent fit for the deck. Usually players opt for <b>Galaxy-Eyes Cipher X Dragon</b> lines instead, but Felgrand has applicable niches: for example, a monster negated by Felgrand cannot be used as material by fusion effects, putting a jam in some strategies.</p><p>Ultimately, Felgrand is not always run due to the popularity of Trance based plays, but remains an option to consider.</p>",
 		"image": "1639384"
 	},
 	"foolish":
@@ -392,7 +392,7 @@
 		"priority": -1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>Nevertheless, Kuirphoton may have a place in time-stalling strategies. Burning the opponent for 2500 damage with <b>Galaxy Wave</b>, searching Kuriphoton (potentially off <b>Galaxy-Eyes Photon Lord</b> in the draw phase), and then preventing all damage dealt during the opponent's turn, is toxic in theory. Either way, this card is not recommended.</p>",
+		"analysis": "<p>Kuriphoton is unconventional. Most important is its effect to prevent all damage for the turn. In this way Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>In theory, Kuirphoton could have a place in a time-stalling strategy: using it the turn after burning the opponent for over 2000 damage with <b>Galaxy Wave</b>. Either way, this card is not recommended.</p>",
 		"image": "35112613"
 	},
 	"light":
@@ -447,7 +447,7 @@
 		"priority": -4,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "<p>The primary searcher of the deck. As long as you have another archetypal monster on field, it can attach itself and fetch a monster of your choice.</p><p>Orbital's equip effects are also relevant. The attack boost can place <b>Starliege Photon Blast Dragon</b> under its own protection, allow <b>Galaxy-Eyes Solflare Dragon</b> to attack over <b>Number 41: Bagooska the Terribly Tired Tapir</b>, and help <b>Photon Thrasher</b> attack over similar threats. The battle protection is niche but can, for example, allow Rank 4 xyzs to make <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> by crashing into larger monsters.</p><p>Note that Orbital's search effect cannot be stopped by <b>Called by the Grave</b>. A clear 3-of in most builds.</p>",
+		"analysis": "<p>The primary searcher of the deck. As long as you have another archetypal monster on field, it can attach itself and fetch a monster of your choice.</p><p>Orbital's equip effects are also relevant. The attack boost places <b>Starliege Photon Blast Dragon</b> under its own protection, allows <b>Galaxy-Eyes Solflare Dragon</b> to attack over <b>Number 41: Bagooska the Terribly Tired Tapir</b>, and helps <b>Photon Thrasher</b> attack over similar threats. The battle protection is niche but can, for example, allow Rank 4 xyzs to make <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> by crashing into larger monsters.</p><p>Note that Orbital's search effect cannot be stopped by <b>Called by the Grave</b>. A clear 3-of in most builds.</p>",
 		"image": "89132148"
 	},
 	"papill":
@@ -469,7 +469,7 @@
 		"priority": 1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters, denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and keeps face down monsters in place.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
+		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters, denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and does not flip monsters face up.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
 		"image": "72336818"
 	},
 	"prime":
@@ -546,7 +546,7 @@
 		"priority": 2,
 		"rating": 1,
 		"count": "2-3 (main)",
-		"analysis": "<p>Galaxy is blessed with a great Link-2 in Solflare Dragon. It is easy to summon, recycles your resources, and can destroy monsters on your opponent's turn.</p><p>While steep, the discard is acceptable when using <b>Galaxy-Eyes Photon Dragon</b> as the entire cost or including <b>Photon Jumper</b> as half. <b>Number 90: Galaxy-Eyes Photon Lord</b> can fetch discard fodder during the opponent's turn if needed. Solflare is also handy to consolidate defense position monsters into viable attackers.</p><p>Simply put, Solflare is a great tool for combos and grind games alike. 2-3 are recommended, or just 2 in blind second builds.</p>",
+		"analysis": "<p>Galaxy is blessed with a great Link-2 in Solflare Dragon. It is easy to summon, recycles your resources, and can destroy monsters on the opponent's turn.</p><p>While steep, the discard is acceptable when using <b>Galaxy-Eyes Photon Dragon</b> as the entire cost or including <b>Photon Jumper</b> as half. <b>Number 90: Galaxy-Eyes Photon Lord</b> can fetch discard fodder during the opponent's turn if needed. Solflare is also handy to consolidate defense position monsters into viable attackers.</p><p>Simply put, Solflare is a great tool for combos and grind games alike. 2-3 are recommended, or just 2 in blind second builds.</p>",
 		"image": "3356494"
 	},
 	"soldier":
@@ -557,7 +557,7 @@
 		"priority": -5,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "<p>The primary searcher. While it cannot add pure Photon monsters, Soldier's ability to put a monster on field without the normal summon and search a combo piece at the same time is unparalleled. The addition of <b>Galaxy Photon Dragon</b> and <b>Galaxy Summoner</b> further improve this card by letting it re-level to 4 or 8. Summoning it with the effect of <b>Galaxy Expedition</b> is a great way to go plus.</p><p>Whether you want to make Rank 4s, 5s, or 8s, Soldier provides value. A 3-of staple.</p>",
+		"analysis": "<p>The most powerful searcher. While it cannot add pure Photon monsters, Soldier's ability to put a monster on field without the normal summon and search a combo piece at the same time is unparalleled. The addition of <b>Galaxy Photon Dragon</b> and <b>Galaxy Summoner</b> further improve this card by letting it re-level to 4 or 8. Summoning it with the effect of <b>Galaxy Expedition</b> is a great way to go plus.</p><p>Whether you want to make Rank 4s, 5s, or 8s, Soldier provides value. A 3-of staple.</p>",
 		"image": "46659709"
 	},
 	"spheres":
@@ -700,7 +700,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0-1 (main / side)",
-		"analysis": "<p>Photon Veil enables a play where you place fewer monsters on the field than usual, but also add three copies of <b>Effect Veiler</b> to your hand. Splitting your board between the hand and field this way can insulate against board breakers going first. Veil can also unbrick hands in a pinch by searching three <b>Galaxy Wizards</b>.</p><p>The strategy is imperfect, however. Effect Veiler is a weak handtrap, failing under banish effects and not being as safe as <b>Infinite Impermanence</b>. Veil itself is not a card you want to see going second, but siding it still requires Veilers in the main or side. For now, Photon Veil is an interesting card that is not yet proven.</p>",
+		"analysis": "<p>Photon Veil enables a play where you place fewer monsters on the field than usual, but also add three copies of <b>Effect Veiler</b> to your hand. Splitting your board between the hand and field this way can insulate against board breakers going first. Veil can also unbrick hands in a pinch by searching three <b>Galaxy Wizards</b>.</p><p>The strategy is imperfect, however. Effect Veiler is a weak handtrap, failing under banish effects and not being as safe as <b>Infinite Impermanence</b>. Veil itself is not a card you want to see going second, but siding it still requires Veilers in the main or side. For now, Photon Veil is an interesting card that is yet to be proven.</p>",
 		"image": "9354555"
 	},
 	"veiler":
@@ -744,7 +744,7 @@
 		"priority": 12,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>A staple in almost every deck that can make xyz monsters, Zeus is unsurprisingly viable in Galaxy. Using xyz stacking tactics usually starting with <b>Galaxy-Eyes Cipher Dragon</b> as a base, creating a 4+ material Zeus is trivial. It can also trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b> for a summon after a board wipe.</p><p>Zeus is not made especially often due to <b>Galaxy Trance</b> lock, but it still a great backup option and killer of rogue strategies.</p>",
+		"analysis": "<p>A staple in almost every deck that can make xyz monsters, Zeus is unsurprisingly viable in Galaxy. Using xyz stacking tactics often starting with <b>Galaxy-Eyes Cipher Dragon</b> as a base, creating a 4+ material Zeus is trivial. It can also trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b> for a summon after a board wipe.</p><p>Zeus is not made especially often due to <b>Galaxy Trance</b> lock, but it still a great backup option and killer of rogue strategies.</p>",
 		"image": "90448279"
 	},
 	"zero":
