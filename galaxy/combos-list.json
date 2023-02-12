@@ -17,7 +17,7 @@
 			"reqs": "Eternal Galaxy",
 			"banishes": 0,
 			"cipher": false,
-			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Eternal. Set Eternal. Opponent's Draw Phase: Eternal target GPD, summon Lord."
+			"path": "Hundred sends jumper. jumper searches trance. trance for jumper and summoner. both into sol which recovers summoner. ns summoner which revives jumper. overlay both for gpd which detaches summoner to search eternal galaxy."
 		},
 		{
 			"name": "Wizard",
@@ -108,7 +108,7 @@
 		},
 		{
 			"name": "Hundred + Soldier",
-			"start": "hundred,emperor",
+			"start": "hundred,soldier",
 			"end": "sol,lord|afterglow,titanic",
 			"reqs": "last hope numbers",
 			"banishes": 2,
