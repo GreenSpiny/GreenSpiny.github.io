@@ -4,6 +4,20 @@ body {
 	background-color: #292e33;
 }
 
+a {
+	color: #96C8FF;
+}
+
+a:hover {
+	color: #bfddff;
+}
+
+hr {
+	color: #AAA;
+	background-color: #AAA;
+	border-color: #AAA;
+}
+
 #center-column {
 	margin-left: auto;
 	margin-right: auto;

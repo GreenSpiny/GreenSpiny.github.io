@@ -1,0 +1,34 @@
+.guide-block {
+	margin: 8px 8px 0px 8px;
+}
+
+.guide-block p {
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 4px;
+	text-align: center;
+}
+
+.showcase {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	margin-top: 10px;
+}
+
+.showcase-item {
+	margin: 0px 8px 0px 8px;
+	box-sizing: border-box;
+}
+
+.showcase-item img {
+	width: 100%;
+}
+
+.bottom-space {
+	margin-bottom: 8px !important;
+}
+
+@media screen and (min-width: 800px) {
+
+}
