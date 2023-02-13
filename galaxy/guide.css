@@ -13,7 +13,7 @@
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 
 .showcase-item {
@@ -30,6 +30,9 @@
 }
 
 @media screen and (min-width: 800px) {
+	.showcase {
+		margin-top: 12px;
+}
 	.bottom-space {
 		padding-bottom: 4px !important;
 	}
