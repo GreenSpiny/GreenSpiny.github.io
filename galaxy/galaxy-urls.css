@@ -39,6 +39,7 @@
 .light-full			{ content:url("images/full/82085619.jpg"); }
 .lizard-full		{ content:url("images/full/38973775.jpg"); }
 .lord-full 			{ content:url("images/full/8165596.jpg"); }
+.magnamhut-full		{ content:url("images/full/33854624.jpg"); }
 .neo-full 			{ content:url("images/full/39272762.jpg"); }
 .orbital-full 		{ content:url("images/full/89132148.jpg"); }
 .papill-full 		{ content:url("images/full/28150174.jpg"); }
@@ -47,6 +48,7 @@
 .reborn-full 		{ content:url("images/full/83764719.jpg"); }
 .rota-full 			{ content:url("images/full/32807846.jpg"); }
 .sanc-full 			{ content:url("images/full/17418744.jpg"); }
+.shifter-full 	 	{ content:url("images/full/91800273.jpg"); }
 .slasher-full 		{ content:url("images/full/9718968.jpg"); }
 .smasher-full		{ content:url("images/full/35772782.jpg"); }
 .sol-full 			{ content:url("images/full/3356494.jpg"); }
@@ -57,6 +59,7 @@
 .summoner-full 		{ content:url("images/full/863795.jpg"); }
 .tachyon-full 		{ content:url("images/full/88177324.jpg"); }
 .thrasher-full 		{ content:url("images/full/65367484.jpg"); }
+.thrust-full 	 	{ content:url("images/full/35269904.jpg"); }
 .titanic-full 		{ content:url("images/full/63767246.jpg"); }
 .trade-full 		{ content:url("images/full/38120068.jpg"); }
 .trance-full 		{ content:url("images/full/63956833.jpg"); }
@@ -67,8 +70,8 @@
 .veiler-full		{ content:url("images/full/97268402.jpg"); }
 .wave-full 			{ content:url("images/full/77098449.jpg"); }
 .wizard-full 		{ content:url("images/full/98555327.jpg"); }
-.zeus-full 			{ content:url("images/full/90448279.jpg"); }
 .zero-full 			{ content:url("images/full/97617181.jpg"); }
+.zeus-full 			{ content:url("images/full/90448279.jpg"); }
 
 /* --- cropped --- */
 
@@ -111,6 +114,7 @@
 .light-cropped			{ content:url("images/cropped-small/82085619.jpg"); }
 .lizard-cropped			{ content:url("images/cropped-small/38973775.jpg"); }
 .lord-cropped 			{ content:url("images/cropped-small/8165596.jpg"); }
+.magnamhut-cropped 		{ content:url("images/cropped-small/33854624.jpg"); }
 .neo-cropped 			{ content:url("images/cropped-small/39272762.jpg"); }
 .orbital-cropped 		{ content:url("images/cropped-small/89132148.jpg"); }
 .papill-cropped 		{ content:url("images/cropped-small/28150174.jpg"); }
@@ -119,6 +123,7 @@
 .reborn-cropped 		{ content:url("images/cropped-small/83764719.jpg"); }
 .rota-cropped 			{ content:url("images/cropped-small/32807846.jpg"); }
 .sanc-cropped 			{ content:url("images/cropped-small/17418744.jpg"); }
+.shifter-cropped 		{ content:url("images/cropped-small/91800273.jpg"); }
 .slasher-cropped 		{ content:url("images/cropped-small/9718968.jpg"); }
 .smasher-cropped		{ content:url("images/cropped-small/35772782.jpg"); }
 .sol-cropped 			{ content:url("images/cropped-small/3356494.jpg"); }
@@ -129,6 +134,7 @@
 .summoner-cropped 		{ content:url("images/cropped-small/863795.jpg"); }
 .tachyon-cropped 		{ content:url("images/cropped-small/88177324.jpg"); }
 .thrasher-cropped 		{ content:url("images/cropped-small/65367484.jpg"); }
+.thrust-cropped 		{ content:url("images/cropped-small/35269904.jpg"); }
 .titanic-cropped 		{ content:url("images/cropped-small/63767246.jpg"); }
 .trade-cropped 			{ content:url("images/cropped-small/38120068.jpg"); }
 .trance-cropped 		{ content:url("images/cropped-small/63956833.jpg"); }
@@ -139,8 +145,8 @@
 .veiler-cropped			{ content:url("images/cropped-small/97268402.jpg"); }
 .wave-cropped 			{ content:url("images/cropped-small/77098449.jpg"); }
 .wizard-cropped 		{ content:url("images/cropped-small/98555327.jpg"); }
-.zeus-cropped 			{ content:url("images/cropped-small/90448279.jpg"); }
 .zero-cropped 			{ content:url("images/cropped-small/97617181.jpg"); }
+.zeus-cropped 			{ content:url("images/cropped-small/90448279.jpg"); }
 
 /* --- sub cards --- */
 
