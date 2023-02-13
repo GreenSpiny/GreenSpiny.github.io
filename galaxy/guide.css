@@ -26,9 +26,11 @@
 }
 
 .bottom-space {
-	margin-bottom: 8px !important;
+	padding-bottom: 0px !important;
 }
 
 @media screen and (min-width: 800px) {
-
+	.bottom-space {
+		padding-bottom: 4px !important;
+	}
 }

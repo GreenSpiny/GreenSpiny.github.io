@@ -13,6 +13,8 @@ a:hover {
 }
 
 hr {
+	margin-top: 8px;
+	margin-bottom: 8px;
 	color: #AAA;
 	background-color: #AAA;
 	border-color: #AAA;
@@ -282,6 +284,10 @@ hr {
 /* === RESPONSIVENESS === */
 
 @media screen and (min-width: 800px) {
+	hr {
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
 	.nav-dropdown-button {
 		padding-left: 33%;
 		background-blend-mode: normal;
