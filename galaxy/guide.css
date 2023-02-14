@@ -9,22 +9,6 @@
 	text-align: center;
 }
 
-.showcase {
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	margin-top: 8px;
-}
-
-.showcase-item {
-	margin: 0px 8px 0px 8px;
-	box-sizing: border-box;
-}
-
-.showcase-item img {
-	width: 100%;
-}
-
 .bottom-space {
 	padding-bottom: 4px !important;
 }

@@ -181,6 +181,27 @@ hr {
 	background-color: #858ac1;
 }
 
+/* === GENERIC CARD DISPLAY == */
+.showcase {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	margin-top: 8px;
+}
+
+.showcase-item, .showcase-item-filler {
+	margin: 0px 4px 0px 4px;
+	box-sizing: border-box;
+}
+
+.showcase-item-filler {
+	display: none;
+}
+
+.showcase-item img, .showcase-item-filler img {
+	width: 100%;
+}
+
 /* === TEXT === */
 
 .title-text {
@@ -300,6 +321,12 @@ hr {
 	}
 	.inner-nav-dropdown-button {
 		font-size: 14pt;
+	}
+	.showcase-item, .showcase-item-filler {
+		margin: 0px 8px 0px 8px;
+	}
+	.showcase-item-filler {
+		display: block;
 	}
 	.title-text {
 		font-size: 24pt;
