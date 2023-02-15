@@ -106,7 +106,7 @@
 		"priority": 6,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Strike Bounzer serves one role: To be an archetypal xyz made out of Bystial handtrap monsters. Should you summon both Bystials on the opponent's turn, you can overlay into Strike Bounzer without turning off <b>Galaxy Trance</b>. Whether this makes it worth running in builds with Bystials, especially compared to other rank 6 monsters, remains questionable.</p>",
+		"analysis": "<p>Strike Bounzer serves one role: To be an archetypal xyz made out of <b>Bystial</b> handtrap monsters. Should you summon both Bystials on the opponent's turn, you can overlay into Strike Bounzer without turning off <b>Galaxy Trance</b>. Whether this makes it worth running in builds with Bystials, especially compared to other rank 6 monsters, remains questionable.</p>",
 		"image": "92661479"
 	},
 	"brave":
@@ -398,7 +398,7 @@
 	"light":
 	{
 		"id": "light",
-		"name": "any Light",
+		"name": "any Light monster",
 		"type": "normal",
 		"priority": 0,
 		"rating": 0,

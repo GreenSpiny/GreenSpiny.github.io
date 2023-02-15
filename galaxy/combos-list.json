@@ -2,6 +2,24 @@
 	"1-card-combos":
 	[
 		{
+			"name": "Hundred + any Light",
+			"start": "hundred,light",
+			"end": "sol,lord|afterglow,gpd|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Soldier. SS Soldier discarding any Light; Soldier add Summoner; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard. Tribute Wizard adding Expedition. Expedition SS Afterglow. Soldier + Afterglow = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD. Summoner + Cipher X = Solflare; Solflare add Afterglow. SS Afterglow. GEPD + Afterglow = Lord."
+		},
+		{
+			"name": "Soldier + any Light",
+			"start": "soldier,light",
+			"end": "sol,lord|emperor,cipherx",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": true,
+			"path": "SS Soldier discarding any Light; Soldier add Wizard. NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Summoner adding Expedition. Expedition SS Emperor. Soldier + GPD = Solflare; Solflare add Summoner. Bonus NS Summoner; Summoner SS Wizard. Tribute Wizard adding Afterglow. SS Afterglow. GEPD + Afterglow = Cipher. Overlay Cipher X on Ciper. Cipher X detach Emperor and Afterglow; Emperor SS self, Afterglow SS GEPD. GEPD + Emperor = Lord."
+		},
+		{
 			"name": "Foolish Burial",
 			"start": "foolish",
 			"end": "sol,lord|afterglow|emperor,soldier",
@@ -27,27 +45,6 @@
 			"banishes": 0,
 			"cipher": false,
 			"path": "NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Wizard adding Eternal. Set Eternal. On the opponent's turn: Eternal target GPD, summon Lord."
-		}
-	],
-	"1.5-card-combos":
-	[
-		{
-			"name": "Hundred + any Light",
-			"start": "hundred,light",
-			"end": "sol,lord|afterglow,gpd|jumper",
-			"reqs": "",
-			"banishes": 2,
-			"cipher": true,
-			"path": "Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Soldier. SS Soldier discarding any Light; Soldier add Summoner; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard. Tribute Wizard adding Expedition. Expedition SS Afterglow. Soldier + Afterglow = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD. Summoner + Cipher X = Solflare; Solflare add Afterglow. SS Afterglow. GEPD + Afterglow = Lord."
-		},
-		{
-			"name": "Soldier + any Light",
-			"start": "soldier,light",
-			"end": "sol,lord|emperor,cipherx",
-			"reqs": "",
-			"banishes": 1,
-			"cipher": true,
-			"path": "SS Soldier discarding any Light; Soldier add Wizard. NS Wizard. Tribute Wizard adding Hundred. Hundred mill Jumper; Jumper add Trance. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Summoner adding Expedition. Expedition SS Emperor. Soldier + GPD = Solflare; Solflare add Summoner. Bonus NS Summoner; Summoner SS Wizard. Tribute Wizard adding Afterglow. SS Afterglow. GEPD + Afterglow = Cipher. Overlay Cipher X on Ciper. Cipher X detach Emperor and Afterglow; Emperor SS self, Afterglow SS GEPD. GEPD + Emperor = Lord."
 		}
 	],
 	"2-card-combos":

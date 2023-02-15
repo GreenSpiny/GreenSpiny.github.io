@@ -285,6 +285,17 @@ hr {
 	text-align: left;
 }
 
+.mini-text {
+	margin: 0;
+	padding: 0;
+	color: #BBB;
+	font-size: 9pt;
+	font-family: calibri, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+}
+
 .alert {
 	font-weight: bold !important;
 	color: #ff5050 !important;
@@ -348,6 +359,9 @@ hr {
 	}
 	.mono-text {
 		font-size: 14pt;
+	}
+	.mini-text {
+		font-size: 11pt;
 	}
 }
 
