@@ -258,23 +258,31 @@ function PopulateRatings()
       {
         const image = document.createElement("img");
         image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
+        image.setAttribute("id", "card-" + card["id"]);
         image.setAttribute("class", "ratings-image " + card["type"]);
         image.setAttribute("card-id", card["id"]);
-        image.setAttribute("onclick", "GetRating(this)");
+        image.setAttribute("onclick", "GetRating(this, true)");
         ratingDivs[i].appendChild(image);
       }
     }
   }
+
+  // Make the first rating GEPD without scrolling.
+  const gepdImage = document.getElementById("card-gepd");
+  GetRating(gepdImage, false);
+  
 }
 
-function GetRating(self)
+function GetRating(self, scroll)
 {
   const cardId = self.getAttribute("card-id");
   const card = cardsData[cardId];
-
   const ratingImage = document.getElementById("analysis-image");
   ratingImage.style.display = "block";
-  ratingImage.setAttribute("onload", "ScrollToRatingText()");
+  if (scroll)
+  {
+    ratingImage.setAttribute("onload", "ScrollToRatingText()");
+  }
   ratingImage.setAttribute("src", "images/full/" + card["image"] + ".jpg");
 
   const ratingText = document.getElementById("analysis-text");
@@ -349,7 +357,6 @@ async function InitializeRatings()
       cardsData = results2[0];
 
       PopulateRatings();
-
     });
   });
 }
