@@ -48,6 +48,10 @@
 	margin-bottom: 4px;
 }
 
+.mobile-break {
+	display: inline;
+}
+
 @media screen and (min-width: 800px) {
 	#content-area {
 		padding: 4px 8px 8px 8px;
@@ -63,5 +67,7 @@
 	.mobile-space {
 		margin-bottom: 0px;
 	}
-
+	.mobile-break {
+		display: none;
+	}
 }
