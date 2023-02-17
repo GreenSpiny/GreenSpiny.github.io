@@ -332,7 +332,7 @@ async function InitializeCombos()
       const urlParams = new URLSearchParams(window.location.search);
       const params = Object.fromEntries(urlParams.entries());
       
-      var tab = 2;
+      var tab = 1;
       if (params["tab"] != null)
       {
         tab = params["tab"];

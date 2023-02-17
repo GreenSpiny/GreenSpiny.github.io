@@ -282,7 +282,7 @@
 		},
 		{
 			"name": "Early Lord I (example)",
-			"notes": "Galaxy Trance or Galaxy Expedition make summoning a Photon Lord within 5 summons easy.",
+			"notes": "Galaxy Trance or Galaxy Expedition make overlaying a Photon Lord within 5 summons easy.",
 			"start": "soldier,gepd,trance",
 			"end": "sol,lord|afterglow,hyper",
 			"reqs": "",
@@ -292,7 +292,7 @@
 		},
 		{
 			"name": "Early Lord II (example)",
-			"notes": "The more extenders, the more creative ways there are to summon an early Lord while going full combo.",
+			"notes": "The more extenders, the more creative ways there are to summon Lord early while going full combo.",
 			"start": "thrasher,vanisher,brave,hundred",
 			"end": "sol,lord|emperor,titanic,hyper",
 			"reqs": "",
@@ -302,7 +302,7 @@
 		},
 		{
 			"name": "Classic Ahashima (example)",
-			"notes": "Bujinki Ahashima easily makes Lord under 5 summons anytime, though it is costly and disables Galaxy Trance.",
+			"notes": "Bujinki Ahashima makes Lord under 5 summons anytime, though it is costly and disables Galaxy Trance.",
 			"start": "vanisher,brave",
 			"end": "ahashima,lord",
 			"reqs": "",
