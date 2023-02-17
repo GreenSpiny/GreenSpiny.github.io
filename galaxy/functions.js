@@ -160,7 +160,14 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
     const splitPath = combo["path"].split(".");
     for (let i = 0; i < splitPath.length - 1; i++)
     {
-      ol.insertAdjacentHTML("beforeend", "<li class='mono-text'>" + splitPath[i] + ".</li>");
+      var period = '.';
+      const trimmedPath = splitPath[i].trim();
+      if (trimmedPath[0] == "-")
+      {
+        period = '';
+      }
+
+      ol.insertAdjacentHTML("beforeend", "<li class='mono-text'>" + trimmedPath + period + "</li>");
     }
 
     // extra padding
@@ -338,6 +345,7 @@ async function InitializeCombos()
       PopulateCombos(document.getElementById("card-combos-2"), "2-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-3"), "3-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-4"), "spicy-combos", 5);
+      PopulateCombos(document.getElementById("card-combos-5"), "nibiru-combos", 5);
 
     });
   });

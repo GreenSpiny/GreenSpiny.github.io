@@ -137,7 +137,7 @@
 			"reqs": "",
 			"banishes": 2,
 			"cipher": true,
-			"path": "activate hundred and send jumper. jumper searches trance. trance for jumper and wizard. both into gpd; gpd searches expedition. summon vanisher and search gepd; gpd makes vanisher level 8. expedition summons emperor. emperor and vanisher into cipher into ex; ex detach emperor. emperor revives itself. ex and gpd into sol. sol recovers wizard. normal wizard and use it to search summoner. extra normal summoner and revive wizard. wizard eff to search afterglow. special afterglow. summoner make afterglow level 4; overlay both into blast. blast eff to summon gepd from hand. gepd and emperor into lord...Alternative line (Gets gepd in hand but misses the follow up materials; it is easier to remember):.Activate hundred  and send jumper. jumper searches trance.trance for jumper and wizard. both into gpd; gpd searches expedition. ss vanisher and search gepd; gpd make vanisher L8. expedition solider ; solider searches summoner. ns summoner; ss wizard and wizard search afterglow. summoner eff to make soldier lvl 4. summoner and soldier into blast. blast eff to summon gepd from hand. special afterglow from hand. afterglow and gepd into ex. ex detach afterglow and gepd, afterglow summons another gepd from deck. gpd and cipher ex into sol which recovers gepd. vanisher + gepd into lord."
+			"path": "activate hundred and send jumper. jumper searches trance. trance for jumper and wizard. both into gpd; gpd searches expedition. summon vanisher and search gepd; gpd makes vanisher level 8. expedition summons emperor. emperor and vanisher into cipher into ex; ex detach emperor. emperor revives itself. ex and gpd into sol. sol recovers wizard. normal wizard and use it to search summoner. extra normal summoner and revive wizard. wizard eff to search afterglow. special afterglow. summoner make afterglow level 4; overlay both into blast. blast eff to summon gepd from hand. gepd and emperor into lord. Alternative line (Gets gepd in hand but misses the follow up materials; it is easier to remember):.Activate hundred  and send jumper. jumper searches trance.trance for jumper and wizard. both into gpd; gpd searches expedition. ss vanisher and search gepd; gpd make vanisher L8. expedition solider ; solider searches summoner. ns summoner; ss wizard and wizard search afterglow. summoner eff to make soldier lvl 4. summoner and soldier into blast. blast eff to summon gepd from hand. special afterglow from hand. afterglow and gepd into ex. ex detach afterglow and gepd, afterglow summons another gepd from deck. gpd and cipher ex into sol which recovers gepd. vanisher + gepd into lord."
 		},
 		{
 			"name": "Wizard + Vanisher",
@@ -245,7 +245,7 @@
 			"reqs": "Photon Veil, Effect Veiler",
 			"banishes": 1,
 			"cipher": false,
-			"path": ""
+			"path": "wip."
 		},
 		{
 			"name": "Terribly Tired Galaxy (example)",
@@ -256,6 +256,59 @@
 			"banishes": 0,
 			"cipher": false,
 			"path": "SS Thrasher. SS Vanisher; add GEPD. Thrasher + Vanisher = GPD. SS Soldier discarding GEPD; Soldier add Summoner; GPD make Soldier level 8. GPD detach Thrasher milling Jumper; Jumper add Eternal. NS Summoner; Summoner SS Jumper. Soldier + GPD = Solflare; Solflare add GEPD. Summoner + Jumper = Bagooska. Set Eternal."
+		}
+	],
+	"nibiru-combos":
+	[
+		{
+			"name": "Hold Trance I (example)",
+			"notes": "Hedge your bets against <b>Niburu, the Primal Being</b> by saving Galaxy Trance as a backup plan. Nibiru's token can be used as link material for Solflare which is handy for Afterglow combos.",
+			"start": "soldier,wizard,hundred",
+			"end": "sol,lord|afterglow,titanic|emperor",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "SS Soldier discarding Wizard. Soldier add Summoner. Activate Hundred sending Emperor; Emperor SS self. NS Summoner; Summoner revive Wizard. Summoner make Soldier level 4. Tribute Wizard adding Trance. Summoner + Soldier = GPD. --- Nibiru is live ---. GPD detach Wizard adding Expedition. Expedition SS Afterglow. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X effect detach Afterglow; Afterglow SS GEPD. Cipher X + GPD = Solflare; Solflare add Afterglow. SS Afterglow. Afterglow + GEPD = Lord. --- Nibiru is no longer live ---. Activate Trance summoning Emperor from GY and any level 8 Galaxy from deck. Overlay for Titanic."
+		},
+		{
+			"name": "Hold Trance II (example)",
+			"notes": "In the previous example, if the opponent brazenly holds Nibiru until right before you make Lord, you will not be able to end on two interruptions with your reserve combo. An alternative is to make Lord first, punishing them for waiting but at the expense of a weaker uninterrupted board. With another extender, this could instead be full combo.",
+			"start": "soldier,wizard,hundred",
+			"end": "sol,lord|emperor,titanic",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "SS Soldier discarding Wizard. Soldier add Summoner. Activate Hundred sending Emperor; Emperor SS self. NS Summoner; Summoner revive Wizard. Summoner make Soldier level 4. Tribute Wizard adding Trance. Summoner + Soldier = GPD. --- Nibiru is live ---. GPD detach Summoner adding Orbital. Orbital equip to GPD. Orbital send self adding Vanisher. SS Vanisher; Vanisher add GEPD; GPD make Vanisher level 8. Vanisher + Emperor = Lord. --- Nibiru is no longer live ---. Trance SS Orbtial from GY and Wizard from deck. Orbital + Wizard = Blast; Blast SS GEPD from hand. GPD + GEPD = Solflare; Solflare add Wizard. Bonus NS Wizard. Wizard increase level by 4. GEPD + Wizard = Titanic."
+		},
+		{
+			"name": "Early Lord I (example)",
+			"notes": "Galaxy Trance or Galaxy Expedition make summoning a Photon Lord within 5 summons easy.",
+			"start": "soldier,gepd,trance",
+			"end": "sol,lord|afterglow,hyper",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "SS Soldier discarding GEPD; Soldier add Wizard. Trance summon GEPD from GY and Afterglow from deck. Afterglow + GEPD = Lord. NS Wizard. Tribute Wizard adding Hundred. Hundred mill Emperor; Emperor SS self. Emperor + Soldier = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Hyper Galaxy. Set Hyper Galaxy."
+		},
+		{
+			"name": "Early Lord II (example)",
+			"notes": "The more extenders available, the more tricky ways there are to summon an early Lord.",
+			"start": "soldier,gepd,trance",
+			"end": "sol,lord|afterglow,hyper",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": ""
+		},
+		{
+			"name": "Classic Ahashima (example)",
+			"notes": "Bujinki Ahashima is an easy way to make Lord under 5 summons at any point in a turn. The play is costly in advantage and disables Galaxy Trance, so be wary. Photon Sanctuary can also make Ahashima by itself.",
+			"start": "brave,vanisher",
+			"end": "ahashima,lord",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "Summon Brave as level 4 revealing Vanisher. SS Vanisher; Vanisher add GEPD. Brave + Vanisher = Ahashima. Ahashima summon GEPD from hand and Brave from GY, immediately making Lord."
 		}
 	]
 }
