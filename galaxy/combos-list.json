@@ -262,7 +262,7 @@
 	[
 		{
 			"name": "Hold Trance I (example)",
-			"notes": "Hedge your bets against <b>Niburu, the Primal Being</b> by saving Galaxy Trance as a backup plan. Nibiru's token can be used as link material for Solflare which is handy for Afterglow combos.",
+			"notes": "Hedge your bets against <b>Niburu, the Primal Being</b> by saving Galaxy Trance as a backup plan.",
 			"start": "soldier,wizard,hundred",
 			"end": "sol,lord|afterglow,titanic|emperor",
 			"reqs": "",
@@ -272,7 +272,7 @@
 		},
 		{
 			"name": "Hold Trance II (example)",
-			"notes": "In the previous example, if the opponent brazenly holds Nibiru until right before you make Lord, you will not be able to end on two interruptions with your reserve combo. An alternative is to make Lord first, punishing them for waiting but at the expense of a weaker uninterrupted board. With another extender, this could instead be full combo.",
+			"notes": "In the previous example, if the opponent brazenly holds Nibiru until right before you make Lord, you will not be able to end on two interruptions with your reserve combo. An alternative is to make Lord first, punishing them for waiting.",
 			"start": "soldier,wizard,hundred",
 			"end": "sol,lord|emperor,titanic",
 			"reqs": "",
@@ -292,21 +292,21 @@
 		},
 		{
 			"name": "Early Lord II (example)",
-			"notes": "The more extenders available, the more tricky ways there are to summon an early Lord.",
-			"start": "soldier,gepd,trance",
-			"end": "sol,lord|afterglow,hyper",
+			"notes": "The more extenders, the more creative ways there are to summon an early Lord while going full combo.",
+			"start": "thrasher,vanisher,brave,hundred",
+			"end": "sol,lord|emperor,titanic,hyper",
 			"reqs": "",
-			"banishes": 1,
+			"banishes": 2,
 			"cipher": false,
-			"path": ""
+			"path": "SS Thrasher. SS Vanisher; Vanisher add GEPD. Activate Hundred sending Emperor; Emperor SS self. SS Brave as level 8 revealing GEPD. Brave + Emperor = Lord. Thrasher + Vanisher = GPD. GPD detach Thrasher adding Soldier. SS Soldier discarding GEPD; Soldier add Wizard; GPD make Soldier level 8. NS Wizard. Tribute Wizard adding Trance. Trance SS GEPD from GY and any level 8 Galaxy from deck. Overlay for Titanic. GPD + Soldier = Solflare; Solflare add Wizard. Bonus NS Wizard. Tribute Wizard adding Hyper Galaxy. Set Hyper Galaxy."
 		},
 		{
 			"name": "Classic Ahashima (example)",
-			"notes": "Bujinki Ahashima is an easy way to make Lord under 5 summons at any point in a turn. The play is costly in advantage and disables Galaxy Trance, so be wary. Photon Sanctuary can also make Ahashima by itself.",
-			"start": "brave,vanisher",
+			"notes": "Bujinki Ahashima easily makes Lord under 5 summons anytime, though it is costly and disables Galaxy Trance.",
+			"start": "vanisher,brave",
 			"end": "ahashima,lord",
 			"reqs": "",
-			"banishes": 1,
+			"banishes": 0,
 			"cipher": false,
 			"path": "Summon Brave as level 4 revealing Vanisher. SS Vanisher; Vanisher add GEPD. Brave + Vanisher = Ahashima. Ahashima summon GEPD from hand and Brave from GY, immediately making Lord."
 		}

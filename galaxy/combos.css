@@ -26,6 +26,11 @@
 	border-top: 4px dotted #adf6f2;
 }
 
+.combo p {
+	margin: 0px auto 0px auto;
+	max-width: 900px;
+}
+
 .combo-top {
 	border-top: none !important;
 }
