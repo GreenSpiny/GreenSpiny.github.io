@@ -273,10 +273,6 @@ function PopulateRatings()
       }
     }
   }
-
-  // Make the first rating GEPD without scrolling.
-  const gepdImage = document.getElementById("card-gepd");
-  GetRating(gepdImage, false);
   
 }
 
@@ -382,6 +378,38 @@ function ToggleButton(self)
   {
     self.innerHTML =self.innerHTML.replace("▼", "▲");
     content.style.display = "block";
+  }
+}
+
+function ToggleButton(self)
+{
+  var content = self.nextElementSibling;
+  if (content.style.display === "block")
+  {
+   self.innerHTML =self.innerHTML.replaceAll("▲", "▼");
+    content.style.display = "none";
+  }
+  else
+  {
+    self.innerHTML =self.innerHTML.replaceAll("▼", "▲");
+    content.style.display = "block";
+  }
+}
+
+function ExpandButton(self)
+{
+  var content = self.nextElementSibling;
+  if (self.innerHTML.includes("▲"))
+  {
+    self.innerHTML = self.innerHTML.replaceAll("▲", "▼");
+    content.style.transitionDuration = "0s";
+    content.style.maxHeight = "0";
+  }
+  else
+  {
+    self.innerHTML =self.innerHTML.replaceAll("▼", "▲");
+    content.style.transitionDuration = "4s";
+    content.style.maxHeight = "10000px";
   }
 }
 

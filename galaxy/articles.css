@@ -1,0 +1,83 @@
+.articles-block {
+	margin: 4px 8px 4px 8px;
+}
+
+.article-div {
+	max-height: 0px;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	transition-property: max-height;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	transition-timing-function: ;
+}
+
+.article-button {
+	display: block;
+	width: 100%;
+	max-width: 1000px;
+	height: 36px;
+	margin: 4px auto 4px auto;
+	background-color: #4c525c;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-size: cover;
+}
+
+.article-button-text {
+	padding: 0;
+	color: #EEE;
+	font-size: 14pt;
+	font-family: calibri, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 2px #000;
+	cursor: pointer;
+}
+
+.article-button:hover {
+	background-color: #606580;
+}
+
+.article-button:active {
+	background-color: #707590;
+}
+
+.article-div p, .article-div ol {
+	margin: auto;
+	margin: 4px 0px 4px 0px;
+}
+
+/* === ARTICLE BACKGROUNDS === */
+
+.lord-bg {
+	background-image: url("images/cropped/8165596.jpg");
+	background-position-y: 9%;
+	background-color: #3c435e !important;
+}
+
+.nibiru-bg {
+	background-image: url("images/cropped/27204311.jpg");
+	background-position-y: 62%;
+	background-color: #5e523c !important;
+}
+
+.time-bg {
+	background-image: url("images/cropped/71625222.jpg");
+	background-position-y: 53%;
+	background-color: #3c5e4e !important;
+}
+
+
+@media screen and (min-width: 800px) {
+	.article-button {
+		background-blend-mode: normal;
+		background-size: 256px;
+	}
+	.article-div p, .article-div ol {
+		margin: 8px 0px 8px 0px;
+	}
+}
