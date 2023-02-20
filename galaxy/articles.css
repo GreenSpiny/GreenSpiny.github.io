@@ -4,13 +4,12 @@
 
 .article-div {
 	max-height: 0px;
-	max-width: 1000px;
+	max-width: 900px;
 	margin: auto;
 	overflow: hidden;
 	transition-property: max-height;
 	transition-duration: 0s;
 	transition-delay: 0s;
-	transition-timing-function: ;
 }
 
 .article-button {
@@ -46,9 +45,27 @@
 	background-color: #707590;
 }
 
-.article-div p, .article-div ol {
+.article-div p {
 	margin: auto;
 	margin: 4px 0px 4px 0px;
+	text-align: left;
+}
+
+.article-div ol {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin: 4px 4px 4px 4px;
+	background-color: #151515;
+	text-align: left;
+}
+
+.article-div li {
+	padding-right: 4px;
+	text-align: left !important;
+}
+
+.bottom-space {
+	padding-bottom: 4px !important;
 }
 
 /* === ARTICLE BACKGROUNDS === */
@@ -79,5 +96,8 @@
 	}
 	.article-div p, .article-div ol {
 		margin: 8px 0px 8px 0px;
+	}
+	.bottom-space {
+		padding-bottom: 8px !important;
 	}
 }
