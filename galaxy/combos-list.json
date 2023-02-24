@@ -192,6 +192,15 @@
 			"banishes": 1,
 			"cipher": true,
 			"path": "summon thrasher + vanisher. vansiher eff search GEPD. xyz to GPD. Effect GPD to add Galaxy soldier. Special summon solider Add wizard. Normal summmon wizard add hundred. activate hundred sent emperor. special summon emperor. summon sol with xyz and soldier. effect sol add wizard. extra normal summon wizard add trance. activate trance summon GEPD and after glow. chain hundred for ED banish. xyz summon cipher using emperor and afterglow. summon cipher x dragon. efffect cipher x dragon detach afterglow and cipher dragon. effect afterglow sepcial summon GEPD from deck. xyz summon photon lord with both GEPD."
+		},
+		{
+			"name": "Summoner + Vanisher",
+			"start": "summoner,vanisher",
+			"end": "sol,lord|emperor",
+			"reqs": "Bujinki Ahashima",
+			"banishes": 1,
+			"cipher": false,
+			"path": "NS Summoner. SS Vanisher adding GEPD. Summoner + Vanisher = GPD. GPD detach Summoner adding Hundred. Hundred mill Emperor; Emperor SS self. GPD + Emperor = Solflare; Solflare add Summoner. Bonus NS Summoner; Summoner revive Emperor. Summoner make Emperor level 4. Summoner + Emperor = Ahashima; Ahashima summon GEPD from hand and Emperor from GY to make Lord."
 		}
 	],
 	"3-card-combos":

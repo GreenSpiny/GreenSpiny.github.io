@@ -46,9 +46,7 @@
 }
 
 .article-div p {
-	margin: auto;
-	margin: 4px 0px 4px 0px;
-	text-align: left;
+	margin: 8px auto 8px auto;
 }
 
 .article-div ol {
@@ -66,6 +64,14 @@
 
 .bottom-space {
 	padding-bottom: 4px !important;
+}
+
+.left p {
+	text-align: left !important;
+}
+
+.centered p {
+	text-align: center !important;
 }
 
 /* === ARTICLE BACKGROUNDS === */
@@ -88,14 +94,16 @@
 	background-color: #3c5e4e !important;
 }
 
+.rulings-bg {
+	background-image: url("images/cropped/41386308.jpg");
+	background-position-y: 16%;
+	background-color: #3c585e !important;
+}
 
 @media screen and (min-width: 800px) {
 	.article-button {
 		background-blend-mode: normal;
 		background-size: 256px;
-	}
-	.article-div p, .article-div ol {
-		margin: 8px 0px 8px 0px;
 	}
 	.bottom-space {
 		padding-bottom: 8px !important;

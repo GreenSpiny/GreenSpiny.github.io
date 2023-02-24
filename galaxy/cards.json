@@ -189,12 +189,12 @@
 	"decel":
 	{
 		"id": "decel",
-		"name": "Photon Timeskip",
+		"name": "Photon Timestop",
 		"type": "trap",
 		"priority": 0,
 		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "<p>If Photon Timeskip is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effectively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like <b>Dark Ruler No More</b> and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
+		"analysis": "<p>If Photon Timestop is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effectively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like <b>Dark Ruler No More</b> and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
 		"image": "8653757"
 	},
 	"durendal":
@@ -205,7 +205,7 @@
 		"priority": 5,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Durendal is a mandatory component of the <b>Photon Timeskip</b> strategy, in which it forces the destruction of Timeskip to end the opponent's turn. While it works serviceably in this role, there is more to it. Due to <b>Galaxy Hundred</b> remaining on the field, Durendal can negate cards Galaxy usually cannot stop such as <b>Evenly Matched</b>. It also enables a rare, but deadly hand-ripping combo with <b>Droll & Lock Bird</b>.</p><p>New options for level manipulation have made Galaxy less reliant on rank 5 xyzs, to the point that none are truly needed in the deck. But Durendal remains an option for those who want one, especially if Timeskip is involved.</p>",
+		"analysis": "<p>Durendal is a mandatory component of the <b>Photon Timestop</b> strategy, in which it forces the destruction of Timestop to end the opponent's turn. While it works serviceably in this role, there is more to it. Due to <b>Galaxy Hundred</b> remaining on the field, Durendal can negate cards Galaxy usually cannot stop such as <b>Evenly Matched</b>. It also enables a rare, but deadly hand-ripping combo with <b>Droll & Lock Bird</b>.</p><p>New options for level manipulation have made Galaxy less reliant on rank 5 xyzs, to the point that none are truly needed in the deck. But Durendal remains an option for those who want one, especially if Timestop is involved.</p>",
 		"image": "69840739"
 	},
 	"emperor":
