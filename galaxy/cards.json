@@ -73,7 +73,7 @@
 		"priority": -4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Last Hope Galaxy</b> can assist in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to be made using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value.</p>",
+		"analysis": "<p>Bagooska is a well-known floodgate often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection. <b>Numbers Last Hope</b> can assist in getting it out as well.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to be made using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value.</p>",
 		"image": "90590304"
 	},
 	"blade":
@@ -321,7 +321,7 @@
 	"hope":
 	{
 		"id": "hope",
-		"name": "Last Hope Galaxy",
+		"name": "Numbers Last Hope",
 		"type": "spell",
 		"priority": 0,
 		"rating": 2,
@@ -428,6 +428,17 @@
 		"analysis": "<p>The defensive bastion of Galaxy. Lord has it all - a solid 3k defense, protection, negation, and the ability to either search follow-up or replensish its xyz material.</p><p>Deciding when and how to use Lord's search effect is key. You have the option of searching follow-up for the next turn, discard fodder for <b>Galaxy-Eyes Solflare Dragon</b>, or niche archetypal hand traps. Searching later in the turn allows you to adapt to the situation and avoid an immediate <b>Triple Tactics Thrust</b>; meanwhile searching before the Main Phase lets you plus before getting hit by <b>Dark Ruler No More</b> and the like. Attaching <b>Galaxy Cyclone</b> or <b>Galaxy-Eyes Afterglow Dragon</b> to Lord as material during the Draw Phase are rare but applicable plays too.</p><p>Finally, knowing if and when to transition Lord into <b>Galaxy-Eyes Full Armor Photon Dragon</b> requires awareness. Photon Lord is a deep card that necessitates decision making and paying attention to its materials. Running 1 is often enough, but 2 can help in a grind game.</p>",
 		"image": "8165596"
 	},
+	"lyna":
+	{
+		"id": "lyna",
+		"name": "Lyna the Light Charmer, Lustrous",
+		"type": "link",
+		"priority": 2,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Lyna is a generic Link 2 made with any monsters in the deck. Besides summoning a monster from the opponent's GY - which could be used as xyz material - she fills a role linking away floodgates such as <b>Knightmare Corruptor Iblee</b> and <b>Contact \"C\"</b>. Should the opponent be foolish enough to destroy her, Lyna can search combo starters or handtraps including <b>Nibiru, the Primal Being</b>.</p><p>Despite her utilities, a lack of a Galaxy / Photon name and limited extra deck space make Lyna an intermittent inclusion only. She requires certain formats to truly shine.</p>",
+		"image": "9839945"
+	},
 	"neo":
 	{
 		"id": "neo",
@@ -471,6 +482,17 @@
 		"count": "0",
 		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters, denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and does not flip monsters face up.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
 		"image": "72336818"
+	},
+	"piri":
+	{
+		"id": "piri",
+		"name": "Piri Reis Map",
+		"type": "spell",
+		"priority": 99,
+		"rating": 3,
+		"count": "0-2 (main)",
+		"analysis": "<p>Consistency comes at a price. Piri Reis Map adds either <b>Galaxy Wizard</b> or <b>Photon Jumper</b> to your hand, both of which are fantastic starters. However, the Life Point cost is steep, especially combined with potential costs of <b>Galaxy Trance</b> or <b>Numbers Last Hope</b> afterwards.</p><p>Galaxy's improved reliability post- <b>Photon Jumper</b> makes Piri's downside difficult to justify. As such, it is not usually recommended, though its power cannot be denied.</p>",
+		"image": "33907039"
 	},
 	"prime":
 	{
@@ -733,7 +755,7 @@
 		"priority": -4.1,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "<p>Galaxy Wizard, once considered a secondary normal summon to <b>Galaxy Knight</b>, now sits at the forefront of the deck. Wizard's effects are not once per turn, enabling new combos in tandem with the extra normal summon from <b>Photon Emperor</b> and revival effect of <b>Galaxy Summoner</b>. It can search important combo pieces such as <b>Galaxy Hundred</b> and <b>Galaxy Expedition</b>, and follow-up playmakers including <b>Galaxy Trance</b> and <b>Last Hope Galaxy</b>.</p><p>As both a starter and turn 3 enabler, Wizard is a staple in modern Galaxy. 3 are most often run.<p>",
+		"analysis": "<p>Galaxy Wizard, once considered a secondary normal summon to <b>Galaxy Knight</b>, now sits at the forefront of the deck. Wizard's effects are not once per turn, enabling new combos in tandem with the extra normal summon from <b>Photon Emperor</b> and revival effect of <b>Galaxy Summoner</b>. It can search important combo pieces such as <b>Galaxy Hundred</b> and <b>Galaxy Expedition</b>, and follow-up playmakers including <b>Galaxy Trance</b> and <b>Numbers Last Hope</b>.</p><p>As both a starter and turn 3 enabler, Wizard is a staple in modern Galaxy. 3 are most often run.<p>",
 		"image": "98555327"
 	},
 	"zeus":
@@ -755,7 +777,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Last Hope Galaxy</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
+		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Numbers Last Hope</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
 		"image": "97617181"
 	}
 }
