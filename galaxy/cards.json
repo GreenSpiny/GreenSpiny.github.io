@@ -128,7 +128,7 @@
 		"priority": 9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't hit much harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - can force opponents to burn interrupts early. It can also be used as a towers against decks reliant on monsters for removal, or to swing into several monsters at once. Finally, C62 can attack monsters which would normally change it into defense position like <b>Scareclaw Tri-Heart</b> or interrupt it during battle.</p>",
+		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't hit much harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - forces opponents to burn interrupts early. C62 can attack monsters which would normally change it into defense position like <b>Scareclaw Tri-Heart</b> or interrupt it during battle. Finally, unlike Prime, C62 detaches material at the start of the battle phase; if it detaches Afterglow, the Galaxy-Eyes Photon Dragon summoned to your field can remove a monster blocking your OTK.</p>",
 		"image": "48348921"
 	},
 	"cerberus":
@@ -137,9 +137,9 @@
 		"name": "Photon Cerberus",
 		"type": "effect",
 		"priority": -3,
-		"rating": 3,
+		"rating": 2,
 		"count": "0-3 (side)",
-		"analysis": "<p>Photon Cerebus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, disabling all traps; and the opponent cannot chain traps in response unless they specifically negate the summon. In this way, despite the suboptimal level, you can line enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Unfortunately, Cerberus cannot be searched without summoning other monsters first, at which point traps may already get fired. It also faces stiff competition from generic board breaking cards which do not consume the normal summon. It is an interesting monster, but side deck space is typically too tight.</p>",
+		"analysis": "<p>Photon Cerebus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, disabling all traps; and the opponent cannot chain traps in response unless they specifically negate the summon. In this way, despite the suboptimal level, it lines enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Unfortunately, Cerberus cannot be searched without summoning other monsters first, at which point traps may already get fired. It also faces stiff competition from generic board breaking cards which do not consume the normal summon. It is an interesting monster, but faces stiff competition for side space.</p>",
 		"image": "28990150"
 	},
 	"cipher":
@@ -216,7 +216,7 @@
 		"priority": -8,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Emperor is a recent addition to the Galaxy toolbox. Not only is it a level 8 extender, but it grants an additional normal summon; fantastic for using the effect of <b>Galaxy Wizard</b> a second time, or making a high value <b>Galaxy Summoner</b> play. <b>Galaxy Hundred</b> is a simple way to trigger the summon of Emperor, but it can also be activated by detaching it as material, or if the monster it is attached to leaves the field. Having Emperor underneath your xyzs grants adds resilience to boards this way. Finally, as a level 8 photon, it makes a great target for <b>Galaxy Trance</b>.</p><p>For all its uses, Photon Emperor is a serious brick, so typically only 1 is played. Still, the ceiling increase it offers Galaxy is not to be underestimated.</p>",
+		"analysis": "<p>Emperor is a recent addition to the Galaxy toolbox. Not only is it a level 8 extender, but it grants an additional normal summon; fantastic for using the effect of <b>Galaxy Wizard</b> a second time, or making a high value <b>Galaxy Summoner</b> play. <b>Galaxy Hundred</b> is a simple way to trigger the summon of Emperor, but it can also be activated by detaching it as material, or if the monster it is attached to leaves the field. Having Emperor underneath your xyzs adds resilience to boards this way. Finally, as a level 8 photon, it makes a great target for <b>Galaxy Trance</b>.</p><p>For all its uses, Photon Emperor is a serious brick, so typically only 1 is played. Still, the ceiling increase it offers Galaxy is not to be underestimated.</p>",
 		"image": "73478096"
 	},
 	"eternal":

@@ -324,7 +324,7 @@ hr {
 @media screen and (min-width: 800px) {
 	hr {
 		margin-top: 12px;
-		margin-bottom: 12px;
+		margin-bottom: 8px;
 	}
 	.nav-dropdown-button {
 		padding-left: 33%;
@@ -353,6 +353,7 @@ hr {
 	}
 	.header-text {
 		font-size: 20pt;
+		padding-top: 4px;
 	}
 	.major-text {
 		font-size: 14pt;
