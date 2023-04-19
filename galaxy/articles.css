@@ -49,7 +49,7 @@
 	margin: 8px auto 8px auto;
 }
 
-.article-div ol {
+.article-div ol, .article-div ul {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin: 4px 4px 4px 4px;

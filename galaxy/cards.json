@@ -434,9 +434,9 @@
 		"name": "Lyna the Light Charmer, Lustrous",
 		"type": "link",
 		"priority": 2,
-		"rating": 3,
+		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Lyna is a generic Link 2 made with any monsters in the deck. Besides summoning a monster from the opponent's GY - which could be used as xyz material - she fills a role linking away floodgates such as <b>Knightmare Corruptor Iblee</b> and <b>Contact \"C\"</b>. Should the opponent be foolish enough to destroy her, Lyna can search combo starters or handtraps including <b>Nibiru, the Primal Being</b>.</p><p>Despite her utilities, a lack of a Galaxy / Photon name and limited extra deck space make Lyna an intermittent inclusion only. She requires certain formats to truly shine.</p>",
+		"analysis": "<p>Lyna is a generic Link made with any two monsters in the deck. Besides summoning a monster from the opponent's GY, she fills a role linking away floodgates such as <b>Knightmare Corruptor Iblee</b> and <b>Contact \"C\"</b>. Her floating effect can search combo pieces and handtraps alike; even <b>Nibiru, the Primal Being</b>.</p><p>Despite her utilities, a lack of a Galaxy / Photon name and limited extra deck space make Lyna only an intermittent inclusion. She requires certain formats to truly shine.</p>",
 		"image": "9839945"
 	},
 	"neo":
@@ -489,9 +489,9 @@
 		"name": "Piri Reis Map",
 		"type": "spell",
 		"priority": 99,
-		"rating": 3,
-		"count": "0-2 (main)",
-		"analysis": "<p>Consistency comes at a price. Piri Reis Map adds either <b>Galaxy Wizard</b> or <b>Photon Jumper</b> to your hand, both of which are fantastic starters. However, the Life Point cost is steep, especially combined with potential costs of <b>Galaxy Trance</b> or <b>Numbers Last Hope</b> afterwards.</p><p>Galaxy's improved reliability post- <b>Photon Jumper</b> makes Piri's downside difficult to justify. As such, it is not usually recommended, though its power cannot be denied.</p>",
+		"rating": 2,
+		"count": "0-3 (main)",
+		"analysis": "<p>Consistency comes at a price. Piri Reis Map adds either <b>Galaxy Wizard</b> or <b>Photon Jumper</b> to your hand, both of which are fantastic starters. However, the Life Point cost is steep, especially combined with potential costs of <b>Galaxy Trance</b> or <b>Numbers Last Hope</b> afterwards.</p><p>Galaxy's improved reliability with <b>Photon Jumper</b> makes Piri's downside hard to justify. It is not usually recommended, but the card's power cannot be denied either.</p>",
 		"image": "33907039"
 	},
 	"prime":
