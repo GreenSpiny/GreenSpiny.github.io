@@ -92,4 +92,7 @@
 	.card {
 		margin: 6px;
 	}
+	.card-area {
+		margin-top: 4px;
+	}
 }
