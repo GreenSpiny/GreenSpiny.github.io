@@ -359,7 +359,7 @@
 		"priority": 6,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>With <b>Galaxy Summoner</b> and <b>Galaxy Photon Dragon's</b> ability to re-level <b>Galaxy Soldier</b> to 4 or 8, there is less incentive to bloat the extra deck with Rank 5s like <b>Cyber Dragon Nova</b>. As such, Infinity has been cut from many builds.</p><p>Still, Galaxy lacks the ability to put up Trap negates natively, making it weak against <b>Evenly Matched</b>. Infinity retains a niche this way, though it competes with <b>Artifact Durendal</b> which requires one fewer deck slot and also enables turn skip.</p>",
+		"analysis": "<p>With <b>Galaxy Summoner</b> and <b>Galaxy Photon Dragon's</b> ability to re-level <b>Galaxy Soldier</b>, there is less incentive to bloat the extra deck with Rank 5s like <b>Cyber Dragon Nova</b>. As such, Infinity has been cut from many builds.</p><p>Still, Galaxy lacks the ability to put up Trap negates natively, making it weak against <b>Evenly Matched</b>. Infinity retains a niche this way, though it competes with <b>Artifact Durendal</b> which requires one fewer deck slot and also enables turn skip.</p>",
 		"image": "10443957"
 	},
 	"jumper":
@@ -524,7 +524,7 @@
 		"priority": -0.5,
 		"rating": 3,
 		"count": "0-3",
-		"analysis": "<p>Of the Therions, Regulus offers a unique interaction with Galaxy. By equipping <b>Photon Orbital</b> to itself from the GY, it sets up an omni negate without the normal summon and potentially a search off Orbital as well. The card is also conveniently level 8.</p><p>Unfortunately, Regulus is a serious brick, requiring either Orbital or <b>Galaxy Soldier</b> in the GY and also disabling <b>Galaxy Trance</b>. An early negate is impactful, but given the lack of consistency, Regulus has yet to be proven viable in pure variants of the deck.</p>",
+		"analysis": "<p>Of the Therions, Regulus offers a unique interaction with Galaxy. By equipping <b>Photon Orbital</b> to itself from the GY, it sets up an omni negate without the normal summon and potentially a search off Orbital as well. The card is also conveniently level 8.</p><p>Unfortunately, Regulus is a serious brick, requiring either Orbital or <b>Galaxy Soldier</b> in the GY and also disabling <b>Galaxy Trance</b>. An early negate is powerful, but given the lack of consistency, Regulus has yet to be proven viable in pure variants of the deck.</p>",
 		"image": "10604644"
 	},
 	"rota":

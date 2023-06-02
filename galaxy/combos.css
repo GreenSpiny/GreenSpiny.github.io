@@ -11,11 +11,7 @@
 	display: none !important;
 }
 
-.YYY {
-	
-}
-
-.combo-area {
+.tab-area {
 	display: flex;
 	width: 100%;
 	flex-direction: column;

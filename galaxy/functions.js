@@ -181,17 +181,17 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
 }
 
 // ------------------------------------------------------ //
-function ComboButtonFunc(number)
+function TabFunction(number, page)
 {
   const num = String(number);
   const urlParams = new URLSearchParams(window.location.search);
   urlParams.set("tab", num);
 
   const localUrl = window.location.href.split("?")[0];
-  if (localUrl.includes("combos"))
+  if (localUrl.includes(page))
   {
     window.history.replaceState({}, '', `${location.pathname}?${urlParams.toString()}`);
-    for (const child of document.getElementById("center-column").getElementsByClassName("combo-area")) {
+    for (const child of document.getElementById("center-column").getElementsByClassName("tab-area")) {
       if (child.getAttribute("id").endsWith(num))
       {
         child.removeAttribute("hidden");
@@ -205,7 +205,7 @@ function ComboButtonFunc(number)
   }
   else
   {
-    LoadUrl("combos.html?tab=" + num);
+    LoadUrl(page + "?tab=" + num);
   }
 }
 
@@ -334,7 +334,7 @@ async function InitializeCombos()
         tab = params["tab"];
       }
 
-      ComboButtonFunc(tab);
+      TabFunction(tab, "combos");
 
       cardCount = 0;
       PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos", 5);
@@ -363,6 +363,20 @@ async function InitializeRatings()
       PopulateRatings();
     });
   });
+}
+
+async function InitializeDecks()
+{
+  const urlParams = new URLSearchParams(window.location.search);
+  const params = Object.fromEntries(urlParams.entries());
+  
+  var tab = 1;
+  if (params["tab"] != null)
+  {
+    tab = params["tab"];
+  }
+
+  TabFunction(tab, "decks.html");
 }
 
 // ------------------------------------------------------ //

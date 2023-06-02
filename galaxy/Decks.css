@@ -2,10 +2,25 @@
 	border-top: none !!important;
 }
 
+.tab-area {
+	width: 100%;
+}
+
 .deck-area {
 	border-top: 4px dotted #adf6f2;
 	padding-top: 4px;
 	text-align: center;
+}
+
+.deck-area .title-text {
+	padding-bottom: 2px;
+}
+
+.deck-area .major-text {
+	margin: auto;
+	padding-left: 4px;
+	padding-right: 4px;
+	max-width: 800px;
 }
 
 .deck-area img {

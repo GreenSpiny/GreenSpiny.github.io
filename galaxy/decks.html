@@ -22,7 +22,7 @@
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body onload="InitializeDecks()">
 	
 	<div id="center-column">
 
@@ -70,17 +70,30 @@
 				 Click on an image to open it in Dueling Book's interactive deck viewer.</p>
 		</div>
 
-		<div id="deck-1" class="deck-area deck-top">
-			<p id="title" class="title-text padding-bottom">Pure Core</p>
-   			<a href="https://www.duelingbook.com/deck?id=12326439" target="_blank">
-   				<img src="/images/decks/pure-core-compressed.jpg" alt="Core">
-   			</a>
+		<div id="decks-1" class="tab-area">
+			<div class="deck-area deck-top">
+				<p class="title-text">Pure core</p>
+				<p class="major-text">Pure is the most common Galaxy variant. While it can use some off-archetypal techs, most of its plays are Photon or Galaxy reliant. It functions well even under <b>Galaxy Trance</b> lock.</p>
+	   			<a href="https://www.duelingbook.com/deck?id=12326439" target="_blank">
+	   				<img src="/images/decks/pure-core-compressed.jpg" alt="Core">
+	   			</a>
+			</div>
+			<div class="deck-area">
+				<p class="title-text">Pure example deck</p>
+				<a href="https://www.duelingbook.com/deck?id=12400967" target="_blank">
+	   				<img src="/images/decks/pure-going-first-compressed.jpg" alt="Pure List">
+	   			</a>
+			</div>
 		</div>
-		<div id="deck-2" class="deck-area">
-			<p id="title" class="title-text">Pure example deck</p>
-			<a href="https://www.duelingbook.com/deck?id=12400967" target="_blank">
-   				<img src="/images/decks/pure-going-first-compressed.jpg" alt="Pure List">
-   			</a>
+
+		<div id="decks-99" class="tab-area">
+			<div class="deck-area deck-top">
+				<p class="title-text">Dragon Variant core</p>
+				<p class="major-text">Though not the focus of this website, the Dragon variant is a popular build choice. It uses generic Chaos Dragon support to summon several Dragon Link and xyz monsters.</p>
+			</div>
+			<div class="deck-area">
+				<p class="title-text">Dragon Variant example deck</p>
+			</div>
 		</div>
 
 	</div>
