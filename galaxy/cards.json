@@ -73,7 +73,7 @@
 		"priority": -4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Bagooska is staple monster often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to be made using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value, and be a summon target for <b>Numbers Last Hope</b>.</p><p>Finally, Bagooska can be made in an emergency should a floodgate like <b>Dimension Shifter</b> stifle your combo, or to safely climb into <b>Divine Arsenal AA-ZEUS Sky Thunder</b> playing into a board.",
+		"analysis": "<p>Bagooska is staple monster often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to be made using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value, and be a summon target for <b>Numbers Last Hope</b>.</p><p>Finally, Bagooska can be made in an emergency should a floodgate like <b>Dimension Shifter</b> stifle your combo, or to safely climb into <b>Divine Arsenal AA-ZEUS Sky Thunder</b> playing into a board. Overall, it's a handy toolbox option for any format.",
 		"image": "90590304"
 	},
 	"blade":
@@ -128,7 +128,7 @@
 		"priority": 9,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't hit much harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - forces opponents to burn interrupts early. C62 can attack monsters which would normally change it into defense position like <b>Scareclaw Tri-Heart</b> or interrupt it during battle. Finally, unlike Prime, C62 detaches material at the start of the battle phase; if it detaches Afterglow, the Galaxy-Eyes Photon Dragon summoned to your field can remove a monster blocking C62's direct attack KO.</p>",
+		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't always hit harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - forces opponents to burn interrupts early. C62 can multi-attack and attack monsters which would normally interfere during battle like <b>Scareclaw Tri-Heart</b>. Finally, unlike Prime, C62 detaches material at the start of the battle phase; if it detaches Afterglow, the Galaxy-Eyes Photon Dragon summoned to your field can remove a monster blocking C62's direct attack KO.</p>",
 		"image": "48348921"
 	},
 	"cerberus":
@@ -381,7 +381,7 @@
 		"priority": -8,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it continues be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to fall when <b>Photon Emperor</b> - a more important brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> strength as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, Knight is difficult to justify a spot for.</p>",
+		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it continues to be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to fall when <b>Photon Emperor</b> - a more important brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> strength as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, Knight is difficult to justify a spot for.</p>",
 		"image": "35950025"
 	},
 	"kuri":
@@ -521,7 +521,7 @@
 		"id": "regulus",
 		"name": "Therion \"King\" Regulus",
 		"type": "effect",
-		"priority": -0.5,
+		"priority": -0.8,
 		"rating": 3,
 		"count": "0-3",
 		"analysis": "<p>Of the Therions, Regulus offers a unique interaction with Galaxy. By equipping <b>Photon Orbital</b> to itself from the GY, it sets up an omni negate without the normal summon and potentially a search off Orbital as well. The card is also conveniently level 8.</p><p>Unfortunately, Regulus is a serious brick, requiring either Orbital or <b>Galaxy Soldier</b> in the GY and also disabling <b>Galaxy Trance</b>. An early negate is powerful, but given the lack of consistency, Regulus has yet to be proven viable in pure variants of the deck.</p>",
@@ -546,7 +546,7 @@
 		"priority": 4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is also easy to make due to the popularity of <b>Galaxy Summoner</b> as a follow-up card.</p><p>Compared to other Summoner follow-up, Utopia Rising routes can accomplish a lot with additional extenders - including setting up OTKs under <b>Nibiru, the Primal Being</b>. The potential of this card warrants investigation.</p>",
+		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is also easy to make due to the popularity of <b>Galaxy Summoner</b> as a follow-up card.</p><p>Compared to other Summoner follow-up, Utopia Rising routes accomplish more with Photon Lord in the GY - including setting up OTKs under <b>Nibiru, the Primal Being</b>. This card's potential warrants further investigation.</p>",
 		"image": "93777634"
 	},
 	"sanc":
@@ -656,7 +656,7 @@
 		"priority": 8,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Tachyon Dragon is a borderline inclusion in Galaxy builds. It hits fairly hard, especially with <b>Galaxy-Eyes Afterglow Dragon</b> as material, and offers a full field negate for one less material than <b>Neo Galaxy-Eyes Photon Dragon</b>. It also makes some Tachyon Trap cards live in hand - including the deadly <b>Tachyon Transmigration</b> - which can be difficult to stop afterwards.</p><p>The problem with Tachyon Dragon is that without its special traps, other Galaxy xyz monsters usually get the job done better. Using traps from the hand implies going second, a situation where they are dead until you get a rank 8 on board to begin with. Until its support cards are searchable, Tachyon Dragon remains a niche choice and is not commonly run.",
+		"analysis": "<p>Tachyon Dragon is a borderline inclusion in Galaxy builds. It hits fairly hard, especially with <b>Galaxy-Eyes Afterglow Dragon</b> as material, and offers a full field negate for one less material than <b>Neo Galaxy-Eyes Photon Dragon</b>. It also makes some Tachyon Trap cards live in hand - including the deadly <b>Tachyon Transmigration</b> - which can be difficult to stop afterwards.</p><p>The problem with Tachyon Dragon is that without its special traps, other Galaxy xyz monsters get the job done better. Using traps from the hand implies going second, a situation where they are dead until you get a rank 8 on board to begin with. Until its support cards are searchable, Tachyon Dragon remains a niche choice and is not commonly run.",
 		"image": "88177324"
 	},
 	"thrasher":
@@ -666,7 +666,7 @@
 		"type": "effect",
 		"priority": -4,
 		"rating": 1,
-		"count": "0-2 (main)",
+		"count": "1-2 (main)",
 		"analysis": "<p>Photon Thrasher is a true veteran of the archetype.</p><p>Despite a seemingly dated effect, Thrasher starts plays by putting a Photon name on field without the normal summon, and provides valuable level 4 xyz material. With its fairly high attack, it can force interrupts by attacking into weaker threats, and can be immediately tributed for the cost of <b>Hyper Galaxy</b>.</p><p>Running at least 1 copy as a <b>Reinforcement of the Army</b> target is recommended. After over a decade, Thrasher still puts in good work.</p>",
 		"image": "65367484"
 	},
