@@ -224,16 +224,8 @@
 	"3-card-combos":
 	[
 		{
-			"name": "Wizard + Vanisher + Jumper",
-			"start": "wizard,vanisher,jumper",
-			"end": "sol,lord|afterglow,titanic|emperor,blast|jumper,gpd",
-			"reqs": "",
-			"banishes": 2,
-			"cipher": false,
-			"path": "NS Wizard. SS Vanisher from hand; Vanisher add GEPD from deck. Tribute Wizard adding Soldier from deck. SS Soldier from hand discarding Jumper; Soldier add Summoner from deck; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Summoner make Afterglow level 4. Afterglow + Summoner = GPD. GPD detach Afterglow adding Trance from deck; Afterglow SS GEPD from deck; Hundred banish a card. Emperor + GEPD = Titanic. Soldier + Vanisher = Solflare; Solflare add Afterglow from GY. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = Blast; Blast SS GEPD from hand. SS Afterglow from hand. Afterglow + GEPD = Lord."
-		},
-		{
-			"name": "Soldier + Vanisher + Jumper",
+			"name": "3 card combo (example)",
+			"notes": "Unlike the 2 card combos, there are nearly endless 3 card combos. While this example demonstrates a high ceiling monster board, in practice - when you have 3+ extenders - you should instead consider playing through handtraps, securing follow up, and potentially searching backrow.",
 			"start": "soldier,vanisher,jumper",
 			"end": "sol,lord|afterglow,titanic|emperor,blast|jumper,gpd",
 			"reqs": "",
@@ -272,7 +264,7 @@
 			"reqs": "Photon Veil, Effect Veiler",
 			"banishes": 1,
 			"cipher": false,
-			"path": "SS Thrasher from hand. SS Vanisher from hand; Vanisher add GEPD from deck. Thrasher + Vanisher = GPD. GPD detach Thrasher adding Soldier. SS Soldier from hand discarding Jumper; Soldier add Wizard from deck; Jumper add Veil from deck; GPD make Soldier level 8. NS Wizard. Tribute Wizard adding Hundred. Hundred mill Emperor; SS Emperor from GY. Soldier + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Afterglow + Emperor = Lord. Veil return GEPD and the two remaining LIGHT monsters to deck adding three Effect Veilers."
+			"path": "SS Thrasher from hand. SS Vanisher from hand; Vanisher add GEPD from deck. Thrasher + Vanisher = GPD. GPD detach Thrasher adding Soldier. SS Soldier from hand discarding Jumper; Soldier add Wizard from deck; Jumper add Veil from deck; GPD make Soldier level 8. NS Wizard. Tribute Wizard adding Hundred. Hundred mill Emperor; SS Emperor from GY. Soldier + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Afterglow + Emperor = Lord. Veil return GEPD and the two remaining Light monsters to deck adding three Effect Veilers."
 		},
 		{
 			"name": "Terribly Tired Galaxy (example)",
