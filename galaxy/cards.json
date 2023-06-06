@@ -73,7 +73,7 @@
 		"priority": 4,
 		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Avramax is a generic Link monster offering additional counterplay to <b>Dimensional Barrier</b>. Barrier call xyz is a common tech against Galaxy. Thanks to <b>Photon Sanctuary</b> providing ample Link material, making Avramax is simple even in pure builds.</p><p>Still, Galaxy has some native ways of dealing with Barrier - including searching backrow and swinging with 3000 ATK <b>Galaxy-Eyes Photon Dragon</b>(s) and <b>Galaxy Brave</b>. Summoning Avramax also uses up most of the Link monsters in Galaxy's extra deck. To most players, the niche occupied by Avramax is not a worthy use of space.",
 		"image": "21887175"
 	},
 	"bagooska":
@@ -150,7 +150,7 @@
 		"priority": -0.4,
 		"rating": 3,
 		"count": "0-3 (main)",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Should one be willing to run a package of <b>Granguignol the Dusk Dragon</b> and <b>Despian Luluwalilith</b> in the Extra Deck, Blazing Cartesia opens up some unique plays with <b>Photon Emperor</b>. Cartesia can fuse with any Photon or Galaxy monster to make Granguignol, which then mills Emperor. When Emperor summons itself from the GY, you reclaim a normal summon, have two level 8s on the field, and an additional interrupt from Granguignol's second effect.</p><p>Though the play seems powerful, it is not without drawbacks; Cartesia leaves you with no Photon names on field or GY if interrupted. And while the combo is compatible with <b>Photon Sanctuary</b>, it is unfortunately not with <b>Galaxy Trance</b>. For the present, Cartesia lines are interesting but unproven in viability.</p>",
 		"image": "95515789"
 	},
 	"cerberus":
@@ -172,7 +172,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Photon Change is slightly too slow to be viable. The ability of <b>Photon Timestop</b> to place it directly from deck and allow it to remain on field indefinitely is interesting, but a gimmick at best. Not recommended.</p>",
 		"image": "42925441"
 	},
 	"cipher":
@@ -238,7 +238,7 @@
 		"priority": -0.8,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Draglubion is another <i>Dragon Variant</i> card not recommended in pure builds. Due to rarely Light or Galaxy locking themselves, Dragon Variant players reliably make it and summon either <b>Number 38: Hope Harbinger Dragon Titanic Galaxy</b> or <b>Number 100: Numeron Dragon</b> with its effect.</p><p>Note that the restriction of <b>Numbers Last Hope</b> matches that of Draglubion perfectly. Regardless, pure Galaxy has neither the need nor the space to utilize this package.",
 		"image": "28400508"
 	},
 	"durendal":
@@ -458,7 +458,7 @@
 		"priority": -0.8,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Levianeer is a noteworthy extender for Rank 8 and Light decks. While it functions serviceably in some Galaxy variants, particularly the aptly named <i>Dragon Variant</i>, a reliance on GY setup and <b>Galaxy Trance</b> incompatibility make it a questionable choice for pure builds.</p>",
 		"image": "55878038"
 	},
 	"light":
@@ -500,9 +500,9 @@
 		"name": "Return of the Dragon Lords",
 		"type": "spell",
 		"priority": 99,
-		"rating": 3,
+		"rating": 0,
 		"count": "0",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>A terribly bricky extender with protection that doesn't make up for the unreliability. Noted here as a trap many players fall for. Not recommended.</p>",
 		"image": "6853254"
 	},
 	"lyna":
@@ -524,7 +524,7 @@
 		"priority": 99,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Melody is a unique search card, loading the GY while searching two of <b>Galaxy-Eyes Photon Dragon</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, or <b>Chaos Dragon Levianeer</b> in any combination. This has great synergy with Levianeer, which needs a full GY to function.</p><p>However, as all of the search targets are bricks themselves, Melody is not recommended in pure builds. The <i>Dragon Variant</i> has an easier time filling the GY and makes better use of Levianeer, making it a specialized card for that build only.",
 		"image": "48800175"
 	},
 	"nebula":
@@ -535,7 +535,7 @@
 		"priority": -0.8,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>coming soon.</p>",
+		"analysis": "<p>Akin to <b>Chaos Dragon Levianeer</b>, Nebula Dragon is a viable choice for <i>Dragon Variant</i> builds only. Pure Galaxy does not appreciate Nebula's dragon lock, even if it looks useful for an xyz play at the end of a turn. Such ideal situations will not always present themselves, and the card is likely to brick you instead.</p>",
 		"image": "51786039"
 	},
 	"neo":
@@ -590,7 +590,7 @@
 		"priority": 99,
 		"rating": 2,
 		"count": "0-3 (main)",
-		"analysis": "<p>Consistency comes at a price. Piri Reis Map adds either <b>Galaxy Wizard</b> or <b>Photon Jumper</b> to your hand, both of which are fantastic starters. It can also search the niche floodgate <b>Consecrated Light</b>, which can later be summoned using the bonus normal of <b>Photon Emperor</b>. However, the Life Point cost is steep, especially combined with potential costs of <b>Galaxy Trance</b> or <b>Numbers Last Hope</b> afterwards.</p><p>Galaxy's improved reliability with <b>Photon Jumper</b> makes Piri's downside hard to justify. It is not usually recommended, but the card's power cannot be denied either.</p>",
+		"analysis": "<p>Consistency comes at a price. Piri Reis Map adds either <b>Galaxy Wizard</b> or <b>Photon Jumper</b> to your hand, both of which are fantastic starters. It can also search the niche floodgate <b>Consecrated Light</b>, which can be summoned using the bonus normal from <b>Photon Emperor</b>. However, the Life Point cost is steep, especially combined with potential costs of <b>Galaxy Trance</b> or <b>Numbers Last Hope</b> afterwards.</p><p>Galaxy's improved reliability with <b>Photon Jumper</b> makes Piri's downside hard to justify. It is not usually recommended, but the card's power cannot be denied either.</p>",
 		"image": "33907039"
 	},
 	"prime":
@@ -820,7 +820,7 @@
 		"type": "spell",
 		"priority": 1,
 		"rating": 3,
-		"count": "0",
+		"count": "0-1 (side)",
 		"analysis": "<p>Photon Trident serves a few very niche uses. The first is to allow <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters; a role it fulfills as a searchable spell rather than an extra deck monster like <b>Pentestag</b>. The second is to immediately place <b>Starliege Photon Blast Dragon</b> under its own protection playing into a board. The third is to serve as an unconventional out to floodgates such as Skill Drain.</p><p>Running a card as situational as Trident is not recommended. If included, it would be a 1-of side option going second.</p>",
 		"image": "51589188"
 	},
