@@ -225,7 +225,7 @@
 	[
 		{
 			"name": "3 card combo (example)",
-			"notes": "Unlike the 2 card combos, there are nearly endless 3 card combos. While this example demonstrates a high ceiling monster board, in practice - when you have 3+ extenders - you should instead consider playing through handtraps, securing follow up, and potentially searching backrow.",
+			"notes": "Unlike the 2 card combos, there are near endless 3 card combos. While this example demonstrates a high ceiling monster board, in practice - when you have 3+ extenders - you should instead consider playing through handtraps, securing follow up, and potentially searching backrow.",
 			"start": "soldier,vanisher,jumper",
 			"end": "sol,lord|afterglow,titanic|emperor,blast|jumper,gpd",
 			"reqs": "",
