@@ -417,6 +417,17 @@
 		"analysis": "<p>With <b>Galaxy Summoner</b> and <b>Galaxy Photon Dragon's</b> ability to re-level <b>Galaxy Soldier</b>, there is less incentive to bloat the extra deck with Rank 5s like <b>Cyber Dragon Nova</b>. As such, Infinity has been cut from many builds.</p><p>Still, Galaxy lacks the ability to put up Trap negates natively, making it weak against <b>Evenly Matched</b>. Infinity retains a niche this way, though it competes with <b>Artifact Durendal</b> which requires one fewer deck slot and also enables turn skip.</p>",
 		"image": "10443957"
 	},
+	"inscription":
+	{
+		"id": "inscription",
+		"name": "Gravekeeper's Inscription",
+		"type": "spell",
+		"priority": 99,
+		"rating": 2,
+		"count": "0-3 (side)",
+		"analysis": "<p>Gravekeeper's Inscription is a side deck option for protecting Galaxy's GY. No archetypal Galaxy cards banish from the GY, but several summon from it and dislike losing their targets. This makes it a valid tech against banish reliant decks or metagmes where <b>Bystial</b> monsters run rampant.</p>",
+		"image": "59494222"
+	},
 	"jumper":
 	{
 		"id": "jumper",
@@ -458,7 +469,7 @@
 		"priority": -0.8,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Levianeer is a noteworthy extender for Rank 8 and Light decks. While it functions serviceably in some Galaxy variants, particularly the aptly named <i>Dragon Variant</i>, a reliance on GY setup and <b>Galaxy Trance</b> incompatibility make it a questionable choice for pure builds.</p>",
+		"analysis": "<p>Levianeer is a noteworthy extender for Rank 8 and Light decks. While it functions serviceably in some Galaxy variants, particularly the aptly named <i>Dragon Variant</i>, a heavy reliance on GY setup and <b>Galaxy Trance</b> incompatibility make it a questionable choice for pure builds.</p>",
 		"image": "55878038"
 	},
 	"light":
@@ -535,7 +546,7 @@
 		"priority": -0.8,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Akin to <b>Chaos Dragon Levianeer</b>, Nebula Dragon is a viable choice for <i>Dragon Variant</i> builds only. Pure Galaxy does not appreciate Nebula's dragon lock, even if it looks useful for an xyz play at the end of a turn. Such ideal situations will not always present themselves, and the card is likely to brick you instead.</p>",
+		"analysis": "<p>Akin to <b>Chaos Dragon Levianeer</b>, Nebula Dragon is a preferred choice in <i>Dragon Variant</i> builds only. Pure Galaxy does not appreciate Nebula's dragon lock, even if it looks useful for an xyz play at the end of a turn. Such ideal situations will not always present themselves, and the card is likely to brick you instead.</p>",
 		"image": "51786039"
 	},
 	"neo":
