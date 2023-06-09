@@ -94,6 +94,12 @@
 	background-color: #5e523c !important;
 }
 
+.mash-bg {
+	background-image: url("images/cropped/54693926.jpg");
+	background-position-y: 29%;
+	background-color: #61414f !important;
+}
+
 .time-bg {
 	background-image: url("images/cropped/71625222.jpg");
 	background-position-y: 53%;
