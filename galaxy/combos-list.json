@@ -95,7 +95,34 @@
 			"path": "NS Wizard. Tribute Wizard adding Soldier from deck. SS Soldier from hand discarding Emperor; Soldier add Summoner from deck; SS Emperor from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Summoner make Soldier level 4. Summoner + Soldier = GPD. GPD detach Summoner adding Trance from deck. Expedition SS Afterglow from deck. Emperor + Afterglow = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. GPD + Cipher X = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. GEPD + Afterglow = Lord. Trance SS Emperor from GY and any level 8 from deck. Emperor + the level 8 = Titanic."
 		},
 		{
+			"name": "Hundred + Wizard",
+			"start": "hundred,wizard",
+			"end": "sol,lord|afterglow|emperor,titanic",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Wizard. Tribute Wizard adding Summoner from deck. Hundred mill Emperor; SS Emperor from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Afterglow. Summoner make Afterglow level 4. Summoner + Afterglow = GPD. GPD detach Afterglow adding Trance from deck; Afterglow SS GEPD from deck; Hundred banish a card. GEPD + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + Emperor = Lord. Trance SS GEPD from GY and any level 8 from deck. GEPD + the level 8 = Titanic."
+		},
+		{
+			"name": "Hundred + Trance",
+			"start": "hundred,trance",
+			"end": "sol,lord|afterglow|emperor,titanic",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "Hundred mill Jumper; Jumper add Expedition from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard milling Emperor; SS Emperor from GY. Expedition SS Soldier from deck; Soldier add Summoner from deck; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow. Summoner + GPD = Solflare; Solflare add Wizard from GY. SS Afterglow from hand. Afterglow + Emperor = Lord. Bonus NS Wizard. Wizard increase level by 4. Soldier + Wizard = Titanic."
+		},
+		{
 			"name": "Hundred + Emperor",
+			"start": "hundred,emperor",
+			"end": "sol,lord|emperor,blast|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard adding Soldier from deck. SS Soldier from hand discarding Emperor; SS Emperor from GY; Soldier add Summoner from deck; GPD make Soldier level 8. Soldier + Emperor = Lord. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS GEPD from deck; Hundred banish a card. GEPD + GPD = Solflare; Solflare add Jumper from GY. Bonus NS Jumper. Summoner + Jumper = Blast."
+		},
+		{
+			"name": "Hundred + Emperor (alternate)",
 			"start": "hundred,emperor",
 			"end": "sol,lord|afterglow,titanic|emperor,cipherx",
 			"reqs": "last hope numbers",
@@ -106,20 +133,20 @@
 		{
 			"name": "Hundred + Soldier",
 			"start": "hundred,soldier",
+			"end": "sol,lord|emperor,blast|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard adding Emperor from deck. SS Soldier from hand discarding Emperor; SS Emperor from GY; Soldier add Summoner from deck; GPD make Soldier level 8. Soldier + Emperor = Lord. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS GEPD from deck; Hundred banish a card. GEPD + GPD = Solflare; Solflare add Jumper from GY. Bonus NS Jumper. Summoner + Jumper = Blast."
+		},
+		{
+			"name": "Hundred + Soldier (alternate)",
+			"start": "hundred,soldier",
 			"end": "sol,lord|afterglow,titanic|emperor,cipherx",
 			"reqs": "last hope numbers",
 			"banishes": 2,
 			"cipher": true,
-			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard adding Emperor from deck. SS Soldier from hand discarding Emperor; SS Emperor from GY; Soldier add Summoner from deck; GPD make Soldier level 8. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS Afterglow. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Emperor; Afterglow SS GEPD from deck; Hundred banish a card. Summoner + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Last Hope. Last Hope SS Afterglow and Emperor from GY. Afterglow + GEPD = Lord. Soldier + Emperor = Titanic."
-		},
-		{
-			"name": "Hundred + Wizard",
-			"start": "hundred,wizard",
-			"end": "sol,lord|afterglow|emperor,titanic",
-			"reqs": "",
-			"banishes": 2,
-			"cipher": false,
-			"path": "NS Wizard. Tribute Wizard adding Summoner from deck. Hundred mill Emperor; SS Emperor from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Afterglow. Summoner make Afterglow level 4. Summoner + Afterglow = GPD. GPD detach Afterglow adding Trance from deck; Afterglow SS GEPD from deck; Hundred banish a card. GEPD + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + Emperor = Lord. Trance SS GEPD from GY and any level 8 from deck. GEPD + the level 8 = Titanic."
+			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard adding Emperor from deck. SS Soldier from hand discarding Emperor; SS Emperor from GY; Soldier add Summoner from deck; GPD make Soldier level 8. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Emperor; Afterglow SS GEPD from deck; Hundred banish a card. Summoner + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Last Hope. Last Hope SS Afterglow and Emperor from GY. Afterglow + GEPD = Lord. Soldier + Emperor = Titanic."
 		},
 		{
 			"name": "Soldier + Wizard",
@@ -137,7 +164,7 @@
 			"reqs": "",
 			"banishes": 2,
 			"cipher": true,
-			"path": "NS Wizard. Wizard make itself level 8. Expedition SS Emperor from deck. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper addTrance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner adding Vanisher from deck. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. Vanisher + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Emperor; SS Emperor from GY. GPD + Cipher X = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow from deck. Summoner make Emperor level 4. Summoner + Emperor = Blast; Blast SS GEPD from hand; Hundred banish a card. SS Afterglow from hand. GEPD + Afterglow = Lord."
+			"path": "NS Wizard. Wizard make itself level 8. Expedition SS Emperor from deck. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner adding Vanisher from deck. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. Vanisher + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Emperor; SS Emperor from GY. GPD + Cipher X = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow from deck. Summoner make Emperor level 4. Summoner + Emperor = Blast; Blast SS GEPD from hand; Hundred banish a card. SS Afterglow from hand. GEPD + Afterglow = Lord."
 		},
 		{
 			"name": "Hundred + Vanisher",
@@ -148,7 +175,7 @@
 			"cipher": true,
 			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Expedition. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. Expedition SS Emperor from deck. Emperor + Vanisher = Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Emperor; SS Emperor from GY. Ciper X + GPD = Solflare; Solflare add Wizard from GY. NS Wizard. Tribute Wizard adding Summoner from deck. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow. SS Afterglow from hand. Summoner make Emperor level 4. Summoner + Emperor = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Afterglow = Lord."
 		},
-				{
+		{
 			"name": "Hundred + Vanisher (alternate)",
 			"start": "hundred,vanisher",
 			"end": "sol|gepd,lord|afterglow,blast",
@@ -165,6 +192,15 @@
 			"banishes": 2,
 			"cipher": true,
 			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. GPD detach Summoner adding Expedition from deck. Expedition SS Emperor from deck. Emperor + Vanisher = Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Emperor; SS Emperor from GY. Cipher X + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Jumper from GY. Summoner + Jumper = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Emperor = Lord."
+		},
+		{
+			"name": "Wizard + Trance",
+			"start": "wizard,trance",
+			"end": "sol,lord|emperor,blast|jumper",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Summoner adding Vanisher from deck. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. Expedition SS Emperor from deck. Emperor + Vanisher = Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Emperor; SS Emperor from GY. Cipher X + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Jumper from GY. Summoner + Jumper = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Emperor = Lord."
 		},
 		{
 			"name": "Wizard + Summoner",
@@ -203,6 +239,15 @@
 			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper. Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Bonus NS Wizard. Tribute Wizard adding Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Afterglow; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
 		},
 		{
+			"name": "Wizard + Afterglow",
+			"start": "wizard,afterglow",
+			"end": "sol,lord|afterglow",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper. Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Emperor + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. SS Afterglow from hand. Expedition SS GEPD from deck; Hundred banish a card. Afterglow + GEPD = Lord."
+		},
+		{
 			"name": "Thrasher + Vanisher",
 			"start": "thrasher,vanisher",
 			"end": "sol,lord,cipherx|emperor",
@@ -210,6 +255,24 @@
 			"banishes": 1,
 			"cipher": true,
 			"path": "SS Thrasher from hand. SS Vanisher from hand; Vanisher add GEPD from deck. Thrasher + Vanisher = GPD. GPD detach Thrasher adding Soldier from deck. SS Soldier from hand discarding GEPD; Soldier add Wizard from deck. NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Soldier + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Trance. Trance SS GEPD from GY and Afterglow from deck; Hundred banish a card. Emperor + Afterglow + Cipher. Overlay Cipher X on Cipher. Cipher X detach Cipher and Afterglow; Afterglow SS GEPD from deck. GEPD + GEPD = Lord."
+		},
+		{
+			"name": "Orbital + Vanisher",
+			"start": "orbital,vanisher",
+			"end": "sol|gepd,lord|afterglow|emperor",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "NS Orbital. SS Vanisher adding GEPD from deck. Orbital + Vanisher = GPD. GPD detach Orbital adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. GPD + Emperor = Solflare; Solflare add Orbital from GY. Equip Orbital to Solflare. Orbital add Wizard from deck to hand. Bonus NS Wizard. Tribute Wizard adding Trance. Trance SS Emperor from GY and Afterglow from deck. Afterglow + Emperor = Lord."
+		},
+		{
+			"name": "Orbital + Vanisher (alternate)",
+			"start": "orbital,vanisher",
+			"end": "sol,lord|afterglow",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Orbital. SS Vanisher adding GEPD from deck. Orbital + Vanisher = GPD. GPD detach Orbital adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = Blast; Blast SS GEPD from hand; Hundred banish a card. GPD + Blast = Solflare; Solflare add Orbital to hand. Equip Orbital to Solflare. Orbital add Afterglow to hand. SS Afterglow from hand. Afterglow + GEPD = Lord."
 		},
 		{
 			"name": "Summoner + Vanisher",
@@ -225,7 +288,7 @@
 	[
 		{
 			"name": "3 card combo (example)",
-			"notes": "Unlike the 2 card combos, there are nearly endless 3 card combos. While this example demonstrates a high ceiling monster board, in practice - when you have 3+ extenders - you should consider playing through handtraps, securing follow up, and potentially searching backrow instead.",
+			"notes": "Unlike the 2 card combos, there are nearly endless 3 card combos. This example demonstrates a high ceiling monster board, but in practice - when you have 3+ extenders - you should prioritize playing through handtraps, securing follow up, and potentially searching backrow.",
 			"start": "soldier,vanisher,jumper",
 			"end": "sol,lord|afterglow,titanic|emperor,blast|jumper,gpd",
 			"reqs": "",
