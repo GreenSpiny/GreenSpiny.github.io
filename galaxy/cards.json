@@ -161,7 +161,7 @@
 		"priority": -3,
 		"rating": 2,
 		"count": "0-3 (side)",
-		"analysis": "<p>Photon Cerberus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, disabling all traps; and the opponent cannot chain traps in response unless they specifically negate the summon. In this way, despite the suboptimal level, it lines enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Despite facing competition from generic board breaking cards which do not consume the normal summon, Cerberus is a unique monster that can succeed in certain formats. It is most effective when catching the opponent unaware.</p>",
+		"analysis": "<p>Photon Cerberus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, disabling all traps; and the opponent cannot chain traps in response unless they specifically negate the summon. In this way, despite the suboptimal level, it lines enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Despite facing competition from generic board breaking cards which do not consume the normal summon, Cerberus can succeed in certain formats. It is most effective when catching the opponent unaware.</p>",
 		"image": "28990150"
 	},
 	"change":
@@ -172,7 +172,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Photon Change is a search card slightly too slow to be viable. The ability of <b>Photon Timestop</b> to place it directly from deck and let it remain on field indefinitely is currently a gimmick at best.</p><p>Not recommended, but the ability to loop <b>Photon Jumper</b> and <b>Galaxy Cleric</b> could make for an unique grind deck variant.</p>",
+		"analysis": "<p>Photon Change is a search card slightly too slow to be viable. The ability of <b>Photon Timestop</b> to place it directly from deck and let it remain on field indefinitely is currently a gimmick at best.</p><p>Not recommended, but the ability to loop <b>Photon Jumper</b> and <b>Galaxy Cleric</b> could make for a unique grind deck variant.</p>",
 		"image": "42925441"
 	},
 	"cipher":
@@ -304,7 +304,7 @@
 		"priority": 99,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Sending <b>Photon Jumper</b> to the GY with Foolish Burial results in a Spell or Trap search, while sending <b>Photon Emperor</b> results in a free body and bonus normal summon with minimal setup. Foolish actually enables the only 1 card combo not reliant on <b>Eternal Galaxy</b>.</p><p>This card is limited to 1 and highly recommended.</p>",
+		"analysis": "<p>Sending <b>Photon Jumper</b> to the GY with Foolish Burial results in a Spell or Trap search, while sending <b>Photon Emperor</b> results in a free body and bonus normal summon with minimal setup. Foolish actually enables the only true 1 card combo not reliant on <b>Eternal Galaxy</b>.</p><p>This card is limited to 1 and highly recommended.</p>",
 		"image": "81439174"
 	},
 	"galak":
@@ -425,7 +425,7 @@
 		"priority": 99,
 		"rating": 2,
 		"count": "0-3 (side)",
-		"analysis": "<p>Gravekeeper's Inscription is a side deck option for protecting Galaxy's GY. No archetypal Galaxy cards banish from the GY, but several summon from it and dislike losing their targets. This makes it a valid tech against banish reliant decks or metagmes where <b>Bystial</b> monsters run rampant.</p>",
+		"analysis": "<p>Gravekeeper's Inscription is a side deck option to protect Galaxy's GY. No archetypal Galaxy cards banish from the GY, but several summon from it and dislike losing their targets. This makes it a valid tech against banish reliant decks or metagmes where <b>Bystial</b> monsters run rampant.</p>",
 		"image": "59494222"
 	},
 	"jumper":
@@ -612,7 +612,7 @@
 		"priority": 8,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p><i>Prime.</i></p><p>With the help of <b>Galaxy-Eyes Afterglow Dragon</b>, Prime can achieve massive attack values in the damage step: 11,200 if it is the only xyz monster on the field, or a convenient 8,000 under effect negation. It can beat over tough monsters such as <b>Mekk-Knight Crusadia Avramax</b> this way due to damage step mechanics. Even without Afterglow, Prime can reach respectable attack by itself or with a few other xyzs on the field.</p><p>With the ability to OTK over nearly any attack position monster, Prime strikes fear in the hearts of opponents - especially those using Link monsters. It is both an iconic part of Galaxy and an effective way to close games before the opponent has a chance to come back.</p>",
+		"analysis": "<p><i>Prime.</i></p><p>With the help of <b>Galaxy-Eyes Afterglow Dragon</b>, Prime can achieve massive attack values in the damage step: 11,200 if it is the only xyz monster on the field, or a convenient 8,000 under effect negation. It can beat over tough monsters such as <b>Mekk-Knight Crusadia Avramax</b> this way due to damage step mechanics. Even without Afterglow, Prime can reach respectable attack by itself or with a few other xyzs on the field.</p><p>With the ability to OTK over nearly any attack position monster, Prime strikes fear in the hearts of opponents - especially those using Link monsters. It is both an iconic part of Galaxy and an effective way to close games.</p>",
 		"image": "31801517"
 	},
 	"reborn":
@@ -733,7 +733,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>While the protection offered by Tachyon Spiral Galaxy is near absolute, it is difficult to utilize. Using it offensively in tandem with <b>Number 107: Galaxy-Eyes Tachyon Dragon</b> is inconsistent. As a searchable endboard piece, it can only protect dragons, and still leaves them vulnerable to being tributed or used as link material for <b>Underworld Goddess of the Closed World</b>.</p><p>Tachyon Spiral may have a niche in allowing <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> to serve as a towers against decks reliant on normal Spells to out it. In general, however, the card is underwhelming.</p>",
+		"analysis": "<p>While the protection offered by Tachyon Spiral Galaxy is near absolute, it is difficult to utilize. Using it offensively in tandem with <b>Number 107: Galaxy-Eyes Tachyon Dragon</b> is inconsistent. As a searchable endboard piece, it can only protect dragons, and still leaves them vulnerable to being tributed or used as link material for <b>Underworld Goddess of the Closed World</b>.</p><p>Tachyon Spiral may have a niche in allowing <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> to serve as a towers against decks reliant on normal Spells to out it, or to stall a turn with <b>Galaxy Photon Dragon</b>. In general, however, the card is underwhelming.</p>",
 		"image": "89789152"
 	},
 	"stream":
@@ -887,7 +887,7 @@
 		"priority": -4.1,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "<p>Galaxy Wizard, once considered a secondary normal summon to <b>Galaxy Knight</b>, now sits at the forefront of the deck. Wizard's effects are not once per turn, enabling new combos in tandem with the extra normal summon from <b>Photon Emperor</b> and revival effect of <b>Galaxy Summoner</b>. It can search important combo pieces such as <b>Galaxy Hundred</b> and <b>Galaxy Expedition</b>, and follow-up playmakers including <b>Galaxy Trance</b> and <b>Numbers Last Hope</b>.</p><p>As both a starter and turn 3 enabler, Wizard is a staple in modern Galaxy. 3 are most often run.<p>",
+		"analysis": "<p>Galaxy Wizard, once considered a secondary normal summon to <b>Galaxy Knight</b>, now sits at the forefront of the deck. Wizard's search is not once per turn, enabling new combos in tandem with the extra normal summon from <b>Photon Emperor</b> and revival effect of <b>Galaxy Summoner</b>. It can add important combo pieces such as <b>Galaxy Hundred</b> and <b>Galaxy Expedition</b>, and follow-up playmakers including <b>Galaxy Trance</b> and <b>Numbers Last Hope</b>.</p><p>As both a starter and extender, Wizard is a staple in modern Galaxy. 3 are most often run.<p>",
 		"image": "98555327"
 	},
 	"zeus":
