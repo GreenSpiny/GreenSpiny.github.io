@@ -138,6 +138,14 @@ hr {
 	background-color: #707590;
 }
 
+.mobile-space {
+	margin-bottom: 4px;
+}
+
+.mobile-break {
+	display: inline;
+}
+
 /* === COLORED NAV HOVER STATES === */
 
 .kite-bg {
@@ -377,6 +385,12 @@ hr {
 	}
 	.mini-text {
 		font-size: 11pt;
+	},
+	.mobile-space {
+		margin-bottom: 0px;
+	}
+	.mobile-break {
+		display: none;
 	}
 }
 
