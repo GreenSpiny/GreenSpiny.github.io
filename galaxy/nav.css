@@ -12,6 +12,14 @@ a:hover {
 	color: #bfddff;
 }
 
+.mini-text a {
+	color: inherit;
+}
+
+.mini-text a:hover {
+	color: #CCC;
+}
+
 hr {
 	margin-top: 8px;
 	margin-bottom: 8px;

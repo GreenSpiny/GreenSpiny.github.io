@@ -40,7 +40,7 @@
 		"priority": -2,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Ahashima is sometimes considered an honorary member of the Galaxy archetype. Its ability to summon a rank 8 xyz using the hand and GY is unique, and boasts a special interaction with <b>Galaxy Brave</b>, which can be level 4 on the field but level 8 in the GY immediately after being used as link material. <b>Photon Sanctuary</b> can also make this monster by itself.</p><p>The addition of Rank 4 playmakers like <b>Galaxy Photon Dragon</b> put a damper on Ahashima's viability, as did a reduced reliance on Brave and Sanctuary. However, it remains a reasonable choice for follow-up plays and making a negate before <b>Nibiru, the Primal Being</b> activates, despite the incompatibility with <b>Galaxy Trance</b>.</p>",
+		"analysis": "<p>Ahashima is sometimes considered an honorary member of the Galaxy archetype. Its ability to xyz summon using the hand and GY is unique, and boasts a special interaction with <b>Galaxy Brave</b>, which can be level 4 on the field but level 8 in the GY immediately after being used as link material. <b>Photon Sanctuary</b> can also make this monster by itself.</p><p>The addition of Rank 4 playmakers like <b>Galaxy Photon Dragon</b> put a damper on Ahashima's viability, as did a reduced reliance on Brave and Sanctuary. However, it remains a reasonable choice for follow-up plays and making a negate before <b>Nibiru, the Primal Being</b> activates, despite the incompatibility with <b>Galaxy Trance</b>.</p>",
 		"image": "71095768"
 	},
 	"armor":
@@ -161,7 +161,7 @@
 		"priority": -3,
 		"rating": 2,
 		"count": "0-3 (side)",
-		"analysis": "<p>Photon Cerberus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, disabling all traps; and the opponent cannot chain traps in response unless they specifically negate the summon. In this way, despite the suboptimal level, it lines enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Despite facing competition from generic board breaking cards which do not consume the normal summon, Cerberus can succeed in certain formats. It is most effective when catching the opponent unaware.</p>",
+		"analysis": "<p>Photon Cerberus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, and the opponent cannot chain trap cards in response unless they specifically negate the summon. In this way, despite the suboptimal level, it lines enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Despite competition from generic board breaking cards which do not consume the normal summon, Cerberus can succeed in certain formats. It is most effective when catching the opponent unaware.</p>",
 		"image": "28990150"
 	},
 	"change":
@@ -304,7 +304,7 @@
 		"priority": 99,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>Sending <b>Photon Jumper</b> to the GY with Foolish Burial results in a Spell or Trap search, while sending <b>Photon Emperor</b> results in a free body and bonus normal summon with minimal setup. Foolish actually enables the only true 1 card combo not reliant on <b>Eternal Galaxy</b>.</p><p>This card is limited to 1 and highly recommended.</p>",
+		"analysis": "<p>Sending <b>Photon Jumper</b> to the GY with Foolish Burial results in a Spell or Trap search, while sending <b>Photon Emperor</b> results in a free body and bonus normal summon with minimal setup. Foolish actually enables the only 1 card combo not reliant on <b>Eternal Galaxy</b>.</p><p>This card is limited to 1 and highly recommended.</p>",
 		"image": "81439174"
 	},
 	"galak":
@@ -392,7 +392,7 @@
 		"priority": 1,
 		"rating": 1,
 		"count": "3 (main)",
-		"analysis": "<p>As both a searcher and playmaker, Galaxy Hundred is integral to Galaxy's modern playstyle.</p><p>The ability to mill <b>Photon Jumper</b> or <b>Photon Emperor</b> to the GY makes Hundred a strong combo tool. But the effect when <b>Galaxy-Eyes Photon Dragon</b> is summoned is incredible too. Going first, it provides information on what the opponent is playing, and removes key combo pieces or board breakers from their extra deck. Against Galaxy's sturdy defenders, opponents can struggle to push through if cards like <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> are unavailable.</p><p>If that wasn't enough, Hundred can be triggered during the opponent's turn using <b>Galaxy-Eyes Afterglow Dragon</b>, <b>Starliege Photon Blast Dragon</b>, and more; sometimes under monster negation too. It can even summon an opponent's <b>Number 41: Bagooska the Terribly Tired Tapir</b> to your field for a floodgate effect. The potential of Hundred is vast.</p>",
+		"analysis": "<p>As both a searcher and playmaker, Hundred is integral to Galaxy's modern playstyle.</p><p>The ability to mill <b>Photon Jumper</b> or <b>Photon Emperor</b> to the GY makes Hundred a strong combo tool. But the effect when <b>Galaxy-Eyes Photon Dragon</b> is summoned is incredible too. Going first, it provides information on what the opponent is playing, and removes key combo pieces or board breakers from their extra deck. Against Galaxy's sturdy defenders, opponents can struggle to push through if cards like <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> are unavailable.</p><p>If that wasn't enough, Hundred can be triggered during the opponent's turn using <b>Galaxy-Eyes Afterglow Dragon</b>, <b>Starliege Photon Blast Dragon</b>, and more; sometimes under monster negation too. It can even summon an opponent's <b>Number 41: Bagooska the Terribly Tired Tapir</b> to your field for a floodgate effect. The potential of Hundred is vast.</p>",
 		"image": "897409"
 	},
 	"hyper":
@@ -667,7 +667,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-3 (main)",
-		"analysis": "<p>Formerly a 3-of staple, Photon Sanctuary is now run as low as 0 or high as 3.</p><p>Sanctuary summons two tokens and is not once per turn. This provides Photon names on field to kickstart your plays. The tokens can be tributed for the special summon of <b>Galaxy-Eyes Photon Dragon</b> or cost of <b>Hyper Galaxy</b>, or linked into <b>Galaxy-Eyes Solflare Dragon</b> or <b>Bujinki Ahashima</b>.</p><p>On the flip side, with the advent of <b>Galaxy Photon Dragon</b>, Rank 4 xyz plays are more important than ever, and Sanctuary's tokens do not directly contribute to them. You might prefer an actual leveled monster in this case. You also need to consider off-attribute techs like <b>Number 41: Bagooska the Terribly Tired Tapir</b> that become locked out.</p><p>Depending on your build, Sanctuary may be considered a playmaker or a brick. You are encouraged to explore the role of this card.<p>",
+		"analysis": "<p>Formerly a 3-of staple, Photon Sanctuary is now run as low as 0 or high as 3.</p><p>Sanctuary summons two tokens and is not once per turn. This provides Photon names on field to kickstart your plays. The tokens can be tributed for the special summon of <b>Galaxy-Eyes Photon Dragon</b> or cost of <b>Hyper Galaxy</b>, or linked into <b>Galaxy-Eyes Solflare Dragon</b> or <b>Bujinki Ahashima</b>.</p><p>On the flip side, with the advent of <b>Galaxy Photon Dragon</b>, Rank 4 xyz plays are more important than ever, and Sanctuary's tokens do not directly contribute to them. You might prefer an actual leveled monster in that case. You also need to consider off-attribute techs like <b>Number 41: Bagooska the Terribly Tired Tapir</b> that become locked out.</p><p>Depending on your build, Sanctuary may be considered a playmaker or a brick. You are encouraged to explore the role of this card.<p>",
 		"image": "17418744"
 	},
 	"slasher":
@@ -810,7 +810,7 @@
 		"priority": 0,
 		"rating": 1,
 		"count": "1-3 (main)",
-		"analysis": "<p>Trance is the most powerful archetypal playmaker available. With just one target in the GY, it is a one card Rank 4 or 8 xyz with materials of your choice. This can kick off combos by making <b>Galaxy Photon Dragon</b> or end games by making a loaded <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b>. Furthermore, it is easily searchable with cards like <b>Galaxy Wizard</b>, and can be held as backup against threats like <b>Nibiru, the Primal Being</b>. The catch is that it locks you into Photon and Galaxy monsters only; a price the deck can handle, but still needs to be kept in mind.</p><p>A well timed Trance can turn a game around in an instant, but mind the Life Point cost. How many to run depends on your build - particualrly the number of GY dumps and non-archetypal techs.</p>",
+		"analysis": "<p>Trance is the most powerful archetypal playmaker available. With just one target in the GY, it is a one card Rank 4 or 8 xyz with materials of your choice. This can kick off combos by making <b>Galaxy Photon Dragon</b> or end games by making a loaded <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b>. Furthermore, it is easily searchable with cards like <b>Galaxy Wizard</b>, and can be held as backup against threats like <b>Nibiru, the Primal Being</b>. The catch is that it locks you into Photon and Galaxy monsters only; a price the deck can handle, but still needs to be kept in mind.</p><p>A well timed Trance can turn a game around in an instant, but mind the Life Point cost. How many to run depends on your build - particularly the number of GY dumps and non-archetypal techs.</p>",
 		"image": "63956833"
 	},
 	"trans":
