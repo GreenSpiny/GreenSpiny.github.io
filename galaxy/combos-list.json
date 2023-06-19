@@ -221,7 +221,7 @@
 			"path": "SS Thrasher from hand. NS Wizard. Tribute Wizard adding Hundres from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Thrasher + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Soldier from deck; Soldier add GEPD from deck. Summoner make Soldier level 4. Summoner + Soldier = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Emperor = Lord."
 		},
 		{
-			"name": "Thrasher + Jumper",
+			"name": "Thrasher + Jumper / Brave + Jumper",
 			"start": "thrasher,jumper",
 			"end": "sol,lord|afterglow,cipherx",
 			"reqs": "",
@@ -248,7 +248,7 @@
 			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper. Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Emperor + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. SS Afterglow from hand. Expedition SS GEPD from deck; Hundred banish a card. Afterglow + GEPD = Lord."
 		},
 		{
-			"name": "Thrasher + Vanisher",
+			"name": "Thrasher + Vanisher / Brave + Vanisher",
 			"start": "thrasher,vanisher",
 			"end": "sol,lord,cipherx|emperor",
 			"reqs": "",
@@ -282,6 +282,24 @@
 			"banishes": 1,
 			"cipher": false,
 			"path": "NS Summoner. SS Vanisher adding GEPD from deck. Summoner + Vanisher = GPD. GPD detach Summoner adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. GPD + Emperor = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Emperor from GY. Summoner make Emperor level 4. Summoner + Emperor = Ahashima; Ahashima SS GEPD from hand and Emperor from GY making Lord."
+		},
+		{
+			"name": "Wizard + Brave",
+			"start": "wizard,brave",
+			"end": "lord,gpd|jumper",
+			"reqs": "",
+			"banishes": 0,
+			"cipher": false,
+			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Vanisher from deck. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. SS Brave revealing GEPD. Brave + Vanisher = Lord."
+		},
+		{
+			"name": "Wizard + Brave (alternate)",
+			"start": "wizard,brave",
+			"end": "sol|gepd,blast",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Vanisher from deck. SS Brave revealing Vanisher. SS Vanisher from hand; Vanisher add GEPD from deck. Brave + Vanisher = Blast; SS GEPD from hand; Hundred banish a card. GPD + GEPD = Solflare; Solflare add GEPD from GY."
 		}
 	],
 	"3-card-combos":
