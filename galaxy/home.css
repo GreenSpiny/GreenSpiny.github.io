@@ -44,6 +44,10 @@
 	background-blend-mode: overlay;
 }
 
+.gray {
+	color: #aaa !important;
+}
+
 @media screen and (min-width: 800px) {
 	#content-area {
 		padding: 4px 8px 8px 8px;
