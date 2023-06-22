@@ -206,7 +206,8 @@ hr {
 	flex-direction: row;
 	align-items: stretch;
 	justify-content: center;
-	margin-top: 12px;
+	margin-top: 6px;
+	margin-bottom: 4px;
 }
 
 .showcase-item, .showcase-item-filler {
@@ -355,6 +356,10 @@ hr {
 	.inner-nav-dropdown-button {
 		font-size: 14pt;
 	}
+	.showcase {
+		margin-top: 10px;
+		margin-bottom: 6px;
+	}
 	.showcase-item, .showcase-item-filler {
 		margin: 0px 8px 0px 8px;
 	}
@@ -369,7 +374,6 @@ hr {
 	}
 	.header-text {
 		font-size: 20pt;
-		padding-top: 6px;
 	}
 	.major-text {
 		font-size: 14pt;

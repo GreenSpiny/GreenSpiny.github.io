@@ -46,7 +46,7 @@
 }
 
 .article-div p {
-	margin: 8px auto 8px auto;
+	margin: 4px auto 4px auto;
 }
 
 .article-div ol, .article-div ul {
@@ -122,6 +122,9 @@
 	.article-button {
 		background-size: 256px;
 		background-blend-mode: normal;
+	}
+	.article-div p {
+		margin: 8px auto 8px auto;
 	}
 	.bottom-space {
 		padding-bottom: 8px !important;

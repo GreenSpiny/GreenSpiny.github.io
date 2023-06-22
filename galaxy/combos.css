@@ -91,4 +91,7 @@
 	.card-area {
 		margin-top: 4px;
 	}
+	.combo .header-text {
+		padding-top: 6px;
+	}
 }
