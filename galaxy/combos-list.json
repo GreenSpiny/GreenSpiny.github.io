@@ -325,7 +325,7 @@
 			"reqs": "Tellarknight Ptolemaeus, Satellarknight Constellar Diamond, Artifact Durendal, Photon Timestop",
 			"banishes": 0,
 			"cipher": false,
-			"path": "SS Soldier from hand discarding Jumper; Jumper add Expedition from deck; Soldier add Summoner from deck. NS Summoner; Summoner SS Jumper from GY. Expedition SS Afterglow from deck. Summoner make Afterglow level 4. Summoner + Afterglow = GPD. GPD detach Afterglow adding Timestop from deck; Afterglow SS GEPD from deck. Soldier + GEPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand; GPD make Afterglow level 4. Jumper + Afterglow = Ptolemaeus. During your End Phase: Ptolemaeus attach Constellar Diamond from Extra Deck as material. During the opponent's Draw Phase: Ptolemaeus detach all (including Afterglow) to SS Durendal from Extra Deck; Afterglow SS GEPD from deck."
+			"path": "SS Soldier from hand discarding Jumper; Jumper add Expedition from deck; Soldier add Summoner from deck. NS Summoner; Summoner SS Jumper from GY. Expedition SS Afterglow from deck. Summoner make Afterglow level 4. Summoner + Afterglow = GPD. GPD detach Afterglow adding Timestop from deck; Afterglow SS GEPD from deck. Soldier + GEPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand; GPD make Afterglow level 4. Jumper + Afterglow = Ptolemaeus. Set Timestop. During your End Phase: Ptolemaeus attach Constellar Diamond from Extra Deck as material. During the opponent's Draw Phase: Ptolemaeus detach all (including Jumper and Afterglow) to SS Durendal from Extra Deck; Afterglow SS GEPD from deck; Jumper add a Spell or Trap from deck."
 		},
 		{
 			"name": "Pure Turn Skip (example)",
@@ -335,7 +335,7 @@
 			"reqs": "Artifact Durendal, Photon Timestop",
 			"banishes": 0,
 			"cipher": false,
-			"path": "SS Soldier from hand discarding Jumper; Jumper add Expedition from deck; Soldier add Summoner from deck. NS Summoner; Summoner SS Jumper from GY. Jumper + Summoner = GPD. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. GPD detach Summoner adding Timestop from deck. Expedition SS Soldier from deck. Soldier + Soldier = Durendal. SS GEPD from hand tributing Vanisher and GPD. Set Deceleration."
+			"path": "SS Soldier from hand discarding Jumper; Jumper add Expedition from deck; Soldier add Summoner from deck. NS Summoner; Summoner SS Jumper from GY. Jumper + Summoner = GPD. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. GPD detach Summoner adding Timestop from deck. Expedition SS Soldier from deck. Soldier + Soldier = Durendal. SS GEPD from hand tributing Vanisher and GPD. Set Timestop."
 		},
 		{
 			"name": "Triple Veiler (example)",
