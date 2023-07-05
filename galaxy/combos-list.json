@@ -52,7 +52,7 @@
 		{
 			"name": "Hundred + Wizard",
 			"start": "hundred,wizard",
-			"end": "sol|gepd,lord|afterglow|emperor,titanic",
+			"end": "sol|gepd,lord|afterglow,titanic|emperor",
 			"reqs": "",
 			"banishes": 2,
 			"cipher": true,
