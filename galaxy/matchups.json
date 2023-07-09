@@ -1,0 +1,937 @@
+{
+	"accellight":
+	{
+		"id": "accellight",
+		"name": "Accellight",
+		"type": "spell",
+		"priority": 0,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Accellight is a consistency card, summoning your choice of <b>Galaxy Wizard</b>, <b>Photon Jumper</b>, <b>Photon Orbital</b>, or even <b>Photon Lizard</b> from the deck in place of your normal summon.</p><p>However, there is a flaw: it locks you out of both the regular normal summon and <b>Photon Emperor's</b> bonus normal summon. This reduces the ceiling of the deck. Between that and a weakness to <b>Ash Blossom & Joyous Spring</b>, Accellight has fallen out of favor.</p>",
+		"image": "34838437"
+	},
+	"advancer":
+	{
+		"id": "advancer",
+		"name": "Photon Advancer",
+		"type": "effect",
+		"priority": -4,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Photon Advancer is one of the simplest extenders in the deck. Its lack of summon restrictions makes it reliable, but compared to the other Photon warriors, it is more likely to needlessly consume the normal summon.</p><p>Now that Photon Jumper offers an improved third target for <b>Reinforcement of the Army</b>, running Advancer to avoid doubling up on names is less enticing. The card works, but is not always ideal.",
+		"image": "98881931"
+	},
+	"afterglow":
+	{
+		"id": "afterglow",
+		"name": "Galaxy-Eyes Afterglow Dragon",
+		"type": "effect",
+		"priority": -8,
+		"rating": 1,
+		"count": "1-2 (main)",
+		"analysis": "<p>An essential Galaxy playmaker. Afterglow dragon is notorious for enabling Prime OTK, where it is detached from <b>Galaxy-Eyes Prime Photon Dragon</b> to make Prime achieve over 11k attack points - ending the game if the opponent has nearly any attack position monster. Besides that, its ability to summon <b>Galaxy-Eyes Photon Dragon</b> when detached is important for all of breaking boards, building boards, and triggering the effect of <b>Galaxy Hundred</b> on either player's turn.</p><p>While somewhat bricky, Afterglow has a reasonable summoning condition not reliant on GY setup. It is also easily searchable. Afterglow remains one of the most feared cards in a Galaxy deck for good reason.</p>",
+		"image": "62968263"
+	},
+	"ahashima":
+	{
+		"id": "ahashima",
+		"name": "Bujinki Ahashima",
+		"type": "link",
+		"priority": -2,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Ahashima is sometimes considered an honorary member of the Galaxy archetype. Its ability to xyz summon using the hand and GY is unique, and boasts a special interaction with <b>Galaxy Brave</b>, which can be level 4 on the field but level 8 in the GY immediately after being used as link material. <b>Photon Sanctuary</b> can also make this monster by itself.</p><p>The addition of Rank 4 playmakers like <b>Galaxy Photon Dragon</b> put a damper on Ahashima's viability, as did a reduced reliance on Brave and Sanctuary. However, it remains a reasonable choice for follow-up plays and making a negate before <b>Nibiru, the Primal Being</b> activates, despite the incompatibility with <b>Galaxy Trance</b>.</p>",
+		"image": "71095768"
+	},
+	"armor":
+	{
+		"id": "armor",
+		"name": "Galaxy-Eyes Full Armor Photon Dragon",
+		"type": "xyz",
+		"priority": 8.9,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Full Armor is a key component of Galaxy's xyz stacking toolbox. Overlay it on <b>Galaxy-Eyes Photon Lord</b> to transition from defense to offense, or on <b>Galaxy-Eyes Cipher Dragon</b> for additional board breaking capacity. Full Armor stacking plays trivialize the effect of spot negation on your rank 8s, and are further bolstered by <b>Galaxy-Eyes Cipher Blade Dragon</b> which can be overlaid on it for another targeted pop.</p><p>Simple, big, and effective, Full Armor is often critical for a push.</p>",
+		"image": "39030163"
+	},
+	"astral":
+	{
+		"id": "astral",
+		"name": "Astral Kuriboh",
+		"type": "effect",
+		"priority": -1,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>On the surface, Astral Kuriboh looks like a free extender. And while it is costless with no requirements, the lack of a Galaxy / Photon name makes it interact with few cards and locks you out of <b>Galaxy Trance</b>. It also has an awkward interaction with interrupts, where if it is negated on the field, it reverts to level 1 but still locks you into Number monsters only.</p><p>In all, Astral Kuriboh has a niche in builds summoning offbeat Number monsters, and is an option for a perfect <b>Small World</b> bridge. But for most players, the extension effect doesn't offer enough reward.</p>",
+		"image": "64591429"
+	},
+	"avramax":
+	{
+		"id": "avramax",
+		"name": "Mekk-Knight Crusadia Avramax",
+		"type": "link",
+		"priority": 4,
+		"rating": 3,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>Avramax is a generic Link monster offering counterplay to <b>Dimensional Barrier</b>. A common tech against Galaxy is to activate Dimensional Barrier calling xyz. With <b>Photon Sanctuary</b> providing ample Link material, making Avramax is simple even in pure builds.</p><p>Still, Galaxy has some native ways of dealing with Barrier - including searching backrow and swinging with 3000 ATK <b>Galaxy-Eyes Photon Dragon</b>(s) and <b>Galaxy Brave</b>. Avramax also consumes most of the Link monsters in Galaxy's extra deck, leaving few for follow-up. Whether Avramax is a worthy inclusion remains up for debate.",
+		"image": "21887175"
+	},
+	"bagooska":
+	{
+		"id": "bagooska",
+		"name": "Number 41: Bagooska the Terribly Tired Tapir",
+		"type": "xyz",
+		"priority": -4,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Bagooska is staple monster often included in decks with level 4s like Galaxy. It conflicts with some archetypal cards due to being neither a Light nor a Galaxy / Photon monster, but remains feasible to summon alongisde follow-up or protection.</p><p>With <b>Galaxy-Eyes Solflare Dragon</b> to guard it with a pop and <b>Eternal Galaxy</b> to rank it up into <b>Galaxy-Eyes Photon Lord</b> in a pinch, there are plenty of creative boards to be made using Bagooska. It can even gain protection from <b>Starliege Photon Blast Dragon</b> thanks to its attack value, and be a summon target for <b>Numbers Last Hope</b>.</p><p>Finally, Bagooska can be made in an emergency should a floodgate like <b>Dimension Shifter</b> stifle your combo, or to safely climb into <b>Divine Arsenal AA-ZEUS Sky Thunder</b> playing into a board. Overall, it's a handy toolbox option for any format.",
+		"image": "90590304"
+	},
+	"blade":
+	{
+		"id": "blade",
+		"name": "Galaxy-Eyes Cipher Blade Dragon",
+		"type": "xyz",
+		"priority": 9,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Like the similar <b>Galaxy-Eyes Full Armor Photon Dragon</b>, Cipher Blade is part of Galaxy's xyz stacking strategy to tear apart boards or play through negation. Unlike its bretheren, Blade can destroy face down cards and cards on either field, as well as float into the original <b>Galaxy-Eyes Cipher Dragon</b>.<p><p>The caveat of Cipher Blade is that it cannot be used as xyz material itself, so choose when and where to play it wisely. Gaining a second pop by overlaying it on Full Armor might not seem like much, but is often the difference between victory and defeat.</p>",
+		"image": "2530830"
+	},
+	"blast":
+	{
+		"id": "blast",
+		"name": "Starliege Photon Blast Dragon",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Whether going first or second, Photon Blast Dragon brings strong value. It is a fantastic end board piece, protecting your other monsters from effect destruction and targeting. It can summon <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> - once on your turn with its first effect, and once on your opponent's turn with the second. If Blast's attack is boosted by <b>Galaxy Photon Dragon</b> or <b>Photon Orbital</b>, it will fall under its own protection.</p><p>Blast is equally important on offense. The protection and extension effect typically force an interrupt from the opponent, leaving fewer options to disrupt your Rank 8 plays. This is not a card to be ignored.</p>",
+		"image": "16643334"
+	},
+	"bounzer":
+	{
+		"id": "bounzer",
+		"name": "Photon Strike Bounzer",
+		"type": "xyz",
+		"priority": 6,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Strike Bounzer serves one role: To be an archetypal xyz made out of <b>Bystial</b> handtrap monsters. Should you summon both Bystials on the opponent's turn, you can overlay into Strike Bounzer without turning off <b>Galaxy Trance</b>. Whether this makes it worth running in builds with Bystials, especially compared to other rank 6 monsters, remains questionable.</p>",
+		"image": "92661479"
+	},
+	"brave":
+	{
+		"id": "brave",
+		"name": "Galaxy Brave",
+		"type": "effect",
+		"priority": -7.9,
+		"rating": 1,
+		"count": "1-3 (main)",
+		"analysis": "<p>Brave is unique amongst the archetypal level 8s. It has the most generous summoning condition, making it less of a brick, and it boasts the ability to be level 4, 8, or (with niche cards) even 5 on the field. Before <b>Galaxy Photon Dragon</b> enabled stronger combos, its level manipulation allowed for unique <b>Bujinki Ahashima</b> play lines, particularly with <b>Photon Vanisher</b> as a partner.</p><p>Once a 3-of staple, Brave is no longer as necessary. Still, it remains the best option for increasing level 8 count without adding bricks, and is a flexible extender in its own right.</p>",
+		"image": "55168550"
+	},
+	"c62":
+	{
+		"id": "c62",
+		"name": "Number C62: Neo Galaxy-Eyes Prime Photon Dragon",
+		"type": "xyz",
+		"priority": 9,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>The Galaxy-Eyes line of monsters continues to evolve. C62 doesn't always hit harder than the base <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> it can be overlaid on. In fact, it is sometimes more vulnerable, as C62 doesn't activate in the damage step and leaves a detached <b>Galaxy-Eyes Afterglow Dragon</b> vulnerable to <b>Ash Blossom & Joyous Spring</b> or <b>Called by the Grave</b>.</p><p>C62 still has its uses, however. The threat of making it raw with three monsters - at which point it would be immune to monster effects - forces opponents to burn interrupts early. C62 can multi attack and OTK over monsters which would normally interfere with battle like <b>Scareclaw Tri-Heart</b>. Finally, unlike Prime, C62 detaches material at the start of the battle phase; if it detaches Afterglow, the Galaxy-Eyes Photon Dragon summoned to your field can remove a monster blocking C62's direct attack KO.</p>",
+		"image": "48348921"
+	},
+	"cartesia":
+	{
+		"id": "cartesia",
+		"name": "Blazing Cartesia, the Virtuous",
+		"type": "effect",
+		"priority": -0.4,
+		"rating": 3,
+		"count": "0-3 (main)",
+		"analysis": "<p>Should one be willing to run a package of <b>Granguignol the Dusk Dragon</b> and <b>Despian Luluwalilith</b> in the Extra Deck, Blazing Cartesia opens up some unique plays with <b>Photon Emperor</b>. Cartesia can fuse with any Photon or Galaxy monster to make Granguignol, which then mills Emperor. When Emperor summons itself from the GY, you reclaim a normal summon, have two level 8s on the field, and gain an additional interrupt from Granguignol's second effect.</p><p>Though the play seems powerful, it is not without drawbacks; Cartesia leaves you with no Photon names on field or in the GY if interrupted. And while the combo is compatible with <b>Photon Sanctuary</b>, it is unfortunately not with <b>Galaxy Trance</b>. For the present, Cartesia lines are interesting but unproven in viability.</p>",
+		"image": "95515789"
+	},
+	"cerberus":
+	{
+		"id": "cerberus",
+		"name": "Photon Cerberus",
+		"type": "effect",
+		"priority": -3,
+		"rating": 2,
+		"count": "0-3 (side)",
+		"analysis": "<p>Photon Cerberus is a tech against trap decks. It has an effect similar to <b>Jinzo</b>, and the opponent cannot chain trap cards in response unless they specifically negate the summon. In this way, despite the suboptimal level, it lines enemy trap decks up for an OTK while also putting a Photon name on field.</p><p>Despite competition from generic board breaking cards which do not consume the normal summon, Cerberus can succeed in certain formats. It is most effective when catching the opponent unaware.</p>",
+		"image": "28990150"
+	},
+	"change":
+	{
+		"id": "change",
+		"name": "Photon Change",
+		"type": "trap",
+		"priority": 0,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Photon Change is a search card slightly too slow to be viable. The ability of <b>Photon Timestop</b> to place it directly from deck and let it remain on field indefinitely is currently a gimmick at best.</p><p>Not recommended, but the ability to loop <b>Photon Jumper</b> and <b>Galaxy Cleric</b> could make for a unique grind deck variant.</p>",
+		"image": "42925441"
+	},
+	"cipher":
+	{
+		"id": "cipher",
+		"name": "Galaxy-Eyes Cipher Dragon",
+		"type": "xyz",
+		"priority": 8.1,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Unlike the main deck Cipher monsters, Cipher xyzs are core to the Galaxy game plan. Cipher Dragon allows you to steal opposing monsters, after which they can be ranked up into <b>Galaxy-Eyes Cipher X Dragon</b> or (if it was an xyz monster) <b>Galaxy-Eyes Full Armor Photon Dragon</b>. This offers great card advantage, plus denies opposing monsters their floating effects if any.</p><p>Even going first, making Cipher Dragon to overlay Cipher X is a convenient way to trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b>. Regardless of whether you intend to use the theft effect, Cipher's niche as a base for xyz stacking is invaluable.</p>",
+		"image": "18963306"
+	},
+	"cipherx":
+	{
+		"id": "cipherx",
+		"name": "Galaxy-Eyes Cipher X Dragon",
+		"type": "xyz",
+		"priority": 10,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Cipher X is a member of Galaxy xyz stacking pile, but is overlaid exclusively on <b>Galaxy-Eyes Cipher Dragon</b>. Its effects differ slightly in the TCG and OCG regions. In the TCG (non-Japan areas), its lingering targeting immunity applies even to monsters summoned after it, and even if it leaves the field. This forces interrupts and makes your boards of high ATK monsters more challenging to break. Paired with Extra Deck banishes from <b>Galaxy Hundred</b>, the protection can be daunting.</p><p>Speaking of Galaxy Hundred, because the effect of Cipher X can be triggered on an empty field, it is a great way to detach <b>Galaxy-Eyes Afterglow Dragon</b> to summon <b>Galaxy-Eyes Photon Dragon</b>, triggering Hundred's effect to banish. Cipher X can also be overlaid on any monster stolen by the base Cipher Dragon to keep them indefinitely.</p><p>If that wasn't enough, Cipher X's standby phase effect lets you recycle enablers like <b>Galaxy Photon Dragon</b> should it survive the turn. This card has more uses than meets the eye.</p>",
+		"image": "28346136"
+	},
+	"cleric":
+	{
+		"id": "cleric",
+		"name": "Galaxy Cleric",
+		"type": "effect",
+		"priority": -4,
+		"rating": 3,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>Galaxy Cleric is an interesting choice for turn 3 follow-up plays, as well as the grind game. Galaxy can burn through its resources quickly, and putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to summon without the normal.</p><p>Relying on the draw 2 to finish your plays also makes it less reliable than other one card follow-ups. So while it has some value, it tends to see little play overall.</p>",
+		"image": "28770951"
+	},
+	"cowboy":
+	{
+		"id": "cowboy",
+		"name": "Gagaga Cowboy",
+		"type": "xyz",
+		"priority": -0.9,
+		"rating": 3,
+		"count": "0-1 (side)",
+		"analysis": "<p>The words <i>\"cowboy for game?\"</i> ring familiar in many a player's ear. Gagaga Cowboy is an alternative to <b>Galaxy Wave</b> to burn the opponent and win in time.</p><p>Compared to Wave, Cowboy is easier to set up but deals less damage. It is more likely to be negated or out-burned by opposing cards, and is telegraphed during siding due to living in the Extra Deck. The effectiveness of Cowboy in the modern era is difficult to judge.</p>",
+		"image": "12014404"
+	},
+	"cyclone":
+	{
+		"id": "cyclone",
+		"name": "Galaxy Cyclone",
+		"type": "spell",
+		"priority": 0,
+		"rating": 2,
+		"count": "1 (main / side)",
+		"analysis": "<p>This generic Spell and Trap removal option is actually a Galaxy card. Despite the slowness of the second effect and limitations on what kind of cards can be destroyed, Galaxy Cyclone remains an effective choice. There is no shortage of ways to search it, including immediately by sending <b>Photon Jumper</b> to the GY off <b>Galaxy Hundred</b>.</p><p>Cyclone can be mained during certain formats, or live as a searchable side deck 1-of.</p>",
+		"image": "5133471"
+	},
+	"decel":
+	{
+		"id": "decel",
+		"name": "Photon Timestop",
+		"type": "trap",
+		"priority": 0,
+		"rating": 2,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>If Photon Timestop is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effectively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like <b>Dark Ruler No More</b> and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
+		"image": "8653757"
+	},
+	"draglubion":
+	{
+		"id": "draglubion",
+		"name": "Number 97: Draglubion",
+		"type": "xyz",
+		"priority": -0.8,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Draglubion is noteworthy <b>Number</b> support for non-pure builds. Due to rarely Light or Galaxy locking themselves, <i>Dragon Variant</i> players can reliably make it and summon monsters such as <b>Number 38: Hope Harbinger Dragon Titanic Galaxy</b> or <b>Number 100: Numeron Dragon</b> with its effect.</p><p>Note that the restriction of <b>Numbers Last Hope</b> matches that of Draglubion perfectly. Regardless, pure Galaxy has neither the need nor the space to run this package.",
+		"image": "28400508"
+	},
+	"durendal":
+	{
+		"id": "durendal",
+		"name": "Artifact Durendal",
+		"type": "xyz",
+		"priority": 5,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Durendal is a mandatory component of the <b>Photon Timestop</b> strategy, in which it forces the destruction of Timestop to end the opponent's turn. While it works serviceably in this role, there is more to it. Due to <b>Galaxy Hundred</b> remaining on the field, Durendal can negate cards Galaxy usually cannot stop such as <b>Evenly Matched</b>. It also enables a rare, but deadly hand-ripping combo with <b>Droll & Lock Bird</b>.</p><p>New options for level manipulation have made Galaxy less reliant on rank 5 xyzs, to the point where none are truly needed in the deck. But Durendal remains an option for those who want one, especially if Timestop is involved.</p>",
+		"image": "69840739"
+	},
+	"emperor":
+	{
+		"id": "emperor",
+		"name": "Photon Emperor",
+		"type": "effect",
+		"priority": -8,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Emperor is a recent addition to the Galaxy toolbox. Not only is it a level 8 extender, but it grants an additional normal summon; fantastic for using the effect of <b>Galaxy Wizard</b> a second time, or making a high value <b>Galaxy Summoner</b> play. <b>Galaxy Hundred</b> is a simple way to trigger the summon of Emperor, but it can also be activated by discarding it, detaching it as material, or if the monster it is attached to leaves the field. Having Emperor underneath your xyzs adds resilience to boards this way. Finally, as a level 8 photon, it makes a great target for <b>Galaxy Trance</b>.</p><p>For all its uses, Photon Emperor is a serious brick, so only 1 is typically played. Still, the ceiling increase it offers Galaxy is not to be underestimated.</p>",
+		"image": "73478096"
+	},
+	"eternal":
+	{
+		"id": "eternal",
+		"name": "Eternal Galaxy",
+		"type": "trap",
+		"priority": 0,
+		"rating": 2,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>Eternal Galaxy essentially converts rank 4 xyz monsters into rank 8s. This enables certain 1 card combos, namely those where you can reach <b>Galaxy Photon Dragon</b> but nothing else. By searching Eternal, you can rank up into <b>Galaxy-Eyes Photon Lord</b> or <b>Number 38: Hope Harbinger Dragon Titanic Galaxy</b> during your opponent's turn.</p><p>Eternal's uses do not stop there. It can be used as backup if your board is hit with breakers such as <b>Dark Ruler No More</b>, turning rank 4s into fresh rank 8 negates. Monsters stolen from the opponent's extra deck with <b>Galaxy Hundred</b> are valid rank up material too. While it doesn't see play in all builds due to being dead in hand going second, it remains a solid option for the main or side.</p>",
+		"image": "82162616"
+	},
+	"exciton":
+	{
+		"id": "exciton",
+		"name": "Evilswarm Exciton Knight",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Exciton Knight is a generic rank 4 popular for breaking boards and climbing into <b>Divine Arsenal AA-ZEUS - Sky Thunder</b>. Its Light attribute, which is shared by Zeus, preserves <b>Photon Sanctuary</b> compatibility.</p><p>Though it does not fill a critical role, Exciton is easy to make and may be considered for a tech slot.</p>",
+		"image": "46772449"
+	},
+	"exp":
+	{
+		"id": "exp",
+		"name": "Galaxy Expedition",
+		"type": "spell",
+		"priority": 0,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>One of the most basic extenders in the deck. Summoning <b>Galaxy Soldier</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, or <b>Photon Emperor</b> off Expedition can result in long combos with massive plusses. While more copies can be run in hopes of making an early <b>Galaxy-Eyes Photon Lord</b>, typically only 1 is played because it is bricky and searchable.</p>",
+		"image": "60222582"
+	},
+	"felgrand":
+	{
+		"id": "felgrand",
+		"name": "Divine Dragon Knight Felgrand",
+		"type": "xyz",
+		"priority": 8,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Though it may be incompatible with <b>Galaxy Trance</b>, Felgrand is a Light Rank 8 that is simultaneously a negate and a monster capable of triggering <b>Galaxy-Eyes Afterglow Dragon's</b> detach effect going first. This makes it a decent fit for the deck. Usually players opt for <b>Galaxy-Eyes Cipher X Dragon</b> lines instead, but Felgrand has applicable niches: for example, a monster negated by Felgrand cannot be used as material by fusion effects, putting a jam in some strategies.</p><p>Ultimately, Felgrand is not always run due to the popularity of Trance based plays, but remains an option to consider.</p>",
+		"image": "1639384"
+	},
+	"foolish":
+	{
+		"id": "foolish",
+		"name": "Foolish Burial",
+		"type": "spell",
+		"priority": 99,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Sending <b>Photon Jumper</b> to the GY with Foolish Burial results in a Spell or Trap search, while sending <b>Photon Emperor</b> results in a free body and bonus normal summon with minimal setup. Foolish actually enables the only 1 card combo not reliant on <b>Eternal Galaxy</b>.</p><p>This card is limited to 1 and highly recommended.</p>",
+		"image": "81439174"
+	},
+	"galak":
+	{
+		"id": "galak",
+		"name": "Galactikuriboh",
+		"type": "effect",
+		"priority": -1,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Galactikuriboh offers several effects - all of which are useful, but also situational. As a hand trap, it can be searched by <b>Galaxy-Eyes Photon Lord</b> during your opponent's turn and be immediately live. Additionally, it can be sent to the GY off <b>Galaxy Hundred</b> to grant protection playing into a board.</p><p>The trouble is that Galactikuriboh doesn't interact with Galaxy combos in other ways, making it compete with generic hand traps for a spot. Still, the card maintains niche use, and can also serve as a perfect <b>Small World</b> bridge.</p>",
+		"image": "46261704"
+	},
+	"galaxion":
+	{
+		"id": "galaxion",
+		"name": "Starliege Lord Galaxion",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>A relic of the past, Galaxion was a backup plan for searching <b>Galaxy-Eyes Photon Dragon</b> if you opened poorly. Besides being largely replaced by <b>Galaxy Photon Dragon</b>, it has the embarassing reputation of locking out <b>Galaxy Trance</b> due to not being a Galaxy monster by name.</p><p>While not completely useless, there is little reason to run Galaxion in the modern era.</p>",
+		"image": "40390147"
+	},
+	"gepd":
+	{
+		"id": "gepd",
+		"name": "Galaxy-Eyes Photon Dragon",
+		"type": "effect",
+		"priority": -99,
+		"rating": 1,
+		"count": "3 (main)",
+		"analysis": "<p>The heart and soul of the Galaxy deck. Galaxy-Eyes Photon Dragon is specifically referenced by countless cards in the archetype. You will use it as xyz material, discard fodder, a beatstick, and everything in between.</p><p>The battle trick and summon condition are occasionally utilized. Despite its brickiness, its status as the only main deck monster that is both Galaxy and Photon opens up more card interactions than usual.</p><p>When performing the longest combo lines, you may wish there were more copies of Galaxy-Eyes Photon Dragon left in your deck. An integral card to have.</p>",
+		"image": "93717133"
+	},
+	"gpd":
+	{
+		"id": "gpd",
+		"name": "Galaxy Photon Dragon",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 1,
+		"count": "1-2 (main)",
+		"analysis": "<p>The latest and greatest addition to Galaxy's rank 4 toolbox. Between the search, level manipulation, and attack boost, Galaxy Photon Dragon is the consistency piece the deck always wished for. The double search from detaching <b>Photon Jumper</b> as material enables complicated and open ended plays. Additionally, the re-leveling effect can chain block on-summon triggers like <b>Galaxy Soldier</b>.</p><p>Many times you will link this card away before your turn ends, but leaving it on the field with Photon Jumper as material, or using the attack boost to put <b>Starliege Photon Blast Dragon</b> under its own protection, is sometimes done as well. A mandatory card, and often the first xyz you make.</p>",
+		"image": "85747929"
+	},
+	"gspiral":
+	{
+		"id": "gspiral",
+		"name": "Galactic Spiral Dragon",
+		"type": "effect",
+		"priority": 0.8,
+		"rating": 0,
+		"count": "0",
+		"analysis": "<p></p>",
+		"image": "88774734"
+	},
+	"hand":
+	{
+		"id": "hand",
+		"name": "Photon Hand",
+		"type": "spell",
+		"priority": 0,
+		"rating": 2,
+		"count": "0-1 (side)",
+		"analysis": "<p>Once not considered remotely viable, Photon Hand is now searchable by sending <b>Photon Jumper</b> to the GY off <b>Galaxy Hundred</b>, making it a decent 1-of tech going second.</p><p>The card is very meta dependent, but can be sided during xyz heavy formats.</p>",
+		"image": "15520842"
+	},
+	"hope":
+	{
+		"id": "hope",
+		"name": "Numbers Last Hope",
+		"type": "spell",
+		"priority": 0,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Last Hope is a powerful card tempered by the required setup. It is the strongest 1 card follow-up possible for turn 3, making a rank 8 regardless of LP count and targets remaining in the deck. It can also be used on the same turn as other 1 card playmakers. The restriction leaves room to overlay <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> or <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> afterwards, and it can even make <b>Number 41: Bagooska the Terribly Tired Tapir</b> going first.</p><p>Nevertheless, Last Hope is not a card you want to see in your opening hand, as it is brickier than <b>Galaxy Trance</b>. Due to this, it is not run as often as players might expect.</p>",
+		"image": "4606229"
+	},
+	"hundred":
+	{
+		"id": "hundred",
+		"name": "Galaxy Hundred",
+		"type": "spell",
+		"priority": 1,
+		"rating": 1,
+		"count": "3 (main)",
+		"analysis": "<p>As both a searcher and playmaker, Hundred is integral to Galaxy's modern playstyle.</p><p>The ability to mill <b>Photon Jumper</b> or <b>Photon Emperor</b> to the GY makes Hundred a strong combo tool. But the effect when <b>Galaxy-Eyes Photon Dragon</b> is summoned is incredible too. Going first, it provides information on what the opponent is playing, and removes key combo pieces or board breakers from their extra deck. Against Galaxy's sturdy defenders, opponents can struggle to push through if cards like <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> are unavailable.</p><p>If that wasn't enough, Hundred can be triggered during the opponent's turn using <b>Galaxy-Eyes Afterglow Dragon</b>, <b>Starliege Photon Blast Dragon</b>, and more; sometimes under monster negation too. It can even summon an opponent's <b>Number 41: Bagooska the Terribly Tired Tapir</b> to your field for a floodgate effect. The potential of Hundred is vast.</p>",
+		"image": "897409"
+	},
+	"hyper":
+	{
+		"id": "hyper",
+		"name": "Hyper Galaxy",
+		"type": "spell",
+		"priority": 1,
+		"rating": 2,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>Hyper Galaxy is a choice for searchable backrow. It can be set going first or play into boards going second, and can also trigger the effect of <b>Galaxy Hundred</b>. In some cases, the cost can let you dodge effects targeting your monsters. Still, it is reliant on decks with targetable, high attack monsters being meta.</p><p>Albeit a tad bricky, Hyper Galaxy remains a viable 1-of option. It competes with <b>Photon Stream of Destruction</b> for a deck slot.</p>",
+		"image": "83512285"
+	},
+	"infinity":
+	{
+		"id": "infinity",
+		"name": "Cyber Dragon Infinity",
+		"type": "xyz",
+		"priority": 6,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>With <b>Galaxy Summoner</b> and <b>Galaxy Photon Dragon's</b> ability to re-level <b>Galaxy Soldier</b>, there is less incentive to bloat the extra deck with Rank 5s like <b>Cyber Dragon Nova</b>. As such, Infinity has been cut from many builds.</p><p>Still, Galaxy lacks the ability to put up Trap negates natively, making it weak against <b>Evenly Matched</b>. Infinity retains a niche this way, though it competes with <b>Artifact Durendal</b> which requires one fewer deck slot and also enables turn skip.</p>",
+		"image": "10443957"
+	},
+	"inscription":
+	{
+		"id": "inscription",
+		"name": "Gravekeeper's Inscription",
+		"type": "spell",
+		"priority": 99,
+		"rating": 2,
+		"count": "0-3 (side)",
+		"analysis": "<p>Gravekeeper's Inscription is a side deck option to protect Galaxy's GY. No archetypal Galaxy cards banish from the GY, but several summon from it and dislike losing their targets. This makes it a valid tech against banish reliant decks or metagmes where <b>Bystial</b> monsters run rampant.</p>",
+		"image": "59494222"
+	},
+	"jumper":
+	{
+		"id": "jumper",
+		"name": "Photon Jumper",
+		"type": "effect",
+		"priority": -4,
+		"rating": 1,
+		"count": "2-3 (main)",
+		"analysis": "<p>Photon Jumper is a game changer. As a level 4 Photon monster with no summoning restrictions, it meshes well with archetypal extenders to make <b>Galaxy Photon Dragon</b>. The Spell / Trap search when hitting the GY vastly improves Galaxy's ability to play through interruption, plus increases the ceiling and diversity of its end boards. Placing Jumper back underneath an xyz monster with the help of <b>Galaxy Trance</b> or <b>Galaxy Summoner</b> allows you to get another search on the opponent's turn if the monster is outed. If all that was not enough, it can be used as a handtrap to end the battle phase in an emergency.</p></p>Thanks to <b>Galaxy Hundred's</b> ability to send Photon Jumper to the GY - leading to chains where Jumper searches Galaxy Trance and Trance summons Jumper and either <b>Galaxy Wizard</b> or Galaxy Summoner - Jumper turns Hundred into a 1.5 card starter, a consistency boost the deck sorely needed. The importance of this card cannot be understated.</p>",
+		"image": "97639441"
+	},
+	"knight":
+	{
+		"id": "knight",
+		"name": "Galaxy Knight",
+		"type": "effect",
+		"priority": -8,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Once considered the ideal normal summon, Galaxy Knight has fallen off. So long as there is a name on the field and <b>Galaxy-Eyes Photon Dragon</b> in the GY, Knight is a Rank 8 play; and it continues to be one every turn it is recycled off <b>Galaxy-Eyes Solflare Dragon</b>.</p><p>Unfortunately, Knight's status among the level 8 bricks made it the first to fall when <b>Photon Emperor</b> - a more important brick - was introduced. Modern support also improved <b>Galaxy Wizard's</b> strength as a playmaker, giving it stiff competition for its role. Ultimately, while it still has use for conservative plays, Knight is difficult to justify a spot for.</p>",
+		"image": "35950025"
+	},
+	"kuri":
+	{
+		"id": "kuri",
+		"name": "Kuirphoton",
+		"type": "effect",
+		"priority": -1,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Kuriphoton is unconventional. Most important is the effect to prevent all damage for the turn. In this way Kuriphoton can halt FTK or OTK strategies that put up no defense. Still, that is little reason to use this card, as generic handtraps are a more universally helpful side deck option.</p><p>In theory, Kuirphoton could have a place in a time-stalling strategy: using it the turn after burning the opponent for over 2000 damage with <b>Galaxy Wave</b>. Either way, this card is not recommended.</p>",
+		"image": "35112613"
+	},
+	"levianeer":
+	{
+		"id": "levianeer",
+		"name": "Chaos Dragon Levianeer",
+		"type": "effect",
+		"priority": -0.8,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Levianeer is a noteworthy extender for Rank 8 and Light decks. While it functions serviceably in some Galaxy variants, a heavy reliance on GY setup and <b>Galaxy Trance</b> incompatibility make it a questionable choice for pure builds.</p>",
+		"image": "55878038"
+	},
+	"light":
+	{
+		"id": "light",
+		"name": "any Light monster",
+		"type": "normal",
+		"priority": 0,
+		"rating": 0,
+		"count": "0",
+		"analysis": "<p></p>",
+		"image": "82085619"
+	},
+	"lizard":
+	{
+		"id": "lizard",
+		"name": "Photon Lizard",
+		"type": "effect",
+		"priority": -3,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Photon Lizard was once a prime <b>Accellight</b> target, which in tandem with <b>Galaxy Wizard</b>, allowed a search of most desired cards. After Accellight's fall from grace, Lizard retains a niche as a <b>Small World</b> bridge that fills most missing links, while being a semi-decent starter.</p><p>Still, Lizard is a subpar summon compared to Wizard, <b>Photon Jumper</b>, and others, so it is not recommended outside of Small World builds.</p>",
+		"image": "38973775"
+	},
+	"lord":
+	{
+		"id": "lord",
+		"name": "Number 90: Galaxy-Eyes Photon Lord",
+		"type": "xyz",
+		"priority": 7.9,
+		"rating": 1,
+		"count": "1-2 (main)",
+		"analysis": "<p>The defensive bastion of Galaxy. Lord has it all - a solid 3k defense, protection, negation, and the ability to either search follow-up or replenish its xyz material.</p><p>Deciding when and how to use Lord's search effect is key. You have the option of searching follow-up for the next turn, discard fodder for <b>Galaxy-Eyes Solflare Dragon</b>, or niche archetypal hand traps. Searching later in the turn allows you to adapt to the situation and avoid an immediate <b>Triple Tactics Thrust</b>; meanwhile searching before the Main Phase lets you plus before getting hit by <b>Dark Ruler No More</b> and the like. Attaching <b>Galaxy Cyclone</b> or <b>Galaxy-Eyes Afterglow Dragon</b> to Lord as material during the Draw Phase are rare but applicable plays too.</p><p>Finally, knowing if and when to transition Lord into <b>Galaxy-Eyes Full Armor Photon Dragon</b> requires awareness. Photon Lord is a deep card that necessitates decision making and paying attention to its materials. Running 1 is often enough, but 2 can help in a grind game.</p>",
+		"image": "8165596"
+	},
+	"lords":
+	{
+		"id": "lords",
+		"name": "Return of the Dragon Lords",
+		"type": "spell",
+		"priority": 99,
+		"rating": 0,
+		"count": "0",
+		"analysis": "<p>A terribly bricky extender with protection that doesn't make up for the unreliability. Noted here as a trap many players fall for. Not recommended.</p>",
+		"image": "6853254"
+	},
+	"lyna":
+	{
+		"id": "lyna",
+		"name": "Lyna the Light Charmer, Lustrous",
+		"type": "link",
+		"priority": 2,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Lyna is a generic Link made with any two monsters in the deck. Besides summoning a monster from the opponent's GY, she fills a role linking away floodgates such as <b>Knightmare Corruptor Iblee</b> and <b>Contact \"C\"</b>. Her floating effect can search combo pieces and handtraps alike; even <b>Nibiru, the Primal Being</b>.</p><p>Despite her utilities, a lack of a Galaxy / Photon name and limited extra deck space make Lyna only an intermittent inclusion. She requires certain formats to truly shine.</p>",
+		"image": "9839945"
+	},
+	"melody":
+	{
+		"id": "melody",
+		"name": "The Melody of Awakening Dragon",
+		"type": "spell",
+		"priority": 99,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Melody is a unique search card, loading the GY while searching two of <b>Galaxy-Eyes Photon Dragon</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, or <b>Chaos Dragon Levianeer</b> in any combination. This has great synergy with Levianeer, which needs monsters in the GY to function.</p><p>However, as the search targets are either bricky or incompatible with <b>Galaxy Trance</b>, Melody is not recommended in pure Galaxy. Builds such as the <i>Dragon Variant</i> have an easier time filling the GY and make better use of it.",
+		"image": "48800175"
+	},
+	"nebula":
+	{
+		"id": "nebula",
+		"name": "Nebula Dragon",
+		"type": "effect",
+		"priority": -0.8,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Akin to <b>Chaos Dragon Levianeer</b>, Nebula Dragon is preferred in non-pure builds only. Pure Galaxy does not appreciate Nebula's dragon lock, even if it looks useful for an xyz play at the end of a turn. Such ideal situations will not always present themselves, and the card is likely to brick you instead.</p>",
+		"image": "51786039"
+	},
+	"neo":
+	{
+		"id": "neo",
+		"name": "Neo Galaxy-Eyes Photon Dragon",
+		"type": "xyz",
+		"priority": 9,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Neo Galaxy-Eyes has an interesting negation effect if summoned with the appropriate materials. It can also OTK if there are other xyz monsters present. Unfortunately, it is clunky to make, and most rulings state that if summoned using <b>Eternal Galaxy</b> on a monster with <b>Galaxy-Eyes Photon Dragon</b> as material, it will not apply the negation.</p><p>This largely kills the viability of the card, though you may wish to check with your head judge first. <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> is a superior option for a 3 material xyz.</p>",
+		"image": "39272762"
+	},
+	"orbital":
+	{
+		"id": "orbital",
+		"name": "Photon Orbital",
+		"type": "effect",
+		"priority": -4,
+		"rating": 1,
+		"count": "3 (main)",
+		"analysis": "<p>The primary searcher of the deck. As long as you have another archetypal monster on field, it can attach itself and fetch a monster of your choice.</p><p>Orbital's equip effects are also relevant. The attack boost places <b>Starliege Photon Blast Dragon</b> under its own protection, allows <b>Galaxy-Eyes Solflare Dragon</b> to attack over <b>Number 41: Bagooska the Terribly Tired Tapir</b>, and helps <b>Photon Thrasher</b> attack over similar threats. The battle protection is niche but can, for example, allow Rank 4 xyzs to make <b>Divine Arsenal AA-ZEUS - Sky Thunder</b> by crashing into larger monsters.</p><p>Note that Orbital's search effect cannot be stopped by <b>Called by the Grave</b>. A clear 3-of in most builds.</p>",
+		"image": "89132148"
+	},
+	"papill":
+	{
+		"id": "papill",
+		"name": "Photon Papilloperative",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Fearing <b>Number 62: Galaxy-Eyes Prime Photon Dragon's</b> ability to OTK over attack position monsters, opponents may place all their monsters in defense position. Whether for this reason or the effects of cards like <b>Book of Eclipse</b>, Photon Papilloperative offers a way to change targets into attack position - even under <b>Galaxy Trance</b> lock.</p><p>This is typically not enough reason to warrant an extra deck slot, but if needed, Papilloperative can work.</p>",
+		"image": "28150174"
+	},
+	"pente":
+	{
+		"id": "pente",
+		"name": "Pentestag",
+		"type": "link",
+		"priority": 1,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters, denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and does not flip monsters face up before the damage step.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
+		"image": "72336818"
+	},
+	"piri":
+	{
+		"id": "piri",
+		"name": "Piri Reis Map",
+		"type": "spell",
+		"priority": 99,
+		"rating": 2,
+		"count": "0-3 (main)",
+		"analysis": "<p>Consistency comes at a price. Piri Reis Map adds either <b>Galaxy Wizard</b> or <b>Photon Jumper</b> to your hand, both of which are fantastic starters. It can also search the niche floodgate <b>Consecrated Light</b>, which can be summoned using the bonus normal from <b>Photon Emperor</b>. However, the Life Point cost is steep, especially combined with potential costs of <b>Galaxy Trance</b> or <b>Numbers Last Hope</b>.</p><p>Galaxy's improved reliability with <b>Photon Jumper</b> makes Piri's downside hard to justify. It is not usually recommended, but the card's power cannot be denied either.</p>",
+		"image": "33907039"
+	},
+	"prime":
+	{
+		"id": "prime",
+		"name": "Number 62: Galaxy-Eyes Prime Photon Dragon",
+		"type": "xyz",
+		"priority": 8,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p><i>Prime.</i></p><p>With the help of <b>Galaxy-Eyes Afterglow Dragon</b>, Prime can achieve massive attack values in the damage step: 11,200 if it is the only xyz monster on the field, or a convenient 8,000 under effect negation. It can beat over tough monsters such as <b>Mekk-Knight Crusadia Avramax</b> this way due to damage step mechanics. Even without Afterglow, Prime can reach respectable attack by itself or with a few other xyzs on the field.</p><p>The ability of Prime to OTK over nearly any attack position monster strikes fear in the hearts of opponents - especially those using Link monsters. It is both an iconic part of Galaxy and an effective way to close games.</p>",
+		"image": "31801517"
+	},
+	"reborn":
+	{
+		"id": "reborn",
+		"name": "Monster Reborn",
+		"type": "spell",
+		"priority": 90,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Monster Reborn is a generic extender. The effects of <b>Galaxy Wizard</b> are not hard once per turn, so should Wizard be in the GY, Reborn can function as a searcher too.</p><p>There are consistency issues setting up, however, and the Galaxy deck is GY reliant enough as is. For these reasons Reborn is considered a win-more card and not very enticing to run.</p>",
+		"image": "83764719"
+	},
+	"regulus":
+	{
+		"id": "regulus",
+		"name": "Therion \"King\" Regulus",
+		"type": "effect",
+		"priority": -0.8,
+		"rating": 3,
+		"count": "0-3 (main)",
+		"analysis": "<p>Of the Therions, Regulus offers a unique interaction with Galaxy. By equipping <b>Photon Orbital</b> to itself from the GY, it sets up an omni negate without the normal summon and potentially gets a search off Orbital as well. The card is also conveniently level 8.</p><p>Unfortunately, Regulus is a serious brick, requiring either Orbital or <b>Galaxy Soldier</b> in the GY and also disabling <b>Galaxy Trance</b>. An early negate is powerful, but given the lack of consistency, Regulus has yet to be proven viable in pure variants of the deck.</p>",
+		"image": "10604644"
+	},
+	"rota":
+	{
+		"id": "rota",
+		"name": "Reinforcement of the Army",
+		"type": "spell",
+		"priority": 98,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Reinforcement of the Army searches any of your level 4 Photon warriors at no cost.</p><p>This card is limited to 1 and highly recommended.</p>",
+		"image": "32807846"
+	},
+	"rising":
+	{
+		"id": "rising",
+		"name": "Number 39: Utopia Rising",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is easy to make due to the popularity of <b>Galaxy Summoner</b> as a follow-up card.</p><p>Compared to other Summoner follow-ups, Utopia Rising routes accomplish more with Photon Lord in the GY - including setting up OTKs under <b>Nibiru, the Primal Being</b>. This card's potential warrants further investigation.</p>",
+		"image": "93777634"
+	},
+	"sanc":
+	{
+		"id": "sanc",
+		"name": "Photon Sanctuary",
+		"type": "spell",
+		"priority": 0,
+		"rating": 2,
+		"count": "0-3 (main)",
+		"analysis": "<p>Formerly a 3-of staple, Photon Sanctuary is now run as low as 0 or high as 3.</p><p>Sanctuary summons two tokens and is not once per turn. This provides Photon names on field to kickstart your plays. The tokens can be tributed for the special summon of <b>Galaxy-Eyes Photon Dragon</b> or cost of <b>Hyper Galaxy</b>, or linked into <b>Galaxy-Eyes Solflare Dragon</b> or <b>Bujinki Ahashima</b>.</p><p>On the flip side, with the advent of <b>Galaxy Photon Dragon</b>, Rank 4 xyz plays are more important than ever, and Sanctuary's tokens do not directly contribute to them. You might prefer an actual leveled monster in that case. You also need to consider off-attribute techs like <b>Number 41: Bagooska the Terribly Tired Tapir</b> that become locked out.</p><p>Depending on your build, Sanctuary may be considered a playmaker or a brick. You are encouraged to explore the role of this card.<p>",
+		"image": "17418744"
+	},
+	"slasher":
+	{
+		"id": "slasher",
+		"name": "Photon Slasher",
+		"type": "effect",
+		"priority": -5,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Slasher is an option for a second costless extender beyond <b>Photon Vanisher</b>, or a Rank 5 playmaker for builds using <b>Artifact Durendal</b> and similar monsters. The effect to summon is not once per turn, so it can be summoned after being linked into <b>Galaxy-Eyes Solflare Dragon</b> and added back. Slasher also allows <b>Galaxy Brave</b> to summon itself as a level 5 monster. For ordinary plays, <b>Galaxy Photon Dragon</b> or <b>Galaxy Summoner</b> can change it to level 4 or 8.</p><p>Unfortunately, Slasher is bricky as Galaxy is a Rank 4 and 8 deck at heart. The card has potential but does not see play in most builds.</p>",
+		"image": "9718968"
+	},
+	"smasher":
+	{
+		"id": "smasher",
+		"name": "Number 67: Pair-a-Dice Smasher",
+		"type": "xyz",
+		"priority": 5,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Incredibly difficult to summon but applying a lingering lock stronger than that of <b>True King of all Calamities</b>, Pair-a-Dice is the definition of a cheese card. When made with 3 materials, the success rate of its effect is above 90%. Between <b>Galaxy Soldier</b>, <b>Galaxy Brave</b>, <b>Photon Slasher</b>, and <b>Astral Kuriboh</b>, bringing out Pair-a-Dice alongside follow-up is a possibility.</p><p>However, doing this while also having turn 3 plays or not losing to one hand trap is difficult. It also relies heavily on including Photon Slasher in the deck. This strategy is not recommended, but may warrant exploration.</p>",
+		"image": "35772782"
+	},
+	"sol":
+	{
+		"id": "sol",
+		"name": "Galaxy-Eyes Solflare Dragon",
+		"type": "link",
+		"priority": 2,
+		"rating": 1,
+		"count": "2-3 (main)",
+		"analysis": "<p>Galaxy is blessed with a great Link-2 in Solflare Dragon. It is easy to summon, recycles your resources, and can destroy monsters on the opponent's turn.</p><p>While steep, the discard is acceptable when using <b>Galaxy-Eyes Photon Dragon</b> as the entire cost or including <b>Photon Jumper</b> as half. <b>Number 90: Galaxy-Eyes Photon Lord</b> can fetch discard fodder during the opponent's turn if needed. Solflare is also handy to consolidate defense position monsters into viable attackers.</p><p>Simply put, Solflare is a great tool for combos and grind games alike. 2-3 are recommended.",
+		"image": "3356494"
+	},
+	"soldier":
+	{
+		"id": "soldier",
+		"name": "Galaxy Soldier",
+		"type": "effect",
+		"priority": -5,
+		"rating": 1,
+		"count": "3 (main)",
+		"analysis": "<p>The most powerful searcher. While it cannot add pure Photon monsters, Soldier's ability to put a monster on field without the normal summon and search a combo piece at the same time is unparalleled. The addition of <b>Galaxy Photon Dragon</b> and <b>Galaxy Summoner</b> further improve this card by letting it re-level to 4 or 8. Summoning it with the effect of <b>Galaxy Expedition</b> is a great way to go plus.</p><p>Whether you want to make Rank 4s, 5s, or 8s, Soldier provides value. A 3-of staple.</p>",
+		"image": "46659709"
+	},
+	"spheres":
+	{
+		"id": "spheres",
+		"name": "Hieratic Seal of the Heavenly Spheres",
+		"type": "link",
+		"priority": 2,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Optimal Galaxy boards may find little use for a card like Spheres, but it can attempt to fulfill multiple needs at once. Spheres lacks the discard cost of <b>Galaxy-Eyes Solflare Dragon</b>, and it can summon <b>Galaxy-Eyes Photon Dragon</b> from the deck - even when negated on field or tributed over - for an alternative method of triggering <b>Galaxy Hundred</b>.</p><p>Although the requirement of 2 dragons and no <b>Galaxy Trance</b> makes it more difficult to summon than Solflare, Spheres may be worth considering as both a backup plan and stronger interruption.</p>",
+		"image": "24361622"
+	},
+	"spiral":
+	{
+		"id": "spiral",
+		"name": "Tachyon Spiral Galaxy",
+		"type": "trap",
+		"priority": 0,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>While the protection offered by Tachyon Spiral Galaxy is near absolute, it is difficult to utilize. Using it offensively in tandem with <b>Number 107: Galaxy-Eyes Tachyon Dragon</b> is inconsistent. As a searchable endboard piece, it can only protect dragons, and still leaves them vulnerable to being tributed or used as link material for <b>Underworld Goddess of the Closed World</b>.</p><p>Tachyon Spiral may have a niche in allowing <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> to serve as a towers against decks reliant on normal Spells to out it, or to stall a turn with <b>Galaxy Photon Dragon</b>. In general, however, the card is underwhelming.</p>",
+		"image": "89789152"
+	},
+	"stream":
+	{
+		"id": "stream",
+		"name": "Photon Stream of Destruction",
+		"type": "spell",
+		"priority": 1,
+		"rating": 2,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>Photon Stream is a searchable 1-of tech competing with <b>Hyper Galaxy</b> for a spot. Though  more difficult to set up than its counterpart, it banishes targets and can hit Spell / Trap cards. Going first, searching it with <b>Number 90: Galaxy-Eyes Photon Lord</b> during the opponent's turn is an effective way to deal with set floodgates. Making it live on the opponent's turn is also possible because summoning <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> is ideal regardless.</p><p>Though bricky, Photon Stream has use as removal and is an option for either the main or side.</p>",
+		"image": "72044448"
+	},
+	"summoner":
+	{
+		"id": "summoner",
+		"name": "Galaxy Summoner",
+		"type": "effect",
+		"priority": -4,
+		"rating": 1,
+		"count": "1-2 (main)",
+		"analysis": "<p>Summoner is a well-rounded combo piece with no summoning restrictions. Turning <b>Galaxy Soldier</b> or <b>Galaxy-Eyes Afterglow Dragon</b> into level 4 monsters facilitates xyz plays, and in the latter case, results in some of the strongest extensions the deck has to offer. If two normal summons are available thanks to <b>Photon Emperor</b>, a common play is to search Summoner with <b>Galaxy Wizard</b>, then summon it and revive the Wizard. Summoner can also put <b>Photon Jumper</b> back on the field to secure a search on the following turn.</p><p>This card is an excellent turn 3 follow-up if the GY is loaded. Summoner is integral to combos, but to avoid opening excessive normal summons in tandem with Wizard and Jumper - who are better at starting plays - it is not usually maxed.</p>",
+		"image": "863795"
+	},
+	"tachyon":
+	{
+		"id": "tachyon",
+		"name": "Number 107: Galaxy-Eyes Tachyon Dragon",
+		"type": "xyz",
+		"priority": 8,
+		"rating": 3,
+		"count": "0-1 (main)",
+		"analysis": "<p>Tachyon Dragon is a borderline inclusion in Galaxy builds. It hits fairly hard, especially with <b>Galaxy-Eyes Afterglow Dragon</b> as material, and offers a full field negate for one less material than <b>Neo Galaxy-Eyes Photon Dragon</b>. It also makes some Tachyon Trap cards live in hand - including the deadly <b>Tachyon Transmigration</b> - which can be difficult to stop afterwards.</p><p>The problem with Tachyon Dragon is that without its special traps, other Galaxy xyz monsters get the job done better. Using traps from the hand implies going second, a situation where they are dead until you get a rank 8 on board to begin with. Until its support cards are searchable, Tachyon Dragon remains a niche choice and is not commonly run.",
+		"image": "88177324"
+	},
+	"thrasher":
+	{
+		"id": "thrasher",
+		"name": "Photon Thrasher",
+		"type": "effect",
+		"priority": -4,
+		"rating": 1,
+		"count": "1-2 (main)",
+		"analysis": "<p>Photon Thrasher is a true veteran of the archetype.</p><p>Despite a seemingly dated effect, Thrasher starts plays by putting a Photon name on field without the normal summon, and provides valuable level 4 xyz material. With its fairly high attack, it can force interrupts by attacking into weaker threats, and can be immediately tributed for the cost of <b>Hyper Galaxy</b>.</p><p>Running at least 1 copy as a <b>Reinforcement of the Army</b> target is recommended. After over a decade, Thrasher still puts in good work.</p>",
+		"image": "65367484"
+	},
+	"titanic":
+	{
+		"id": "titanic",
+		"name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+		"type": "xyz",
+		"priority": 8,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>Hope Harbinger is a common partner for <b>Number 90: Galaxy-Eyes Photon Lord</b> in Galaxy endboards. Its attack redirection is not once per turn, protecting smaller monsters such as <b>Starliege Photon Blast Dragon</b>, and can prevent opponents' effects which activate at the start of the damage step from triggering. The Spell negate is impactful and Harbinger denies the negated card any floating effects by attaching it as material.</p><p>With the new Galaxy support, making <b>Galaxy-Eyes Solflare Dragon</b>, Photon Lord, and Hope Harbinger all at once is consistent. This card is a core inclusion in the archetype.</p>",
+		"image": "63767246"
+	},
+	"trade":
+	{
+		"id": "trade",
+		"name": "Trade-In",
+		"type": "spell",
+		"priority": 98,
+		"rating": 3,
+		"count": "0-3 (main)",
+		"analysis": "<p>Trade-In is a difficult card to analyze. To some players, it is a way to unbrick hands, dig for side cards, and load the GY. To others, it is a brick itself which burns through resources and is costly when negated.</p><p>The math behind the answer is complicated. Run this card at your own discretion.</p>",
+		"image": "38120068"
+	},
+	"trance":
+	{
+		"id": "trance",
+		"name": "Galaxy Trance",
+		"type": "spell",
+		"priority": 0,
+		"rating": 1,
+		"count": "1-3 (main)",
+		"analysis": "<p>Trance is the most powerful archetypal playmaker available. With just one target in the GY, it is a one card Rank 4 or 8 xyz with materials of your choice. This can kick off combos by making <b>Galaxy Photon Dragon</b> or end games by making a loaded <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b>. Furthermore, it is easily searchable with cards like <b>Galaxy Wizard</b>, and can be held as backup against threats like <b>Nibiru, the Primal Being</b>. The catch is that it locks you into Photon and Galaxy monsters only; a price the deck can handle, but still needs to be kept in mind.</p><p>A well timed Trance can turn a game around in an instant, but mind the Life Point cost. How many to run depends on your build - particularly the number of GY dumps and non-archetypal techs.</p>",
+		"image": "63956833"
+	},
+	"trans":
+	{
+		"id": "trans",
+		"name": "Tachyon Transmigration",
+		"type": "trap",
+		"priority": 1,
+		"rating": 2,
+		"count": "0-3 (side)",
+		"analysis": "<p>The most powerful counter trap in the game.</p><p>Transmigration negates all Spell Card activations, Trap Card activations, and monster effects in the chain, and shuffles those which were on the field into the deck. Note that it does not activate in response to anything, allowing you to bait further effects before firing. It is not once per turn either. A well timed Transmigration(s) can save a board or completely shut down an opponent's turn.</p><p>The activation from hand element looks tempting but requires excessive setup and the inclusion of <b>Number 107: Galaxy-Eyes Tachyon Dragon</b> in the build. For this reason and its unsearchability, Transmigration is not recommended for the main deck. It is a valid side option going first.</p>",
+		"image": "8038143"
+	},
+	"trident":
+	{
+		"id": "trident",
+		"name": "Photon Trident",
+		"type": "spell",
+		"priority": 1,
+		"rating": 3,
+		"count": "0-1 (side)",
+		"analysis": "<p>Photon Trident serves many uses, but is held back by a reliance on the Battle Phase. It allows <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters and helps <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> OTK without specific materials. The removal effect can destroy face-up floodgates a turn earlier than <b>Galaxy Cyclone</b> and with less setup than <b>Photon Stream of Destruction</b>. And the attack boost places <b>Starliege Photon Blast Dragon</b> under its own protection playing into a board.</p><p>For all that utility, however, Trident still wants a successful attack, and is only useful going second. Not recommended, though it has more potential than the average battle trick.</p>",
+		"image": "51589188"
+	},
+	"vanisher":
+	{
+		"id": "vanisher",
+		"name": "Photon Vanisher",
+		"type": "effect",
+		"priority": -4,
+		"rating": 1,
+		"count": "1-3 (main)",
+		"analysis": "<p>A key extender and one of the simplest plusses in the deck. Vanisher's summoning condition is reasonable to fulfill, and it serves important roles in searching <b>Galaxy-Eyes Photon Dragon</b> and being xyz material on the field.</p><p>Vanisher is a tad heavy on restrictions, which can be awkward especially if Photon Dragon is already in your hand. Still, the card is invaluable in its role.</p>",
+		"image": "43147039"
+	},
+	"veil":
+	{
+		"id": "veil",
+		"name": "Photon Veil",
+		"type": "spell",
+		"priority": 0,
+		"rating": 3,
+		"count": "0-1 (main / side)",
+		"analysis": "<p>Photon Veil enables a play where you place fewer monsters on the field than usual, but also add three copies of <b>Effect Veiler</b> to your hand. Splitting your board between the hand and field this way can insulate against board breakers going first. Veil can also unbrick hands in a pinch by searching three <b>Galaxy Wizards</b>.</p><p>The strategy is imperfect, however. Effect Veiler is a weak handtrap, failing under banish effects and not being as safe as <b>Infinite Impermanence</b>. Veil itself is not a card you want to see going second, but siding it still requires Veilers in the main or side. For now, Photon Veil is an interesting card that is yet to be proven.</p>",
+		"image": "9354555"
+	},
+	"veiler":
+	{
+		"id": "veiler",
+		"name": "Effect Veiler",
+		"type": "effect",
+		"priority": 0,
+		"rating": 0,
+		"count": "0",
+		"analysis": "<p></p>",
+		"image": "97268402"
+	},
+	"wave":
+	{
+		"id": "wave",
+		"name": "Galaxy Wave",
+		"type": "spell",
+		"priority": 1,
+		"rating": 2,
+		"count": "1 (side)",
+		"analysis": "<p>Galaxy Wave has one job, and that is to win in time. This is sometimes necessary at the highest levels of competition. Wave is searchable and can easily burn for 2000 damage with Galaxy's xyz stacking mechanics, making it a solid choice.</p><p>The effect of Wave accumulates with multiple copies, but achieving an FTK is difficult. Siding 1 for time purposes is enough.</p>",
+		"image": "77098449"
+	},
+	"wizard":
+	{
+		"id": "wizard",
+		"name": "Galaxy Wizard",
+		"type": "effect",
+		"priority": -4.1,
+		"rating": 1,
+		"count": "3 (main)",
+		"analysis": "<p>Galaxy Wizard, once considered a secondary normal summon to <b>Galaxy Knight</b>, now sits at the forefront of the deck. Wizard's search is not once per turn, enabling new combos in tandem with the extra normal summon from <b>Photon Emperor</b> and revival effect of <b>Galaxy Summoner</b>. It can add important combo pieces such as <b>Galaxy Hundred</b> and <b>Galaxy Expedition</b>, and follow-up playmakers including <b>Galaxy Trance</b> and <b>Numbers Last Hope</b>.</p><p>As both a starter and extender, Wizard is a staple in modern Galaxy. 3 are most often run.<p>",
+		"image": "98555327"
+	},
+	"zeus":
+	{
+		"id": "zeus",
+		"name": "Divine Arsenal AA-ZEUS - Sky Thunder",
+		"type": "xyz",
+		"priority": 12,
+		"rating": 1,
+		"count": "1 (main)",
+		"analysis": "<p>A staple in almost every deck that can make xyz monsters, Zeus is unsurprisingly viable in Galaxy. Using xyz stacking tactics often starting with <b>Galaxy-Eyes Cipher Dragon</b> as a base, creating a 4+ material Zeus is trivial. It can also trigger the effects of <b>Photon Emperor</b> and <b>Galaxy-Eyes Afterglow Dragon</b> by detaching them - the latter of which can optionally replenish its material.</p><p>Zeus is not made especially often due to <b>Galaxy Trance</b> lock, but is still a great backup option and killer of rogue strategies.</p>",
+		"image": "90448279"
+	},
+	"zero":
+	{
+		"id": "zero",
+		"name": "Galaxy Zero",
+		"type": "spell",
+		"priority": 0,
+		"rating": 3,
+		"count": "0",
+		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Numbers Last Hope</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
+		"image": "97617181"
+	}
+}

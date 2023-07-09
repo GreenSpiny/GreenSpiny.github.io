@@ -8,8 +8,8 @@
 	<meta name="author" content="Adam Kruchkow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.galaxy-eyes.de/articles.html">
-	<meta property="og:title" content="Galaxy-Eyes | Articles">
+	<meta property="og:url" content="https://www.galaxy-eyes.de/matchups.html">
+	<meta property="og:title" content="Galaxy-Eyes | Matchups">
 	<meta property="og:description" content="The comprehensive Galaxy/Photon strategy hub.">
 	<meta property="og:image" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
 	<meta property="og:image:src" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
@@ -27,7 +27,7 @@
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body onload="InitializeMatchups()">
 	
 	<div id="center-column">
 
@@ -76,7 +76,7 @@
 			<p class="major-text">Get tips for dealing with specific opponents. <i>(work in progress)</i></p>
 		</div>
 
-		<div class="articles-block">
+		<div id="matchups-area" class="articles-block">
 			
 			<button class="article-button article-button-text arise-bg" onclick="ExpandButton(this)">▼ Kashtira ▼</button>
 			<div class="article-div left">

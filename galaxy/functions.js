@@ -1,5 +1,10 @@
-//python -m http.server
-// ------------------------------------------------------ //
+// python -m http.server
+// ^ helpful command for testing on a local python server.
+
+// https://www.galaxy-eyes.de
+// ^ the original website built off this template, for reference.
+
+// ----- HTML TEMPLATES ----- //
 const cardTemplate = `
 <div id="XXX" class="card">
   <img class="card-img YYY">
@@ -14,21 +19,30 @@ const pathTemplate = `
 </div>
 `;
 
-// ------------------------------------------------------ //
+// ----- TOP LEVEL DATA VARIABLES ----- //
 const cardsUrl = "cards.json";
 var cardsData = null;
+var cardCount = 0;
+
 const comboUrl = "combos-list.json";
 var comboData = null;
 
-var cardCount = 0;
+const matchupsUrl = "matchups.json"
+var matchupsData = null;
 
+// ----- GENERAL FUNCTIONS -----//
+
+// Construct visual combos from combo data.
+// A long and complicated function.
 function PopulateCombos(targetDiv, targetComboType, minUnits)
 {
   const comboArea = targetDiv;
-
   var comboCount = 0;
+
+  // Each combo read from the JSON data must be parsed.
   for (let combo of comboData[targetComboType])
   {
+    // high level initialization
     cardsInCombo = 0;
     const comboDiv = document.createElement("div");
     comboDiv.setAttribute("id", combo["name"]);
@@ -43,13 +57,13 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
     comboCount++;
     comboArea.appendChild(comboDiv);
 
-    // title
+    // title text
     const titleElement = document.createElement("p");
     titleElement.setAttribute("class", "header-text");
     titleElement.innerHTML = combo["name"];
     comboDiv.appendChild(titleElement);
 
-    // subtitle
+    // subtitle text
     const notes = combo["notes"];
     if (notes != null)
     {
@@ -59,7 +73,7 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       comboDiv.appendChild(notesElement);
     }
 
-    // reqs
+    // requirements text
     const reqs = combo["reqs"];
     if (reqs.length > 0)
     {
@@ -75,7 +89,8 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
     cardArea.setAttribute("class", "card-area");
     comboDiv.appendChild(cardArea);
 
-    // start
+    // start (the left side of a combo)
+    // Mini images are any small card images embedded inside the larger image.
     const start = combo["start"].split(',');
     for (let i = 0; i < start.length; i++)
     {
@@ -103,13 +118,14 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
     }
 
     
-    // arrow
+    // arrow (the middle delineation of a combo)
     if (combo["end"].length > 0)
     {
       cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("YYY", "arrow borderless"));
     }
 
-    // end
+    // end (the right side of a combo)
+    // Mini images are any small card images embedded inside the larger image.
     const end = combo["end"].split(',');
     for (let i = 0; i < end.length; i++)
     {
@@ -137,7 +153,9 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
     }
 
     
-    // bonuses
+    // bonuses (the far right of the combo)
+    // If you want to put custom items on the right side of your combo similar to how Galaxy places its banish and cipher data...
+    // ... you will need to edit the code here for your own purposes.
     if (combo["banishes"] > 0 || combo["cipher"])
     {
       var className = "hundred-";
@@ -154,7 +172,7 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       cardArea.insertAdjacentHTML("beforeend", cardTemplate.replace("YYY", "card-img borderless blank-quarter"));
     }
 
-    // path
+    // expandable path section beneath the combo
     comboDiv.insertAdjacentHTML("beforeend", pathTemplate);
     const ol = comboDiv.getElementsByTagName("ol")[0];
     const splitPath = combo["path"].split(".");
@@ -166,11 +184,11 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       {
         period = '';
       }
-
       ol.insertAdjacentHTML("beforeend", "<li class='mono-text'>" + trimmedPath + period + "</li>");
     }
 
-    // extra padding
+    // extra padding to widen the combo to be a fixed width
+    // The amount of padding depends on the number of visual elements in the combo.
     const diff = minUnits - cardsInCombo;
     for (let i = 0; i < diff; i++)
     {
@@ -180,7 +198,123 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
   }
 }
 
-// ------------------------------------------------------ //
+// Construct visual matchups from matchup data.
+function PopulateMatchups()
+{
+
+}
+
+// Cards in the Ratings section have different types, which are defined here.
+const CardPriorityDict = 
+{
+  "effect": 0,
+  "spell": 1,
+  "trap": 2,
+  "link": 3,
+  "xyz": 4
+}
+
+// Sorting function for any two cards in the Ratings section.
+function CompareCards(a, b)
+{
+  const aType = CardPriorityDict[a["type"]];
+  const bType = CardPriorityDict[b["type"]];
+
+  if (aType != bType)
+  {
+    return aType - bType;
+  }
+
+  if (a["priority"] != b["priority"])
+  {
+    return a["priority"] - b["priority"];
+  }
+
+  return a["name"].localeCompare(b["name"]);
+}
+
+// Construct visual ratings from card ratings data.
+function PopulateRatings()
+{
+  const ratingDivs = document.getElementsByClassName("ratings-container");
+  const cardObjects = [];
+
+  for (let i = 0; i < ratingDivs.length; i++)
+  {
+    cardObjects[i] = [];
+  }
+
+  // Read in the cards from the JSON data.
+  for (let key of Object.keys(cardsData))
+  {
+    const card = cardsData[key];
+    const rating = card["rating"];
+    if (rating > 0)
+    {
+      cardObjects[card["rating"] - 1].push(card);
+    }
+  }
+
+  // After sorting the cards, create rows of images which, on click, call the GetRating() function.
+  for (let i = 0; i < cardObjects.length; i++)
+  {
+    cardObjects[i].sort(CompareCards);
+    for (let card of cardObjects[i])
+    {
+      if (card["rating"] != 0)
+      {
+        const image = document.createElement("img");
+        image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
+        image.setAttribute("id", "card-" + card["id"]);
+        image.setAttribute("class", "ratings-image " + card["type"]);
+        image.setAttribute("card-id", card["id"]);
+        image.setAttribute("onclick", "GetRating(this, true)");
+        ratingDivs[i].appendChild(image);
+      }
+    }
+  }
+  
+}
+
+// The on click function of images in the Card Ratings section.
+// Take the "card-id" stored in the object and read card data into the analysis area.
+function GetRating(self, scroll)
+{
+  const cardId = self.getAttribute("card-id");
+  const card = cardsData[cardId];
+  const ratingImage = document.getElementById("analysis-image");
+  ratingImage.style.display = "block";
+
+  // scrolling behavior
+  if (scroll)
+  {
+    ratingImage.setAttribute("onload", "ScrollToRatingText()");
+  }
+
+  ratingImage.setAttribute("src", "images/full/" + card["image"] + ".jpg");
+  const ratingText = document.getElementById("analysis-text");
+  var ratingCount = "<span class='header-text'>" + card["name"] + " ☆".repeat(4 - card["rating"]) + "<br></span>";
+  ratingCount += "<span class='major-text'>Recommended: " + card["count"] + "<br></span>";
+  ratingText.innerHTML = ratingCount + card["analysis"];
+}
+
+// Forcibly scroll down to the analysis in the Card Ratings section. Called after the full image loads.
+async function ScrollToRatingText()
+{
+  setTimeout(() => {
+    ScrollIntoView(document.getElementById("analysis-text"));
+  }, 100);
+}
+
+// Defined scroll behavior type.
+function ScrollIntoView(obj)
+{
+  obj.scrollIntoView({behavior: "smooth", block:"start"});
+}
+
+// Switch to the correct section of a page based on the current url (i.e. "...?tab=2")
+// Used on multiple pages, and finds targets based on the children of "tab-area".
+// NEEDS OPTIMIZATION!
 function TabFunction(number, page)
 {
   const num = String(number);
@@ -209,104 +343,17 @@ function TabFunction(number, page)
   }
 }
 
-const CardPriorityDict = 
+// Load URL helper function.
+function LoadUrl(url)
 {
-  "effect": 0,
-  "spell": 1,
-  "trap": 2,
-  "link": 3,
-  "xyz": 4
+  window.location.assign(url);
 }
 
-function CompareCards(a, b)
-{
-  const aType = CardPriorityDict[a["type"]];
-  const bType = CardPriorityDict[b["type"]];
+// ------ PAGE INITIALIZATION FUNCTIONS ------ //
 
-  if (aType != bType)
-  {
-    return aType - bType;
-  }
-
-  if (a["priority"] != b["priority"])
-  {
-    return a["priority"] - b["priority"];
-  }
-
-  return a["name"].localeCompare(b["name"]);
-}
-
-function PopulateRatings()
-{
-  const ratingDivs = document.getElementsByClassName("ratings-container");
-  const cardObjects = [];
-
-  for (let i = 0; i < ratingDivs.length; i++)
-  {
-    cardObjects[i] = [];
-  }
-
-  for (let key of Object.keys(cardsData))
-  {
-    const card = cardsData[key];
-    const rating = card["rating"];
-    if (rating > 0)
-    {
-      cardObjects[card["rating"] - 1].push(card);
-    }
-  }
-
-  for (let i = 0; i < cardObjects.length; i++)
-  {
-    cardObjects[i].sort(CompareCards);
-    for (let card of cardObjects[i])
-    {
-      if (card["rating"] != 0)
-      {
-        const image = document.createElement("img");
-        image.setAttribute("src", "images/cropped-small/" + card["image"] + ".jpg");
-        image.setAttribute("id", "card-" + card["id"]);
-        image.setAttribute("class", "ratings-image " + card["type"]);
-        image.setAttribute("card-id", card["id"]);
-        image.setAttribute("onclick", "GetRating(this, true)");
-        ratingDivs[i].appendChild(image);
-      }
-    }
-  }
-  
-}
-
-function GetRating(self, scroll)
-{
-  const cardId = self.getAttribute("card-id");
-  const card = cardsData[cardId];
-  const ratingImage = document.getElementById("analysis-image");
-  ratingImage.style.display = "block";
-  if (scroll)
-  {
-    ratingImage.setAttribute("onload", "ScrollToRatingText()");
-  }
-  ratingImage.setAttribute("src", "images/full/" + card["image"] + ".jpg");
-
-  const ratingText = document.getElementById("analysis-text");
-  var ratingCount = "<span class='header-text'>" + card["name"] + " ☆".repeat(4 - card["rating"]) + "<br></span>";
-  ratingCount += "<span class='major-text'>Recommended: " + card["count"] + "<br></span>";
-  ratingText.innerHTML = ratingCount + card["analysis"];
-}
-
-async function ScrollToRatingText()
-{
-  setTimeout(() => {
-    ScrollIntoView(document.getElementById("analysis-text"));
-  }, 100);
-}
-
-function ScrollIntoView(obj)
-{
-  obj.scrollIntoView({behavior: "smooth", block:"start"});
-}
-
-// ------------------------------------------------------ //
+// Called on load of the Combos page.
+// Asynchronously download the combos and cards JSON data from the server.
+// Switch to the correct combo section based on the current url. (i.e. "...?tab=2")
 async function InitializeCombos()
 {
   const cardsRequest = new Request(cardsUrl, { cache: "no-cache" });
@@ -346,54 +393,53 @@ async function InitializeCombos()
   });
 }
 
+// Called on load of the Card Ratings page.
+// Asynchronously download the cards JSON data from the server.
 async function InitializeRatings()
 {
   const cardsRequest = new Request(cardsUrl, { cache: "no-cache" });
   const cardsPromise = fetch(cardsRequest);
-
   Promise.all([cardsPromise]).then((results1) => {
-
     const caJsonPromise = results1[0].json();
-
       Promise.all([caJsonPromise]).then((results2) => {
-
       cardsData = results2[0];
-
       PopulateRatings();
     });
   });
 }
 
+// Called on load of the Matchups page.
+// Asynchronously download the matchups JSON data from the server.
+async function InitializeMatchups()
+{
+  const matchupsRequest = new Request(matchupsUrl, { cache: "no-cache" });
+  const matchupsPromise = fetch(matchupsRequest);
+  Promise.all([matchupsPromise]).then((results1) => {
+    const muJsonPromise = results1[0].json();
+      Promise.all([caJsonPromise]).then((results2) => {
+      matchupsData = results2[0];
+      PopulateMatchups();
+    });
+  });
+}
+
+// Called on load of the Decks page.
+// Switch to the correct decks section based on the current url. (i.e. "...?tab=2")
 async function InitializeDecks()
 {
   const urlParams = new URLSearchParams(window.location.search);
   const params = Object.fromEntries(urlParams.entries());
-  
   var tab = 1;
   if (params["tab"] != null)
   {
     tab = params["tab"];
   }
-
   TabFunction(tab, "decks.html");
 }
 
-// ------------------------------------------------------ //
-function ToggleButton(self)
-{
-  var content = self.nextElementSibling;
-  if (content.style.display === "block")
-  {
-   self.innerHTML =self.innerHTML.replace("▲", "▼");
-    content.style.display = "none";
-  }
-  else
-  {
-    self.innerHTML =self.innerHTML.replace("▼", "▲");
-    content.style.display = "block";
-  }
-}
+// ----- UI BUTTON FUNCTIONS ----- //
 
+// Expandable button function with no transition.
 function ToggleButton(self)
 {
   var content = self.nextElementSibling;
@@ -409,6 +455,7 @@ function ToggleButton(self)
   }
 }
 
+// Expandable button function with a linear transition.
 function ExpandButton(self)
 {
   var content = self.nextElementSibling;
@@ -426,6 +473,7 @@ function ExpandButton(self)
   }
 }
 
+// Dropdown button functionality for the main menu.
 function DropdownButton(self)
 {
   CloseAllDropdowns();
@@ -443,6 +491,7 @@ function DropdownButton(self)
   }
 }
 
+// When choosing a menu button, close all other menu buttons.
 function CloseAllDropdowns()
 {
   var dropdowns = document.getElementsByClassName("inner-nav-dropdown");
@@ -452,13 +501,7 @@ function CloseAllDropdowns()
   }
 }
 
-function LoadUrl(url)
-{
-  window.location.assign(url);
-}
-
-// ------------------------------------------------------ //
-
+// When clicking outside the menu, close all other menu buttons.
 window.onclick = function(event) {
   if (!event.target.matches('.nav-dropdown-button')) {
     CloseAllDropdowns();
