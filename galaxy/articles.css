@@ -74,6 +74,26 @@
 	text-align: center !important;
 }
 
+.image-bullet-div {
+	text-align: left;
+	margin: 4px 0px 8px 0px;
+	clear: left;
+	overflow: auto;
+}
+
+.image-bullet-div p {
+	margin-top: 0px !important;
+}
+
+.image-bullet-img {
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	border: 1px solid #777;
+	margin-right: 8px;
+	float: left;
+}
+
 /* === ARTICLE BACKGROUNDS === */
 
 .lord-bg {
@@ -118,6 +138,8 @@
 	background-color: #3c585e !important;
 }
 
+/* === MATCHUP BACKGROUNDS === */
+
 @media screen and (min-width: 800px) {
 	.article-button {
 		background-size: 256px;
@@ -129,4 +151,10 @@
 	.bottom-space {
 		padding-bottom: 8px !important;
 	}
+	.image-bullet-img {
+		height: 64px;
+		width: 64px;
+		margin-right: 8px;
+	}
+
 }
