@@ -150,7 +150,7 @@
 		"priority": -0.4,
 		"rating": 3,
 		"count": "0-3 (main)",
-		"analysis": "<p>Should one be willing to run a package of <b>Granguignol the Dusk Dragon</b> and <b>Despian Luluwalilith</b> in the Extra Deck, Blazing Cartesia opens up some unique plays with <b>Photon Emperor</b>. Cartesia can fuse with any Photon or Galaxy monster to make Granguignol, which then mills Emperor. When Emperor summons itself from the GY, you reclaim a normal summon, have two level 8s on the field, and an additional interrupt from Granguignol's second effect.</p><p>Though the play seems powerful, it is not without drawbacks; Cartesia leaves you with no Photon names on field or in the GY if interrupted. And while the combo is compatible with <b>Photon Sanctuary</b>, it is unfortunately not with <b>Galaxy Trance</b>. For the present, Cartesia lines are interesting but unproven in viability.</p>",
+		"analysis": "<p>Should one be willing to run a package of <b>Granguignol the Dusk Dragon</b> and <b>Despian Luluwalilith</b> in the Extra Deck, Blazing Cartesia opens up some unique plays with <b>Photon Emperor</b>. Cartesia can fuse with any Photon or Galaxy monster to make Granguignol, which then mills Emperor. When Emperor summons itself from the GY, you reclaim a normal summon, have two level 8s on the field, and gain an additional interrupt from Granguignol's second effect.</p><p>Though the play seems powerful, it is not without drawbacks; Cartesia leaves you with no Photon names on field or in the GY if interrupted. And while the combo is compatible with <b>Photon Sanctuary</b>, it is unfortunately not with <b>Galaxy Trance</b>. For the present, Cartesia lines are interesting but unproven in viability.</p>",
 		"image": "95515789"
 	},
 	"cerberus":
@@ -207,6 +207,17 @@
 		"count": "0-1 (main / side)",
 		"analysis": "<p>Galaxy Cleric is an interesting choice for turn 3 follow-up plays, as well as the grind game. Galaxy can burn through its resources quickly, and putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to summon without the normal.</p><p>Relying on the draw 2 to finish your plays also makes it less reliable than other one card follow-ups. So while it has some value, it tends to see little play overall.</p>",
 		"image": "28770951"
+	},
+	"cowboy":
+	{
+		"id": "cowboy",
+		"name": "Gagaga Cowboy",
+		"type": "xyz",
+		"priority": -0.9,
+		"rating": 3,
+		"count": "0-1 (side)",
+		"analysis": "<p>The words <i>\"cowboy for game?\"</i> ring familiar in many a player's ear. Gagaga Cowboy is an alternative to <b>Galaxy Wave</b> to burn the opponent and win in time.</p><p>Compared to Wave, Cowboy is easier to set up but deals less damage. It is more likely to be negated or out-burned by opposing cards, and is telegraphed during siding due to living in the Extra Deck. The effectiveness of Cowboy in the modern era is difficult to judge.</p>",
+		"image": "12014404"
 	},
 	"cyclone":
 	{
@@ -273,6 +284,17 @@
 		"count": "0-1 (main / side)",
 		"analysis": "<p>Eternal Galaxy essentially converts rank 4 xyz monsters into rank 8s. This enables certain 1 card combos, namely those where you can reach <b>Galaxy Photon Dragon</b> but nothing else. By searching Eternal, you can rank up into <b>Galaxy-Eyes Photon Lord</b> or <b>Number 38: Hope Harbinger Dragon Titanic Galaxy</b> during your opponent's turn.</p><p>Eternal's uses do not stop there. It can be used as backup if your board is hit with breakers such as <b>Dark Ruler No More</b>, turning rank 4s into fresh rank 8 negates. Monsters stolen from the opponent's extra deck with <b>Galaxy Hundred</b> are valid rank up material too. While it doesn't see play in all builds due to being dead in hand going second, it remains a solid option for the main or side.</p>",
 		"image": "82162616"
+	},
+	"exciton":
+	{
+		"id": "exciton",
+		"name": "Evilswarm Exciton Knight",
+		"type": "xyz",
+		"priority": 4,
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Exciton Knight is a generic rank 4 popular for breaking boards and climbing into <b>Divine Arsenal AA-ZEUS - Sky Thunder</b>. Its Light attribute, which is shared by Zeus, preserves <b>Photon Sanctuary</b> compatibility.</p><p>Though it does not fill a critical role, Exciton is easy to make and may be considered for a tech slot.</p>",
+		"image": "46772449"
 	},
 	"exp":
 	{
@@ -612,7 +634,7 @@
 		"priority": 8,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p><i>Prime.</i></p><p>With the help of <b>Galaxy-Eyes Afterglow Dragon</b>, Prime can achieve massive attack values in the damage step: 11,200 if it is the only xyz monster on the field, or a convenient 8,000 under effect negation. It can beat over tough monsters such as <b>Mekk-Knight Crusadia Avramax</b> this way due to damage step mechanics. Even without Afterglow, Prime can reach respectable attack by itself or with a few other xyzs on the field.</p><p>With the ability to OTK over nearly any attack position monster, Prime strikes fear in the hearts of opponents - especially those using Link monsters. It is both an iconic part of Galaxy and an effective way to close games.</p>",
+		"analysis": "<p><i>Prime.</i></p><p>With the help of <b>Galaxy-Eyes Afterglow Dragon</b>, Prime can achieve massive attack values in the damage step: 11,200 if it is the only xyz monster on the field, or a convenient 8,000 under effect negation. It can beat over tough monsters such as <b>Mekk-Knight Crusadia Avramax</b> this way due to damage step mechanics. Even without Afterglow, Prime can reach respectable attack by itself or with a few other xyzs on the field.</p><p>The ability of Prime to OTK over nearly any attack position monster strikes fear in the hearts of opponents - especially those using Link monsters. It is both an iconic part of Galaxy and an effective way to close games.</p>",
 		"image": "31801517"
 	},
 	"reborn":
@@ -656,7 +678,7 @@
 		"priority": 4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is also easy to make due to the popularity of <b>Galaxy Summoner</b> as a follow-up card.</p><p>Compared to other Summoner follow-ups, Utopia Rising routes accomplish more with Photon Lord in the GY - including setting up OTKs under <b>Nibiru, the Primal Being</b>. This card's potential warrants further investigation.</p>",
+		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is easy to make due to the popularity of <b>Galaxy Summoner</b> as a follow-up card.</p><p>Compared to other Summoner follow-ups, Utopia Rising routes accomplish more with Photon Lord in the GY - including setting up OTKs under <b>Nibiru, the Primal Being</b>. This card's potential warrants further investigation.</p>",
 		"image": "93777634"
 	},
 	"sanc":
@@ -898,7 +920,7 @@
 		"priority": 12,
 		"rating": 1,
 		"count": "1 (main)",
-		"analysis": "<p>A staple in almost every deck that can make xyz monsters, Zeus is unsurprisingly viable in Galaxy. Using xyz stacking tactics often starting with <b>Galaxy-Eyes Cipher Dragon</b> as a base, creating a 4+ material Zeus is trivial. It can also trigger the effect of <b>Galaxy-Eyes Afterglow Dragon</b> for a summon after a board wipe.</p><p>Zeus is not made especially often due to <b>Galaxy Trance</b> lock, but is still a great backup option and killer of rogue strategies.</p>",
+		"analysis": "<p>A staple in almost every deck that can make xyz monsters, Zeus is unsurprisingly viable in Galaxy. Using xyz stacking tactics often starting with <b>Galaxy-Eyes Cipher Dragon</b> as a base, creating a 4+ material Zeus is trivial. It can also trigger the effects of <b>Photon Emperor</b> and <b>Galaxy-Eyes Afterglow Dragon</b> by detaching them - the latter of which can optionally replenish its material.</p><p>Zeus is not made especially often due to <b>Galaxy Trance</b> lock, but is still a great backup option and killer of rogue strategies.</p>",
 		"image": "90448279"
 	},
 	"zero":
