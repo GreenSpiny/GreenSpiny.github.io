@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Galaxy-Eyes | Decks</title>
+	<title>Galaxy-Eyes | Matchups</title>
 	<meta charset="utf-8">
-	<meta name="keywords" content="Yugioh, Yu-Gi-Oh, Galaxy, Photon, Galaxy-Eyes, Strategy, Decks">
+	<meta name="keywords" content="Yugioh, Yu-Gi-Oh, Galaxy, Photon, Galaxy-Eyes, Strategy, Matchups, Tips">
 	<meta name="description" content="The comprehensive Galaxy/Photon strategy hub.">
 	<meta name="author" content="Adam Kruchkow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.galaxy-eyes.de/decks.html">
-	<meta property="og:title" content="Galaxy-Eyes | Decks">
+	<meta property="og:url" content="https://www.galaxy-eyes.de/articles.html">
+	<meta property="og:title" content="Galaxy-Eyes | Articles">
 	<meta property="og:description" content="The comprehensive Galaxy/Photon strategy hub.">
 	<meta property="og:image" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
 	<meta property="og:image:src" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
@@ -19,7 +19,7 @@
 	<meta property="twitter:description" content="The comprehensive Galaxy/Photon strategy hub.">
 	<link rel="stylesheet" type="text/css" href="galaxy-urls.css">
 	<link rel="stylesheet" type="text/css" href="nav.css">
-	<link rel="stylesheet" type="text/css" href="decks.css">
+	<link rel="stylesheet" type="text/css" href="articles.css">
 	<script type="text/javascript" src="functions.js"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -27,7 +27,7 @@
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body onload="InitializeDecks()">
+<body>
 	
 	<div id="center-column">
 
@@ -72,36 +72,36 @@
 		</div>
 
 		<div id="title-area">
-			<p id="title" class="title-text">Decks</p>
-			<p class="major-text">
-				 Click on an image to open it in Dueling Book's interactive deck viewer.</p>
+			<p id="title" class="title-text">Matchups</p>
+			<p class="major-text">Get tips for dealing with specific opponents. <i>(work in progress)</i></p>
 		</div>
 
-		<div id="decks-1" class="tab-area" hidden=true>
-			<div class="deck-area deck-top">
-				<p class="title-text">Pure core</p>
-				<p class="major-text">Pure is the most common Galaxy variant and the focus of this website.<br>It can use some off-archetypal techs, but functions well even under <b>Galaxy Trance</b> lock.</p>
-	   			<a href="https://www.duelingbook.com/deck?id=13237891" target="_blank">
-	   				<img src="/images/decks/pure-core-compressed.jpg" alt="Core">
-	   			</a>
+		<div class="articles-block">
+			
+			<button class="article-button article-button-text arise-bg" onclick="ExpandButton(this)">▼ Kashtira ▼</button>
+			<div class="article-div left">
+				<div class="image-bullet-div">
+					<img class="image-bullet-img arise-cropped">
+					<p class="minor-text"><b>Kashtira Arise-Heart</b> is public enemy number one. His continuous banishing effect not only cripples your GY setup, but it disables the summon of <b>Galaxy Soldier</b> and search of <b>Photon Orbital</b>. Eliminate him at all costs.</p>
+				</div>
+				<div class="image-bullet-div">
+					<img class="image-bullet-img zeus-cropped">
+					<p class="minor-text"><b>Divine Arsenal AA-Zeus - Sky Thunder</b> is a major threat to Kashtira boards. You can steal Arise-Heart with <b>Triple Tactics Talent</b> and use him to make Zeus. The targeting immunity of <b>Number 41: Bagooska the Terribly Tired Tapir</b> or battle protection of <b>Photon Orbital</b> can be helpful when manually climbing into Zeus.</p>
+				</div>
+				<div class="image-bullet-div">
+					<img class="image-bullet-img hyper-cropped">
+					<p class="minor-text"><b>Hyper Galaxy</b> is a searchable out to Arise-Heart, as <b>Galaxy Wizard's</b> search still functions under banish effects. <b>Photon Thrasher</b> makes ideal tribute fodder, as do <b>Photon Sanctuary</b> tokens. Note that tokens cannot be banished face-down by Kashtira effects.</p>
+				</div>
+				<div class="image-bullet-div">
+					<img class="image-bullet-img blast-cropped">
+					<p class="minor-text"><b>Starliege Photon Blast Dragon</b> forces interrupts by protecting your other monsters from Kashtira effects, and threatening to summon a <b>Galaxy-Eyes Photon Dragon</b> from hand that can trade with Arise-Heart in battle.</p>
+				</div>
+				<div class="image-bullet-div">
+					<img class="image-bullet-img cipherx-cropped">
+					<p class="minor-text">Going first against Kastira is much easier than going second. The lingering targeting protection of <b>Galaxy-Eyes Cipher X Dragon</b> turns off nearly all their outs to your large monsters. Using <b>Galaxy Hundred</b>, banish Zeus first and Arise-Heart second.</p>
+				</div>
 			</div>
-			<div class="deck-area">
-				<p class="title-text">Pure example deck</p>
-				<p class="major-text">Techs and side cards vary by format.</p>
-				<a href="https://www.duelingbook.com/deck?id=13237946" target="_blank">
-	   				<img src="/images/decks/pure-going-first-compressed.jpg" alt="Pure List">
-	   			</a>
-			</div>
-		</div>
 
-		<div id="decks-2" class="tab-area" hidden=true>
-			<div class="deck-area deck-top">
-				<p class="title-text">60 cards Dragon Variant</p>
-				<p class="major-text">An unconventional build protecting <b>Hieratic Seal of the Heavenly Spheres</b> and its summon targets with <b>Number 38: Hope Harbinger Titanic Galaxy</b>. During the opponent's turn, Spheres floats into <b>Amorphage Goliath</b> to floodgate the opponent or <b>Grandtusk Dragon</b> to destroy cards. <b>Number 97: Draglubion</b> indirectly summons bosses to improve board presence. </p>
-				<a href="https://www.duelingbook.com/deck?id=13249954" target="_blank">
-	   				<img src="/images/decks/dragon-sixty-compressed.jpg" alt="Pure List">
-	   			</a>
-			</div>
 		</div>
 
 	</div>

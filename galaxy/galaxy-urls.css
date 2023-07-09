@@ -190,6 +190,9 @@
 .zero-cropped 			{ content:url("images/cropped-small/97617181.jpg"); }
 .zeus-cropped 			{ content:url("images/cropped-small/90448279.jpg"); }
 
+/* --- cropped, for matchups section only --- */
+.arise-cropped 			{ content:url("images/matchups-small/48626373.jpg"); }
+
 /* --- sub cards --- */
 
 .afterglow-sub 		{ background:url("images/cropped-small/62968263.jpg"); background-position-x: 80%; }

@@ -83,12 +83,12 @@
 
 .image-bullet-div p {
 	margin-top: 0px !important;
+	margin-left: 70px !important;
 }
 
 .image-bullet-img {
-	display: inline-block;
-	height: 48px;
-	width: 48px;
+	display: block;
+	width: 60px;
 	border: 1px solid #777;
 	margin-right: 8px;
 	float: left;
@@ -140,6 +140,12 @@
 
 /* === MATCHUP BACKGROUNDS === */
 
+.arise-bg {
+	background-image: url("images/matchups-small/48626373.jpg");
+	background-position-y: 18%;
+	background-color: #5e3c47 !important;
+}
+
 @media screen and (min-width: 800px) {
 	.article-button {
 		background-size: 256px;
@@ -152,9 +158,12 @@
 		padding-bottom: 8px !important;
 	}
 	.image-bullet-img {
-		height: 64px;
-		width: 64px;
+		height: 76px;
+		width: 76px;
 		margin-right: 8px;
+	},
+	.image-bullet-div p {
+		margin-left: 86px !important;
 	}
 
 }
