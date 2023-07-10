@@ -19,7 +19,19 @@ const pathTemplate = `
 </div>
 `;
 
+const articleButtonTemplate = `
+  <button class="XXX" onclick="ExpandButton(this)">▼ YYY ▼</button>
+`
+
+const matchupTemplate = `
+<div class="image-bullet-div minor-text" >
+  <img class="image-bullet-img XXX">
+  YYY
+</div>
+`;
+
 // ----- TOP LEVEL DATA VARIABLES ----- //
+
 const cardsUrl = "cards.json";
 var cardsData = null;
 var cardCount = 0;
@@ -116,7 +128,6 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
         subArea.appendChild(miniImage);
       }
     }
-
     
     // arrow (the middle delineation of a combo)
     if (combo["end"].length > 0)
@@ -152,7 +163,6 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
       }
     }
 
-    
     // bonuses (the far right of the combo)
     // If you want to put custom items on the right side of your combo similar to how Galaxy places its banish and cipher data...
     // ... you will need to edit the code here for your own purposes.
@@ -201,6 +211,33 @@ function PopulateCombos(targetDiv, targetComboType, minUnits)
 // Construct visual matchups from matchup data.
 function PopulateMatchups()
 {
+  const matchupDiv = document.getElementById("matchups-area");
+  console.log(matchupsData);
+
+  for (let i = 0; i < matchupsData.length; i++)
+  {
+    var currentMatchup = matchupsData[i];
+    var buttonHTML = articleButtonTemplate;
+    buttonHTML = buttonHTML.replace("XXX", "article-button article-button-text " + currentMatchup.background);
+    buttonHTML = buttonHTML.replace("YYY", currentMatchup.name);
+    matchupDiv.insertAdjacentHTML("beforeend", buttonHTML);
+
+    var matchupElement = document.createElement("div");
+    matchupElement.setAttribute("class", "article-div left");
+    matchupDiv.appendChild(matchupElement);
+
+    allEntriesHTML = "";
+    for (let j = 0; j < currentMatchup.entries.length; j++)
+    {
+      var currentEntry = currentMatchup.entries[j];
+      var entryHTML = matchupTemplate;
+      entryHTML = entryHTML.replace("XXX", currentEntry.image + "-cropped");
+      entryHTML = entryHTML.replace("YYY", currentEntry.text);
+      allEntriesHTML += entryHTML;
+    }
+
+    matchupElement.innerHTML = allEntriesHTML;
+  }
 
 }
 
@@ -219,17 +256,14 @@ function CompareCards(a, b)
 {
   const aType = CardPriorityDict[a["type"]];
   const bType = CardPriorityDict[b["type"]];
-
   if (aType != bType)
   {
     return aType - bType;
   }
-
   if (a["priority"] != b["priority"])
   {
     return a["priority"] - b["priority"];
   }
-
   return a["name"].localeCompare(b["name"]);
 }
 
@@ -416,7 +450,7 @@ async function InitializeMatchups()
   const matchupsPromise = fetch(matchupsRequest);
   Promise.all([matchupsPromise]).then((results1) => {
     const muJsonPromise = results1[0].json();
-      Promise.all([caJsonPromise]).then((results2) => {
+      Promise.all([muJsonPromise]).then((results2) => {
       matchupsData = results2[0];
       PopulateMatchups();
     });

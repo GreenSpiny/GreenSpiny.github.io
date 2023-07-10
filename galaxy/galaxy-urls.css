@@ -190,7 +190,7 @@
 .zero-cropped 			{ content:url("images/cropped-small/97617181.jpg"); }
 .zeus-cropped 			{ content:url("images/cropped-small/90448279.jpg"); }
 
-/* --- cropped, for matchups section only --- */
+/* --- cropped, for matchups section only (no full version) --- */
 
 .arise-cropped 			{ content:url("images/cropped-small/48626373.jpg"); }
 
@@ -206,14 +206,14 @@
 
 .arrow			{ content:url("images/arrow.png"); }
 .blank			{ content:url("images/blank.png"); }
-.blank-quarter	{ content:url("images/blank-quarter.png"); }
 .blank-half		{ content:url("images/blank-half.png"); }
+.blank-quarter	{ content:url("images/blank-quarter.png"); }
+.blank-fullcard	{ content:url("images/blank-fullcard.png"); }
+.blank-halfcard	{ content:url("images/blank-halfcard.png"); }
+
 .hundred-0		{ content:url("images/blank-half.png"); }
 .hundred-1		{ content:url("images/hundred-1.png"); }
 .hundred-2		{ content:url("images/hundred-2.png"); }
 .hundred-0-ex	{ content:url("images/hundred-0-ex.png"); }
 .hundred-1-ex	{ content:url("images/hundred-1-ex.png"); }
 .hundred-2-ex	{ content:url("images/hundred-2-ex.png"); }
-
-.blank-fullcard	{ content:url("images/blank-fullcard.png"); }
-.blank-halfcard	{ content:url("images/blank-halfcard.png"); }
