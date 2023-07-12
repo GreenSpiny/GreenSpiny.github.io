@@ -6,11 +6,11 @@
 		[
 			{
 				"image": "arise",
-				"text": "<p><b>Kashtira Arise-Heart</b> is public enemy number one. His continuous banishing effect not only cripples your GY setup, but it disables the summon of <b>Galaxy Soldier</b> and search of <b>Photon Orbital</b>. Dealing with him is top priority.</p>"
+				"text": "<p><b>Kashtira Arise-Heart</b> is public enemy number one. His continuous banishing effect not only cripples your GY setup, but it disables the summon of <b>Galaxy Soldier</b> and search of <b>Photon Orbital</b>.</p>"
 			},
 			{
 				"image": "zeus",
-				"text": "<p><b>Divine Arsenal AA-Zeus - Sky Thunder</b> is a major threat to Kashtira boards. You can steal Arise-Heart with <b>Triple Tactics Talent</b> and use him to make Zeus. The targeting immunity of <b>Number 41: Bagooska the Terribly Tired Tapir</b> or battle protection of <b>Photon Orbital</b> can be helpful when manually climbing into Zeus.</p>"
+				"text": "<p><b>Divine Arsenal AA-Zeus - Sky Thunder</b> is a major threat to Kashtira boards. The targeting immunity of <b>Number 41: Bagooska the Terribly Tired Tapir</b> or battle protection of <b>Photon Orbital</b> can be helpful when manually climbing into Zeus.</p>"
 			},
 			{
 				"image": "hyper",
@@ -22,7 +22,11 @@
 			},
 			{
 				"image": "cipherx",
-				"text": "<p>Going first against Kashtira is much easier than going second. The lingering targeting protection of <b>Galaxy-Eyes Cipher X Dragon</b> turns off nearly all their outs to your large monsters. Using <b>Galaxy Hundred</b>, banish Zeus first and Arise-Heart second.</p>"
+				"text": "<p>Going first against Kashtira is much easier than going second. The lingering targeting protection of <b>Galaxy-Eyes Cipher X Dragon</b> turns off nearly all their outs to your large monsters.</p>"
+			},
+			{
+				"image": "hundred",
+				"text": "<p><i>Galaxy Hundred priority:</i><br>• Divine Arsenal AA-Zeus - Sky Thunder<br>• Kashtira Arise-Heart</p>"
 			}
 		]
 	}
