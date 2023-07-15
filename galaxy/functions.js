@@ -421,7 +421,8 @@ async function InitializeCombos()
       PopulateCombos(document.getElementById("card-combos-1"), "1-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-2"), "2-card-combos", 5);
       PopulateCombos(document.getElementById("card-combos-3"), "3-card-combos", 5);
-      PopulateCombos(document.getElementById("card-combos-4"), "spicy-combos", 5);
+      PopulateCombos(document.getElementById("card-combos-4"), "last-hope-combos", 5);
+      PopulateCombos(document.getElementById("card-combos-5"), "spicy-combos", 5);
 
     });
   });
