@@ -122,6 +122,15 @@
 			"path": "Hundred mill Jumper; Jumper add Expedition from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard milling Emperor; SS Emperor from GY. Expedition SS Soldier from deck; Soldier add Summoner from deck; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow. Summoner + GPD = Solflare; Solflare add Wizard from GY. SS Afterglow from hand. Afterglow + Emperor = Lord. Bonus NS Wizard. Wizard increase level by 4. Soldier + Wizard = Titanic."
 		},
 		{
+			"name": "Hundred + Expedition",
+			"start": "hundred,exp",
+			"end": "sol,lord|afterglow|emperor,titanic",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard milling Emperor; SS Emperor from GY. Expedition SS Soldier from deck; Soldier add Summoner from deck; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow. Summoner + GPD = Solflare; Solflare add Wizard from GY. SS Afterglow from hand. Afterglow + Emperor = Lord. Bonus NS Wizard. Wizard increase level by 4. Soldier + Wizard = Titanic."
+		},
+		{
 			"name": "Soldier + Wizard",
 			"start": "soldier,wizard",
 			"end": "sol,lord|emperor,blast|jumper",
