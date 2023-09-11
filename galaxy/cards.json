@@ -312,7 +312,7 @@
 		"id": "felgrand",
 		"name": "Divine Dragon Knight Felgrand",
 		"type": "xyz",
-		"priority": 8,
+		"priority": 8.1,
 		"rating": 2,
 		"count": "0-1 (main)",
 		"analysis": "<p>Though it may be incompatible with <b>Galaxy Trance</b>, Felgrand is a Light Rank 8 that is simultaneously a negate and a monster capable of triggering <b>Galaxy-Eyes Afterglow Dragon's</b> detach effect going first. This makes it a decent fit for the deck. Usually players opt for <b>Galaxy-Eyes Cipher X Dragon</b> lines instead, but Felgrand has applicable niches: for example, a monster negated by Felgrand cannot be used as material by fusion effects, putting a jam in some strategies.</p><p>Ultimately, Felgrand is not always run due to the popularity of Trance based plays, but remains an option to consider.</p>",
@@ -678,7 +678,7 @@
 		"priority": 4,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is easy to make due to the popularity of <b>Galaxy Summoner</b> as a follow-up card.</p><p>Compared to other Summoner follow-ups, Utopia Rising routes accomplish more with Photon Lord in the GY - including setting up OTKs under <b>Nibiru, the Primal Being</b>. This card's potential warrants further investigation.</p>",
+		"analysis": "<p>Utopia Rising can replace a second <b>Number 90: Galaxy-Eyes Photon Lord</b> for the purpose of grind games. It is easy to make due to the popularity of <b>Galaxy Summoner</b> and <b>Numbers Last Hope</b> as follow-up cards, and makes Photon Lord's negate immediately live.</p>",
 		"image": "93777634"
 	},
 	"sanc":
@@ -742,9 +742,9 @@
 		"name": "Hieratic Seal of the Heavenly Spheres",
 		"type": "link",
 		"priority": 2,
-		"rating": 2,
+		"rating": 3,
 		"count": "0-1 (main)",
-		"analysis": "<p>Optimal Galaxy boards may find little use for a card like Spheres, but it can attempt to fulfill multiple needs at once. Spheres lacks the discard cost of <b>Galaxy-Eyes Solflare Dragon</b>, and it can summon <b>Galaxy-Eyes Photon Dragon</b> from the deck - even when negated on field or tributed over - for an alternative method of triggering <b>Galaxy Hundred</b>.</p><p>Although the requirement of 2 dragons and no <b>Galaxy Trance</b> makes it more difficult to summon than Solflare, Spheres may be worth considering as both a backup plan and stronger interruption.</p>",
+		"analysis": "<p>Pure Galaxy boards may find little use for a card like Spheres, but it can attempt to fulfill multiple needs at once. Spheres lacks the discard cost of <b>Galaxy-Eyes Solflare Dragon</b>, and it can summon <b>Galaxy-Eyes Photon Dragon</b> from the deck - even when negated on field or tributed over - for an alternative method of triggering <b>Galaxy Hundred</b>.</p><p>Although the requirement of 2 dragons and no <b>Galaxy Trance</b> makes it more difficult to summon than Solflare, Spheres may be worth considering as both a backup plan and stronger interruption.</p>",
 		"image": "24361622"
 	},
 	"spiral":
@@ -766,7 +766,7 @@
 		"priority": 1,
 		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "<p>Photon Stream is a searchable 1-of tech competing with <b>Hyper Galaxy</b> for a spot. Though  more difficult to set up than its counterpart, it banishes targets and can hit Spell / Trap cards. Going first, searching it with <b>Number 90: Galaxy-Eyes Photon Lord</b> during the opponent's turn is an effective way to deal with set floodgates. Making it live on the opponent's turn is also possible because summoning <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> is ideal regardless.</p><p>Though bricky, Photon Stream has use as removal and is an option for either the main or side.</p>",
+		"analysis": "<p>Photon Stream is a searchable 1-of tech competing with <b>Hyper Galaxy</b> for a spot. Though more difficult to set up than its counterpart, it banishes targets and can hit Spell / Trap cards. Going first, searching it with <b>Number 90: Galaxy-Eyes Photon Lord</b> during the opponent's turn is an effective way to deal with set floodgates. Making it live on the opponent's turn is also possible because summoning <b>Galaxy-Eyes Photon Dragon</b> to trigger <b>Galaxy Hundred</b> is ideal regardless.</p><p>Though bricky, Photon Stream has use as removal and is an option for either the main or side.</p>",
 		"image": "72044448"
 	},
 	"summoner":
@@ -786,9 +786,9 @@
 		"name": "Number 107: Galaxy-Eyes Tachyon Dragon",
 		"type": "xyz",
 		"priority": 8,
-		"rating": 3,
+		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Tachyon Dragon is a borderline inclusion in Galaxy builds. It hits fairly hard, especially with <b>Galaxy-Eyes Afterglow Dragon</b> as material, and offers a full field negate for one less material than <b>Neo Galaxy-Eyes Photon Dragon</b>. It also makes some Tachyon Trap cards live in hand - including the deadly <b>Tachyon Transmigration</b> - which can be difficult to stop afterwards.</p><p>The problem with Tachyon Dragon is that without its special traps, other Galaxy xyz monsters get the job done better. Using traps from the hand implies going second, a situation where they are dead until you get a rank 8 on board to begin with. Until its support cards are searchable, Tachyon Dragon remains a niche choice and is not commonly run.",
+		"analysis": "<p>Tachyon Dragon is a niche inclusion in Galaxy builds. It hits fairly hard, especially with <b>Galaxy-Eyes Afterglow Dragon</b> as material, and offers a full field negate for one less material than <b>Neo Galaxy-Eyes Photon Dragon</b>. It also makes some Tachyon trap cards live in hand, including the deadly <b>Tachyon Transmigration</b>.</p><p>Note that while there is no limit to the total ATK gained by its own effect, Tachyon Dragon can attack twice at most. Its greatest strength is outing boards which resist battle and targeting simultaneously.</p>",
 		"image": "88177324"
 	},
 	"thrasher":
@@ -797,9 +797,9 @@
 		"name": "Photon Thrasher",
 		"type": "effect",
 		"priority": -4,
-		"rating": 1,
-		"count": "1-2 (main)",
-		"analysis": "<p>Photon Thrasher is a true veteran of the archetype.</p><p>Despite a seemingly dated effect, Thrasher starts plays by putting a Photon name on field without the normal summon, and provides valuable level 4 xyz material. With its fairly high attack, it can force interrupts by attacking into weaker threats, and can be immediately tributed for the cost of <b>Hyper Galaxy</b>.</p><p>Running at least 1 copy as a <b>Reinforcement of the Army</b> target is recommended. After over a decade, Thrasher still puts in good work.</p>",
+		"rating": 2,
+		"count": "0-2 (main)",
+		"analysis": "<p>Photon Thrasher is a true veteran of the archetype.</p><p>Despite a seemingly dated effect, Thrasher starts plays by putting a Photon name on field without the normal summon, and provides valuable level 4 xyz material. With its fairly high attack, it can force interrupts by attacking into weaker threats, and can be immediately tributed for the cost of <b>Hyper Galaxy</b>.</p><p>Running 1 copy as a <b>Reinforcement of the Army</b> target is common but not universal. After over a decade, Thrasher still puts in good work.</p>",
 		"image": "65367484"
 	},
 	"titanic":
@@ -931,7 +931,7 @@
 		"priority": 0,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Otherwise, it is a lackluster search target compared to <b>Galaxy Trance</b> or <b>Numbers Last Hope</b>, which in tandem, remove almost any need for it. Not recommended.</p>",
+		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>, but is usually a lackluster search target compared to <b>Galaxy Trance</b> or <b>Numbers Last Hope</b>.</p><p>Compared to other searchable follow-ups, there may be merit in Zero for reviving a Galaxy-Eyes xyz monster to xyz stack over it. It also has the least stringent requirements for activation in the early game. Not recommended, but the card warrants exploration.",
 		"image": "97617181"
 	}
 }
