@@ -929,9 +929,9 @@
 		"name": "Galaxy Zero",
 		"type": "spell",
 		"priority": 0,
-		"rating": 3,
-		"count": "0",
-		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>, but is usually a lackluster search target compared to <b>Galaxy Trance</b> or <b>Numbers Last Hope</b>.</p><p>Compared to other searchable follow-ups, there may be merit in Zero for reviving a Galaxy-Eyes xyz monster to xyz stack over it. It also has the least stringent requirements for activation in the early game. Not recommended, but the card warrants exploration.",
+		"rating": 2,
+		"count": "0-1 (main)",
+		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Revived monsters can still be used as xyz material - including for xyz stacking if you revive an xyz monster - making it a decent alternative to <b>Numbers Last Hope</b> as follow-up.</p><p>Note that the effect of <b>Photon Emperor</b> to gain an additional normal summon does not activate, and will still be applied under Zero. Compared to Last Hope, Zero is stronger early but weaker late.</p>",
 		"image": "97617181"
 	}
 }
