@@ -45,6 +45,7 @@ var matchupsData = null;
 const quizUrl = "quiz.json"
 var quizData = null;
 var quizQuestion = 0;
+var quizScore = 0;
 
 // ----- GENERAL FUNCTIONS -----//
 
@@ -355,24 +356,81 @@ function PopulateQuiz()
 
 }
 
+function SubmitQuizResponse(response)
+{
+  if (quizData[quizQuestion]["answer"] == response)
+  {
+    quizScore += 1;
+  }
+  DisplayQuizQuestion(quizQuestion + 1);
+}
+
 function DisplayQuizQuestion(question)
 {
-  // Reset display
-  if (quizQuestion < 0)
-  {
-
-  }
+  var startButton = document.getElementById("quiz-start-button");
+  var questionArea = document.getElementById("question-area");
+  var resultsArea = document.getElementById("results-area");
+  quizQuestion = question;
 
   // Display question
-  else if (quizQuestion < quizData.length)
+  if (quizQuestion < quizData.length)
   {
-    quizQuestion = question;
+    startButton.style.display = "none";
+    startButton.innerHTML = "START QUIZ";
+    questionArea.style.display = "block";
+    resultsArea.style.display = "none";
+
+    var currentQuestion = quizData[quizQuestion];
+    document.getElementById("question-count").innerHTML = "question " + (question + 1).toString() + "/" + quizData.length.toString();
+    document.getElementById("question-text").innerHTML = currentQuestion["question"];
+    for (let i = 0; i < currentQuestion["choices"].length; i++)
+    {
+      document.getElementById("choice-button-" + i.toString()).innerHTML = currentQuestion["choices"][i];
+    }
   }
 
   // Display results
   else
   {
+    var finalScore = quizScore;
+    quizQuestion = 0;
+    quizScore = 0;
+    startButton.style.display = "block";
+    startButton.innerHTML = "RESTART QUIZ";
+    questionArea.style.display = "none";
+    resultsArea.style.display = "block";
 
+    document.getElementById("quiz-score-text").innerHTML = "FINAL SCORE: " + (finalScore).toString() + "/" + quizData.length.toString();
+    if (finalScore <= 10)
+    {
+      document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Photon Circle</b>";
+      document.getElementById("quiz-rank-img").src = "images/full/64145892.jpg";
+      document.getElementById("quiz-rank-desc").innerHTML = "Even if you're clueless, you still take the damage!";
+    }
+    else if (finalScore <= 13)
+    {
+      document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Photon Cerberus</b>";
+      document.getElementById("quiz-rank-img").src = "images/full/28990150.jpg";
+      document.getElementById("quiz-rank-desc").innerHTML = "Are three heads better than one?";
+    }
+    else if (finalScore <= 16)
+    {
+      document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Photon Pirate</b>";
+      document.getElementById("quiz-rank-img").src = "images/full/36834155.jpg";
+      document.getElementById("quiz-rank-desc").innerHTML = "Arr... not half bad, matey!";
+    }
+    else if (finalScore <= 19)
+    {
+      document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Galaxy Soldier</b>";
+      document.getElementById("quiz-rank-img").src = "images/full/46659709.jpg";
+      document.getElementById("quiz-rank-desc").innerHTML = "Keep trucking, Galaxy Soldier!";
+    }
+    else
+    {
+      document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Galaxy Wizard</b>";
+      document.getElementById("quiz-rank-img").src = "images/full/98555327.jpg";
+      document.getElementById("quiz-rank-desc").innerHTML = "Congratulations!!! You are a Galaxy Wizard!";
+    }
   }
 }
 

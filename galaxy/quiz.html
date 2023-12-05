@@ -78,6 +78,26 @@
 			<p class="major-text">Test your and your friends' knowledge of Galaxy!</p>
 		</div>
 
+		<div id="quiz-area">
+
+			<button id="quiz-start-button" onclick="DisplayQuizQuestion(0)">START QUIZ</button>
+			<div id="question-area">
+				<p id="question-count" class="mono-text"></p>
+				<p id="question-text" class="major-text"></p>
+				<button id="choice-button-0" class="choice-button" onclick="SubmitQuizResponse(0)"></button>
+				<button id="choice-button-1" class="choice-button" onclick="SubmitQuizResponse(1)"></button>
+				<button id="choice-button-2" class="choice-button" onclick="SubmitQuizResponse(2)"></button>
+				<button id="choice-button-3" class="choice-button" onclick="SubmitQuizResponse(3)"></button>
+			</div>
+			<div id="results-area">
+				<p id="quiz-score-text" class="mono-text"></p>
+				<p id="quiz-rank-title" class="major-text"></p>
+				<img id="quiz-rank-img">
+				<p id="quiz-rank-desc" class="minor-text"></p>
+			</div>
+
+		</div>
+
 	</div>
 
 </body>
