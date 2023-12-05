@@ -1,0 +1,222 @@
+[
+	{
+		"question": "While it has <b>Galaxy-Eyes Photon Dragon</b> as material, <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> is unaffected by the opponent's:",
+		"choices":
+		[
+			"monster effects",
+			"spell effects",
+			"activated effects",
+			"targeting effects"
+		],
+		"answer": 1
+	},
+	{
+		"question": "The effect of <b>Galaxy-Eyes Photon Dragon</b> to banish itself and the monster it battles is:",
+		"choices":
+		[
+			"once per turn",
+			"once per chain",
+			"once per duel",
+			"once per battle"
+		],
+		"answer": 2
+	},
+	{
+		"question": "The Galaxy user in the Yu-Gi-Oh! ZEXAL anime is named",
+		"choices":
+		[
+			"Yuma Tsukumo",
+			"Reginald Kastle",
+			"Kite Tenjo",
+			"Don Thousand"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which of the following is not treated as a Galaxy card?",
+		"choices":
+		[
+			"Galactikuriboh",
+			"Starliege Lord Galaxion",
+			"Numbers Last Hope",
+			"Numeron Creation"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which of the following can be overlaid directly on top of <b>Galaxy-Eyes Cipher X Dragon?</b>",
+		"choices":
+		[
+			"Galaxy-Eyes Full Armor Photon Dragon",
+			"Galaxy-Eyes Cipher Dragon",
+			"Galaxy-Eyes Cipher Blade Dragon",
+			"Galaxy-Eyes Solflare Dragon"
+		],
+		"answer": 1
+	},
+	{
+		"question": "How many Photon and/or Galaxy cards are currently on the TCG banlist?",
+		"choices":
+		[
+			"0",
+			"1",
+			"2",
+			"3"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which of the following is true?",
+		"choices":
+		[
+			"All Photon monsters are LIGHT attribute, but not all Galaxy monsters.",
+			"All Galaxy monsters are LIGHT attribute, but not all Photon monsters.",
+			"All Galaxy and Photon monsters are LIGHT attribute.",
+			"No Galaxy and Photon monsters are LIGHT attribute."
+		],
+		"answer": 1
+	},
+	{
+		"question": "There exists no Photon or Galaxy card of this card type:",
+		"choices":
+		[
+			"Ritual",
+			"Tuner",
+			"Fusion",
+			"Pendulum"
+		],
+		"answer": 4
+	},
+	{
+		"question": "<b>Galaxy-Eyes Photon Dragon</b> can be special summoned by tributing two monsters with:",
+		"choices":
+		[
+			"Galaxy or Photon in their name",
+			"total levels equal to 8",
+			"LIGHT attribute",
+			"2000 or higher attack"
+		],
+		"answer": 4
+	},
+	{
+		"question": "How many cards are simultaneously Galaxy and Photon, besides xyz monsters?",
+		"choices":
+		[
+			"0",
+			"1",
+			"2",
+			"3"
+		],
+		"answer": 2
+	},
+	{
+		"question": "<b>Number 38: Hope Harbinger Titanic Galaxy</b> can do all of the following except:",
+		"choices":
+		[
+			"negate spell effects",
+			"remove monsters' xyz material",
+			"redirect attacks",
+			"increase the attack of monsters"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Can the search effect of <b>Photon Orbital</b> be negated by Called By The Grave?",
+		"choices":
+		[
+			"Yes",
+			"No",
+			"Only if the exact Photon Orbital activating the effect is targeted",
+			"Only if a different Photon Orbital was targeted prior to its activation"
+		],
+		"answer": 2
+	},
+	{
+		"question": "<b>Photon Lizard</b> is:",
+		"choices":
+		[
+			"a dragon",
+			"a reptile",
+			"a cyberse",
+			"a wyrm"
+		],
+		"answer": 1
+	},
+	{
+		"question": "In the Yu-Gi-Oh! ARC-V anime, an alternate version of the Galaxy user in ZEXAL is present, now with a deck of:",
+		"choices":
+		[
+			"Raidraptors",
+			"Constellars",
+			"Satellarknights",
+			"Ciphers"
+		],
+		"answer": 4
+	},
+	{
+		"question": "There exists no Photon or Galaxy card of this monster type:",
+		"choices":
+		[
+			"Insect",
+			"Fairy",
+			"Dinosaur",
+			"Beast"
+		],
+		"answer": 2
+	},
+	{
+		"question": "The only monster you control is a <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b>. It has as material <b>Galaxy-Eyes Photon Dragon</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, and <b>Photon Emperor</b>. There are no cards in your hand or GY. How much attack can that monster achieve in the Battle Phase?",
+		"choices":
+		[
+			"5600",
+			"6400",
+			"11200",
+			"12800"
+		],
+		"answer": 4
+	},
+	{
+		"question": "The additional normal summon offered by <b>Photon Emperor</b> is:",
+		"choices":
+		[
+			"a continuous effect",
+			"an activated effect",
+			"an unclassified effect",
+			"a condition"
+		],
+		"answer": 3
+	},
+	{
+		"question": "The targeting protection offered by <b>Galaxy-Eyes Cipher X Dragon</b> applies to monsters summoned later in the turn only:",
+		"choices":
+		[
+			"in the OCG",
+			"in the TCG",
+			"in Master Duel",
+			"in Duel Links"
+		],
+		"answer": 2
+	},
+	{
+		"question": "The highest attack achievable by <b>Galaxy Brave</b> with its own effect is:",
+		"choices":
+		[
+			"3200",
+			"4000",
+			"4500",
+			"5000"
+		],
+		"answer": 4
+	},
+	{
+		"question": "<b>Tachyon Transmigration</b> can only be activated from hand if you control:",
+		"choices":
+		[
+			"a \"Tachyon\" monster",
+			"a \"Galaxy-Eyes\" monster",
+			"a \"Galaxy-Eyes Tachyon Dragon\" monster",
+			"Number 107: Galaxy-Eyes Tachyon Dragon"
+		],
+		"answer": 3
+	}
+]

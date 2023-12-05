@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Galaxy-Eyes | Home</title>
+	<title>Galaxy-Eyes | Quiz</title>
 	<meta charset="utf-8">
-	<meta name="keywords" content="Yugioh, Yu-Gi-Oh, Galaxy, Photon, Galaxy-Eyes, Strategy, Combo">
-	<meta name="description" content="The comprehensive Galaxy/Photon strategy hub.">
+	<meta name="keywords" content="Yugioh, Yu-Gi-Oh, Galaxy, Photon, Galaxy-Eyes, Quiz">
+	<meta name="description" content="Test your knowledge with the Galaxy Quiz!">
 	<meta name="author" content="Adam Kruchkow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.galaxy-eyes.de">
-	<meta property="og:title" content="Galaxy-Eyes | Home">
-	<meta property="og:description" content="The comprehensive Galaxy/Photon strategy hub.">
+	<meta property="og:url" content="https://www.galaxy-eyes.de/blank.html">
+	<meta property="og:title" content="Galaxy-Eyes | Blank">
+	<meta property="og:description" content="Test your knowledge with the Galaxy Quiz!">
 	<meta property="og:image" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
 	<meta property="og:image:src" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
 	<meta property="twitter:image" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
 	<meta property="twitter:image:src" content="https://www.galaxy-eyes.de/images/thumbnail.jpg">
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:description" content="The comprehensive Galaxy/Photon strategy hub.">
+	<meta property="twitter:description" content="Test your knowledge with the Galaxy Quiz!">
 	<link rel="stylesheet" type="text/css" href="galaxy-urls.css">
 	<link rel="stylesheet" type="text/css" href="nav.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="quiz.css">
 	<script type="text/javascript" src="functions.js"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -27,7 +27,7 @@
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body onload="InitializeQuiz()">
 	
 	<div id="center-column">
 
@@ -73,64 +73,9 @@
 			</div>
 		</div>
 
-		<div id="banner-area">
-			<img id="banner" src="images/banner.jpg">
-		</div>
-
-		<div id="content-area">
-			<h1 class="major-text">The comprehensive Galaxy-Eyes strategy website for Yugioh!</h1>
-			<hr>
-			<p class="minor-text mobile-space">With the introduction of <b>Photon Jumper</b> in the TCG, Galaxy's biggest weakness - its consistency - is finally solved.</p>
-			<!-- <p class="minor-text mobile-space gray">updated <b>6/19/2023</b> - website under construction.</p> -->
-
-			<p class="major-text">New to Galaxy? Get an intro with the <i>Beginner's Guide</i>.</p>
-			<div class="major-button-container">
-				<a class="major-button gepd-bg nav-text" href="guide.html">Beginner's Guide</a>
-			</div>
-
-			<p class="major-text">Learn about specific cards in the <i>Card Ratings</i>.</p>
-			<div class="major-button-container">
-				<a class="major-button gepd-bg nav-text" href="cards.html">Card Ratings</a>
-			</div>
-
-			<p class="major-text">Dive into advanced topics in the <i>Articles</i> section.</p>
-			<div class="major-button-container">
-				<a class="major-button gepd-bg nav-text" href="articles.html">Articles</a>
-			</div>
-
-			<p class="major-text">Explore the extensive <i>Combo Repository</i>.</p>
-			<div class="major-button-container">
-				<a class="major-button soldier-bg nav-text" href="combos.html?tab=1">1 card combos</a>
-			</div>
-			<div class="major-button-container">
-				<a class="major-button soldier-bg nav-text" href="combos.html?tab=2">2 card combos</a>
-			</div>
-			<div class="major-button-container">
-				<a class="major-button soldier-bg nav-text" href="combos.html?tab=3">3 card combos</a>
-			</div>
-			<div class="major-button-container">
-				<a class="major-button soldier-bg nav-text" href="combos.html?tab=4">last hope combos</a>
-			</div>
-			<div class="major-button-container">
-				<a class="major-button soldier-bg nav-text" href="combos.html?tab=5">spicy combos</a>
-			</div>
-
-			<p class="major-text">Get a head start with a <i>Deck List</i>.</p>
-			<div class="major-button-container">
-				<a class="major-button kite-bg nav-text" href="decks.html?tab=1">Pure Lists</a>
-			</div>
-			<div class="major-button-container">
-				<a class="major-button kite-bg nav-text" href="decks.html?tab=2">Other Lists</a>
-			</div>
-
-			<p class="major-text">Join the community on <i>Discord</i>!</p>
-			<div class="major-button-container">
-				<a class="major-button wanderer-bg nav-text" href="https://discord.gg/dqJYEpu" target="_blank">Discord</a>
-			</div>
-
-			<br>
-			<p class="mini-text">Website and articles by greenspiny and Z-One.<span class="mobile-break"><br></span><br>Credit to <a href="https://ygoprodeck.com" target="_blank">YGOPROdeck</a> for card images.<span class="mobile-break"><br></span> Combos and deck lists are compiled by the Galaxy discord.</p>
-
+		<div id="title-area">
+			<p id="title" class="title-text">Galaxy Quiz</p>
+			<p class="major-text">Test your and your friends' knowledge of Galaxy!</p>
 		</div>
 
 	</div>

@@ -42,6 +42,10 @@ var comboData = null;
 const matchupsUrl = "matchups.json"
 var matchupsData = null;
 
+const quizUrl = "quiz.json"
+var quizData = null;
+var quizQuestion = 0;
+
 // ----- GENERAL FUNCTIONS -----//
 
 // Construct visual combos from combo data.
@@ -346,6 +350,32 @@ function ScrollIntoView(obj)
   obj.scrollIntoView({behavior: "smooth", block:"start"});
 }
 
+function PopulateQuiz()
+{
+
+}
+
+function DisplayQuizQuestion(question)
+{
+  // Reset display
+  if (quizQuestion < 0)
+  {
+
+  }
+
+  // Display question
+  else if (quizQuestion < quizData.length)
+  {
+    quizQuestion = question;
+  }
+
+  // Display results
+  else
+  {
+
+  }
+}
+
 // Switch to the correct section of a page based on the current url (i.e. "...?tab=2")
 // Used on multiple pages, and finds targets based on the children of "tab-area".
 // NEEDS OPTIMIZATION!
@@ -454,6 +484,21 @@ async function InitializeMatchups()
       Promise.all([muJsonPromise]).then((results2) => {
       matchupsData = results2[0];
       PopulateMatchups();
+    });
+  });
+}
+
+// Called on load of the Quiz page.
+// Asynchronously download the quiz JSON data from the server.
+async function InitializeQuiz()
+{
+  const quizRequest = new Request(quizUrl, { cache: "no-cache" });
+  const quizPromise = fetch(quizRequest);
+  Promise.all([quizPromise]).then((results1) => {
+    const quJsonPromise = results1[0].json();
+      Promise.all([quJsonPromise]).then((results2) => {
+      quizData = results2[0];
+      PopulateQuiz();
     });
   });
 }
