@@ -411,7 +411,7 @@ function DisplayQuizQuestion(question)
     {
       document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Photon Cerberus</b>";
       document.getElementById("quiz-rank-img").src = "images/full/28990150.jpg";
-      document.getElementById("quiz-rank-desc").innerHTML = "Are three heads better than one?";
+      document.getElementById("quiz-rank-desc").innerHTML = "Are three heads really better than one?";
     }
     else if (finalScore <= 16)
     {

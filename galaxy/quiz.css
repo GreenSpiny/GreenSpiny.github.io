@@ -25,20 +25,20 @@
 
 #question-area {
 	display: none;	
-	max-width: 700px;
+	max-width: 90%;
 	margin: auto;
 	padding: 8px;
 }
 
 #results-area {
 	display: none;
-	margin: 0px 8px 8px 8px;
+	margin: 0px 6px 6px 6px;
 }
 
 #quiz-rank-img {
 	display: block;
-	max-width: 100%;
-	margin: 8px auto 8px auto;
+	max-width: 60%;
+	margin: 6px auto 6px auto;
 }
 
 #quiz-area p {
@@ -52,14 +52,38 @@
 .choice-button {
 	display: block;
 	width: 100%;
-	min-height: 40px;
-	margin: 4px;
-	padding-bottom: 2px;
+	min-height: 32px;
+	margin: 2px;
+	padding-bottom: 0px;
 	display: block;
 	clear: right;
 	background-color: #586987;
 	color: #EEE;
-	font-size: 14pt;
+	font-size: 12pt;
 	font-family: calibri, sans-serif;
 	cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+
+	#question-area {
+		max-width: 700px;
+		padding: 8px;
+	}
+
+	#results-area {
+		margin: 0px 8px 8px 8px;
+	}
+
+	#quiz-rank-img {
+		margin: 8px auto 8px auto;
+	}
+
+	.choice-button {
+		min-height: 40px;
+		margin: 4px;
+		padding-bottom: 2px;
+		font-size: 14pt;
+	}
+
 }
