@@ -22,7 +22,7 @@
 		"answer": 1
 	},
 	{
-		"question": "The Galaxy user in the Yu-Gi-Oh! ZEXAL anime is named",
+		"question": "The Galaxy user in the Yu-Gi-Oh! ZEXAL anime is named:",
 		"choices":
 		[
 			"Yuma Tsukumo",
@@ -121,7 +121,7 @@
 		"answer": 1
 	},
 	{
-		"question": "Can the search effect of <b>Photon Orbital</b> be negated by Called By The Grave?",
+		"question": "Can the search effect of <b>Photon Orbital</b> be negated by <b>Called By The Grave?</b>",
 		"choices":
 		[
 			"Yes",

@@ -401,17 +401,17 @@ function DisplayQuizQuestion(question)
     resultsArea.style.display = "block";
 
     document.getElementById("quiz-score-text").innerHTML = "FINAL SCORE: " + (finalScore).toString() + "/" + quizData.length.toString();
-    if (finalScore <= 10)
+    if (finalScore <= 8)
     {
       document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Photon Circle</b>";
       document.getElementById("quiz-rank-img").src = "images/full/64145892.jpg";
       document.getElementById("quiz-rank-desc").innerHTML = "Even if you're clueless, you still take the damage!";
     }
-    else if (finalScore <= 13)
+    else if (finalScore <= 12)
     {
       document.getElementById("quiz-rank-title").innerHTML = "your rank is... <b>Photon Cerberus</b>";
       document.getElementById("quiz-rank-img").src = "images/full/28990150.jpg";
-      document.getElementById("quiz-rank-desc").innerHTML = "Are three heads really better than one?";
+      document.getElementById("quiz-rank-desc").innerHTML = "Maybe three heads are better than one?";
     }
     else if (finalScore <= 16)
     {
