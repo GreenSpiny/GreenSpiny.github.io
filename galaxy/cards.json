@@ -226,7 +226,7 @@
 		"type": "spell",
 		"priority": 0,
 		"rating": 2,
-		"count": "1 (main / side)",
+		"count": "0-1 (main / side)",
 		"analysis": "<p>This generic Spell and Trap removal option is actually a Galaxy card. Despite the slowness of the second effect and limitations on what kind of cards can be destroyed, Galaxy Cyclone remains an effective choice. There is no shortage of ways to search it, including immediately by sending <b>Photon Jumper</b> to the GY off <b>Galaxy Hundred</b>.</p><p>Cyclone can be mained during certain formats, or live as a searchable side deck 1-of.</p>",
 		"image": "5133471"
 	},
@@ -612,7 +612,7 @@
 		"priority": 1,
 		"rating": 3,
 		"count": "0",
-		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters, denying the opponent an additional turn. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and does not flip monsters face up before the damage step.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
+		"analysis": "<p>Similar to <b>Photon Papilloperative</b>, Pentestag is an extra deck option for allowing <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters. Compared to Papilloperative, Pentestag is easier to make but cannot be summoned under <b>Galaxy Trance</b> lock. It can also defeat frustrating strategies such as <b>Number 59: Crooked Cook</b> stall and does not flip monsters face up before the damage step.</p><p>Generally there is not enough need for Pentestag to warrant usage, but should it arise, the card is available.</p>",
 		"image": "72336818"
 	},
 	"piri":
@@ -931,7 +931,7 @@
 		"priority": 0,
 		"rating": 2,
 		"count": "0-1 (main)",
-		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Revived monsters can still be used as xyz material - including for xyz stacking if you revive an xyz monster - making it a decent alternative to <b>Numbers Last Hope</b> as follow-up.</p><p>Note that the effect of <b>Photon Emperor</b> to gain an additional normal summon does not activate, and will still be applied under Zero. Compared to Last Hope, Zero is stronger early but weaker late.</p>",
+		"analysis": "<p>Galaxy Zero is an archetypal <b>Living Fossil</b>-like card. As an equip spell, it can be involved in strategies involving <b>Isolde, Two Tales of the Noble Knights</b> and <b>Infernoble Knight - Renaud</b>. Revived monsters can still be used as xyz material - including for xyz stacking if you revive an xyz monster - making it a decent alternative to <b>Numbers Last Hope</b> as follow-up.</p><p>Note that the effect of <b>Photon Emperor</b> to gain an additional normal summon does not activate, and will be applied under Zero. Compared to Last Hope, Zero is stronger early but weaker late.</p>",
 		"image": "97617181"
 	}
 }

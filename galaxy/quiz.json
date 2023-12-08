@@ -55,17 +55,6 @@
 		"answer": 0
 	},
 	{
-		"question": "How many Photon and/or Galaxy cards are currently on the TCG banlist?",
-		"choices":
-		[
-			"0",
-			"1",
-			"2",
-			"3"
-		],
-		"answer": 2
-	},
-	{
 		"question": "Which of the following is true?",
 		"choices":
 		[
@@ -75,6 +64,17 @@
 			"No Galaxy and Photon monsters are LIGHT attribute."
 		],
 		"answer": 0
+	},
+	{
+		"question": "How many Photon and/or Galaxy cards are currently on the TCG banlist?",
+		"choices":
+		[
+			"0",
+			"1",
+			"2",
+			"3"
+		],
+		"answer": 2
 	},
 	{
 		"question": "There exists no Photon or Galaxy card of this card type:",
@@ -165,7 +165,7 @@
 		"answer": 1
 	},
 	{
-		"question": "The only monster you control is <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b>. It has as material <b>Galaxy-Eyes Photon Dragon</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, and <b>Photon Emperor</b>. There are no cards in your hand or GY. How much attack can that monster achieve in the Battle Phase?",
+		"question": "The only card you control is <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b>. It has as material <b>Galaxy-Eyes Photon Dragon</b>, <b>Galaxy-Eyes Afterglow Dragon</b>, and <b>Photon Emperor</b>. There are no cards in your hand or GY or banished. What is the maximum ATK this monster can achieve in the Battle Phase?",
 		"choices":
 		[
 			"5600",
