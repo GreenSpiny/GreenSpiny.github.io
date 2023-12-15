@@ -273,7 +273,7 @@
 			"reqs": "",
 			"banishes": 1,
 			"cipher": false,
-			"path": "NS Orbital. SS Vanisher adding GEPD from deck. Orbital + Vanisher = GPD. GPD detach Orbital adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. GPD + Emperor = Solflare; Solflare add Orbital from GY. Equip Orbital to Solflare. Orbital add Wizard from deck to hand. Bonus NS Wizard. Tribute Wizard adding Trance. Trance SS Emperor from GY and Afterglow from deck. Afterglow + Emperor = Lord."
+			"path": "NS Orbital. SS Vanisher adding GEPD from deck. Orbital + Vanisher = GPD. GPD detach Orbital adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. GPD + Emperor = Solflare; Solflare add Orbital from GY. Equip Orbital to Solflare. Orbital add Wizard from deck. Bonus NS Wizard. Tribute Wizard adding Trance. Trance SS Emperor from GY and Afterglow from deck. Afterglow + Emperor = Lord."
 		},
 		{
 			"name": "Orbital + Vanisher (alternate)",
@@ -319,6 +319,15 @@
 			"banishes": 2,
 			"cipher": false,
 			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard adding Vanisher from deck. SS Brave revealing Vanisher. SS Vanisher from hand; Vanisher add GEPD from deck. Brave + Vanisher = Blast; SS GEPD from hand; Hundred banish a card. GPD + GEPD = Solflare; Solflare add GEPD from GY."
+		},
+		{
+			"name": "Orbital + Orbital",
+			"start": "orbital,orbital",
+			"end": "lord|jumper",
+			"reqs": "",
+			"banishes": 1,
+			"cipher": false,
+			"path": "NS Orbital. Equip Orbital to Orbital. Orbital add Vanisher from deck. SS Vanisher adding GEPD from deck. Orbital + Vanisher = GPD. GPD detach Orbital adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck; GPD make Jumper level 8. SS GEPD from hand tributing GPD and Wizard; Hundred banish a card. GEPD + Jumper = Lord."
 		},
 		{
 			"name": "Soldier + Jumper (turbo blast example)",
