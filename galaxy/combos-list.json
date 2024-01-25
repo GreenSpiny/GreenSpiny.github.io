@@ -405,7 +405,7 @@
 		{
 			"name": "Delta Wing + Jumper",
 			"notes": "To end on one fewer banish but Photon Jumper in hand, add Trance off Wizard instead of Expedition. Then Link Emperor and GPD into Solflare targeting Jumper, and finally continue the combo by using Trance on Emperor.",
-			"start": "delta,soldier",
+			"start": "delta,jumper",
 			"end": "sol,lord|afterglow|emperor",
 			"reqs": "Photon Delta Wing",
 			"banishes": 2,
