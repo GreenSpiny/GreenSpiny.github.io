@@ -383,6 +383,36 @@
 			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck; GPD make Jumper level 8. Expedition SS Afterglow from deck. Afterglow + Jumper = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. GPD + Wizard = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
 		},
 		{
+			"name": "Delta Wing + Emperor",
+			"notes": "To end on one fewer banish but Photon Jumper in hand, add Trance off Wizard instead of Expedition. Then Link Emperor and GPD into Solflare targeting Jumper, and finally continue the combo by using Trance on Emperor.",
+			"start": "delta,emperor",
+			"end": "sol,lord|afterglow|emperor",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Soldier from deck. SS Soldier from hand discarding Emperor; Soldier add Wizard from deck; SS Emperor from GY; GPD make Soldier level 8. Bonus NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Soldier = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + Emperor = Lord."
+		},
+		{
+			"name": "Delta Wing + Soldier",
+			"notes": "To end on one fewer banish but Photon Jumper in hand, add Trance off Wizard instead of Expedition. Then Link Emperor and GPD into Solflare targeting Jumper, and finally continue the combo by using Trance on Emperor.",
+			"start": "delta,soldier",
+			"end": "sol,lord|afterglow|emperor",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Emperor from deck. SS Soldier from hand discarding Emperor; Soldier add Wizard from deck; SS Emperor from GY; GPD make Soldier level 8. Bonus NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Soldier = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + Emperor = Lord."
+		},
+		{
+			"name": "Delta Wing + Jumper",
+			"notes": "To end on one fewer banish but Photon Jumper in hand, add Trance off Wizard instead of Expedition. Then Link Emperor and GPD into Solflare targeting Jumper, and finally continue the combo by using Trance on Emperor.",
+			"start": "delta,soldier",
+			"end": "sol,lord|afterglow|emperor",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Soldier from deck. SS Soldier from hand discarding Jumper; Soldier add Wizard from deck; Jumper add Hundred from deck; GPD make Soldier level 8. Hundred mill Emperor from deck; SS Emperor from GY. Bonus NS Wizard. Tribute Wizard adding Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Soldier = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + Emperor = Lord."
+		},
+		{
 			"name": "Delta Wing + Wizard",
 			"start": "delta,wizard",
 			"end": "sol,lord|afterglow",
@@ -411,6 +441,7 @@
 		},
 		{
 			"name": "Delta Wing + Summoner",
+			"notes": "Note that Photon Lord lacks a Galaxy monster as material here, unless you attach during the opponent's turn.",
 			"start": "delta,summoner",
 			"end": "sol|summoner,lord|jumper",
 			"reqs": "Photon Delta Wing",
@@ -440,7 +471,7 @@
 	"last-hope-combos":
 	[
 		{
-			"name": "Hundred + Trance (alternate)",
+			"name": "Hundred + Trance (last hope)",
 			"start": "hundred,trance",
 			"end": "sol,lord|afterglow|emperor,titanic,cipherx",
 			"reqs": "Numbers Last Hope",
@@ -449,7 +480,7 @@
 			"path": "Hundred mill Jumper; Jumper add Expedition from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard milling Emperor; SS Emperor from GY. Expedition SS Soldier from deck; Soldier add Summoner from deck; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow. Summoner + GPD = Solflare; Solflare add Wizard from GY. SS Afterglow from hand. Afterglow + Emperor = Cipher. Overlay Cipher on Cipher X. Cipher X detach Afterglow and Emperor; Afterglow SS GEPD from deck; Hundred banish a card. Bonus NS Wizard. Tribute Wizard adding Last Hope from deck. Last Hope SS Emperor and Afterglow from GY making Lord. GEPD + Soldier = Titanic."
 		},
 		{
-			"name": "Hundred + Expedition (alternate)",
+			"name": "Hundred + Expedition (last hope)",
 			"start": "hundred,exp",
 			"end": "sol,lord|afterglow|emperor,titanic,cipherx",
 			"reqs": "Numbers Last Hope",
@@ -458,7 +489,7 @@
 			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Jumper + Wizard = GPD. GPD detach Wizard milling Emperor; SS Emperor from GY. Expedition SS Soldier from deck; Soldier add Summoner from deck; GPD make Soldier level 8. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Afterglow. Summoner + GPD = Solflare; Solflare add Wizard from GY. SS Afterglow from hand. Afterglow + Emperor = Cipher. Overlay Cipher on Cipher X. Cipher X detach Afterglow and Emperor; Afterglow SS GEPD from deck; Hundred banish a card. Bonus NS Wizard. Tribute Wizard adding Last Hope from deck. Last Hope SS Emperor and Afterglow from GY making Lord. GEPD + Soldier = Titanic."
 		},
 		{
-			"name": "Hundred + Emperor (alternate)",
+			"name": "Hundred + Emperor (last hope)",
 			"start": "hundred,emperor",
 			"end": "sol,lord|afterglow|emperor,titanic,cipherx",
 			"reqs": "Numbers Last Hope",
@@ -467,7 +498,7 @@
 			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard adding Soldier from deck. SS Soldier from hand discarding Emperor; Soldier add Summoner from deck; SS Emperor from GY; GPD make Soldier level 8. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Emperor and Afterglow; Afterglow SS GEPD from deck; Hundred banish a card. Summoner + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Last Hope. Last Hope SS Afterglow and Emperor from GY making Lord. Soldier + GEPD = Titanic."
 		},
 		{
-			"name": "Hundred + Soldier (alternate)",
+			"name": "Hundred + Soldier (last hope)",
 			"start": "hundred,soldier",
 			"end": "sol,lord|afterglow|emperor,titanic,cipherx",
 			"reqs": "Numbers Last Hope",
@@ -476,7 +507,7 @@
 			"path": "Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard adding Emperor from deck. SS Soldier from hand discarding Emperor; SS Emperor from GY; Soldier add Summoner from deck; GPD make Soldier level 8. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Emperor; Afterglow SS GEPD from deck; Hundred banish a card. Summoner + GPD = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Last Hope. Last Hope SS Afterglow and Emperor from GY making Lord. Soldier + GEPD = Titanic."
 		},
 		{
-			"name": "Hundred + Summoner (alternate)",
+			"name": "Hundred + Summoner (last hope)",
 			"start": "hundred,summoner",
 			"end": "sol,lord|afterglow|emperor,titanic,cipherx",
 			"reqs": "Numbers Last Hope",
