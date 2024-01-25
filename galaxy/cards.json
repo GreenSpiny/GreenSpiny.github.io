@@ -241,6 +241,17 @@
 		"analysis": "<p>If Photon Timestop is destroyed by your opponent's card while <b>Galaxy-Eyes Photon Dragon</b> is on the field or xyz material, their turn is effectively ended. By leveraging <b>Artifact Durendal</b> to force the opponent to do so, you get what is a FTK against most decks that don't set 5 and pass.</p><p>As powerful as it sounds, the strategy is not without weaknesses. It requires <b>Galaxy Hundred</b>, a key component of the Galaxy strategy, to not be on the field. It still loses to generic board breakers like <b>Dark Ruler No More</b> and quick negation like <b>Forbidden Chalice</b>, while being harder to set up and less resilient than normal boards. While not the primary directive of most Galaxy decks, it is still a powerful option going first, and may be considered. Teching an optional Tellarknight xyz package makes the setup easier to achieve.</p>",
 		"image": "8653757"
 	},
+	"delta":
+	{
+		"id": "delta",
+		"name": "Photon Delta Wing",
+		"type": "effect",
+		"priority": -4,
+		"rating": 2,
+		"count": "0-3 (main)",
+		"analysis": "<p>Analysis in progress.</p>",
+		"image": "47051709"
+	},
 	"draglubion":
 	{
 		"id": "draglubion",

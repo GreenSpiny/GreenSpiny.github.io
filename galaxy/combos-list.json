@@ -287,11 +287,11 @@
 		{
 			"name": "Summoner + Vanisher",
 			"start": "summoner,vanisher",
-			"end": "sol,lord|emperor",
+			"end": "sol,lord|emperor,ahashima",
 			"reqs": "Bujinki Ahashima",
 			"banishes": 1,
 			"cipher": false,
-			"path": "NS Summoner. SS Vanisher adding GEPD from deck. Summoner + Vanisher = GPD. GPD detach Summoner adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. GPD + Emperor = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Emperor from GY. Summoner make Emperor level 4. Summoner + Emperor = Ahashima; Ahashima SS GEPD from hand and Emperor from GY making Lord."
+			"path": "NS Summoner. SS Vanisher adding GEPD from deck. Summoner + Vanisher = GPD. GPD detach Summoner adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. GPD + Emperor = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Emperor from GY. Summoner make Emperor level 4. Summoner + Emperor = Ahashima; Ahashima SS GEPD from hand and Emperor from GY making Lord; Hundred banish a card."
 		},
 		{
 			"name": "Summoner + Vanisher (alternate)",
@@ -351,6 +351,90 @@
 			"banishes": 2,
 			"cipher": false,
 			"path":"SS Soldier from hand discarding Jumper; Soldier add Wizard from deck; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. SS Vanisher from hand; Vanisher add GEPD from deck. NS Wizard. Tribute Wizard adding Summoner from deck. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Afterglow from deck. Summoner make Afterglow level 4. Afterglow + Summoner = GPD. GPD detach Afterglow adding Trance from deck; Afterglow SS GEPD from deck; Hundred banish a card. Emperor + GEPD = Titanic. Soldier + Vanisher = Solflare; Solflare add Afterglow from GY. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = Blast; Blast SS GEPD from hand. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		}
+	],
+	"delta-wing-combos":
+	[
+		{
+			"name": "Delta Wing + Hundred",
+			"start": "delta,hundred",
+			"end": "sol,lord|afterglow,cipherx|jumper",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Trance from deck. Hundred mill Jumper; Jumper add Expedition from deck. Trance SS Jumper from GY and Wizard from deck; GPD make Jumper level 8. Expedition SS Afterglow from deck. Afterglow + Jumper = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. GPD + Wizard = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Trance",
+			"start": "delta,trance",
+			"end": "sol,lord|afterglow,cipherx|jumper",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Trance SS Jumper from GY and Wizard from deck; GPD make Jumper level 8. Expedition SS Afterglow from deck. Afterglow + Jumper = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. GPD + Wizard = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Expedition",
+			"start": "delta,exp",
+			"end": "sol,lord|afterglow,cipherx|jumper",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck; GPD make Jumper level 8. Expedition SS Afterglow from deck. Afterglow + Jumper = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. GPD + Wizard = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Wizard",
+			"start": "delta,wizard",
+			"end": "sol,lord|afterglow",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Bonus NS Wizard. Tribute Wizard adding Expedition. Expedition SS Afterglow from deck. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Wizard (alternate)",
+			"start": "delta,wizard",
+			"end": "sol|jumper,lord|emperor",
+			"reqs": "Photon Delta Wing",
+			"banishes": 0,
+			"cipher": false,
+			"path": "NS Wizard; Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Bonus NS Delta; Delta SS Delta from deck; GPD make Delta level 8. Emperor + Delta = Lord. GPD + Delta = Solflare; Solflare add Jumper from GY."
+		},
+		{
+			"name": "Delta Wing + Vanisher",
+			"start": "delta,vanisher",
+			"end": "sol,lord|emperor,blast",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. SS Vanisher from hand; Vanisher add GEPD from deck. Vanisher + GPD = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Blast; Blast SS GEPD from hand; Hundred banish a card. Emperor + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Summoner",
+			"start": "delta,summoner",
+			"end": "sol|summoner,lord|jumper",
+			"reqs": "Photon Delta Wing",
+			"banishes": 0,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Bonus NS Summoner; Summoner SS Jumper from GY; GPD make Jumper level 8. Emperor + Jumper = Lord. GPD + Summoner = Solflare; Solflare add Summoner from GY."
+		},
+		{
+			"name": "Delta Wing + GEPD / Delta Wing + Afterglow",
+			"start": "delta,gepd",
+			"end": "sol,lord|emperor,ahashima",
+			"reqs": "Photon Delta Wing, Bujinki Ahashima",
+			"banishes": 1,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Emperor + GPD = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Ahashima; Ahashima SS GEPD from hand and Emperor from GY making Lord; Hundred banish a card."
+		},
+		{
+			"name": "Delta Wing + Brave / Delta Wing + any level 8",
+			"start": "delta,brave",
+			"end": "sol,lord|emperor,ahashima",
+			"reqs": "Photon Delta Wing, Bujinki Ahashima",
+			"banishes": 0,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Emperor + GPD = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Ahashima; Ahashima SS Brave from hand and Emperor from GY making Lord."
 		}
 	],
 	"last-hope-combos":
