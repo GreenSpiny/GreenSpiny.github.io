@@ -423,6 +423,7 @@
 		},
 		{
 			"name": "Delta Wing + Wizard (alternate)",
+			"notes": "Photon Lord lacks a Galaxy monster as material here, unless you attach during the opponent's turn.",
 			"start": "delta,wizard",
 			"end": "sol|jumper,lord|emperor",
 			"reqs": "Photon Delta Wing",
@@ -441,7 +442,7 @@
 		},
 		{
 			"name": "Delta Wing + Summoner",
-			"notes": "Note that Photon Lord lacks a Galaxy monster as material here, unless you attach during the opponent's turn.",
+			"notes": "Photon Lord lacks a Galaxy monster as material here, unless you attach during the opponent's turn.",
 			"start": "delta,summoner",
 			"end": "sol|summoner,lord|jumper",
 			"reqs": "Photon Delta Wing",
