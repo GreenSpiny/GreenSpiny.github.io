@@ -383,6 +383,15 @@
 			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck; GPD make Jumper level 8. Expedition SS Afterglow from deck. Afterglow + Jumper = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. GPD + Wizard = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
 		},
 		{
+			"name": "Delta Wing + Vanisher",
+			"start": "delta,vanisher",
+			"end": "sol|gepd,lord|afterglow",
+			"reqs": "Photon Delta Wing",
+			"banishes": 2,
+			"cipher": true,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. GPD detach Delta milling Jumper; Jumper add Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Vanisher = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
 			"name": "Delta Wing + Emperor",
 			"notes": "To end on one fewer banish but Photon Jumper in hand, add Trance off Wizard instead of Expedition. Then Link Emperor and GPD into Solflare targeting Jumper, and finally continue the combo by using Trance on Emperor.",
 			"start": "delta,emperor",
@@ -432,15 +441,6 @@
 			"path": "NS Wizard; Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Bonus NS Delta; Delta SS Delta from deck; GPD make Delta level 8. Emperor + Delta = Lord. GPD + Delta = Solflare; Solflare add Jumper from GY."
 		},
 		{
-			"name": "Delta Wing + Vanisher",
-			"start": "delta,vanisher",
-			"end": "sol,lord|emperor,blast",
-			"reqs": "Photon Delta Wing",
-			"banishes": 2,
-			"cipher": false,
-			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. SS Vanisher from hand; Vanisher add GEPD from deck. Vanisher + GPD = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Blast; Blast SS GEPD from hand; Hundred banish a card. Emperor + GEPD = Lord."
-		},
-		{
 			"name": "Delta Wing + Summoner",
 			"notes": "Photon Lord lacks a Galaxy monster as material here, unless you attach during the opponent's turn.",
 			"start": "delta,summoner",
@@ -467,6 +467,63 @@
 			"banishes": 0,
 			"cipher": false,
 			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Emperor + GPD = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Ahashima; Ahashima SS Brave from hand and Emperor from GY making Lord."
+		}
+	],
+	"udf-combos":
+	[
+		{
+			"name": "Delta Wing + Soldier",
+			"start": "delta,soldier",
+			"end": "sol,lord|afterglow,udf",
+			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Jumper from deck. Soldier discard Jumper adding Afterglow from deck; Jumper add Hundred from deck; GPD make Soldier level 8. Hundred mill Emperor; SS Emperor from GY. Emperor + Soldier = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck; Hundred banish a card. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Jumper",
+			"start": "delta,jumper",
+			"end": "sol,lord|afterglow,udf",
+			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Soldier from deck. Soldier discard Jumper adding Afterglow from deck; Jumper add Hundred from deck; GPD make Soldier level 8. Hundred mill Emperor; SS Emperor from GY. Emperor + Soldier = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck; Hundred banish a card. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Hundred",
+			"start": "delta,hundred",
+			"end": "sol,lord|afterglow,udf",
+			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. Hundred mill Emperor; SS Emperor from GY. GPD detach Delta milling Jumper; Jumper add Expedition from deck. Expedition SS Soldier from deck; Soldier add Afterglow from deck; GPD make Soldier level 8. Emperor + Soldier = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck; Hundred banish a card. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Expedition",
+			"start": "delta,exp",
+			"end": "sol,lord|afterglow,udf",
+			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"banishes": 2,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta milling Jumper; Jumper add Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Expedition SS Soldier from deck; Soldier add Afterglow from deck; GPD make Soldier level 8. Emperor + Soldier = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck; Hundred banish a card. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Emperor",
+			"start": "delta,emperor",
+			"end": "sol,lord|afterglow,udf",
+			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"banishes": 1,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Soldier from deck. Soldier discard Emperor adding Afterglow from deck; SS Emperor from GY; GPD make Soldier level 8. Emperor + Soldier = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future. SS Afterglow from hand. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Delta Wing + Sanctuary",
+			"start": "delta,sanc",
+			"end": "sol,lord|emperor,udf",
+			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"banishes": 0,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Sanctuary SS two tokens. Token + Token = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck. Emperor + GEPD = Lord. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future."
 		}
 	],
 	"last-hope-combos":

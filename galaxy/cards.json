@@ -868,6 +868,17 @@
 		"analysis": "<p>Photon Trident serves many uses, but is held back by a reliance on the Battle Phase. It allows <b>Number 62: Galaxy-Eyes Prime Photon Dragon</b> to OTK through defense position monsters and helps <b>Number C62: Neo Galaxy-Eyes Prime Photon Dragon</b> OTK without specific materials. The removal effect can destroy face-up floodgates a turn earlier than <b>Galaxy Cyclone</b> and with less setup than <b>Photon Stream of Destruction</b>. And the attack boost places <b>Starliege Photon Blast Dragon</b> under its own protection playing into a board.</p><p>For all that utility, however, Trident still wants a successful attack, and is only useful going second. Not recommended, though it has more potential than the average battle trick.</p>",
 		"image": "51589188"
 	},
+	"udf":
+	{
+		"id": "udf",
+		"name": "Number F0: Utopic Draco Future",
+		"type": "xyz",
+		"priority": 0,
+		"rating": 0,
+		"count": "",
+		"analysis": "",
+		"image": "26973555"
+	},
 	"vanisher":
 	{
 		"id": "vanisher",
