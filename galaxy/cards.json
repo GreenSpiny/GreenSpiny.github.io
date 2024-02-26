@@ -202,10 +202,10 @@
 		"id": "cleric",
 		"name": "Galaxy Cleric",
 		"type": "effect",
-		"priority": -4,
-		"rating": 3,
+		"priority": -3.9,
+		"rating": 2,
 		"count": "0-1 (main / side)",
-		"analysis": "<p>Galaxy Cleric is an interesting choice for turn 3 follow-up plays, as well as the grind game. Galaxy can burn through its resources quickly, and putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to summon without the normal.</p><p>Relying on the draw 2 to finish your plays also makes it less reliable than other one card follow-ups. So while it has some value, it tends to see little play overall.</p>",
+		"analysis": "<p>Galaxy Cleric is a solid choice for turn 3 follow-up plays and the grind game. Galaxy can burn through its resources quickly, so putting some back into the deck is fantastic. However, Cleric offers little value until the third turn, and is difficult to summon without the normal.</p><p>Relying on the draw 2 alone to finish your plays is unreliable. But with proper forethought, Cleric is an effective recycler, enabling compact card ratios and an improved ability to play when stalling with <b>Photon Jumper</b>.</p>",
 		"image": "28770951"
 	},
 	"cowboy":
@@ -369,7 +369,7 @@
 		"type": "effect",
 		"priority": -99,
 		"rating": 1,
-		"count": "3 (main)",
+		"count": "2-3 (main)",
 		"analysis": "<p>The heart and soul of the Galaxy deck. Galaxy-Eyes Photon Dragon is specifically referenced by countless cards in the archetype. You will use it as xyz material, discard fodder, a beatstick, and everything in between.</p><p>The battle trick and summon condition are occasionally utilized. Despite its brickiness, its status as the only main deck monster that is both Galaxy and Photon opens up more card interactions than usual.</p><p>When performing the longest combo lines, you may wish there were more copies of Galaxy-Eyes Photon Dragon left in your deck. An integral card to have.</p>",
 		"image": "93717133"
 	},
@@ -809,7 +809,7 @@
 		"type": "effect",
 		"priority": -4,
 		"rating": 2,
-		"count": "0-2 (main)",
+		"count": "0-1 (main)",
 		"analysis": "<p>Photon Thrasher is a true veteran of the archetype.</p><p>Despite a seemingly dated effect, Thrasher starts plays by putting a Photon name on field without the normal summon, and provides valuable level 4 xyz material. With its fairly high attack, it can force interrupts by attacking into weaker threats, and can be immediately tributed for the cost of <b>Hyper Galaxy</b>.</p><p>Running 1 copy as a <b>Reinforcement of the Army</b> target is common but not universal. After over a decade, Thrasher still puts in good work.</p>",
 		"image": "65367484"
 	},

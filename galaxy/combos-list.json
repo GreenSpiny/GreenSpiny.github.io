@@ -45,6 +45,16 @@
 			"banishes": 0,
 			"cipher": false,
 			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Jumper + Summoner = GPD. GPD detach Wizard adding Eternal from deck. Set Eternal. During the opponent's turn: Eternal target GPD summoning Lord."
+		},
+		{
+			"name": "Delta Wing",
+			"notes": "Photon Lord lacks a Galaxy monster as material here, unless you attach during the opponent's turn.",
+			"start": "delta",
+			"end": "lord",
+			"reqs": "Photon Delta Wing, Eternal Galaxy",
+			"banishes": 0,
+			"cipher": false,
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Eternal from deck. Set Eternal. During the opponent's turn: Eternal target GPD summoning Lord."
 		}
 	],
 	"2-card-combos":
@@ -389,7 +399,7 @@
 			"reqs": "Photon Delta Wing",
 			"banishes": 2,
 			"cipher": true,
-			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. GPD detach Delta milling Jumper; Jumper add Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Vanisher = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
+			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. SS Vanisher from hand; Vanisher add GEPD from deck; GPD make Vanisher level 8. GPD detach Delta adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Expedition SS Afterglow from deck. Afterglow + Vanisher = Cipher. Overlay Cipher X on Cipher. Cipher X detach Afterglow and Cipher; Afterglow SS GEPD from deck; Hundred banish a card. Cipher X + GPD = Solflare; Solflare add Afterglow from GY. SS Afterglow from hand. Afterglow + GEPD = Lord."
 		},
 		{
 			"name": "Delta Wing + Emperor",
@@ -520,7 +530,7 @@
 			"name": "Delta Wing + Sanctuary",
 			"start": "delta,sanc",
 			"end": "sol,lord|emperor,udf",
-			"reqs": "Photon Delta Wing, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
+			"reqs": "Photon Delta Wing, Photon Sanctuary, Starliege Lord Galaxion, Utopic Future, Utopic Draco Future",
 			"banishes": 0,
 			"cipher": false,
 			"path": "NS Delta; Delta SS Delta from deck. Delta + Delta = GPD. GPD detach Delta adding Hundred from deck. Hundred mill Emperor; SS Emperor from GY. Sanctuary SS two tokens. Token + Token = Solflare; Solflare add Delta from GY. Bonus NS Delta; Delta SS Delta from deck. Delta + Delta = Galaxion. Galaxion detach Delta and Delta to SS GEPD from deck. Emperor + GEPD = Lord. Galaxion + GPD = Utopic Future. Overlay Utopic Draco Future on Utopic Future."
