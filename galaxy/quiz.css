@@ -64,6 +64,10 @@
 	cursor: pointer;
 }
 
+#score-count {
+	transition: color 2s;
+}
+
 @media screen and (min-width: 800px) {
 
 	#question-area {

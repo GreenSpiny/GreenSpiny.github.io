@@ -358,10 +358,21 @@ function PopulateQuiz()
 
 function SubmitQuizResponse(response)
 {
+  var scoreElement = document.getElementById("score-count");
+  scoreElement.style.transition = "color 0s";
   if (quizData[quizQuestion]["answer"] == response)
   {
     quizScore += 1;
+    scoreElement.style.color = "#0F0";
   }
+  else
+  {
+    scoreElement.style.color = "#F00";
+  }
+  setTimeout(() => {
+    scoreElement.style.transition = "color 0.5s";
+    scoreElement.style.color = "#EEE";
+  }, 1);
   DisplayQuizQuestion(quizQuestion + 1);
 }
 
@@ -382,10 +393,13 @@ function DisplayQuizQuestion(question)
 
     var currentQuestion = quizData[quizQuestion];
     document.getElementById("question-count").innerHTML = "question " + (question + 1).toString() + "/" + quizData.length.toString();
+    document.getElementById("score-count").innerHTML = "current score: " + quizScore;
     document.getElementById("question-text").innerHTML = currentQuestion["question"];
     for (let i = 0; i < currentQuestion["choices"].length; i++)
     {
-      document.getElementById("choice-button-" + i.toString()).innerHTML = currentQuestion["choices"][i];
+      var choiceButton = document.getElementById("choice-button-" + i.toString());
+      choiceButton.innerHTML = currentQuestion["choices"][i];
+      choiceButton.blur();
     }
   }
 

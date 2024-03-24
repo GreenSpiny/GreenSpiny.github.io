@@ -191,7 +191,7 @@
 			"start": "soldier,wizard",
 			"end": "sol,lord|emperor,titanic",
 			"reqs": "Eternal Galaxy",
-			"banishes": 2,
+			"banishes": 1,
 			"cipher": true,
 			"path": "SS Soldier from hand discarding Wizard; Soldier add Summoner from deck. NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Expedition from deck. Summoner make Emperor level 4. Summoner + Emperor = GPD. GPD detach Emperor adding Trance from deck. Trance SS Emperor from GY and Afterglow from deck. Afterglow + Emperor = Cipher. Overlay Cipher X on Cipher. Cipher X detach Emperor and Afterglow; SS Emperor from GY; Afterglow SS GEPD from deck; Hundred banish a card. GEPD + Emperor = Lord. Soldier + Cipher X = Solflare; Solflare add Wizard from GY. Bonus NS Wizard. Tribute Wizard adding Eternal. Set Eternal. During the opponent's turn: Eternal target GPD summoning Titanic."
 		},
@@ -238,7 +238,7 @@
 			"reqs": "",
 			"banishes": 2,
 			"cipher": false,
-			"path": "SS Thrasher from hand. NS Wizard. Tribute Wizard adding Hundres from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Thrasher + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Soldier from deck; Soldier add GEPD from deck. Summoner make Soldier level 4. Summoner + Soldier = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Emperor = Lord."
+			"path": "SS Thrasher from hand. NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Thrasher + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Soldier from deck; Soldier add GEPD from deck. Summoner make Soldier level 4. Summoner + Soldier = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Emperor = Lord."
 		},
 		{
 			"name": "Wizard + Afterglow",
@@ -248,6 +248,15 @@
 			"banishes": 2,
 			"cipher": false,
 			"path": "NS Wizard. Tribute Wizard adding Hundred from deck. Hundred mill Jumper. Jumper add Trance from deck. Trance SS Jumper from GY and Summoner from deck. Summoner + Jumper = GPD. GPD detach Summoner milling Emperor; SS Emperor from GY. Emperor + GPD = Solflare; Solflare add Summoner from GY. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition. SS Afterglow from hand. Expedition SS Soldier from deck; Soldier add GEPD from deck. Summoner make Soldier level 4. Summoner + Soldier = Blast; Blast SS GEPD from hand; Hundred banish a card. Afterglow + GEPD = Lord."
+		},
+		{
+			"name": "Thrasher + Hundred",
+			"start": "thrasher,hundred",
+			"end": "sol,lord|emperor,blast",
+			"reqs": "",
+			"banishes": 2,
+			"cipher": false,
+			"path": "SS Thrasher from hand. Hundred mill Jumper; Jumper add Trance from deck. Trance SS Jumper from GY and Wizard from deck. Wizard + Jumper = GPD. GPD detach Wizard milling Emperor; SS Emperor from GY. Thrasher + GPD = Solflare; Solflare add Wizard from GY. NS Wizard. Tribute Wizard adding Summoner from deck. Bonus NS Summoner; Summoner SS Wizard from GY. Tribute Wizard adding Expedition from deck. Expedition SS Soldier from deck; Soldier add GEPD from deck. Summoner make Soldier level 4. Summoner + Soldier = Blast; Blast SS GEPD from hand; Hundred banish a card. GEPD + Emperor = Lord."
 		},
 		{
 			"name": "Thrasher + Jumper / Brave + Jumper",
