@@ -15,8 +15,10 @@
 	cursor: pointer;
 }
 
-#quiz-start-button:hover, .choice-button:hover {
-	background-color: #647799;
+@media (hover: hover) {
+	#quiz-start-button:hover, .choice-button:hover {
+		background-color: #647799;
+	}
 }
 
 #quiz-start-button:active, .choice-button:active {
@@ -56,6 +58,7 @@
 	margin: 2px;
 	padding-bottom: 0px;
 	display: block;
+	hidefocus: true;
 	clear: right;
 	background-color: #586987;
 	color: #EEE;
